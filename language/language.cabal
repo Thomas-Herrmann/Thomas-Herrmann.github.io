@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0a7e293f06f2bc0686b08cd7c89956aa9662f62fa018ceb57f2f3c9b01daf4a8
+-- hash: f163b652c9b5b75557c0c6287a95340d954b252a5a908716672dc2d340297758
 
 name:           language
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Ast
       Lib
   other-modules:
       Paths_language
@@ -34,6 +35,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , containers
+    , mtl
+    , matrix
   default-language: Haskell2010
 
 executable language-exe
