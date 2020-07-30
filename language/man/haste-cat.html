@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Anton Ekblad" />
+  <meta name="date" content="2015-10-29" />
+  <title>HASTEC(1) Haste User Manual</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">HASTEC(1) Haste User Manual</h1>
+<h2 class="author">Anton Ekblad</h2>
+<h3 class="date">October 29, 2015</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p>haste-cat - inspect Haste intermediate code files</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>haste-cat</strong> package-id:module-name</p>
+<h1 id="description">DESCRIPTION</h1>
+<p><strong>haste-cat</strong> prints the intermediate Haste code for the given Haskell module to standard output.</p>
+<p>Package identifiers must be given with version numbers and package keys (e.g. haste-prim-0.5.1.0-BtuKn3ytxKq6eTkR391Vdt as opposed to just haste-prim), to avoid ambiguity in the face of multiple installed versions of the same package. GHC 7.8-based builds don't use package keys and so should be omitted.</p>
+<p>See <strong>haste-pkg list</strong> for a list of installed packages and their corresponding package keys.</p>
+<p>If a package exists in more than one location, only the one first encountered will be printed. <strong>haste-cat</strong> searches the following paths for installed packages, in this order.</p>
+<ol style="list-style-type: decimal">
+<li>The current working directory</li>
+<li>Haste's user library directory</li>
+<li>Haste's system library directory (where applicable; only portable installs have a separate system directory)</li>
+</ol>
+</body>
+</html>

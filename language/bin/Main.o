@@ -1,0 +1,375 @@
+{-# LINE 1 "C:\Users\Thomas\AppData\Local\Temp\ghc3816_0\ghc_9.s" #-}
+.data
+	.align 4
+.align 1
+.globl __stginit_Main
+__stginit_Main:
+.data
+	.align 4
+.align 1
+.globl Main_main10_closure
+Main_main10_closure:
+	.long	ghczmprim_GHCziTypes_Izh_static_info
+	.long	0
+.data
+	.align 4
+.align 1
+.globl Main_main9_closure
+Main_main9_closure:
+	.long	ghczmprim_GHCziTypes_ZC_static_info
+	.long	Main_main10_closure+1
+	.long	ghczmprim_GHCziTypes_ZMZN_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main8_closure
+Main_main8_closure:
+	.long	Ast_ConstExp_static_info
+	.long	Ast_Not_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main7_closure
+Main_main7_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	Main_main9_closure+2
+	.long	Main_main8_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main6_closure
+Main_main6_closure:
+	.long	ghczmprim_GHCziTypes_Izh_static_info
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main5_closure
+Main_main5_closure:
+	.long	ghczmprim_GHCziTypes_ZC_static_info
+	.long	Main_main6_closure+1
+	.long	ghczmprim_GHCziTypes_ZMZN_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main4_closure
+Main_main4_closure:
+	.long	Ast_ConstExp_static_info
+	.long	Ast_FalseConst_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main3_closure
+Main_main3_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	Main_main5_closure+2
+	.long	Main_main4_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main2_closure
+Main_main2_closure:
+	.long	Ast_AppExp_static_info
+	.long	Main_main7_closure+1
+	.long	Main_main3_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree3_closure
+Main_testTree3_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	ghczmprim_GHCziTypes_ZMZN_closure+1
+	.long	Main_main2_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree10_closure
+Main_testTree10_closure:
+	.long	ghczmprim_GHCziTypes_Fzh_static_info
+	.byte	51
+	.byte	51
+	.byte	83
+	.byte	65
+.data
+	.align 4
+.align 1
+.globl Main_testTree9_closure
+Main_testTree9_closure:
+	.long	Ast_NumExp_static_info
+	.long	Main_testTree10_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree8_closure
+Main_testTree8_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	Main_main5_closure+2
+	.long	Main_testTree9_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree7_closure
+Main_testTree7_closure:
+	.long	Ast_AppExp_static_info
+	.long	Main_main7_closure+1
+	.long	Main_testTree8_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree2_closure
+Main_testTree2_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	ghczmprim_GHCziTypes_ZMZN_closure+1
+	.long	Main_testTree7_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree6_closure
+Main_testTree6_closure:
+	.long	Ast_ConstExp_static_info
+	.long	Ast_TrueConst_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree5_closure
+Main_testTree5_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	Main_main5_closure+2
+	.long	Main_testTree6_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree4_closure
+Main_testTree4_closure:
+	.long	Ast_AppExp_static_info
+	.long	Main_main7_closure+1
+	.long	Main_testTree5_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_testTree1_closure
+Main_testTree1_closure:
+	.long	ghczmprim_GHCziTuple_Z2T_static_info
+	.long	ghczmprim_GHCziTypes_ZMZN_closure+1
+	.long	Main_testTree4_closure+1
+	.long	1
+.data
+	.align 4
+.align 1
+.globl Main_main1_closure
+Main_main1_closure:
+	.long	Main_main1_info
+	.long	0
+.section .rodata
+	.align 4
+.align 1
+cf0I_str:
+	.byte	101
+	.byte	114
+	.byte	114
+	.byte	111
+	.byte	114
+	.byte	58
+	.byte	32
+	.byte	0
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(seZk_info)+0
+	.long	1
+	.long	65553
+seZk_info:
+.Lcf0p:
+	leal -12(%ebp),%eax
+	cmpl 840(%ebx),%eax
+	jb .Lcf0q
+.Lcf0r:
+	movl $stg_upd_frame_info,-12(%ebp)
+	movl %esi,-8(%ebp)
+	movl 12(%esi),%eax
+	movl %eax,8(%ebx)
+	addl $-12,%ebp
+	jmp Ast_zdfShowValuezuzdcshow_info
+.Lcf0q:
+	jmp *-16(%ebx)
+.section .rodata
+	.align 4
+.align 1
+cf0Q_str:
+	.byte	118
+	.byte	97
+	.byte	108
+	.byte	117
+	.byte	101
+	.byte	58
+	.byte	32
+	.byte	0
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(Main_main1_info)+0
+	.long	65539
+	.long	0
+	.long	2031631
+.globl Main_main1_info
+Main_main1_info:
+.Lcf0z:
+	leal -4(%ebp),%eax
+	cmpl 840(%ebx),%eax
+	jb .Lcf0A
+.Lcf0B:
+	movl $cf0g_info,-4(%ebp)
+	movl $Main_main2_closure+1,24(%ebx)
+	movl $ghczmprim_GHCziTypes_ZMZN_closure+1,16(%ebx)
+	movl $Fo07bF5jXRtI6Igp6ZZO92V_DataziMapziBase_Tip_closure+2,8(%ebx)
+	addl $-4,%ebp
+	jmp Interpret_zdwinterpret_info
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(cf0g_info)+0
+	.long	0
+	.long	458784
+cf0g_info:
+.Lcf0g:
+	movl %esi,%eax
+	andl $7,%eax
+	cmpl $2,%eax
+	jae .Lcf0x
+.Lcf0y:
+	movl $cf0D_info,(%ebp)
+	movl 3(%esi),%esi
+	testw $7,%si
+	jne .Lcf0D
+.Lcf0E:
+	jmp *(%esi)
+.Lcf0x:
+	addl $16,%edi
+	cmpl 856(%ebx),%edi
+	ja .Lcf0U
+.Lcf0T:
+	movl 2(%esi),%eax
+	movl $seZk_info,-12(%edi)
+	movl %eax,(%edi)
+	movl $cf0R_info,(%ebp)
+	leal -12(%edi),%eax
+	movl %eax,16(%ebx)
+	movl $cf0Q_str,8(%ebx)
+	jmp ghczmprim_GHCziCString_unpackAppendCStringzh_info
+.Lcf0A:
+	movl $Main_main1_closure,%esi
+	jmp *-8(%ebx)
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(cf0D_info)+4
+	.long	0
+	.long	196640
+cf0D_info:
+.Lcf0D:
+	movl $cf0J_info,(%ebp)
+	movl 7(%esi),%eax
+	movl %eax,16(%ebx)
+	movl $cf0I_str,8(%ebx)
+	jmp ghczmprim_GHCziCString_unpackAppendCStringzh_info
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(cf0J_info)+4
+	.long	0
+	.long	196640
+cf0J_info:
+.Lcf0J:
+	movl %esi,16(%ebx)
+	movl $base_HasteziHandle_stdout_closure,8(%ebx)
+	addl $4,%ebp
+	jmp base_GHCziIOziHandleziText_hPutStrLn1_info
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(cf0R_info)+4
+	.long	0
+	.long	196640
+cf0R_info:
+.Lcf0R:
+	movl %esi,16(%ebx)
+	movl $base_HasteziHandle_stdout_closure,8(%ebx)
+	addl $4,%ebp
+	jmp base_GHCziIOziHandleziText_hPutStrLn1_info
+.Lcf0U:
+	movl $16,904(%ebx)
+	jmp stg_gc_unpt_r1
+.data
+	.align 4
+.align 1
+.globl Main_main_closure
+Main_main_closure:
+	.long	Main_main_info
+	.long	0
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(Main_main_info)+16
+	.long	65539
+	.long	0
+	.long	65551
+.globl Main_main_info
+Main_main_info:
+.Lcf1j:
+	jmp Main_main1_info
+.data
+	.align 4
+.align 1
+.globl Main_main11_closure
+Main_main11_closure:
+	.long	Main_main11_info
+	.long	0
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(Main_main11_info)+16
+	.long	65539
+	.long	0
+	.long	196623
+.globl Main_main11_info
+Main_main11_info:
+.Lcf1u:
+	movl $Main_main1_closure+1,8(%ebx)
+	jmp base_GHCziTopHandler_runMainIO1_info
+.data
+	.align 4
+.align 1
+.globl ZCMain_main_closure
+ZCMain_main_closure:
+	.long	ZCMain_main_info
+	.long	0
+.text
+	.align 4,0x90
+	.long	Sf0Z_srt-(ZCMain_main_info)+24
+	.long	65539
+	.long	0
+	.long	65551
+.globl ZCMain_main_info
+ZCMain_main_info:
+.Lcf1F:
+	jmp Main_main11_info
+.section .data
+	.align 4
+.align 1
+Sf0Z_srt:
+	.long	Ast_zdfShowValuezuzdcshow_closure
+	.long	base_GHCziIOziHandleziText_hPutStrLn1_closure
+	.long	base_HasteziHandle_stdout_closure
+	.long	Interpret_zdwinterpret_closure
+	.long	Main_main1_closure
+	.long	base_GHCziTopHandler_runMainIO1_closure
+	.long	Main_main11_closure
+.ident "GHC 7.10.2"
+

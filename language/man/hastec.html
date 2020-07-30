@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Anton Ekblad" />
+  <meta name="date" content="2015-10-29" />
+  <title>HASTEC(1) Haste User Manual</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">HASTEC(1) Haste User Manual</h1>
+<h2 class="author">Anton Ekblad</h2>
+<h3 class="date">October 29, 2015</h3>
+</div>
+<h1 id="name">NAME</h1>
+<p>hastec - compile Haskell programs into JavaScript</p>
+<h1 id="synopsis">SYNOPSIS</h1>
+<p><strong>hastec</strong> [ <em>option</em> | <em>filename</em> ]...</p>
+<h1 id="description">DESCRIPTION</h1>
+<p>This manual page documents briefly the <strong>hastec</strong> command. In addition to the options listed here, <strong>hastec</strong> also accepts all the same command line options as the GHC compiler, with the exception of <strong>-prof</strong> which is silently ignored.</p>
+<p>By default, <strong>hastec</strong> behaves as though it was called with GHC's <strong>--make</strong> option, compiling and linking a complete JavaScript program which, when included into a web page, sets the program's <em>main</em> function to execute when the page has finished loading.</p>
+<h1 id="options">OPTIONS</h1>
+<p>Options are processed from left to right. If two conflicting options are given, the latter will take precedence. This means that you can use options such as <strong>--opt-all</strong> which imply multiple other options, and selectively disable any implied options that you don't want. For instance, the command line <strong>hastec --opt-all --opt-tail-loop-transform=off</strong> will enable all safe optimizations except for the tail loop transformation.</p>
+<h2 id="linking">Linking</h2>
+<dl>
+<dt>--dont-link</dt>
+<dd>Don't link generated .jsmod files into a .js blob.
+</dd>
+<dt>--link-jslib[=<em>FILE</em>]</dt>
+<dd>Create a jslib file instead of an executable. If no <em>FILE</em> is given, the package key of the library currently being compiled is used as the library file name.
+</dd>
+<dt>--with-js=<em>FILES</em></dt>
+<dd>Link the given comma-separated list of JavaScript files into the final JavaScript file.
+</dd>
+</dl>
+<h2 id="program-startup">Program startup</h2>
+<dl>
+<dt>--onexec</dt>
+<dd>Launch application immediately when the JavaScript file is loaded. Shorthand for <strong>--start=onexec</strong>.
+</dd>
+<dt>--onload</dt>
+<dd>Launch application on window.onload. Shorthand for <strong>--start=onload</strong>. This is the default behavior.
+</dd>
+<dt>--start=<em>CODE</em></dt>
+<dd><p>Specify custom start code. '$HASTE_MAIN' will be replaced with the application's main function. For instance, <strong>--start='$(&quot;foo&quot;).onclick($HASTE_MAIN);'</strong> will use jQuery to launch the application whenever the element with the id &quot;foo&quot; is clicked.</p>
+<p>In addition to custom JavaScript code, <em>onexec</em> and <em>onload</em> are also acceptable values for <em>CODE</em>, indicating that the program is to be executed as soon as parsing finishes or after the page has finished loading respectively.</p>
+</dd>
+</dl>
+<h2 id="output-control">Output control</h2>
+<dl>
+<dt>-o <em>FILE</em>, --out=<em>FILE</em></dt>
+<dd>Write JavaScript output to <em>FILE</em>.
+</dd>
+<dt>--outdir=<em>DIR</em></dt>
+<dd>Write intermediate files to <em>DIR</em>.
+</dd>
+<dt>--output-html</dt>
+<dd>Write the JavaScript output to an HTML file with a simple HTML skeleton.
+</dd>
+<dt>--own-namespace</dt>
+<dd>Wrap the whole program in a closure to avoid polluting the global namespace. Incurs a performance hit, and makes minification slightly less effective.
+</dd>
+</dl>
+<h2 id="code-generation">Code generation</h2>
+<dl>
+<dt>--full-unicode</dt>
+<dd>Enable full generalCategory Unicode support. May bloat output by upwards of 150 KB.
+</dd>
+<dt>--no-use-strict</dt>
+<dd>Do not emit <strong>&quot;use strict&quot;;</strong> declaration. Does not affect minifier behavior, but does affect any external JavaScript included using <strong>--with-js</strong>.
+</dd>
+<dt>--overwrite-scrutinees</dt>
+<dd>Overwrite scrutinees when evaluated rather than allocating a new local for the evaluated value. This is largely experimental.
+</dd>
+<dt>--output-jsflow</dt>
+<dd>Output code for use with the JSFlow interpreter. Note that this may leave your code crippled, since JSFlow doesn't support all of Haste's needs.
+</dd>
+</dl>
+<h2 id="debugging">Debugging</h2>
+<dl>
+<dt>--annotate-externals</dt>
+<dd>Annotate all JavaScript-native symbols and inline JavaScript in generated code with <strong>/* EXTERNAL */</strong>.
+</dd>
+<dt>--annotate-symbols</dt>
+<dd>Annotate all non-external, non-local symbols with their qualified Haskell names.
+</dd>
+<dt>--debug</dt>
+<dd>Output annotated, pretty-printed JavaScript code. Equivalent to <strong>--annotate-externals --annotate-symbols --pretty-print</strong>.
+</dd>
+<dt>--ddisable-js-opts</dt>
+<dd>Disable any and all optimizations over the resulting JavaScript code. Note that this disables tail call elimination, possibly changing the semantics of programs that rely on it.
+</dd>
+<dt>--dtrace-primops</dt>
+<dd>Print all calls to primitive operations, together with their arguments and return values. Not really useful unless Haste was booted with primop tracing enabled.
+</dd>
+<dt>--preserve-names</dt>
+<dd>Preserve Haskell names in JavaScript code as far as possible. Highly experimental and may break your code.
+</dd>
+<dt>--pretty-print</dt>
+<dd>Print JavaScript output using whitespace and indentation.
+</dd>
+</dl>
+<h2 id="optimization">Optimization</h2>
+<p>Many optimization options take an optional <em>on</em>/<em>off</em> argument. Passing an optimization option without this argument turns the optimization <em>on</em>. For instance, <strong>--opt-minify</strong> is equivalent to <strong>--opt-minify=on</strong>.</p>
+<dl>
+<dt>--opt-all</dt>
+<dd>Enable all safe optimizations except minification. Individual optimizations may be turned off using their individual flags.
+</dd>
+<dt>--opt-anonymous-objects-only[=<em>on</em>|<em>off</em>]</dt>
+<dd>Only use anonymous objects to represent algebraic data types. This will make all programs slightly smaller, some programs slightly faster, and some programs a lot slower.
+</dd>
+<dt>--opt-detrampoline-threshold=<em>N</em></dt>
+<dd>Remove trampolining and tail calls for provably finite tail call chains shorter than <em>N</em> calls. Set to <em>0</em> to disable. A value of <em>N=3</em> is implied by <strong>--opt-all</strong>.
+</dd>
+<dt>--opt-flow-analysis[=<em>on</em>|<em>off</em>]</dt>
+<dd>Enable whole program flow analysis. Highly experimental and possibly slow and/or incorrect. Don't use for now.
+</dd>
+<dt>--opt-inline-ffi-primitives[=<em>on</em>|<em>off</em>]</dt>
+<dd>Inline FFI call primitives where possible.
+</dd>
+<dt>--opt-minify[=<em>on</em>|<em>off</em>]</dt>
+<dd>Minify JavaScript output using Google Closure compiler.
+</dd>
+<dt>--opt-minify-flag=<em>FLAG</em></dt>
+<dd>Pass <em>FLAG</em> to Closure. To minify programs in strict mode, use <strong>--opt-minify-flag='--language_in=ECMASCRIPT5_STRICT'</strong>.
+</dd>
+<dt>--opt-tail-chain-bound=<em>N</em></dt>
+<dd>Bound tail call chains at <em>N</em> stack frames. By default, tail call chains are not allowed to grow the call stack at all. This is very inefficient, however, so ideally one wants to strike a balance between amortizing the cost of the trampolining machinery and the size of the call stack. A value between 10 and 100 is usually a good choice.
+</dd>
+<dt>--opt-tail-loop-transform[=<em>on</em>|<em>off</em>]</dt>
+<dd>Optimize tail recursive functions into loops when possible. Enabled by default.
+</dd>
+<dt>--opt-unsafe</dt>
+<dd>Enable all optimizations, safe and unsafe. Equivalent to <strong>--opt-all --opt-unsafe-ints</strong>.
+</dd>
+<dt>--opt-unsafe-ints</dt>
+<dd>Enable unsafe Int arithmetic. Equivalent to <strong>--opt-unsafe-mult --opt-vague-ints</strong>.
+</dd>
+<dt>--opt-unsafe-mult[=<em>on</em>|<em>off</em>]</dt>
+<dd>Use JavaScript's built-in multiplication operator for fixed precision integer multiplication. This may speed up Int multiplication by a factor of at least four, but may give incorrect results when the product falls outside the interval [-2^52, 2^52]. In browsers which support Math.imul, this optimization will likely be slower than the default.
+</dd>
+<dt>--opt-vague-ints[=<em>on</em>|<em>off</em>]</dt>
+<dd>Int math has 53 bits of precision, but gives incorrect results rather than properly wrapping around when those 53 bits are exceeded. Bitwise operations still only work on the lowest 32 bits.
+</dd>
+<dt>--opt-whole-program[=<em>on</em>|<em>off</em>]</dt>
+<dd>Perform optimizations over the whole program during linking. May significantly increase link time.
+</dd>
+</dl>
+<h2 id="misc.-options">Misc. options</h2>
+<dl>
+<dt>-?, --help</dt>
+<dd>Display help message.
+</dd>
+<dt>-v, --verbose</dt>
+<dd>Display even the most obnoxious warnings and messages.
+</dd>
+</dl>
+</body>
+</html>
