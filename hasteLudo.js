@@ -26,6 +26,9 @@ const playerColorDark = {
     Blue: [3, 156, 173]
 }
 
+const iconColor = [80, 80, 80];
+const boardColor = [230, 230, 230];
+const diceColor = boardColor;
 
 function onHasteStart() {
     c = document.getElementById("canvas");
@@ -69,19 +72,35 @@ function drawSolid(posX, posY, r, g, b, border = (tileWidth * 0.015)) {
 
 function drawGlobe(posX, posY) {
     ctx.beginPath();
-    ctx.strokeStyle = "#808080"
+    ctx.strokeStyle = cssColor(...iconColor);
     ctx.lineWidth = tileWidth * 0.05;
     ctx.arc(posX + tileWidth / 2, posY + tileHeight / 2, tileWidth / 2.5, 0, Math.PI*2);
     ctx.stroke();
 }
 
 function drawStar(posX, posY) {
+    let centerX = posX + tileWidth / 2;
+    let centerY = posY + tileHeight / 2;
+
+    const starOuterRadiusEven = tileWidth / 2 * 0.9;
+    const starOuterRadiusOdd = tileWidth / 2 * 0.65;
+    const starInnerRadius = tileWidth / 2 * 0.2;
+    const numPoints = 12;
+
+    const angInterval = Math.PI * 2 / numPoints;
+
+    let getPoint = (ang, rad) => [centerX + Math.cos(ang) * rad, centerY + Math.sin(ang) * rad];
+
     ctx.beginPath();
-    ctx.strokeStyle = "#808080"
+    ctx.moveTo(...getPoint(0), starOuterRadiusEven);
+    for (let i = 0; i < numPoints; i++) {
+        let outerRadius = i % 2 == 0 ? starOuterRadiusEven : starOuterRadiusOdd;
+        ctx.lineTo(...getPoint(angInterval * (i + 0.5), starInnerRadius));
+        ctx.lineTo(...getPoint(angInterval * (i + 1), outerRadius));
+    }
+    ctx.fillStyle = cssColor(...iconColor);
     ctx.lineWidth = tileWidth * 0.05;
-    ctx.moveTo(posX, posY);
-    ctx.lineTo(posX + tileWidth, posY + tileHeight);
-    ctx.stroke();
+    ctx.fill();
 }
 
 function drawPlayer(posX, posY, player = "Green") {
@@ -97,10 +116,10 @@ function drawPlayer(posX, posY, player = "Green") {
 }
 
 function drawDice(posX, posY, num) {
-    ctx.fillStyle = cssColor(255, 255, 255);
+    ctx.fillStyle = cssColor(...diceColor);
     ctx.fillRect(posX + tileWidth * 0.15, posY + tileHeight * 0.15, tileWidth * 0.7, tileHeight * 0.7)
 
-    ctx.fillStyle = cssColor(0, 0, 0);
+    ctx.fillStyle = cssColor(...iconColor);
 
     function drawDot(mulX, mulY) {
         ctx.beginPath();
@@ -110,8 +129,8 @@ function drawDice(posX, posY, num) {
 
     switch(num) {
         case -1:
-            ctx.font = Math.floor(tileWidth * 0.6) + "px Georgia";
-            ctx.fillText("?", posX + tileWidth * 0.35, posY + tileHeight * 0.7, tileWidth);
+            ctx.font = "bold " + Math.floor(tileWidth * 0.6) + "px helvetica";
+            ctx.fillText("?", posX + tileWidth * 0.33, posY + tileHeight * 0.7, tileWidth);
             break;
         case 1:
             drawDot(0.5, 0.5);
@@ -220,16 +239,15 @@ function playerPosToTilePos(player, pos) {
 }
 
 function drawStaticBoard() {
-    ctx.fillStyle = "#404040";
-    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.clearRect(0, 0, c.width, c.height);
 
-    for (let x = 0; x < numTilesX; x++) {
+    /*for (let x = 0; x < numTilesX; x++) {
         for (let y = 0; y < numTilesY; y++) {
-            drawTiles([[x, y]], drawSolid, 100, 100, 100)
+            drawTiles([[x, y]], drawSolid, 100, 100, 100, 0);
         }
-    }
+    }*/
 
-    drawTiles(boardPositions, drawSolid, 255, 255, 255);
+    drawTiles(boardPositions, drawSolid, ...boardColor);
 
     drawTiles([...homePositions.Green, ...outPositions.Green, startPosition.Green], drawSolid, ...playerColor.Green);
     drawTiles([...homePositions.Yellow, ...outPositions.Yellow, startPosition.Yellow], drawSolid, ...playerColor.Yellow);
