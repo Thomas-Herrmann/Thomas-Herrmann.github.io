@@ -1,5 +1,5 @@
 "use strict";
-var __haste_prog_id = '26239b7fd0cf519a5954a4015855e9e9a27287da505c4d7bf9c9a5089da6a97b';
+var __haste_prog_id = '0d15ae1790d1e6c7b6231581a020852aa38fc0361c01c4bf24071349e5152a69';
 var __haste_script_elem = typeof document == 'object' ? document.currentScript : null;
 var gameState;
 
@@ -3736,14 +3736,14 @@ _1v/* eqString */ = function(_1w/* s3mO */, _1x/* s3mP */){
     }
   }
 },
-_1A/* $fFromAnyGameState9 */ = function(_1B/* shM4 */, _/* EXTERNAL */){
+_1A/* $fFromAnyGameState9 */ = function(_1B/* shQn */, _/* EXTERNAL */){
   return new T(function(){
-    var _1C/* shM9 */ = String/* EXTERNAL */(E(_1B/* shM4 */)),
-    _1D/* shMe */ = fromJSStr/* EXTERNAL */(_1C/* shM9 */);
-    if(!B(_1v/* GHC.Base.eqString */(_1D/* shMe */, _1u/* LudoJS.$fFromAnyGameState14 */))){
-      if(!B(_1v/* GHC.Base.eqString */(_1D/* shMe */, _1t/* LudoJS.$fFromAnyGameState13 */))){
-        if(!B(_1v/* GHC.Base.eqString */(_1D/* shMe */, _1s/* LudoJS.$fFromAnyGameState12 */))){
-          if(!B(_1v/* GHC.Base.eqString */(_1D/* shMe */, _1r/* LudoJS.$fFromAnyGameState11 */))){
+    var _1C/* shQs */ = String/* EXTERNAL */(E(_1B/* shQn */)),
+    _1D/* shQx */ = fromJSStr/* EXTERNAL */(_1C/* shQs */);
+    if(!B(_1v/* GHC.Base.eqString */(_1D/* shQx */, _1u/* LudoJS.$fFromAnyGameState14 */))){
+      if(!B(_1v/* GHC.Base.eqString */(_1D/* shQx */, _1t/* LudoJS.$fFromAnyGameState13 */))){
+        if(!B(_1v/* GHC.Base.eqString */(_1D/* shQx */, _1s/* LudoJS.$fFromAnyGameState12 */))){
+          if(!B(_1v/* GHC.Base.eqString */(_1D/* shQx */, _1r/* LudoJS.$fFromAnyGameState11 */))){
             return E(_1q/* LudoJS.$fFromAnyGameState10 */);
           }else{
             return 3;
@@ -3761,14 +3761,14 @@ _1A/* $fFromAnyGameState9 */ = function(_1B/* shM4 */, _/* EXTERNAL */){
 },
 _1E/* $fFromAnyGameState15 */ = "turn",
 _1F/* $fFromAnyGameState16 */ = "stage",
-_1G/* $fFromAnyGameState4 */ = function(_1H/* si5T */, _/* EXTERNAL */){
-  var _1I/* si5V */ = E(_1H/* si5T */);
-  if(!_1I/* si5V */._){
+_1G/* $fFromAnyGameState4 */ = function(_1H/* siaR */, _/* EXTERNAL */){
+  var _1I/* siaT */ = E(_1H/* siaR */);
+  if(!_1I/* siaT */._){
     return _4/* GHC.Types.[] */;
   }else{
-    var _1J/* si5Y */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_1I/* si5V */.a, _/* EXTERNAL */)),
-    _1K/* si61 */ = B(_1G/* LudoJS.$fFromAnyGameState4 */(_1I/* si5V */.b, _/* EXTERNAL */));
-    return new T2(1,_1J/* si5Y */,_1K/* si61 */);
+    var _1J/* siaW */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_1I/* siaT */.a, _/* EXTERNAL */)),
+    _1K/* siaZ */ = B(_1G/* LudoJS.$fFromAnyGameState4 */(_1I/* siaT */.b, _/* EXTERNAL */));
+    return new T2(1,_1J/* siaW */,_1K/* siaZ */);
   }
 },
 _1L/* $fFromAnyGameState5 */ = "finished",
@@ -3973,93 +3973,93 @@ _2E/* balanceR */ = function(_2F/* s2eiO */, _2G/* s2eiP */, _2H/* s2eiQ */, _2I
     }
   }
 },
-_3j/* $sinsert_$sgo10 */ = function(_3k/* shFn */, _3l/* shFo */, _3m/* shFp */){
-  var _3n/* shFq */ = E(_3k/* shFn */),
-  _3o/* shFr */ = E(_3m/* shFp */);
-  if(!_3o/* shFr */._){
-    var _3p/* shFs */ = _3o/* shFr */.a,
-    _3q/* shFt */ = _3o/* shFr */.b,
-    _3r/* shFu */ = _3o/* shFr */.c,
-    _3s/* shFv */ = _3o/* shFr */.d,
-    _3t/* shFw */ = _3o/* shFr */.e;
-    switch(E(_3n/* shFq */)){
+_3j/* $sinsert_$sgo10 */ = function(_3k/* shJG */, _3l/* shJH */, _3m/* shJI */){
+  var _3n/* shJJ */ = E(_3k/* shJG */),
+  _3o/* shJK */ = E(_3m/* shJI */);
+  if(!_3o/* shJK */._){
+    var _3p/* shJL */ = _3o/* shJK */.a,
+    _3q/* shJM */ = _3o/* shJK */.b,
+    _3r/* shJN */ = _3o/* shJK */.c,
+    _3s/* shJO */ = _3o/* shJK */.d,
+    _3t/* shJP */ = _3o/* shJK */.e;
+    switch(E(_3n/* shJJ */)){
       case 0:
-        switch(E(_3q/* shFt */)){
+        switch(E(_3q/* shJM */)){
           case 0:
-            return new T5(0,_3p/* shFs */,E(_1O/* LudoJS.Blue */),_3l/* shFo */,E(_3s/* shFv */),E(_3t/* shFw */));
+            return new T5(0,_3p/* shJL */,E(_1O/* LudoJS.Blue */),_3l/* shJH */,E(_3s/* shJO */),E(_3t/* shJP */));
           case 1:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1P/* LudoJS.Green */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1P/* LudoJS.Green */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
             break;
           case 2:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
             break;
           default:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1O/* LudoJS.Blue */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
         }
         break;
       case 1:
-        switch(E(_3q/* shFt */)){
+        switch(E(_3q/* shJM */)){
           case 0:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           case 1:
-            return new T5(0,_3p/* shFs */,E(_1P/* LudoJS.Green */),_3l/* shFo */,E(_3s/* shFv */),E(_3t/* shFw */));
+            return new T5(0,_3p/* shJL */,E(_1P/* LudoJS.Green */),_3l/* shJH */,E(_3s/* shJO */),E(_3t/* shJP */));
           case 2:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
             break;
           default:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1P/* LudoJS.Green */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
         }
         break;
       case 2:
-        switch(E(_3q/* shFt */)){
+        switch(E(_3q/* shJM */)){
           case 0:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           case 1:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           case 2:
-            return new T5(0,_3p/* shFs */,E(_1Q/* LudoJS.Red */),_3l/* shFo */,E(_3s/* shFv */),E(_3t/* shFw */));
+            return new T5(0,_3p/* shJL */,E(_1Q/* LudoJS.Red */),_3l/* shJH */,E(_3s/* shJO */),E(_3t/* shJP */));
           default:
-            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shFu */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shFo */, _3s/* shFv */)), _3t/* shFw */);});
+            return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _3r/* shJN */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _3l/* shJH */, _3s/* shJO */)), _3t/* shJP */);});
         }
         break;
       default:
-        switch(E(_3q/* shFt */)){
+        switch(E(_3q/* shJM */)){
           case 0:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           case 1:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           case 2:
-            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1Q/* LudoJS.Red */, _3r/* shFu */, _3s/* shFv */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shFo */, _3t/* shFw */)));});
+            return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1Q/* LudoJS.Red */, _3r/* shJN */, _3s/* shJO */, B(_3j/* LudoJS.$sinsert_$sgo10 */(_1S/* LudoJS.Yellow */, _3l/* shJH */, _3t/* shJP */)));});
             break;
           default:
-            return new T5(0,_3p/* shFs */,E(_1S/* LudoJS.Yellow */),_3l/* shFo */,E(_3s/* shFv */),E(_3t/* shFw */));
+            return new T5(0,_3p/* shJL */,E(_1S/* LudoJS.Yellow */),_3l/* shJH */,E(_3s/* shJO */),E(_3t/* shJP */));
         }
     }
   }else{
-    return new T5(0,1,E(_3n/* shFq */),_3l/* shFo */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+    return new T5(0,1,E(_3n/* shJJ */),_3l/* shJH */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
   }
 },
-_3u/* poly_go10 */ = function(_3v/* shG0 */, _3w/* shG1 */){
+_3u/* poly_go10 */ = function(_3v/* shKj */, _3w/* shKk */){
   while(1){
-    var _3x/* shG2 */ = E(_3w/* shG1 */);
-    if(!_3x/* shG2 */._){
-      return E(_3v/* shG0 */);
+    var _3x/* shKl */ = E(_3w/* shKk */);
+    if(!_3x/* shKl */._){
+      return E(_3v/* shKj */);
     }else{
-      var _3y/* shG5 */ = E(_3x/* shG2 */.a),
-      _3z/*  shG0 */ = B(_3j/* LudoJS.$sinsert_$sgo10 */(_3y/* shG5 */.a, _3y/* shG5 */.b, _3v/* shG0 */));
-      _3v/* shG0 */ = _3z/*  shG0 */;
-      _3w/* shG1 */ = _3x/* shG2 */.b;
+      var _3y/* shKo */ = E(_3x/* shKl */.a),
+      _3z/*  shKj */ = B(_3j/* LudoJS.$sinsert_$sgo10 */(_3y/* shKo */.a, _3y/* shKo */.b, _3v/* shKj */));
+      _3v/* shKj */ = _3z/*  shKj */;
+      _3w/* shKk */ = _3x/* shKl */.b;
       continue;
     }
   }
 },
-_3A/* $sfromList_$spoly_go10 */ = function(_3B/* shFV */, _3C/* shFW */, _3D/* shFX */, _3E/* shFY */){
-  return new F(function(){return _3u/* LudoJS.poly_go10 */(B(_3j/* LudoJS.$sinsert_$sgo10 */(_3C/* shFW */, _3D/* shFX */, _3B/* shFV */)), _3E/* shFY */);});
+_3A/* $sfromList_$spoly_go10 */ = function(_3B/* shKe */, _3C/* shKf */, _3D/* shKg */, _3E/* shKh */){
+  return new F(function(){return _3u/* LudoJS.poly_go10 */(B(_3j/* LudoJS.$sinsert_$sgo10 */(_3C/* shKf */, _3D/* shKg */, _3B/* shKe */)), _3E/* shKh */);});
 },
 _3F/* singleton */ = function(_3G/* s2e3X */, _3H/* s2e3Y */){
   return new T5(0,1,E(_3G/* s2e3X */),_3H/* s2e3Y */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
@@ -4156,265 +4156,265 @@ _4u/* link */ = function(_4v/* s2evT */, _4w/* s2evU */, _4x/* s2evV */, _4y/* s
     return new F(function(){return _3N/* Data.Map.Base.insertMin */(_4v/* s2evT */, _4w/* s2evU */, _4y/* s2evW */);});
   }
 },
-_4L/* $s$wpoly_create */ = function(_4M/* shDo */, _4N/* shDp */, _4O/* shDq */, _4P/* shDr */){
-  var _4Q/* shDs */ = E(_4M/* shDo */);
-  if(_4Q/* shDs */==1){
-    var _4R/* shEq */ = E(_4P/* shDr */);
-    if(!_4R/* shEq */._){
+_4L/* $s$wpoly_create */ = function(_4M/* shHH */, _4N/* shHI */, _4O/* shHJ */, _4P/* shHK */){
+  var _4Q/* shHL */ = E(_4M/* shHH */);
+  if(_4Q/* shHL */==1){
+    var _4R/* shIJ */ = E(_4P/* shHK */);
+    if(!_4R/* shIJ */._){
       return new T3(0,new T(function(){
-        return new T5(0,1,E(_4N/* shDp */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+        return new T5(0,1,E(_4N/* shHI */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
       }),_4/* GHC.Types.[] */,_4/* GHC.Types.[] */);
     }else{
-      var _4S/* shEw */ = E(_4R/* shEq */.a).a;
-      switch(E(_4N/* shDp */)){
+      var _4S/* shIP */ = E(_4R/* shIJ */.a).a;
+      switch(E(_4N/* shHI */)){
         case 0:
-          switch(E(_4S/* shEw */)){
+          switch(E(_4S/* shIP */)){
             case 0:
-              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shEq */);
+              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shIJ */);
             case 1:
-              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */);
+              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */);
             case 2:
-              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */);
+              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */);
             default:
-              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */);
+              return new T3(0,new T5(0,1,E(_1O/* LudoJS.Blue */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */);
           }
           break;
         case 1:
-          switch(E(_4S/* shEw */)){
+          switch(E(_4S/* shIP */)){
             case 2:
-              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */);
+              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */);
             case 3:
-              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */);
+              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */);
             default:
-              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shEq */);
+              return new T3(0,new T5(0,1,E(_1P/* LudoJS.Green */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shIJ */);
           }
           break;
         case 2:
-          return (E(_4S/* shEw */)==3) ? new T3(0,new T5(0,1,E(_1Q/* LudoJS.Red */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shEq */,_4/* GHC.Types.[] */) : new T3(0,new T5(0,1,E(_1Q/* LudoJS.Red */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shEq */);
+          return (E(_4S/* shIP */)==3) ? new T3(0,new T5(0,1,E(_1Q/* LudoJS.Red */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4R/* shIJ */,_4/* GHC.Types.[] */) : new T3(0,new T5(0,1,E(_1Q/* LudoJS.Red */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shIJ */);
         default:
-          var _4T/* shEL */ = E(_4S/* shEw */);
-          return new T3(0,new T5(0,1,E(_1S/* LudoJS.Yellow */),_4O/* shDq */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shEq */);
+          var _4T/* shJ4 */ = E(_4S/* shIP */);
+          return new T3(0,new T5(0,1,E(_1S/* LudoJS.Yellow */),_4O/* shHJ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)),_4/* GHC.Types.[] */,_4R/* shIJ */);
       }
     }
   }else{
-    var _4U/* shDu */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _4N/* shDp */, _4O/* shDq */, _4P/* shDr */)),
-    _4V/* shDv */ = _4U/* shDu */.a,
-    _4W/* shDx */ = _4U/* shDu */.c,
-    _4X/* shDy */ = E(_4U/* shDu */.b);
-    if(!_4X/* shDy */._){
-      return new T3(0,_4V/* shDv */,_4/* GHC.Types.[] */,_4W/* shDx */);
+    var _4U/* shHN */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _4N/* shHI */, _4O/* shHJ */, _4P/* shHK */)),
+    _4V/* shHO */ = _4U/* shHN */.a,
+    _4W/* shHQ */ = _4U/* shHN */.c,
+    _4X/* shHR */ = E(_4U/* shHN */.b);
+    if(!_4X/* shHR */._){
+      return new T3(0,_4V/* shHO */,_4/* GHC.Types.[] */,_4W/* shHQ */);
     }else{
-      var _4Y/* shDB */ = E(_4X/* shDy */.a),
-      _4Z/* shDC */ = _4Y/* shDB */.a,
-      _50/* shDD */ = _4Y/* shDB */.b,
-      _51/* shDE */ = E(_4X/* shDy */.b);
-      if(!_51/* shDE */._){
+      var _4Y/* shHU */ = E(_4X/* shHR */.a),
+      _4Z/* shHV */ = _4Y/* shHU */.a,
+      _50/* shHW */ = _4Y/* shHU */.b,
+      _51/* shHX */ = E(_4X/* shHR */.b);
+      if(!_51/* shHX */._){
         return new T3(0,new T(function(){
-          return B(_3I/* Data.Map.Base.insertMax */(_4Z/* shDC */, _50/* shDD */, _4V/* shDv */));
-        }),_4/* GHC.Types.[] */,_4W/* shDx */);
+          return B(_3I/* Data.Map.Base.insertMax */(_4Z/* shHV */, _50/* shHW */, _4V/* shHO */));
+        }),_4/* GHC.Types.[] */,_4W/* shHQ */);
       }else{
-        var _52/* shDH */ = _51/* shDE */.b,
-        _53/* shDI */ = E(_51/* shDE */.a),
-        _54/* shDJ */ = _53/* shDI */.a,
-        _55/* shDK */ = _53/* shDI */.b;
-        switch(E(_4Z/* shDC */)){
+        var _52/* shI0 */ = _51/* shHX */.b,
+        _53/* shI1 */ = E(_51/* shHX */.a),
+        _54/* shI2 */ = _53/* shI1 */.a,
+        _55/* shI3 */ = _53/* shI1 */.b;
+        switch(E(_4Z/* shHV */)){
           case 0:
-            switch(E(_54/* shDJ */)){
+            switch(E(_54/* shI2 */)){
               case 0:
-                return new T3(0,_4V/* shDv */,_4/* GHC.Types.[] */,_4X/* shDy */);
+                return new T3(0,_4V/* shHO */,_4/* GHC.Types.[] */,_4X/* shHR */);
               case 1:
-                var _56/* shDO */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1P/* LudoJS.Green */, _55/* shDK */, _52/* shDH */));
+                var _56/* shI7 */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1P/* LudoJS.Green */, _55/* shI3 */, _52/* shI0 */));
                 return new T3(0,new T(function(){
-                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shDD */, _4V/* shDv */, _56/* shDO */.a));
-                }),_56/* shDO */.b,_56/* shDO */.c);
+                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shHW */, _4V/* shHO */, _56/* shI7 */.a));
+                }),_56/* shI7 */.b,_56/* shI7 */.c);
               case 2:
-                var _57/* shDU */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1Q/* LudoJS.Red */, _55/* shDK */, _52/* shDH */));
+                var _57/* shId */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1Q/* LudoJS.Red */, _55/* shI3 */, _52/* shI0 */));
                 return new T3(0,new T(function(){
-                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shDD */, _4V/* shDv */, _57/* shDU */.a));
-                }),_57/* shDU */.b,_57/* shDU */.c);
+                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shHW */, _4V/* shHO */, _57/* shId */.a));
+                }),_57/* shId */.b,_57/* shId */.c);
               default:
-                var _58/* shE0 */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1S/* LudoJS.Yellow */, _55/* shDK */, _52/* shDH */));
+                var _58/* shIj */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1S/* LudoJS.Yellow */, _55/* shI3 */, _52/* shI0 */));
                 return new T3(0,new T(function(){
-                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shDD */, _4V/* shDv */, _58/* shE0 */.a));
-                }),_58/* shE0 */.b,_58/* shE0 */.c);
+                  return B(_4u/* Data.Map.Base.link */(_1O/* LudoJS.Blue */, _50/* shHW */, _4V/* shHO */, _58/* shIj */.a));
+                }),_58/* shIj */.b,_58/* shIj */.c);
             }
             break;
           case 1:
-            switch(E(_54/* shDJ */)){
+            switch(E(_54/* shI2 */)){
               case 2:
-                var _59/* shE7 */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1Q/* LudoJS.Red */, _55/* shDK */, _52/* shDH */));
+                var _59/* shIq */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1Q/* LudoJS.Red */, _55/* shI3 */, _52/* shI0 */));
                 return new T3(0,new T(function(){
-                  return B(_4u/* Data.Map.Base.link */(_1P/* LudoJS.Green */, _50/* shDD */, _4V/* shDv */, _59/* shE7 */.a));
-                }),_59/* shE7 */.b,_59/* shE7 */.c);
+                  return B(_4u/* Data.Map.Base.link */(_1P/* LudoJS.Green */, _50/* shHW */, _4V/* shHO */, _59/* shIq */.a));
+                }),_59/* shIq */.b,_59/* shIq */.c);
               case 3:
-                var _5a/* shEd */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1S/* LudoJS.Yellow */, _55/* shDK */, _52/* shDH */));
+                var _5a/* shIw */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1S/* LudoJS.Yellow */, _55/* shI3 */, _52/* shI0 */));
                 return new T3(0,new T(function(){
-                  return B(_4u/* Data.Map.Base.link */(_1P/* LudoJS.Green */, _50/* shDD */, _4V/* shDv */, _5a/* shEd */.a));
-                }),_5a/* shEd */.b,_5a/* shEd */.c);
+                  return B(_4u/* Data.Map.Base.link */(_1P/* LudoJS.Green */, _50/* shHW */, _4V/* shHO */, _5a/* shIw */.a));
+                }),_5a/* shIw */.b,_5a/* shIw */.c);
               default:
-                return new T3(0,_4V/* shDv */,_4/* GHC.Types.[] */,_4X/* shDy */);
+                return new T3(0,_4V/* shHO */,_4/* GHC.Types.[] */,_4X/* shHR */);
             }
             break;
           case 2:
-            if(E(_54/* shDJ */)==3){
-              var _5b/* shEk */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shDs */>>1, _1S/* LudoJS.Yellow */, _55/* shDK */, _52/* shDH */));
+            if(E(_54/* shI2 */)==3){
+              var _5b/* shID */ = B(_4L/* LudoJS.$s$wpoly_create */(_4Q/* shHL */>>1, _1S/* LudoJS.Yellow */, _55/* shI3 */, _52/* shI0 */));
               return new T3(0,new T(function(){
-                return B(_4u/* Data.Map.Base.link */(_1Q/* LudoJS.Red */, _50/* shDD */, _4V/* shDv */, _5b/* shEk */.a));
-              }),_5b/* shEk */.b,_5b/* shEk */.c);
+                return B(_4u/* Data.Map.Base.link */(_1Q/* LudoJS.Red */, _50/* shHW */, _4V/* shHO */, _5b/* shID */.a));
+              }),_5b/* shID */.b,_5b/* shID */.c);
             }else{
-              return new T3(0,_4V/* shDv */,_4/* GHC.Types.[] */,_4X/* shDy */);
+              return new T3(0,_4V/* shHO */,_4/* GHC.Types.[] */,_4X/* shHR */);
             }
             break;
           default:
-            var _5c/* shEp */ = E(_54/* shDJ */);
-            return new T3(0,_4V/* shDv */,_4/* GHC.Types.[] */,_4X/* shDy */);
+            var _5c/* shII */ = E(_54/* shI2 */);
+            return new T3(0,_4V/* shHO */,_4/* GHC.Types.[] */,_4X/* shHR */);
         }
       }
     }
   }
 },
-_5d/* $spoly_go10 */ = function(_5e/* shFO */, _5f/* shFP */, _5g/* shFQ */){
-  var _5h/* shFR */ = E(_5f/* shFP */);
-  return new F(function(){return _3u/* LudoJS.poly_go10 */(B(_3j/* LudoJS.$sinsert_$sgo10 */(_5h/* shFR */.a, _5h/* shFR */.b, _5e/* shFO */)), _5g/* shFQ */);});
+_5d/* $spoly_go10 */ = function(_5e/* shK7 */, _5f/* shK8 */, _5g/* shK9 */){
+  var _5h/* shKa */ = E(_5f/* shK8 */);
+  return new F(function(){return _3u/* LudoJS.poly_go10 */(B(_3j/* LudoJS.$sinsert_$sgo10 */(_5h/* shKa */.a, _5h/* shKa */.b, _5e/* shK7 */)), _5g/* shK9 */);});
 },
-_5i/* $wpoly_go10 */ = function(_5j/* shGR */, _5k/* shGS */, _5l/* shGT */){
-  var _5m/* shGU */ = E(_5l/* shGT */);
-  if(!_5m/* shGU */._){
-    return E(_5k/* shGS */);
+_5i/* $wpoly_go10 */ = function(_5j/* shLa */, _5k/* shLb */, _5l/* shLc */){
+  var _5m/* shLd */ = E(_5l/* shLc */);
+  if(!_5m/* shLd */._){
+    return E(_5k/* shLb */);
   }else{
-    var _5n/* shGX */ = E(_5m/* shGU */.a),
-    _5o/* shGY */ = _5n/* shGX */.a,
-    _5p/* shGZ */ = _5n/* shGX */.b,
-    _5q/* shH0 */ = E(_5m/* shGU */.b);
-    if(!_5q/* shH0 */._){
-      return new F(function(){return _3I/* Data.Map.Base.insertMax */(_5o/* shGY */, _5p/* shGZ */, _5k/* shGS */);});
+    var _5n/* shLg */ = E(_5m/* shLd */.a),
+    _5o/* shLh */ = _5n/* shLg */.a,
+    _5p/* shLi */ = _5n/* shLg */.b,
+    _5q/* shLj */ = E(_5m/* shLd */.b);
+    if(!_5q/* shLj */._){
+      return new F(function(){return _3I/* Data.Map.Base.insertMax */(_5o/* shLh */, _5p/* shLi */, _5k/* shLb */);});
     }else{
-      var _5r/* shH3 */ = E(_5q/* shH0 */.a),
-      _5s/* shH4 */ = _5r/* shH3 */.a,
-      _5t/* shH6 */ = function(_5u/* shH7 */){
-        var _5v/* shH8 */ = B(_4L/* LudoJS.$s$wpoly_create */(_5j/* shGR */, _5s/* shH4 */, _5r/* shH3 */.b, _5q/* shH0 */.b)),
-        _5w/* shH9 */ = _5v/* shH8 */.a,
-        _5x/* shHc */ = E(_5v/* shH8 */.c);
-        if(!_5x/* shHc */._){
-          return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(_5j/* shGR */<<1, B(_4u/* Data.Map.Base.link */(_5o/* shGY */, _5p/* shGZ */, _5k/* shGS */, _5w/* shH9 */)), _5v/* shH8 */.b);});
+      var _5r/* shLm */ = E(_5q/* shLj */.a),
+      _5s/* shLn */ = _5r/* shLm */.a,
+      _5t/* shLp */ = function(_5u/* shLq */){
+        var _5v/* shLr */ = B(_4L/* LudoJS.$s$wpoly_create */(_5j/* shLa */, _5s/* shLn */, _5r/* shLm */.b, _5q/* shLj */.b)),
+        _5w/* shLs */ = _5v/* shLr */.a,
+        _5x/* shLv */ = E(_5v/* shLr */.c);
+        if(!_5x/* shLv */._){
+          return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(_5j/* shLa */<<1, B(_4u/* Data.Map.Base.link */(_5o/* shLh */, _5p/* shLi */, _5k/* shLb */, _5w/* shLs */)), _5v/* shLr */.b);});
         }else{
-          return new F(function(){return _5d/* LudoJS.$spoly_go10 */(B(_4u/* Data.Map.Base.link */(_5o/* shGY */, _5p/* shGZ */, _5k/* shGS */, _5w/* shH9 */)), _5x/* shHc */.a, _5x/* shHc */.b);});
+          return new F(function(){return _5d/* LudoJS.$spoly_go10 */(B(_4u/* Data.Map.Base.link */(_5o/* shLh */, _5p/* shLi */, _5k/* shLb */, _5w/* shLs */)), _5x/* shLv */.a, _5x/* shLv */.b);});
         }
       };
-      switch(E(_5o/* shGY */)){
+      switch(E(_5o/* shLh */)){
         case 0:
-          switch(E(_5s/* shH4 */)){
+          switch(E(_5s/* shLn */)){
             case 0:
-              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shGS */, _1O/* LudoJS.Blue */, _5p/* shGZ */, _5q/* shH0 */);});
+              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shLb */, _1O/* LudoJS.Blue */, _5p/* shLi */, _5q/* shLj */);});
               break;
             case 1:
-              return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+              return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
               break;
             case 2:
-              return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+              return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
               break;
             default:
-              return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+              return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
           }
           break;
         case 1:
-          switch(E(_5s/* shH4 */)){
+          switch(E(_5s/* shLn */)){
             case 2:
-              return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+              return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
               break;
             case 3:
-              return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+              return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
               break;
             default:
-              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shGS */, _1P/* LudoJS.Green */, _5p/* shGZ */, _5q/* shH0 */);});
+              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shLb */, _1P/* LudoJS.Green */, _5p/* shLi */, _5q/* shLj */);});
           }
           break;
         case 2:
-          if(E(_5s/* shH4 */)==3){
-            return new F(function(){return _5t/* shH6 */(_/* EXTERNAL */);});
+          if(E(_5s/* shLn */)==3){
+            return new F(function(){return _5t/* shLp */(_/* EXTERNAL */);});
           }else{
-            return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shGS */, _1Q/* LudoJS.Red */, _5p/* shGZ */, _5q/* shH0 */);});
+            return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shLb */, _1Q/* LudoJS.Red */, _5p/* shLi */, _5q/* shLj */);});
           }
           break;
         default:
-          var _5y/* shHm */ = E(_5s/* shH4 */);
-          return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shGS */, _1S/* LudoJS.Yellow */, _5p/* shGZ */, _5q/* shH0 */);});
+          var _5y/* shLF */ = E(_5s/* shLn */);
+          return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(_5k/* shLb */, _1S/* LudoJS.Yellow */, _5p/* shLi */, _5q/* shLj */);});
       }
     }
   }
 },
-_5z/* $sfromList */ = function(_5A/* shJc */){
-  var _5B/* shJd */ = E(_5A/* shJc */);
-  if(!_5B/* shJd */._){
+_5z/* $sfromList */ = function(_5A/* shNv */){
+  var _5B/* shNw */ = E(_5A/* shNv */);
+  if(!_5B/* shNw */._){
     return new T0(1);
   }else{
-    var _5C/* shJg */ = E(_5B/* shJd */.a),
-    _5D/* shJh */ = _5C/* shJg */.a,
-    _5E/* shJi */ = _5C/* shJg */.b,
-    _5F/* shJj */ = E(_5B/* shJd */.b);
-    if(!_5F/* shJj */._){
-      return new T5(0,1,E(_5D/* shJh */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+    var _5C/* shNz */ = E(_5B/* shNw */.a),
+    _5D/* shNA */ = _5C/* shNz */.a,
+    _5E/* shNB */ = _5C/* shNz */.b,
+    _5F/* shNC */ = E(_5B/* shNw */.b);
+    if(!_5F/* shNC */._){
+      return new T5(0,1,E(_5D/* shNA */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
     }else{
-      var _5G/* shJm */ = _5F/* shJj */.b,
-      _5H/* shJn */ = E(_5F/* shJj */.a),
-      _5I/* shJo */ = _5H/* shJn */.a,
-      _5J/* shJp */ = _5H/* shJn */.b;
-      switch(E(_5D/* shJh */)){
+      var _5G/* shNF */ = _5F/* shNC */.b,
+      _5H/* shNG */ = E(_5F/* shNC */.a),
+      _5I/* shNH */ = _5H/* shNG */.a,
+      _5J/* shNI */ = _5H/* shNG */.b;
+      switch(E(_5D/* shNA */)){
         case 0:
-          switch(E(_5I/* shJo */)){
+          switch(E(_5I/* shNH */)){
             case 0:
-              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _1O/* LudoJS.Blue */, _5J/* shJp */, _5G/* shJm */);});
+              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _1O/* LudoJS.Blue */, _5J/* shNI */, _5G/* shNF */);});
               break;
             case 1:
-              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
               break;
             case 2:
-              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
               break;
             default:
-              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1O/* LudoJS.Blue */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
           }
           break;
         case 1:
-          var _5K/* shJw */ = E(_5I/* shJo */);
-          switch(_5K/* shJw */){
+          var _5K/* shNP */ = E(_5I/* shNH */);
+          switch(_5K/* shNP */){
             case 2:
-              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
               break;
             case 3:
-              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+              return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
               break;
             default:
-              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5K/* shJw */, _5J/* shJp */, _5G/* shJm */);});
+              return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1P/* LudoJS.Green */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5K/* shNP */, _5J/* shNI */, _5G/* shNF */);});
           }
           break;
         case 2:
-          var _5L/* shJA */ = E(_5I/* shJo */);
-          if(_5L/* shJA */==3){
-            return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1Q/* LudoJS.Red */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shJj */);});
+          var _5L/* shNT */ = E(_5I/* shNH */);
+          if(_5L/* shNT */==3){
+            return new F(function(){return _5i/* LudoJS.$wpoly_go10 */(1, new T5(0,1,E(_1Q/* LudoJS.Red */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5F/* shNC */);});
           }else{
-            return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1Q/* LudoJS.Red */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5L/* shJA */, _5J/* shJp */, _5G/* shJm */);});
+            return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1Q/* LudoJS.Red */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), _5L/* shNT */, _5J/* shNI */, _5G/* shNF */);});
           }
           break;
         default:
-          return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1S/* LudoJS.Yellow */),_5E/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), E(_5I/* shJo */), _5J/* shJp */, _5G/* shJm */);});
+          return new F(function(){return _3A/* LudoJS.$sfromList_$spoly_go10 */(new T5(0,1,E(_1S/* LudoJS.Yellow */),_5E/* shNB */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */)), E(_5I/* shNH */), _5J/* shNI */, _5G/* shNF */);});
       }
     }
   }
 },
-_5M/* $w$cshowsPrec */ = function(_5N/* si8F */, _5O/* si8G */){
-  switch(E(_5N/* si8F */)){
+_5M/* $w$cshowsPrec */ = function(_5N/* sidD */, _5O/* sidE */){
+  switch(E(_5N/* sidD */)){
     case 0:
-      return new F(function(){return _q/* GHC.Base.++ */(_1u/* LudoJS.$fFromAnyGameState14 */, _5O/* si8G */);});
+      return new F(function(){return _q/* GHC.Base.++ */(_1u/* LudoJS.$fFromAnyGameState14 */, _5O/* sidE */);});
       break;
     case 1:
-      return new F(function(){return _q/* GHC.Base.++ */(_1t/* LudoJS.$fFromAnyGameState13 */, _5O/* si8G */);});
+      return new F(function(){return _q/* GHC.Base.++ */(_1t/* LudoJS.$fFromAnyGameState13 */, _5O/* sidE */);});
       break;
     case 2:
-      return new F(function(){return _q/* GHC.Base.++ */(_1s/* LudoJS.$fFromAnyGameState12 */, _5O/* si8G */);});
+      return new F(function(){return _q/* GHC.Base.++ */(_1s/* LudoJS.$fFromAnyGameState12 */, _5O/* sidE */);});
       break;
     default:
-      return new F(function(){return _q/* GHC.Base.++ */(_1r/* LudoJS.$fFromAnyGameState11 */, _5O/* si8G */);});
+      return new F(function(){return _q/* GHC.Base.++ */(_1r/* LudoJS.$fFromAnyGameState11 */, _5O/* sidE */);});
   }
 },
 _5P/* itos */ = function(_5Q/* sf6u */, _5R/* sf6v */){
@@ -4451,919 +4451,919 @@ _68/* lvl33 */ = "Active",
 _69/* lvl34 */ = "Out",
 _6a/* lvl7 */ = new T2(1,_1Q/* LudoJS.Red */,_4/* GHC.Types.[] */),
 _6b/* lvl8 */ = new T2(1,_1S/* LudoJS.Yellow */,_6a/* LudoJS.lvl7 */),
-_6c/* $fFromAnyGameState6 */ = function(_6d/* si8M */, _/* EXTERNAL */){
-  var _6e/* si8O */ = E(_6d/* si8M */),
-  _6f/* si8W */ = __get/* EXTERNAL */(_6e/* si8O */, toJSStr/* EXTERNAL */(B(_q/* GHC.Base.++ */(_1u/* LudoJS.$fFromAnyGameState14 */, _4/* GHC.Types.[] */)))),
-  _6g/* si8Y */ = _6f/* si8W */,
-  _6h/* si90 */ = function(_6i/*  sica */, _6j/*  sicb */, _/* EXTERNAL */){
+_6c/* $fFromAnyGameState6 */ = function(_6d/* sidK */, _/* EXTERNAL */){
+  var _6e/* sidM */ = E(_6d/* sidK */),
+  _6f/* sidU */ = __get/* EXTERNAL */(_6e/* sidM */, toJSStr/* EXTERNAL */(B(_q/* GHC.Base.++ */(_1u/* LudoJS.$fFromAnyGameState14 */, _4/* GHC.Types.[] */)))),
+  _6g/* sidW */ = _6f/* sidU */,
+  _6h/* sidY */ = function(_6i/*  sih8 */, _6j/*  sih9 */, _/* EXTERNAL */){
     while(1){
-      var _6k/*  si90 */ = B((function(_6l/* sica */, _6m/* sicb */, _/* EXTERNAL */){
-        var _6n/* sicd */ = E(_6l/* sica */);
-        if(!_6n/* sicd */._){
-          return _6m/* sicb */;
+      var _6k/*  sidY */ = B((function(_6l/* sih8 */, _6m/* sih9 */, _/* EXTERNAL */){
+        var _6n/* sihb */ = E(_6l/* sih8 */);
+        if(!_6n/* sihb */._){
+          return _6m/* sih9 */;
         }else{
-          var _6o/* sicf */ = _6n/* sicd */.b,
-          _6p/* sicg */ = E(_6n/* sicd */.a),
-          _6q/* sick */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _6p/* sicg */, _4/* GHC.Types.[] */))),
-          _6r/* sico */ = __has/* EXTERNAL */(_6g/* si8Y */, _6q/* sick */);
-          if(!E(_6r/* sico */)){
-            var _6s/*   sicb */ = _6m/* sicb */;
-            _6i/*  sica */ = _6o/* sicf */;
-            _6j/*  sicb */ = _6s/*   sicb */;
+          var _6o/* sihd */ = _6n/* sihb */.b,
+          _6p/* sihe */ = E(_6n/* sihb */.a),
+          _6q/* sihi */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _6p/* sihe */, _4/* GHC.Types.[] */))),
+          _6r/* sihm */ = __has/* EXTERNAL */(_6g/* sidW */, _6q/* sihi */);
+          if(!E(_6r/* sihm */)){
+            var _6s/*   sih9 */ = _6m/* sih9 */;
+            _6i/*  sih8 */ = _6o/* sihd */;
+            _6j/*  sih9 */ = _6s/*   sih9 */;
             return __continue/* EXTERNAL */;
           }else{
-            var _6t/* sict */ = __get/* EXTERNAL */(_6g/* si8Y */, _6q/* sick */),
-            _6u/* sicw */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-            _6v/* sicz */ = __get/* EXTERNAL */(_6t/* sict */, _6u/* sicw */),
-            _6w/* sicD */ = String/* EXTERNAL */(_6v/* sicz */),
-            _6x/* sicG */ = E(_69/* LudoJS.lvl34 */),
-            _6y/* sicJ */ = strEq/* EXTERNAL */(_6w/* sicD */, _6x/* sicG */);
-            if(!E(_6y/* sicJ */)){
-              var _6z/* sidU */ = E(_68/* LudoJS.lvl33 */),
-              _6A/* sidX */ = strEq/* EXTERNAL */(_6w/* sicD */, _6z/* sidU */);
-              if(!E(_6A/* sidX */)){
+            var _6t/* sihr */ = __get/* EXTERNAL */(_6g/* sidW */, _6q/* sihi */),
+            _6u/* sihu */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+            _6v/* sihx */ = __get/* EXTERNAL */(_6t/* sihr */, _6u/* sihu */),
+            _6w/* sihB */ = String/* EXTERNAL */(_6v/* sihx */),
+            _6x/* sihE */ = E(_69/* LudoJS.lvl34 */),
+            _6y/* sihH */ = strEq/* EXTERNAL */(_6w/* sihB */, _6x/* sihE */);
+            if(!E(_6y/* sihH */)){
+              var _6z/* siiS */ = E(_68/* LudoJS.lvl33 */),
+              _6A/* siiV */ = strEq/* EXTERNAL */(_6w/* sihB */, _6z/* siiS */);
+              if(!E(_6A/* siiV */)){
                 return E(_67/* LudoJS.lvl32 */);
               }else{
-                var _6B/* sie1 */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-                _6C/* sie4 */ = __get/* EXTERNAL */(_6t/* sict */, _6B/* sie1 */),
-                _6D/* sie7 */ = function(_6E/*  sie8 */, _6F/*  sie9 */, _/* EXTERNAL */){
+                var _6B/* siiZ */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+                _6C/* sij2 */ = __get/* EXTERNAL */(_6t/* sihr */, _6B/* siiZ */),
+                _6D/* sij5 */ = function(_6E/*  sij6 */, _6F/*  sij7 */, _/* EXTERNAL */){
                   while(1){
-                    var _6G/*  sie7 */ = B((function(_6H/* sie8 */, _6I/* sie9 */, _/* EXTERNAL */){
-                      var _6J/* sieb */ = E(_6H/* sie8 */);
-                      if(!_6J/* sieb */._){
-                        return _6I/* sie9 */;
+                    var _6G/*  sij5 */ = B((function(_6H/* sij6 */, _6I/* sij7 */, _/* EXTERNAL */){
+                      var _6J/* sij9 */ = E(_6H/* sij6 */);
+                      if(!_6J/* sij9 */._){
+                        return _6I/* sij7 */;
                       }else{
-                        var _6K/* sied */ = _6J/* sieb */.b,
-                        _6L/* siee */ = E(_6J/* sieb */.a),
-                        _6M/* siei */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _6L/* siee */, _4/* GHC.Types.[] */))),
-                        _6N/* siem */ = __has/* EXTERNAL */(_6g/* si8Y */, _6M/* siei */);
-                        if(!E(_6N/* siem */)){
-                          var _6O/*   sie9 */ = _6I/* sie9 */;
-                          _6E/*  sie8 */ = _6K/* sied */;
-                          _6F/*  sie9 */ = _6O/*   sie9 */;
+                        var _6K/* sijb */ = _6J/* sij9 */.b,
+                        _6L/* sijc */ = E(_6J/* sij9 */.a),
+                        _6M/* sijg */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _6L/* sijc */, _4/* GHC.Types.[] */))),
+                        _6N/* sijk */ = __has/* EXTERNAL */(_6g/* sidW */, _6M/* sijg */);
+                        if(!E(_6N/* sijk */)){
+                          var _6O/*   sij7 */ = _6I/* sij7 */;
+                          _6E/*  sij6 */ = _6K/* sijb */;
+                          _6F/*  sij7 */ = _6O/*   sij7 */;
                           return __continue/* EXTERNAL */;
                         }else{
-                          var _6P/* sier */ = __get/* EXTERNAL */(_6g/* si8Y */, _6M/* siei */),
-                          _6Q/* siev */ = __get/* EXTERNAL */(_6P/* sier */, _6u/* sicw */),
-                          _6R/* siez */ = String/* EXTERNAL */(_6Q/* siev */),
-                          _6S/* sieD */ = strEq/* EXTERNAL */(_6R/* siez */, _6x/* sicG */);
-                          if(!E(_6S/* sieD */)){
-                            var _6T/* sieL */ = strEq/* EXTERNAL */(_6R/* siez */, _6z/* sidU */);
-                            if(!E(_6T/* sieL */)){
+                          var _6P/* sijp */ = __get/* EXTERNAL */(_6g/* sidW */, _6M/* sijg */),
+                          _6Q/* sijt */ = __get/* EXTERNAL */(_6P/* sijp */, _6u/* sihu */),
+                          _6R/* sijx */ = String/* EXTERNAL */(_6Q/* sijt */),
+                          _6S/* sijB */ = strEq/* EXTERNAL */(_6R/* sijx */, _6x/* sihE */);
+                          if(!E(_6S/* sijB */)){
+                            var _6T/* sijJ */ = strEq/* EXTERNAL */(_6R/* sijx */, _6z/* siiS */);
+                            if(!E(_6T/* sijJ */)){
                               return E(_67/* LudoJS.lvl32 */);
                             }else{
-                              var _6U/* sieQ */ = __get/* EXTERNAL */(_6P/* sier */, _6B/* sie1 */),
-                              _6V/* sif5 */ = new T(function(){
-                                return B(_q/* GHC.Base.++ */(_6I/* sie9 */, new T2(1,new T2(0,_6L/* siee */,new T1(1,new T(function(){
-                                  var _6W/* sieU */ = Number/* EXTERNAL */(_6U/* sieQ */);
-                                  return jsTrunc/* EXTERNAL */(_6W/* sieU */);
+                              var _6U/* sijO */ = __get/* EXTERNAL */(_6P/* sijp */, _6B/* siiZ */),
+                              _6V/* sik3 */ = new T(function(){
+                                return B(_q/* GHC.Base.++ */(_6I/* sij7 */, new T2(1,new T2(0,_6L/* sijc */,new T1(1,new T(function(){
+                                  var _6W/* sijS */ = Number/* EXTERNAL */(_6U/* sijO */);
+                                  return jsTrunc/* EXTERNAL */(_6W/* sijS */);
                                 }))),_4/* GHC.Types.[] */)));
                               });
-                              _6E/*  sie8 */ = _6K/* sied */;
-                              _6F/*  sie9 */ = _6V/* sif5 */;
+                              _6E/*  sij6 */ = _6K/* sijb */;
+                              _6F/*  sij7 */ = _6V/* sik3 */;
                               return __continue/* EXTERNAL */;
                             }
                           }else{
-                            _6E/*  sie8 */ = _6K/* sied */;
-                            _6F/*  sie9 */ = new T(function(){
-                              return B(_q/* GHC.Base.++ */(_6I/* sie9 */, new T2(1,new T2(0,_6L/* siee */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                            _6E/*  sij6 */ = _6K/* sijb */;
+                            _6F/*  sij7 */ = new T(function(){
+                              return B(_q/* GHC.Base.++ */(_6I/* sij7 */, new T2(1,new T2(0,_6L/* sijc */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                             });
                             return __continue/* EXTERNAL */;
                           }
                         }
                       }
-                    })(_6E/*  sie8 */, _6F/*  sie9 */, _/* EXTERNAL */));
-                    if(_6G/*  sie7 */!=__continue/* EXTERNAL */){
-                      return _6G/*  sie7 */;
+                    })(_6E/*  sij6 */, _6F/*  sij7 */, _/* EXTERNAL */));
+                    if(_6G/*  sij5 */!=__continue/* EXTERNAL */){
+                      return _6G/*  sij5 */;
                     }
                   }
                 },
-                _6X/* sifj */ = new T(function(){
-                  return B(_q/* GHC.Base.++ */(_6m/* sicb */, new T2(1,new T2(0,_6p/* sicg */,new T1(1,new T(function(){
-                    var _6Y/* sif8 */ = Number/* EXTERNAL */(_6C/* sie4 */);
-                    return jsTrunc/* EXTERNAL */(_6Y/* sif8 */);
+                _6X/* sikh */ = new T(function(){
+                  return B(_q/* GHC.Base.++ */(_6m/* sih9 */, new T2(1,new T2(0,_6p/* sihe */,new T1(1,new T(function(){
+                    var _6Y/* sik6 */ = Number/* EXTERNAL */(_6C/* sij2 */);
+                    return jsTrunc/* EXTERNAL */(_6Y/* sik6 */);
                   }))),_4/* GHC.Types.[] */)));
                 });
-                return new F(function(){return _6D/* sie7 */(_6o/* sicf */, _6X/* sifj */, _/* EXTERNAL */);});
+                return new F(function(){return _6D/* sij5 */(_6o/* sihd */, _6X/* sikh */, _/* EXTERNAL */);});
               }
             }else{
-              var _6Z/* sicN */ = function(_70/*  sicO */, _71/*  sicP */, _/* EXTERNAL */){
+              var _6Z/* sihL */ = function(_70/*  sihM */, _71/*  sihN */, _/* EXTERNAL */){
                 while(1){
-                  var _72/*  sicN */ = B((function(_73/* sicO */, _74/* sicP */, _/* EXTERNAL */){
-                    var _75/* sicR */ = E(_73/* sicO */);
-                    if(!_75/* sicR */._){
-                      return _74/* sicP */;
+                  var _72/*  sihL */ = B((function(_73/* sihM */, _74/* sihN */, _/* EXTERNAL */){
+                    var _75/* sihP */ = E(_73/* sihM */);
+                    if(!_75/* sihP */._){
+                      return _74/* sihN */;
                     }else{
-                      var _76/* sicT */ = _75/* sicR */.b,
-                      _77/* sicU */ = E(_75/* sicR */.a),
-                      _78/* sicY */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _77/* sicU */, _4/* GHC.Types.[] */))),
-                      _79/* sid2 */ = __has/* EXTERNAL */(_6g/* si8Y */, _78/* sicY */);
-                      if(!E(_79/* sid2 */)){
-                        var _7a/*   sicP */ = _74/* sicP */;
-                        _70/*  sicO */ = _76/* sicT */;
-                        _71/*  sicP */ = _7a/*   sicP */;
+                      var _76/* sihR */ = _75/* sihP */.b,
+                      _77/* sihS */ = E(_75/* sihP */.a),
+                      _78/* sihW */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _77/* sihS */, _4/* GHC.Types.[] */))),
+                      _79/* sii0 */ = __has/* EXTERNAL */(_6g/* sidW */, _78/* sihW */);
+                      if(!E(_79/* sii0 */)){
+                        var _7a/*   sihN */ = _74/* sihN */;
+                        _70/*  sihM */ = _76/* sihR */;
+                        _71/*  sihN */ = _7a/*   sihN */;
                         return __continue/* EXTERNAL */;
                       }else{
-                        var _7b/* sid7 */ = __get/* EXTERNAL */(_6g/* si8Y */, _78/* sicY */),
-                        _7c/* sidb */ = __get/* EXTERNAL */(_7b/* sid7 */, _6u/* sicw */),
-                        _7d/* sidf */ = String/* EXTERNAL */(_7c/* sidb */),
-                        _7e/* sidj */ = strEq/* EXTERNAL */(_7d/* sidf */, _6x/* sicG */);
-                        if(!E(_7e/* sidj */)){
-                          var _7f/* sidt */ = strEq/* EXTERNAL */(_7d/* sidf */, E(_68/* LudoJS.lvl33 */));
-                          if(!E(_7f/* sidt */)){
+                        var _7b/* sii5 */ = __get/* EXTERNAL */(_6g/* sidW */, _78/* sihW */),
+                        _7c/* sii9 */ = __get/* EXTERNAL */(_7b/* sii5 */, _6u/* sihu */),
+                        _7d/* siid */ = String/* EXTERNAL */(_7c/* sii9 */),
+                        _7e/* siih */ = strEq/* EXTERNAL */(_7d/* siid */, _6x/* sihE */);
+                        if(!E(_7e/* siih */)){
+                          var _7f/* siir */ = strEq/* EXTERNAL */(_7d/* siid */, E(_68/* LudoJS.lvl33 */));
+                          if(!E(_7f/* siir */)){
                             return E(_67/* LudoJS.lvl32 */);
                           }else{
-                            var _7g/* sidA */ = __get/* EXTERNAL */(_7b/* sid7 */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                            _7h/* sidP */ = new T(function(){
-                              return B(_q/* GHC.Base.++ */(_74/* sicP */, new T2(1,new T2(0,_77/* sicU */,new T1(1,new T(function(){
-                                var _7i/* sidE */ = Number/* EXTERNAL */(_7g/* sidA */);
-                                return jsTrunc/* EXTERNAL */(_7i/* sidE */);
+                            var _7g/* siiy */ = __get/* EXTERNAL */(_7b/* sii5 */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                            _7h/* siiN */ = new T(function(){
+                              return B(_q/* GHC.Base.++ */(_74/* sihN */, new T2(1,new T2(0,_77/* sihS */,new T1(1,new T(function(){
+                                var _7i/* siiC */ = Number/* EXTERNAL */(_7g/* siiy */);
+                                return jsTrunc/* EXTERNAL */(_7i/* siiC */);
                               }))),_4/* GHC.Types.[] */)));
                             });
-                            _70/*  sicO */ = _76/* sicT */;
-                            _71/*  sicP */ = _7h/* sidP */;
+                            _70/*  sihM */ = _76/* sihR */;
+                            _71/*  sihN */ = _7h/* siiN */;
                             return __continue/* EXTERNAL */;
                           }
                         }else{
-                          _70/*  sicO */ = _76/* sicT */;
-                          _71/*  sicP */ = new T(function(){
-                            return B(_q/* GHC.Base.++ */(_74/* sicP */, new T2(1,new T2(0,_77/* sicU */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                          _70/*  sihM */ = _76/* sihR */;
+                          _71/*  sihN */ = new T(function(){
+                            return B(_q/* GHC.Base.++ */(_74/* sihN */, new T2(1,new T2(0,_77/* sihS */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                           });
                           return __continue/* EXTERNAL */;
                         }
                       }
                     }
-                  })(_70/*  sicO */, _71/*  sicP */, _/* EXTERNAL */));
-                  if(_72/*  sicN */!=__continue/* EXTERNAL */){
-                    return _72/*  sicN */;
+                  })(_70/*  sihM */, _71/*  sihN */, _/* EXTERNAL */));
+                  if(_72/*  sihL */!=__continue/* EXTERNAL */){
+                    return _72/*  sihL */;
                   }
                 }
               };
-              return new F(function(){return _6Z/* sicN */(_6o/* sicf */, new T(function(){
-                return B(_q/* GHC.Base.++ */(_6m/* sicb */, new T2(1,new T2(0,_6p/* sicg */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+              return new F(function(){return _6Z/* sihL */(_6o/* sihd */, new T(function(){
+                return B(_q/* GHC.Base.++ */(_6m/* sih9 */, new T2(1,new T2(0,_6p/* sihe */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
               }), _/* EXTERNAL */);});
             }
           }
         }
-      })(_6i/*  sica */, _6j/*  sicb */, _/* EXTERNAL */));
-      if(_6k/*  si90 */!=__continue/* EXTERNAL */){
-        return _6k/*  si90 */;
+      })(_6i/*  sih8 */, _6j/*  sih9 */, _/* EXTERNAL */));
+      if(_6k/*  sidY */!=__continue/* EXTERNAL */){
+        return _6k/*  sidY */;
       }
     }
   },
-  _7j/* si8Z */ = function(_7k/* si91 */, _7l/* si92 */, _7m/* si93 */, _/* EXTERNAL */){
-    var _7n/* si97 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _7k/* si91 */, _4/* GHC.Types.[] */))),
-    _7o/* si9b */ = __has/* EXTERNAL */(_6g/* si8Y */, _7n/* si97 */);
-    if(!E(_7o/* si9b */)){
-      return new F(function(){return _6h/* si90 */(_7l/* si92 */, _7m/* si93 */, _/* EXTERNAL */);});
+  _7j/* sidX */ = function(_7k/* sidZ */, _7l/* sie0 */, _7m/* sie1 */, _/* EXTERNAL */){
+    var _7n/* sie5 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _7k/* sidZ */, _4/* GHC.Types.[] */))),
+    _7o/* sie9 */ = __has/* EXTERNAL */(_6g/* sidW */, _7n/* sie5 */);
+    if(!E(_7o/* sie9 */)){
+      return new F(function(){return _6h/* sidY */(_7l/* sie0 */, _7m/* sie1 */, _/* EXTERNAL */);});
     }else{
-      var _7p/* si9g */ = __get/* EXTERNAL */(_6g/* si8Y */, _7n/* si97 */),
-      _7q/* si9j */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-      _7r/* si9m */ = __get/* EXTERNAL */(_7p/* si9g */, _7q/* si9j */),
-      _7s/* si9q */ = String/* EXTERNAL */(_7r/* si9m */),
-      _7t/* si9t */ = E(_69/* LudoJS.lvl34 */),
-      _7u/* si9w */ = strEq/* EXTERNAL */(_7s/* si9q */, _7t/* si9t */);
-      if(!E(_7u/* si9w */)){
-        var _7v/* siaI */ = E(_68/* LudoJS.lvl33 */),
-        _7w/* siaL */ = strEq/* EXTERNAL */(_7s/* si9q */, _7v/* siaI */);
-        if(!E(_7w/* siaL */)){
+      var _7p/* siee */ = __get/* EXTERNAL */(_6g/* sidW */, _7n/* sie5 */),
+      _7q/* sieh */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+      _7r/* siek */ = __get/* EXTERNAL */(_7p/* siee */, _7q/* sieh */),
+      _7s/* sieo */ = String/* EXTERNAL */(_7r/* siek */),
+      _7t/* sier */ = E(_69/* LudoJS.lvl34 */),
+      _7u/* sieu */ = strEq/* EXTERNAL */(_7s/* sieo */, _7t/* sier */);
+      if(!E(_7u/* sieu */)){
+        var _7v/* sifG */ = E(_68/* LudoJS.lvl33 */),
+        _7w/* sifJ */ = strEq/* EXTERNAL */(_7s/* sieo */, _7v/* sifG */);
+        if(!E(_7w/* sifJ */)){
           return E(_67/* LudoJS.lvl32 */);
         }else{
-          var _7x/* siaP */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-          _7y/* siaS */ = __get/* EXTERNAL */(_7p/* si9g */, _7x/* siaP */),
-          _7z/* siaV */ = function(_7A/*  siaW */, _7B/*  siaX */, _/* EXTERNAL */){
+          var _7x/* sifN */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+          _7y/* sifQ */ = __get/* EXTERNAL */(_7p/* siee */, _7x/* sifN */),
+          _7z/* sifT */ = function(_7A/*  sifU */, _7B/*  sifV */, _/* EXTERNAL */){
             while(1){
-              var _7C/*  siaV */ = B((function(_7D/* siaW */, _7E/* siaX */, _/* EXTERNAL */){
-                var _7F/* siaZ */ = E(_7D/* siaW */);
-                if(!_7F/* siaZ */._){
-                  return _7E/* siaX */;
+              var _7C/*  sifT */ = B((function(_7D/* sifU */, _7E/* sifV */, _/* EXTERNAL */){
+                var _7F/* sifX */ = E(_7D/* sifU */);
+                if(!_7F/* sifX */._){
+                  return _7E/* sifV */;
                 }else{
-                  var _7G/* sib1 */ = _7F/* siaZ */.b,
-                  _7H/* sib2 */ = E(_7F/* siaZ */.a),
-                  _7I/* sib6 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _7H/* sib2 */, _4/* GHC.Types.[] */))),
-                  _7J/* siba */ = __has/* EXTERNAL */(_6g/* si8Y */, _7I/* sib6 */);
-                  if(!E(_7J/* siba */)){
-                    var _7K/*   siaX */ = _7E/* siaX */;
-                    _7A/*  siaW */ = _7G/* sib1 */;
-                    _7B/*  siaX */ = _7K/*   siaX */;
+                  var _7G/* sifZ */ = _7F/* sifX */.b,
+                  _7H/* sig0 */ = E(_7F/* sifX */.a),
+                  _7I/* sig4 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _7H/* sig0 */, _4/* GHC.Types.[] */))),
+                  _7J/* sig8 */ = __has/* EXTERNAL */(_6g/* sidW */, _7I/* sig4 */);
+                  if(!E(_7J/* sig8 */)){
+                    var _7K/*   sifV */ = _7E/* sifV */;
+                    _7A/*  sifU */ = _7G/* sifZ */;
+                    _7B/*  sifV */ = _7K/*   sifV */;
                     return __continue/* EXTERNAL */;
                   }else{
-                    var _7L/* sibf */ = __get/* EXTERNAL */(_6g/* si8Y */, _7I/* sib6 */),
-                    _7M/* sibj */ = __get/* EXTERNAL */(_7L/* sibf */, _7q/* si9j */),
-                    _7N/* sibn */ = String/* EXTERNAL */(_7M/* sibj */),
-                    _7O/* sibr */ = strEq/* EXTERNAL */(_7N/* sibn */, _7t/* si9t */);
-                    if(!E(_7O/* sibr */)){
-                      var _7P/* sibz */ = strEq/* EXTERNAL */(_7N/* sibn */, _7v/* siaI */);
-                      if(!E(_7P/* sibz */)){
+                    var _7L/* sigd */ = __get/* EXTERNAL */(_6g/* sidW */, _7I/* sig4 */),
+                    _7M/* sigh */ = __get/* EXTERNAL */(_7L/* sigd */, _7q/* sieh */),
+                    _7N/* sigl */ = String/* EXTERNAL */(_7M/* sigh */),
+                    _7O/* sigp */ = strEq/* EXTERNAL */(_7N/* sigl */, _7t/* sier */);
+                    if(!E(_7O/* sigp */)){
+                      var _7P/* sigx */ = strEq/* EXTERNAL */(_7N/* sigl */, _7v/* sifG */);
+                      if(!E(_7P/* sigx */)){
                         return E(_67/* LudoJS.lvl32 */);
                       }else{
-                        var _7Q/* sibE */ = __get/* EXTERNAL */(_7L/* sibf */, _7x/* siaP */),
-                        _7R/* sibT */ = new T(function(){
-                          return B(_q/* GHC.Base.++ */(_7E/* siaX */, new T2(1,new T2(0,_7H/* sib2 */,new T1(1,new T(function(){
-                            var _7S/* sibI */ = Number/* EXTERNAL */(_7Q/* sibE */);
-                            return jsTrunc/* EXTERNAL */(_7S/* sibI */);
+                        var _7Q/* sigC */ = __get/* EXTERNAL */(_7L/* sigd */, _7x/* sifN */),
+                        _7R/* sigR */ = new T(function(){
+                          return B(_q/* GHC.Base.++ */(_7E/* sifV */, new T2(1,new T2(0,_7H/* sig0 */,new T1(1,new T(function(){
+                            var _7S/* sigG */ = Number/* EXTERNAL */(_7Q/* sigC */);
+                            return jsTrunc/* EXTERNAL */(_7S/* sigG */);
                           }))),_4/* GHC.Types.[] */)));
                         });
-                        _7A/*  siaW */ = _7G/* sib1 */;
-                        _7B/*  siaX */ = _7R/* sibT */;
+                        _7A/*  sifU */ = _7G/* sifZ */;
+                        _7B/*  sifV */ = _7R/* sigR */;
                         return __continue/* EXTERNAL */;
                       }
                     }else{
-                      _7A/*  siaW */ = _7G/* sib1 */;
-                      _7B/*  siaX */ = new T(function(){
-                        return B(_q/* GHC.Base.++ */(_7E/* siaX */, new T2(1,new T2(0,_7H/* sib2 */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                      _7A/*  sifU */ = _7G/* sifZ */;
+                      _7B/*  sifV */ = new T(function(){
+                        return B(_q/* GHC.Base.++ */(_7E/* sifV */, new T2(1,new T2(0,_7H/* sig0 */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                       });
                       return __continue/* EXTERNAL */;
                     }
                   }
                 }
-              })(_7A/*  siaW */, _7B/*  siaX */, _/* EXTERNAL */));
-              if(_7C/*  siaV */!=__continue/* EXTERNAL */){
-                return _7C/*  siaV */;
+              })(_7A/*  sifU */, _7B/*  sifV */, _/* EXTERNAL */));
+              if(_7C/*  sifT */!=__continue/* EXTERNAL */){
+                return _7C/*  sifT */;
               }
             }
           },
-          _7T/* sic8 */ = new T(function(){
-            return B(_q/* GHC.Base.++ */(_7m/* si93 */, new T2(1,new T2(0,_7k/* si91 */,new T1(1,new T(function(){
-              var _7U/* sibX */ = Number/* EXTERNAL */(_7y/* siaS */);
-              return jsTrunc/* EXTERNAL */(_7U/* sibX */);
+          _7T/* sih6 */ = new T(function(){
+            return B(_q/* GHC.Base.++ */(_7m/* sie1 */, new T2(1,new T2(0,_7k/* sidZ */,new T1(1,new T(function(){
+              var _7U/* sigV */ = Number/* EXTERNAL */(_7y/* sifQ */);
+              return jsTrunc/* EXTERNAL */(_7U/* sigV */);
             }))),_4/* GHC.Types.[] */)));
           });
-          return new F(function(){return _7z/* siaV */(_7l/* si92 */, _7T/* sic8 */, _/* EXTERNAL */);});
+          return new F(function(){return _7z/* sifT */(_7l/* sie0 */, _7T/* sih6 */, _/* EXTERNAL */);});
         }
       }else{
-        var _7V/* si9A */ = function(_7W/*  si9B */, _7X/*  si9C */, _/* EXTERNAL */){
+        var _7V/* siey */ = function(_7W/*  siez */, _7X/*  sieA */, _/* EXTERNAL */){
           while(1){
-            var _7Y/*  si9A */ = B((function(_7Z/* si9B */, _80/* si9C */, _/* EXTERNAL */){
-              var _81/* si9E */ = E(_7Z/* si9B */);
-              if(!_81/* si9E */._){
-                return _80/* si9C */;
+            var _7Y/*  siey */ = B((function(_7Z/* siez */, _80/* sieA */, _/* EXTERNAL */){
+              var _81/* sieC */ = E(_7Z/* siez */);
+              if(!_81/* sieC */._){
+                return _80/* sieA */;
               }else{
-                var _82/* si9G */ = _81/* si9E */.b,
-                _83/* si9H */ = E(_81/* si9E */.a),
-                _84/* si9L */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _83/* si9H */, _4/* GHC.Types.[] */))),
-                _85/* si9P */ = __has/* EXTERNAL */(_6g/* si8Y */, _84/* si9L */);
-                if(!E(_85/* si9P */)){
-                  var _86/*   si9C */ = _80/* si9C */;
-                  _7W/*  si9B */ = _82/* si9G */;
-                  _7X/*  si9C */ = _86/*   si9C */;
+                var _82/* sieE */ = _81/* sieC */.b,
+                _83/* sieF */ = E(_81/* sieC */.a),
+                _84/* sieJ */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _83/* sieF */, _4/* GHC.Types.[] */))),
+                _85/* sieN */ = __has/* EXTERNAL */(_6g/* sidW */, _84/* sieJ */);
+                if(!E(_85/* sieN */)){
+                  var _86/*   sieA */ = _80/* sieA */;
+                  _7W/*  siez */ = _82/* sieE */;
+                  _7X/*  sieA */ = _86/*   sieA */;
                   return __continue/* EXTERNAL */;
                 }else{
-                  var _87/* si9U */ = __get/* EXTERNAL */(_6g/* si8Y */, _84/* si9L */),
-                  _88/* si9Y */ = __get/* EXTERNAL */(_87/* si9U */, _7q/* si9j */),
-                  _89/* sia2 */ = String/* EXTERNAL */(_88/* si9Y */),
-                  _8a/* sia6 */ = strEq/* EXTERNAL */(_89/* sia2 */, _7t/* si9t */);
-                  if(!E(_8a/* sia6 */)){
-                    var _8b/* siag */ = strEq/* EXTERNAL */(_89/* sia2 */, E(_68/* LudoJS.lvl33 */));
-                    if(!E(_8b/* siag */)){
+                  var _87/* sieS */ = __get/* EXTERNAL */(_6g/* sidW */, _84/* sieJ */),
+                  _88/* sieW */ = __get/* EXTERNAL */(_87/* sieS */, _7q/* sieh */),
+                  _89/* sif0 */ = String/* EXTERNAL */(_88/* sieW */),
+                  _8a/* sif4 */ = strEq/* EXTERNAL */(_89/* sif0 */, _7t/* sier */);
+                  if(!E(_8a/* sif4 */)){
+                    var _8b/* sife */ = strEq/* EXTERNAL */(_89/* sif0 */, E(_68/* LudoJS.lvl33 */));
+                    if(!E(_8b/* sife */)){
                       return E(_67/* LudoJS.lvl32 */);
                     }else{
-                      var _8c/* sian */ = __get/* EXTERNAL */(_87/* si9U */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                      _8d/* siaC */ = new T(function(){
-                        return B(_q/* GHC.Base.++ */(_80/* si9C */, new T2(1,new T2(0,_83/* si9H */,new T1(1,new T(function(){
-                          var _8e/* siar */ = Number/* EXTERNAL */(_8c/* sian */);
-                          return jsTrunc/* EXTERNAL */(_8e/* siar */);
+                      var _8c/* sifl */ = __get/* EXTERNAL */(_87/* sieS */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                      _8d/* sifA */ = new T(function(){
+                        return B(_q/* GHC.Base.++ */(_80/* sieA */, new T2(1,new T2(0,_83/* sieF */,new T1(1,new T(function(){
+                          var _8e/* sifp */ = Number/* EXTERNAL */(_8c/* sifl */);
+                          return jsTrunc/* EXTERNAL */(_8e/* sifp */);
                         }))),_4/* GHC.Types.[] */)));
                       });
-                      _7W/*  si9B */ = _82/* si9G */;
-                      _7X/*  si9C */ = _8d/* siaC */;
+                      _7W/*  siez */ = _82/* sieE */;
+                      _7X/*  sieA */ = _8d/* sifA */;
                       return __continue/* EXTERNAL */;
                     }
                   }else{
-                    _7W/*  si9B */ = _82/* si9G */;
-                    _7X/*  si9C */ = new T(function(){
-                      return B(_q/* GHC.Base.++ */(_80/* si9C */, new T2(1,new T2(0,_83/* si9H */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                    _7W/*  siez */ = _82/* sieE */;
+                    _7X/*  sieA */ = new T(function(){
+                      return B(_q/* GHC.Base.++ */(_80/* sieA */, new T2(1,new T2(0,_83/* sieF */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                     });
                     return __continue/* EXTERNAL */;
                   }
                 }
               }
-            })(_7W/*  si9B */, _7X/*  si9C */, _/* EXTERNAL */));
-            if(_7Y/*  si9A */!=__continue/* EXTERNAL */){
-              return _7Y/*  si9A */;
+            })(_7W/*  siez */, _7X/*  sieA */, _/* EXTERNAL */));
+            if(_7Y/*  siey */!=__continue/* EXTERNAL */){
+              return _7Y/*  siey */;
             }
           }
         };
-        return new F(function(){return _7V/* si9A */(_7l/* si92 */, new T(function(){
-          return B(_q/* GHC.Base.++ */(_7m/* si93 */, new T2(1,new T2(0,_7k/* si91 */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+        return new F(function(){return _7V/* siey */(_7l/* sie0 */, new T(function(){
+          return B(_q/* GHC.Base.++ */(_7m/* sie1 */, new T2(1,new T2(0,_7k/* sidZ */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
         }), _/* EXTERNAL */);});
       }
     }
   },
-  _8f/* sifl */ = B(_7j/* si8Z */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
-  _8g/* sifp */ = function(_8h/* sim6 */, _/* EXTERNAL */){
-    var _8i/* sim8 */ = E(_8h/* sim6 */);
-    if(!_8i/* sim8 */._){
+  _8f/* sikj */ = B(_7j/* sidX */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
+  _8g/* sikn */ = function(_8h/* sir4 */, _/* EXTERNAL */){
+    var _8i/* sir6 */ = E(_8h/* sir4 */);
+    if(!_8i/* sir6 */._){
       return _4/* GHC.Types.[] */;
     }else{
-      var _8j/* sim9 */ = _8i/* sim8 */.a,
-      _8k/* simh */ = __get/* EXTERNAL */(_6e/* si8O */, toJSStr/* EXTERNAL */(B(_5M/* LudoJS.$w$cshowsPrec */(_8j/* sim9 */, _4/* GHC.Types.[] */)))),
-      _8l/* simj */ = _8k/* simh */,
-      _8m/* siml */ = function(_8n/*  sipv */, _8o/*  sipw */, _/* EXTERNAL */){
+      var _8j/* sir7 */ = _8i/* sir6 */.a,
+      _8k/* sirf */ = __get/* EXTERNAL */(_6e/* sidM */, toJSStr/* EXTERNAL */(B(_5M/* LudoJS.$w$cshowsPrec */(_8j/* sir7 */, _4/* GHC.Types.[] */)))),
+      _8l/* sirh */ = _8k/* sirf */,
+      _8m/* sirj */ = function(_8n/*  siut */, _8o/*  siuu */, _/* EXTERNAL */){
         while(1){
-          var _8p/*  siml */ = B((function(_8q/* sipv */, _8r/* sipw */, _/* EXTERNAL */){
-            var _8s/* sipy */ = E(_8q/* sipv */);
-            if(!_8s/* sipy */._){
-              return _8r/* sipw */;
+          var _8p/*  sirj */ = B((function(_8q/* siut */, _8r/* siuu */, _/* EXTERNAL */){
+            var _8s/* siuw */ = E(_8q/* siut */);
+            if(!_8s/* siuw */._){
+              return _8r/* siuu */;
             }else{
-              var _8t/* sipA */ = _8s/* sipy */.b,
-              _8u/* sipB */ = E(_8s/* sipy */.a),
-              _8v/* sipF */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _8u/* sipB */, _4/* GHC.Types.[] */))),
-              _8w/* sipJ */ = __has/* EXTERNAL */(_8l/* simj */, _8v/* sipF */);
-              if(!E(_8w/* sipJ */)){
-                var _8x/*   sipw */ = _8r/* sipw */;
-                _8n/*  sipv */ = _8t/* sipA */;
-                _8o/*  sipw */ = _8x/*   sipw */;
+              var _8t/* siuy */ = _8s/* siuw */.b,
+              _8u/* siuz */ = E(_8s/* siuw */.a),
+              _8v/* siuD */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _8u/* siuz */, _4/* GHC.Types.[] */))),
+              _8w/* siuH */ = __has/* EXTERNAL */(_8l/* sirh */, _8v/* siuD */);
+              if(!E(_8w/* siuH */)){
+                var _8x/*   siuu */ = _8r/* siuu */;
+                _8n/*  siut */ = _8t/* siuy */;
+                _8o/*  siuu */ = _8x/*   siuu */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _8y/* sipO */ = __get/* EXTERNAL */(_8l/* simj */, _8v/* sipF */),
-                _8z/* sipR */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-                _8A/* sipU */ = __get/* EXTERNAL */(_8y/* sipO */, _8z/* sipR */),
-                _8B/* sipY */ = String/* EXTERNAL */(_8A/* sipU */),
-                _8C/* siq1 */ = E(_69/* LudoJS.lvl34 */),
-                _8D/* siq4 */ = strEq/* EXTERNAL */(_8B/* sipY */, _8C/* siq1 */);
-                if(!E(_8D/* siq4 */)){
-                  var _8E/* sirf */ = E(_68/* LudoJS.lvl33 */),
-                  _8F/* siri */ = strEq/* EXTERNAL */(_8B/* sipY */, _8E/* sirf */);
-                  if(!E(_8F/* siri */)){
+                var _8y/* siuM */ = __get/* EXTERNAL */(_8l/* sirh */, _8v/* siuD */),
+                _8z/* siuP */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+                _8A/* siuS */ = __get/* EXTERNAL */(_8y/* siuM */, _8z/* siuP */),
+                _8B/* siuW */ = String/* EXTERNAL */(_8A/* siuS */),
+                _8C/* siuZ */ = E(_69/* LudoJS.lvl34 */),
+                _8D/* siv2 */ = strEq/* EXTERNAL */(_8B/* siuW */, _8C/* siuZ */);
+                if(!E(_8D/* siv2 */)){
+                  var _8E/* siwd */ = E(_68/* LudoJS.lvl33 */),
+                  _8F/* siwg */ = strEq/* EXTERNAL */(_8B/* siuW */, _8E/* siwd */);
+                  if(!E(_8F/* siwg */)){
                     return E(_67/* LudoJS.lvl32 */);
                   }else{
-                    var _8G/* sirm */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-                    _8H/* sirp */ = __get/* EXTERNAL */(_8y/* sipO */, _8G/* sirm */),
-                    _8I/* sirs */ = function(_8J/*  sirt */, _8K/*  siru */, _/* EXTERNAL */){
+                    var _8G/* siwk */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+                    _8H/* siwn */ = __get/* EXTERNAL */(_8y/* siuM */, _8G/* siwk */),
+                    _8I/* siwq */ = function(_8J/*  siwr */, _8K/*  siws */, _/* EXTERNAL */){
                       while(1){
-                        var _8L/*  sirs */ = B((function(_8M/* sirt */, _8N/* siru */, _/* EXTERNAL */){
-                          var _8O/* sirw */ = E(_8M/* sirt */);
-                          if(!_8O/* sirw */._){
-                            return _8N/* siru */;
+                        var _8L/*  siwq */ = B((function(_8M/* siwr */, _8N/* siws */, _/* EXTERNAL */){
+                          var _8O/* siwu */ = E(_8M/* siwr */);
+                          if(!_8O/* siwu */._){
+                            return _8N/* siws */;
                           }else{
-                            var _8P/* siry */ = _8O/* sirw */.b,
-                            _8Q/* sirz */ = E(_8O/* sirw */.a),
-                            _8R/* sirD */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _8Q/* sirz */, _4/* GHC.Types.[] */))),
-                            _8S/* sirH */ = __has/* EXTERNAL */(_8l/* simj */, _8R/* sirD */);
-                            if(!E(_8S/* sirH */)){
-                              var _8T/*   siru */ = _8N/* siru */;
-                              _8J/*  sirt */ = _8P/* siry */;
-                              _8K/*  siru */ = _8T/*   siru */;
+                            var _8P/* siww */ = _8O/* siwu */.b,
+                            _8Q/* siwx */ = E(_8O/* siwu */.a),
+                            _8R/* siwB */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _8Q/* siwx */, _4/* GHC.Types.[] */))),
+                            _8S/* siwF */ = __has/* EXTERNAL */(_8l/* sirh */, _8R/* siwB */);
+                            if(!E(_8S/* siwF */)){
+                              var _8T/*   siws */ = _8N/* siws */;
+                              _8J/*  siwr */ = _8P/* siww */;
+                              _8K/*  siws */ = _8T/*   siws */;
                               return __continue/* EXTERNAL */;
                             }else{
-                              var _8U/* sirM */ = __get/* EXTERNAL */(_8l/* simj */, _8R/* sirD */),
-                              _8V/* sirQ */ = __get/* EXTERNAL */(_8U/* sirM */, _8z/* sipR */),
-                              _8W/* sirU */ = String/* EXTERNAL */(_8V/* sirQ */),
-                              _8X/* sirY */ = strEq/* EXTERNAL */(_8W/* sirU */, _8C/* siq1 */);
-                              if(!E(_8X/* sirY */)){
-                                var _8Y/* sis6 */ = strEq/* EXTERNAL */(_8W/* sirU */, _8E/* sirf */);
-                                if(!E(_8Y/* sis6 */)){
+                              var _8U/* siwK */ = __get/* EXTERNAL */(_8l/* sirh */, _8R/* siwB */),
+                              _8V/* siwO */ = __get/* EXTERNAL */(_8U/* siwK */, _8z/* siuP */),
+                              _8W/* siwS */ = String/* EXTERNAL */(_8V/* siwO */),
+                              _8X/* siwW */ = strEq/* EXTERNAL */(_8W/* siwS */, _8C/* siuZ */);
+                              if(!E(_8X/* siwW */)){
+                                var _8Y/* six4 */ = strEq/* EXTERNAL */(_8W/* siwS */, _8E/* siwd */);
+                                if(!E(_8Y/* six4 */)){
                                   return E(_67/* LudoJS.lvl32 */);
                                 }else{
-                                  var _8Z/* sisb */ = __get/* EXTERNAL */(_8U/* sirM */, _8G/* sirm */),
-                                  _90/* sisq */ = new T(function(){
-                                    return B(_q/* GHC.Base.++ */(_8N/* siru */, new T2(1,new T2(0,_8Q/* sirz */,new T1(1,new T(function(){
-                                      var _91/* sisf */ = Number/* EXTERNAL */(_8Z/* sisb */);
-                                      return jsTrunc/* EXTERNAL */(_91/* sisf */);
+                                  var _8Z/* six9 */ = __get/* EXTERNAL */(_8U/* siwK */, _8G/* siwk */),
+                                  _90/* sixo */ = new T(function(){
+                                    return B(_q/* GHC.Base.++ */(_8N/* siws */, new T2(1,new T2(0,_8Q/* siwx */,new T1(1,new T(function(){
+                                      var _91/* sixd */ = Number/* EXTERNAL */(_8Z/* six9 */);
+                                      return jsTrunc/* EXTERNAL */(_91/* sixd */);
                                     }))),_4/* GHC.Types.[] */)));
                                   });
-                                  _8J/*  sirt */ = _8P/* siry */;
-                                  _8K/*  siru */ = _90/* sisq */;
+                                  _8J/*  siwr */ = _8P/* siww */;
+                                  _8K/*  siws */ = _90/* sixo */;
                                   return __continue/* EXTERNAL */;
                                 }
                               }else{
-                                _8J/*  sirt */ = _8P/* siry */;
-                                _8K/*  siru */ = new T(function(){
-                                  return B(_q/* GHC.Base.++ */(_8N/* siru */, new T2(1,new T2(0,_8Q/* sirz */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                                _8J/*  siwr */ = _8P/* siww */;
+                                _8K/*  siws */ = new T(function(){
+                                  return B(_q/* GHC.Base.++ */(_8N/* siws */, new T2(1,new T2(0,_8Q/* siwx */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                                 });
                                 return __continue/* EXTERNAL */;
                               }
                             }
                           }
-                        })(_8J/*  sirt */, _8K/*  siru */, _/* EXTERNAL */));
-                        if(_8L/*  sirs */!=__continue/* EXTERNAL */){
-                          return _8L/*  sirs */;
+                        })(_8J/*  siwr */, _8K/*  siws */, _/* EXTERNAL */));
+                        if(_8L/*  siwq */!=__continue/* EXTERNAL */){
+                          return _8L/*  siwq */;
                         }
                       }
                     },
-                    _92/* sisE */ = new T(function(){
-                      return B(_q/* GHC.Base.++ */(_8r/* sipw */, new T2(1,new T2(0,_8u/* sipB */,new T1(1,new T(function(){
-                        var _93/* sist */ = Number/* EXTERNAL */(_8H/* sirp */);
-                        return jsTrunc/* EXTERNAL */(_93/* sist */);
+                    _92/* sixC */ = new T(function(){
+                      return B(_q/* GHC.Base.++ */(_8r/* siuu */, new T2(1,new T2(0,_8u/* siuz */,new T1(1,new T(function(){
+                        var _93/* sixr */ = Number/* EXTERNAL */(_8H/* siwn */);
+                        return jsTrunc/* EXTERNAL */(_93/* sixr */);
                       }))),_4/* GHC.Types.[] */)));
                     });
-                    return new F(function(){return _8I/* sirs */(_8t/* sipA */, _92/* sisE */, _/* EXTERNAL */);});
+                    return new F(function(){return _8I/* siwq */(_8t/* siuy */, _92/* sixC */, _/* EXTERNAL */);});
                   }
                 }else{
-                  var _94/* siq8 */ = function(_95/*  siq9 */, _96/*  siqa */, _/* EXTERNAL */){
+                  var _94/* siv6 */ = function(_95/*  siv7 */, _96/*  siv8 */, _/* EXTERNAL */){
                     while(1){
-                      var _97/*  siq8 */ = B((function(_98/* siq9 */, _99/* siqa */, _/* EXTERNAL */){
-                        var _9a/* siqc */ = E(_98/* siq9 */);
-                        if(!_9a/* siqc */._){
-                          return _99/* siqa */;
+                      var _97/*  siv6 */ = B((function(_98/* siv7 */, _99/* siv8 */, _/* EXTERNAL */){
+                        var _9a/* siva */ = E(_98/* siv7 */);
+                        if(!_9a/* siva */._){
+                          return _99/* siv8 */;
                         }else{
-                          var _9b/* siqe */ = _9a/* siqc */.b,
-                          _9c/* siqf */ = E(_9a/* siqc */.a),
-                          _9d/* siqj */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9c/* siqf */, _4/* GHC.Types.[] */))),
-                          _9e/* siqn */ = __has/* EXTERNAL */(_8l/* simj */, _9d/* siqj */);
-                          if(!E(_9e/* siqn */)){
-                            var _9f/*   siqa */ = _99/* siqa */;
-                            _95/*  siq9 */ = _9b/* siqe */;
-                            _96/*  siqa */ = _9f/*   siqa */;
+                          var _9b/* sivc */ = _9a/* siva */.b,
+                          _9c/* sivd */ = E(_9a/* siva */.a),
+                          _9d/* sivh */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9c/* sivd */, _4/* GHC.Types.[] */))),
+                          _9e/* sivl */ = __has/* EXTERNAL */(_8l/* sirh */, _9d/* sivh */);
+                          if(!E(_9e/* sivl */)){
+                            var _9f/*   siv8 */ = _99/* siv8 */;
+                            _95/*  siv7 */ = _9b/* sivc */;
+                            _96/*  siv8 */ = _9f/*   siv8 */;
                             return __continue/* EXTERNAL */;
                           }else{
-                            var _9g/* siqs */ = __get/* EXTERNAL */(_8l/* simj */, _9d/* siqj */),
-                            _9h/* siqw */ = __get/* EXTERNAL */(_9g/* siqs */, _8z/* sipR */),
-                            _9i/* siqA */ = String/* EXTERNAL */(_9h/* siqw */),
-                            _9j/* siqE */ = strEq/* EXTERNAL */(_9i/* siqA */, _8C/* siq1 */);
-                            if(!E(_9j/* siqE */)){
-                              var _9k/* siqO */ = strEq/* EXTERNAL */(_9i/* siqA */, E(_68/* LudoJS.lvl33 */));
-                              if(!E(_9k/* siqO */)){
+                            var _9g/* sivq */ = __get/* EXTERNAL */(_8l/* sirh */, _9d/* sivh */),
+                            _9h/* sivu */ = __get/* EXTERNAL */(_9g/* sivq */, _8z/* siuP */),
+                            _9i/* sivy */ = String/* EXTERNAL */(_9h/* sivu */),
+                            _9j/* sivC */ = strEq/* EXTERNAL */(_9i/* sivy */, _8C/* siuZ */);
+                            if(!E(_9j/* sivC */)){
+                              var _9k/* sivM */ = strEq/* EXTERNAL */(_9i/* sivy */, E(_68/* LudoJS.lvl33 */));
+                              if(!E(_9k/* sivM */)){
                                 return E(_67/* LudoJS.lvl32 */);
                               }else{
-                                var _9l/* siqV */ = __get/* EXTERNAL */(_9g/* siqs */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                                _9m/* sira */ = new T(function(){
-                                  return B(_q/* GHC.Base.++ */(_99/* siqa */, new T2(1,new T2(0,_9c/* siqf */,new T1(1,new T(function(){
-                                    var _9n/* siqZ */ = Number/* EXTERNAL */(_9l/* siqV */);
-                                    return jsTrunc/* EXTERNAL */(_9n/* siqZ */);
+                                var _9l/* sivT */ = __get/* EXTERNAL */(_9g/* sivq */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                                _9m/* siw8 */ = new T(function(){
+                                  return B(_q/* GHC.Base.++ */(_99/* siv8 */, new T2(1,new T2(0,_9c/* sivd */,new T1(1,new T(function(){
+                                    var _9n/* sivX */ = Number/* EXTERNAL */(_9l/* sivT */);
+                                    return jsTrunc/* EXTERNAL */(_9n/* sivX */);
                                   }))),_4/* GHC.Types.[] */)));
                                 });
-                                _95/*  siq9 */ = _9b/* siqe */;
-                                _96/*  siqa */ = _9m/* sira */;
+                                _95/*  siv7 */ = _9b/* sivc */;
+                                _96/*  siv8 */ = _9m/* siw8 */;
                                 return __continue/* EXTERNAL */;
                               }
                             }else{
-                              _95/*  siq9 */ = _9b/* siqe */;
-                              _96/*  siqa */ = new T(function(){
-                                return B(_q/* GHC.Base.++ */(_99/* siqa */, new T2(1,new T2(0,_9c/* siqf */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                              _95/*  siv7 */ = _9b/* sivc */;
+                              _96/*  siv8 */ = new T(function(){
+                                return B(_q/* GHC.Base.++ */(_99/* siv8 */, new T2(1,new T2(0,_9c/* sivd */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                               });
                               return __continue/* EXTERNAL */;
                             }
                           }
                         }
-                      })(_95/*  siq9 */, _96/*  siqa */, _/* EXTERNAL */));
-                      if(_97/*  siq8 */!=__continue/* EXTERNAL */){
-                        return _97/*  siq8 */;
+                      })(_95/*  siv7 */, _96/*  siv8 */, _/* EXTERNAL */));
+                      if(_97/*  siv6 */!=__continue/* EXTERNAL */){
+                        return _97/*  siv6 */;
                       }
                     }
                   };
-                  return new F(function(){return _94/* siq8 */(_8t/* sipA */, new T(function(){
-                    return B(_q/* GHC.Base.++ */(_8r/* sipw */, new T2(1,new T2(0,_8u/* sipB */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                  return new F(function(){return _94/* siv6 */(_8t/* siuy */, new T(function(){
+                    return B(_q/* GHC.Base.++ */(_8r/* siuu */, new T2(1,new T2(0,_8u/* siuz */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                   }), _/* EXTERNAL */);});
                 }
               }
             }
-          })(_8n/*  sipv */, _8o/*  sipw */, _/* EXTERNAL */));
-          if(_8p/*  siml */!=__continue/* EXTERNAL */){
-            return _8p/*  siml */;
+          })(_8n/*  siut */, _8o/*  siuu */, _/* EXTERNAL */));
+          if(_8p/*  sirj */!=__continue/* EXTERNAL */){
+            return _8p/*  sirj */;
           }
         }
       },
-      _9o/* simk */ = function(_9p/* simm */, _9q/* simn */, _9r/* simo */, _/* EXTERNAL */){
-        var _9s/* sims */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9p/* simm */, _4/* GHC.Types.[] */))),
-        _9t/* simw */ = __has/* EXTERNAL */(_8l/* simj */, _9s/* sims */);
-        if(!E(_9t/* simw */)){
-          return new F(function(){return _8m/* siml */(_9q/* simn */, _9r/* simo */, _/* EXTERNAL */);});
+      _9o/* siri */ = function(_9p/* sirk */, _9q/* sirl */, _9r/* sirm */, _/* EXTERNAL */){
+        var _9s/* sirq */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9p/* sirk */, _4/* GHC.Types.[] */))),
+        _9t/* siru */ = __has/* EXTERNAL */(_8l/* sirh */, _9s/* sirq */);
+        if(!E(_9t/* siru */)){
+          return new F(function(){return _8m/* sirj */(_9q/* sirl */, _9r/* sirm */, _/* EXTERNAL */);});
         }else{
-          var _9u/* simB */ = __get/* EXTERNAL */(_8l/* simj */, _9s/* sims */),
-          _9v/* simE */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-          _9w/* simH */ = __get/* EXTERNAL */(_9u/* simB */, _9v/* simE */),
-          _9x/* simL */ = String/* EXTERNAL */(_9w/* simH */),
-          _9y/* simO */ = E(_69/* LudoJS.lvl34 */),
-          _9z/* simR */ = strEq/* EXTERNAL */(_9x/* simL */, _9y/* simO */);
-          if(!E(_9z/* simR */)){
-            var _9A/* sio3 */ = E(_68/* LudoJS.lvl33 */),
-            _9B/* sio6 */ = strEq/* EXTERNAL */(_9x/* simL */, _9A/* sio3 */);
-            if(!E(_9B/* sio6 */)){
+          var _9u/* sirz */ = __get/* EXTERNAL */(_8l/* sirh */, _9s/* sirq */),
+          _9v/* sirC */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+          _9w/* sirF */ = __get/* EXTERNAL */(_9u/* sirz */, _9v/* sirC */),
+          _9x/* sirJ */ = String/* EXTERNAL */(_9w/* sirF */),
+          _9y/* sirM */ = E(_69/* LudoJS.lvl34 */),
+          _9z/* sirP */ = strEq/* EXTERNAL */(_9x/* sirJ */, _9y/* sirM */);
+          if(!E(_9z/* sirP */)){
+            var _9A/* sit1 */ = E(_68/* LudoJS.lvl33 */),
+            _9B/* sit4 */ = strEq/* EXTERNAL */(_9x/* sirJ */, _9A/* sit1 */);
+            if(!E(_9B/* sit4 */)){
               return E(_67/* LudoJS.lvl32 */);
             }else{
-              var _9C/* sioa */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-              _9D/* siod */ = __get/* EXTERNAL */(_9u/* simB */, _9C/* sioa */),
-              _9E/* siog */ = function(_9F/*  sioh */, _9G/*  sioi */, _/* EXTERNAL */){
+              var _9C/* sit8 */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+              _9D/* sitb */ = __get/* EXTERNAL */(_9u/* sirz */, _9C/* sit8 */),
+              _9E/* site */ = function(_9F/*  sitf */, _9G/*  sitg */, _/* EXTERNAL */){
                 while(1){
-                  var _9H/*  siog */ = B((function(_9I/* sioh */, _9J/* sioi */, _/* EXTERNAL */){
-                    var _9K/* siok */ = E(_9I/* sioh */);
-                    if(!_9K/* siok */._){
-                      return _9J/* sioi */;
+                  var _9H/*  site */ = B((function(_9I/* sitf */, _9J/* sitg */, _/* EXTERNAL */){
+                    var _9K/* siti */ = E(_9I/* sitf */);
+                    if(!_9K/* siti */._){
+                      return _9J/* sitg */;
                     }else{
-                      var _9L/* siom */ = _9K/* siok */.b,
-                      _9M/* sion */ = E(_9K/* siok */.a),
-                      _9N/* sior */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9M/* sion */, _4/* GHC.Types.[] */))),
-                      _9O/* siov */ = __has/* EXTERNAL */(_8l/* simj */, _9N/* sior */);
-                      if(!E(_9O/* siov */)){
-                        var _9P/*   sioi */ = _9J/* sioi */;
-                        _9F/*  sioh */ = _9L/* siom */;
-                        _9G/*  sioi */ = _9P/*   sioi */;
+                      var _9L/* sitk */ = _9K/* siti */.b,
+                      _9M/* sitl */ = E(_9K/* siti */.a),
+                      _9N/* sitp */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _9M/* sitl */, _4/* GHC.Types.[] */))),
+                      _9O/* sitt */ = __has/* EXTERNAL */(_8l/* sirh */, _9N/* sitp */);
+                      if(!E(_9O/* sitt */)){
+                        var _9P/*   sitg */ = _9J/* sitg */;
+                        _9F/*  sitf */ = _9L/* sitk */;
+                        _9G/*  sitg */ = _9P/*   sitg */;
                         return __continue/* EXTERNAL */;
                       }else{
-                        var _9Q/* sioA */ = __get/* EXTERNAL */(_8l/* simj */, _9N/* sior */),
-                        _9R/* sioE */ = __get/* EXTERNAL */(_9Q/* sioA */, _9v/* simE */),
-                        _9S/* sioI */ = String/* EXTERNAL */(_9R/* sioE */),
-                        _9T/* sioM */ = strEq/* EXTERNAL */(_9S/* sioI */, _9y/* simO */);
-                        if(!E(_9T/* sioM */)){
-                          var _9U/* sioU */ = strEq/* EXTERNAL */(_9S/* sioI */, _9A/* sio3 */);
-                          if(!E(_9U/* sioU */)){
+                        var _9Q/* sity */ = __get/* EXTERNAL */(_8l/* sirh */, _9N/* sitp */),
+                        _9R/* sitC */ = __get/* EXTERNAL */(_9Q/* sity */, _9v/* sirC */),
+                        _9S/* sitG */ = String/* EXTERNAL */(_9R/* sitC */),
+                        _9T/* sitK */ = strEq/* EXTERNAL */(_9S/* sitG */, _9y/* sirM */);
+                        if(!E(_9T/* sitK */)){
+                          var _9U/* sitS */ = strEq/* EXTERNAL */(_9S/* sitG */, _9A/* sit1 */);
+                          if(!E(_9U/* sitS */)){
                             return E(_67/* LudoJS.lvl32 */);
                           }else{
-                            var _9V/* sioZ */ = __get/* EXTERNAL */(_9Q/* sioA */, _9C/* sioa */),
-                            _9W/* sipe */ = new T(function(){
-                              return B(_q/* GHC.Base.++ */(_9J/* sioi */, new T2(1,new T2(0,_9M/* sion */,new T1(1,new T(function(){
-                                var _9X/* sip3 */ = Number/* EXTERNAL */(_9V/* sioZ */);
-                                return jsTrunc/* EXTERNAL */(_9X/* sip3 */);
+                            var _9V/* sitX */ = __get/* EXTERNAL */(_9Q/* sity */, _9C/* sit8 */),
+                            _9W/* siuc */ = new T(function(){
+                              return B(_q/* GHC.Base.++ */(_9J/* sitg */, new T2(1,new T2(0,_9M/* sitl */,new T1(1,new T(function(){
+                                var _9X/* siu1 */ = Number/* EXTERNAL */(_9V/* sitX */);
+                                return jsTrunc/* EXTERNAL */(_9X/* siu1 */);
                               }))),_4/* GHC.Types.[] */)));
                             });
-                            _9F/*  sioh */ = _9L/* siom */;
-                            _9G/*  sioi */ = _9W/* sipe */;
+                            _9F/*  sitf */ = _9L/* sitk */;
+                            _9G/*  sitg */ = _9W/* siuc */;
                             return __continue/* EXTERNAL */;
                           }
                         }else{
-                          _9F/*  sioh */ = _9L/* siom */;
-                          _9G/*  sioi */ = new T(function(){
-                            return B(_q/* GHC.Base.++ */(_9J/* sioi */, new T2(1,new T2(0,_9M/* sion */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                          _9F/*  sitf */ = _9L/* sitk */;
+                          _9G/*  sitg */ = new T(function(){
+                            return B(_q/* GHC.Base.++ */(_9J/* sitg */, new T2(1,new T2(0,_9M/* sitl */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                           });
                           return __continue/* EXTERNAL */;
                         }
                       }
                     }
-                  })(_9F/*  sioh */, _9G/*  sioi */, _/* EXTERNAL */));
-                  if(_9H/*  siog */!=__continue/* EXTERNAL */){
-                    return _9H/*  siog */;
+                  })(_9F/*  sitf */, _9G/*  sitg */, _/* EXTERNAL */));
+                  if(_9H/*  site */!=__continue/* EXTERNAL */){
+                    return _9H/*  site */;
                   }
                 }
               },
-              _9Y/* sipt */ = new T(function(){
-                return B(_q/* GHC.Base.++ */(_9r/* simo */, new T2(1,new T2(0,_9p/* simm */,new T1(1,new T(function(){
-                  var _9Z/* sipi */ = Number/* EXTERNAL */(_9D/* siod */);
-                  return jsTrunc/* EXTERNAL */(_9Z/* sipi */);
+              _9Y/* siur */ = new T(function(){
+                return B(_q/* GHC.Base.++ */(_9r/* sirm */, new T2(1,new T2(0,_9p/* sirk */,new T1(1,new T(function(){
+                  var _9Z/* siug */ = Number/* EXTERNAL */(_9D/* sitb */);
+                  return jsTrunc/* EXTERNAL */(_9Z/* siug */);
                 }))),_4/* GHC.Types.[] */)));
               });
-              return new F(function(){return _9E/* siog */(_9q/* simn */, _9Y/* sipt */, _/* EXTERNAL */);});
+              return new F(function(){return _9E/* site */(_9q/* sirl */, _9Y/* siur */, _/* EXTERNAL */);});
             }
           }else{
-            var _a0/* simV */ = function(_a1/*  simW */, _a2/*  simX */, _/* EXTERNAL */){
+            var _a0/* sirT */ = function(_a1/*  sirU */, _a2/*  sirV */, _/* EXTERNAL */){
               while(1){
-                var _a3/*  simV */ = B((function(_a4/* simW */, _a5/* simX */, _/* EXTERNAL */){
-                  var _a6/* simZ */ = E(_a4/* simW */);
-                  if(!_a6/* simZ */._){
-                    return _a5/* simX */;
+                var _a3/*  sirT */ = B((function(_a4/* sirU */, _a5/* sirV */, _/* EXTERNAL */){
+                  var _a6/* sirX */ = E(_a4/* sirU */);
+                  if(!_a6/* sirX */._){
+                    return _a5/* sirV */;
                   }else{
-                    var _a7/* sin1 */ = _a6/* simZ */.b,
-                    _a8/* sin2 */ = E(_a6/* simZ */.a),
-                    _a9/* sin6 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _a8/* sin2 */, _4/* GHC.Types.[] */))),
-                    _aa/* sina */ = __has/* EXTERNAL */(_8l/* simj */, _a9/* sin6 */);
-                    if(!E(_aa/* sina */)){
-                      var _ab/*   simX */ = _a5/* simX */;
-                      _a1/*  simW */ = _a7/* sin1 */;
-                      _a2/*  simX */ = _ab/*   simX */;
+                    var _a7/* sirZ */ = _a6/* sirX */.b,
+                    _a8/* sis0 */ = E(_a6/* sirX */.a),
+                    _a9/* sis4 */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _a8/* sis0 */, _4/* GHC.Types.[] */))),
+                    _aa/* sis8 */ = __has/* EXTERNAL */(_8l/* sirh */, _a9/* sis4 */);
+                    if(!E(_aa/* sis8 */)){
+                      var _ab/*   sirV */ = _a5/* sirV */;
+                      _a1/*  sirU */ = _a7/* sirZ */;
+                      _a2/*  sirV */ = _ab/*   sirV */;
                       return __continue/* EXTERNAL */;
                     }else{
-                      var _ac/* sinf */ = __get/* EXTERNAL */(_8l/* simj */, _a9/* sin6 */),
-                      _ad/* sinj */ = __get/* EXTERNAL */(_ac/* sinf */, _9v/* simE */),
-                      _ae/* sinn */ = String/* EXTERNAL */(_ad/* sinj */),
-                      _af/* sinr */ = strEq/* EXTERNAL */(_ae/* sinn */, _9y/* simO */);
-                      if(!E(_af/* sinr */)){
-                        var _ag/* sinB */ = strEq/* EXTERNAL */(_ae/* sinn */, E(_68/* LudoJS.lvl33 */));
-                        if(!E(_ag/* sinB */)){
+                      var _ac/* sisd */ = __get/* EXTERNAL */(_8l/* sirh */, _a9/* sis4 */),
+                      _ad/* sish */ = __get/* EXTERNAL */(_ac/* sisd */, _9v/* sirC */),
+                      _ae/* sisl */ = String/* EXTERNAL */(_ad/* sish */),
+                      _af/* sisp */ = strEq/* EXTERNAL */(_ae/* sisl */, _9y/* sirM */);
+                      if(!E(_af/* sisp */)){
+                        var _ag/* sisz */ = strEq/* EXTERNAL */(_ae/* sisl */, E(_68/* LudoJS.lvl33 */));
+                        if(!E(_ag/* sisz */)){
                           return E(_67/* LudoJS.lvl32 */);
                         }else{
-                          var _ah/* sinI */ = __get/* EXTERNAL */(_ac/* sinf */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                          _ai/* sinX */ = new T(function(){
-                            return B(_q/* GHC.Base.++ */(_a5/* simX */, new T2(1,new T2(0,_a8/* sin2 */,new T1(1,new T(function(){
-                              var _aj/* sinM */ = Number/* EXTERNAL */(_ah/* sinI */);
-                              return jsTrunc/* EXTERNAL */(_aj/* sinM */);
+                          var _ah/* sisG */ = __get/* EXTERNAL */(_ac/* sisd */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                          _ai/* sisV */ = new T(function(){
+                            return B(_q/* GHC.Base.++ */(_a5/* sirV */, new T2(1,new T2(0,_a8/* sis0 */,new T1(1,new T(function(){
+                              var _aj/* sisK */ = Number/* EXTERNAL */(_ah/* sisG */);
+                              return jsTrunc/* EXTERNAL */(_aj/* sisK */);
                             }))),_4/* GHC.Types.[] */)));
                           });
-                          _a1/*  simW */ = _a7/* sin1 */;
-                          _a2/*  simX */ = _ai/* sinX */;
+                          _a1/*  sirU */ = _a7/* sirZ */;
+                          _a2/*  sirV */ = _ai/* sisV */;
                           return __continue/* EXTERNAL */;
                         }
                       }else{
-                        _a1/*  simW */ = _a7/* sin1 */;
-                        _a2/*  simX */ = new T(function(){
-                          return B(_q/* GHC.Base.++ */(_a5/* simX */, new T2(1,new T2(0,_a8/* sin2 */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                        _a1/*  sirU */ = _a7/* sirZ */;
+                        _a2/*  sirV */ = new T(function(){
+                          return B(_q/* GHC.Base.++ */(_a5/* sirV */, new T2(1,new T2(0,_a8/* sis0 */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                         });
                         return __continue/* EXTERNAL */;
                       }
                     }
                   }
-                })(_a1/*  simW */, _a2/*  simX */, _/* EXTERNAL */));
-                if(_a3/*  simV */!=__continue/* EXTERNAL */){
-                  return _a3/*  simV */;
+                })(_a1/*  sirU */, _a2/*  sirV */, _/* EXTERNAL */));
+                if(_a3/*  sirT */!=__continue/* EXTERNAL */){
+                  return _a3/*  sirT */;
                 }
               }
             };
-            return new F(function(){return _a0/* simV */(_9q/* simn */, new T(function(){
-              return B(_q/* GHC.Base.++ */(_9r/* simo */, new T2(1,new T2(0,_9p/* simm */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+            return new F(function(){return _a0/* sirT */(_9q/* sirl */, new T(function(){
+              return B(_q/* GHC.Base.++ */(_9r/* sirm */, new T2(1,new T2(0,_9p/* sirk */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
             }), _/* EXTERNAL */);});
           }
         }
       },
-      _ak/* sisG */ = B(_9o/* simk */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
-      _al/* sisJ */ = B(_8g/* sifp */(_8i/* sim8 */.b, _/* EXTERNAL */));
-      return new T2(1,new T2(0,_8j/* sim9 */,_ak/* sisG */),_al/* sisJ */);
+      _ak/* sixE */ = B(_9o/* siri */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
+      _al/* sixH */ = B(_8g/* sikn */(_8i/* sir6 */.b, _/* EXTERNAL */));
+      return new T2(1,new T2(0,_8j/* sir7 */,_ak/* sixE */),_al/* sixH */);
     }
   },
-  _am/* sifo */ = function(_an/* sifq */, _ao/* sifr */, _/* EXTERNAL */){
-    var _ap/* sifz */ = __get/* EXTERNAL */(_6e/* si8O */, toJSStr/* EXTERNAL */(B(_5M/* LudoJS.$w$cshowsPrec */(_an/* sifq */, _4/* GHC.Types.[] */)))),
-    _aq/* sifB */ = _ap/* sifz */,
-    _ar/* sifD */ = function(_as/*  siiN */, _at/*  siiO */, _/* EXTERNAL */){
+  _am/* sikm */ = function(_an/* siko */, _ao/* sikp */, _/* EXTERNAL */){
+    var _ap/* sikx */ = __get/* EXTERNAL */(_6e/* sidM */, toJSStr/* EXTERNAL */(B(_5M/* LudoJS.$w$cshowsPrec */(_an/* siko */, _4/* GHC.Types.[] */)))),
+    _aq/* sikz */ = _ap/* sikx */,
+    _ar/* sikB */ = function(_as/*  sinL */, _at/*  sinM */, _/* EXTERNAL */){
       while(1){
-        var _au/*  sifD */ = B((function(_av/* siiN */, _aw/* siiO */, _/* EXTERNAL */){
-          var _ax/* siiQ */ = E(_av/* siiN */);
-          if(!_ax/* siiQ */._){
-            return _aw/* siiO */;
+        var _au/*  sikB */ = B((function(_av/* sinL */, _aw/* sinM */, _/* EXTERNAL */){
+          var _ax/* sinO */ = E(_av/* sinL */);
+          if(!_ax/* sinO */._){
+            return _aw/* sinM */;
           }else{
-            var _ay/* siiS */ = _ax/* siiQ */.b,
-            _az/* siiT */ = E(_ax/* siiQ */.a),
-            _aA/* siiX */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _az/* siiT */, _4/* GHC.Types.[] */))),
-            _aB/* sij1 */ = __has/* EXTERNAL */(_aq/* sifB */, _aA/* siiX */);
-            if(!E(_aB/* sij1 */)){
-              var _aC/*   siiO */ = _aw/* siiO */;
-              _as/*  siiN */ = _ay/* siiS */;
-              _at/*  siiO */ = _aC/*   siiO */;
+            var _ay/* sinQ */ = _ax/* sinO */.b,
+            _az/* sinR */ = E(_ax/* sinO */.a),
+            _aA/* sinV */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _az/* sinR */, _4/* GHC.Types.[] */))),
+            _aB/* sinZ */ = __has/* EXTERNAL */(_aq/* sikz */, _aA/* sinV */);
+            if(!E(_aB/* sinZ */)){
+              var _aC/*   sinM */ = _aw/* sinM */;
+              _as/*  sinL */ = _ay/* sinQ */;
+              _at/*  sinM */ = _aC/*   sinM */;
               return __continue/* EXTERNAL */;
             }else{
-              var _aD/* sij6 */ = __get/* EXTERNAL */(_aq/* sifB */, _aA/* siiX */),
-              _aE/* sij9 */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-              _aF/* sijc */ = __get/* EXTERNAL */(_aD/* sij6 */, _aE/* sij9 */),
-              _aG/* sijg */ = String/* EXTERNAL */(_aF/* sijc */),
-              _aH/* sijj */ = E(_69/* LudoJS.lvl34 */),
-              _aI/* sijm */ = strEq/* EXTERNAL */(_aG/* sijg */, _aH/* sijj */);
-              if(!E(_aI/* sijm */)){
-                var _aJ/* sikx */ = E(_68/* LudoJS.lvl33 */),
-                _aK/* sikA */ = strEq/* EXTERNAL */(_aG/* sijg */, _aJ/* sikx */);
-                if(!E(_aK/* sikA */)){
+              var _aD/* sio4 */ = __get/* EXTERNAL */(_aq/* sikz */, _aA/* sinV */),
+              _aE/* sio7 */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+              _aF/* sioa */ = __get/* EXTERNAL */(_aD/* sio4 */, _aE/* sio7 */),
+              _aG/* sioe */ = String/* EXTERNAL */(_aF/* sioa */),
+              _aH/* sioh */ = E(_69/* LudoJS.lvl34 */),
+              _aI/* siok */ = strEq/* EXTERNAL */(_aG/* sioe */, _aH/* sioh */);
+              if(!E(_aI/* siok */)){
+                var _aJ/* sipv */ = E(_68/* LudoJS.lvl33 */),
+                _aK/* sipy */ = strEq/* EXTERNAL */(_aG/* sioe */, _aJ/* sipv */);
+                if(!E(_aK/* sipy */)){
                   return E(_67/* LudoJS.lvl32 */);
                 }else{
-                  var _aL/* sikE */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-                  _aM/* sikH */ = __get/* EXTERNAL */(_aD/* sij6 */, _aL/* sikE */),
-                  _aN/* sikK */ = function(_aO/*  sikL */, _aP/*  sikM */, _/* EXTERNAL */){
+                  var _aL/* sipC */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+                  _aM/* sipF */ = __get/* EXTERNAL */(_aD/* sio4 */, _aL/* sipC */),
+                  _aN/* sipI */ = function(_aO/*  sipJ */, _aP/*  sipK */, _/* EXTERNAL */){
                     while(1){
-                      var _aQ/*  sikK */ = B((function(_aR/* sikL */, _aS/* sikM */, _/* EXTERNAL */){
-                        var _aT/* sikO */ = E(_aR/* sikL */);
-                        if(!_aT/* sikO */._){
-                          return _aS/* sikM */;
+                      var _aQ/*  sipI */ = B((function(_aR/* sipJ */, _aS/* sipK */, _/* EXTERNAL */){
+                        var _aT/* sipM */ = E(_aR/* sipJ */);
+                        if(!_aT/* sipM */._){
+                          return _aS/* sipK */;
                         }else{
-                          var _aU/* sikQ */ = _aT/* sikO */.b,
-                          _aV/* sikR */ = E(_aT/* sikO */.a),
-                          _aW/* sikV */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _aV/* sikR */, _4/* GHC.Types.[] */))),
-                          _aX/* sikZ */ = __has/* EXTERNAL */(_aq/* sifB */, _aW/* sikV */);
-                          if(!E(_aX/* sikZ */)){
-                            var _aY/*   sikM */ = _aS/* sikM */;
-                            _aO/*  sikL */ = _aU/* sikQ */;
-                            _aP/*  sikM */ = _aY/*   sikM */;
+                          var _aU/* sipO */ = _aT/* sipM */.b,
+                          _aV/* sipP */ = E(_aT/* sipM */.a),
+                          _aW/* sipT */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _aV/* sipP */, _4/* GHC.Types.[] */))),
+                          _aX/* sipX */ = __has/* EXTERNAL */(_aq/* sikz */, _aW/* sipT */);
+                          if(!E(_aX/* sipX */)){
+                            var _aY/*   sipK */ = _aS/* sipK */;
+                            _aO/*  sipJ */ = _aU/* sipO */;
+                            _aP/*  sipK */ = _aY/*   sipK */;
                             return __continue/* EXTERNAL */;
                           }else{
-                            var _aZ/* sil4 */ = __get/* EXTERNAL */(_aq/* sifB */, _aW/* sikV */),
-                            _b0/* sil8 */ = __get/* EXTERNAL */(_aZ/* sil4 */, _aE/* sij9 */),
-                            _b1/* silc */ = String/* EXTERNAL */(_b0/* sil8 */),
-                            _b2/* silg */ = strEq/* EXTERNAL */(_b1/* silc */, _aH/* sijj */);
-                            if(!E(_b2/* silg */)){
-                              var _b3/* silo */ = strEq/* EXTERNAL */(_b1/* silc */, _aJ/* sikx */);
-                              if(!E(_b3/* silo */)){
+                            var _aZ/* siq2 */ = __get/* EXTERNAL */(_aq/* sikz */, _aW/* sipT */),
+                            _b0/* siq6 */ = __get/* EXTERNAL */(_aZ/* siq2 */, _aE/* sio7 */),
+                            _b1/* siqa */ = String/* EXTERNAL */(_b0/* siq6 */),
+                            _b2/* siqe */ = strEq/* EXTERNAL */(_b1/* siqa */, _aH/* sioh */);
+                            if(!E(_b2/* siqe */)){
+                              var _b3/* siqm */ = strEq/* EXTERNAL */(_b1/* siqa */, _aJ/* sipv */);
+                              if(!E(_b3/* siqm */)){
                                 return E(_67/* LudoJS.lvl32 */);
                               }else{
-                                var _b4/* silt */ = __get/* EXTERNAL */(_aZ/* sil4 */, _aL/* sikE */),
-                                _b5/* silI */ = new T(function(){
-                                  return B(_q/* GHC.Base.++ */(_aS/* sikM */, new T2(1,new T2(0,_aV/* sikR */,new T1(1,new T(function(){
-                                    var _b6/* silx */ = Number/* EXTERNAL */(_b4/* silt */);
-                                    return jsTrunc/* EXTERNAL */(_b6/* silx */);
+                                var _b4/* siqr */ = __get/* EXTERNAL */(_aZ/* siq2 */, _aL/* sipC */),
+                                _b5/* siqG */ = new T(function(){
+                                  return B(_q/* GHC.Base.++ */(_aS/* sipK */, new T2(1,new T2(0,_aV/* sipP */,new T1(1,new T(function(){
+                                    var _b6/* siqv */ = Number/* EXTERNAL */(_b4/* siqr */);
+                                    return jsTrunc/* EXTERNAL */(_b6/* siqv */);
                                   }))),_4/* GHC.Types.[] */)));
                                 });
-                                _aO/*  sikL */ = _aU/* sikQ */;
-                                _aP/*  sikM */ = _b5/* silI */;
+                                _aO/*  sipJ */ = _aU/* sipO */;
+                                _aP/*  sipK */ = _b5/* siqG */;
                                 return __continue/* EXTERNAL */;
                               }
                             }else{
-                              _aO/*  sikL */ = _aU/* sikQ */;
-                              _aP/*  sikM */ = new T(function(){
-                                return B(_q/* GHC.Base.++ */(_aS/* sikM */, new T2(1,new T2(0,_aV/* sikR */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                              _aO/*  sipJ */ = _aU/* sipO */;
+                              _aP/*  sipK */ = new T(function(){
+                                return B(_q/* GHC.Base.++ */(_aS/* sipK */, new T2(1,new T2(0,_aV/* sipP */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                               });
                               return __continue/* EXTERNAL */;
                             }
                           }
                         }
-                      })(_aO/*  sikL */, _aP/*  sikM */, _/* EXTERNAL */));
-                      if(_aQ/*  sikK */!=__continue/* EXTERNAL */){
-                        return _aQ/*  sikK */;
+                      })(_aO/*  sipJ */, _aP/*  sipK */, _/* EXTERNAL */));
+                      if(_aQ/*  sipI */!=__continue/* EXTERNAL */){
+                        return _aQ/*  sipI */;
                       }
                     }
                   },
-                  _b7/* silW */ = new T(function(){
-                    return B(_q/* GHC.Base.++ */(_aw/* siiO */, new T2(1,new T2(0,_az/* siiT */,new T1(1,new T(function(){
-                      var _b8/* silL */ = Number/* EXTERNAL */(_aM/* sikH */);
-                      return jsTrunc/* EXTERNAL */(_b8/* silL */);
+                  _b7/* siqU */ = new T(function(){
+                    return B(_q/* GHC.Base.++ */(_aw/* sinM */, new T2(1,new T2(0,_az/* sinR */,new T1(1,new T(function(){
+                      var _b8/* siqJ */ = Number/* EXTERNAL */(_aM/* sipF */);
+                      return jsTrunc/* EXTERNAL */(_b8/* siqJ */);
                     }))),_4/* GHC.Types.[] */)));
                   });
-                  return new F(function(){return _aN/* sikK */(_ay/* siiS */, _b7/* silW */, _/* EXTERNAL */);});
+                  return new F(function(){return _aN/* sipI */(_ay/* sinQ */, _b7/* siqU */, _/* EXTERNAL */);});
                 }
               }else{
-                var _b9/* sijq */ = function(_ba/*  sijr */, _bb/*  sijs */, _/* EXTERNAL */){
+                var _b9/* sioo */ = function(_ba/*  siop */, _bb/*  sioq */, _/* EXTERNAL */){
                   while(1){
-                    var _bc/*  sijq */ = B((function(_bd/* sijr */, _be/* sijs */, _/* EXTERNAL */){
-                      var _bf/* siju */ = E(_bd/* sijr */);
-                      if(!_bf/* siju */._){
-                        return _be/* sijs */;
+                    var _bc/*  sioo */ = B((function(_bd/* siop */, _be/* sioq */, _/* EXTERNAL */){
+                      var _bf/* sios */ = E(_bd/* siop */);
+                      if(!_bf/* sios */._){
+                        return _be/* sioq */;
                       }else{
-                        var _bg/* sijw */ = _bf/* siju */.b,
-                        _bh/* sijx */ = E(_bf/* siju */.a),
-                        _bi/* sijB */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bh/* sijx */, _4/* GHC.Types.[] */))),
-                        _bj/* sijF */ = __has/* EXTERNAL */(_aq/* sifB */, _bi/* sijB */);
-                        if(!E(_bj/* sijF */)){
-                          var _bk/*   sijs */ = _be/* sijs */;
-                          _ba/*  sijr */ = _bg/* sijw */;
-                          _bb/*  sijs */ = _bk/*   sijs */;
+                        var _bg/* siou */ = _bf/* sios */.b,
+                        _bh/* siov */ = E(_bf/* sios */.a),
+                        _bi/* sioz */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bh/* siov */, _4/* GHC.Types.[] */))),
+                        _bj/* sioD */ = __has/* EXTERNAL */(_aq/* sikz */, _bi/* sioz */);
+                        if(!E(_bj/* sioD */)){
+                          var _bk/*   sioq */ = _be/* sioq */;
+                          _ba/*  siop */ = _bg/* siou */;
+                          _bb/*  sioq */ = _bk/*   sioq */;
                           return __continue/* EXTERNAL */;
                         }else{
-                          var _bl/* sijK */ = __get/* EXTERNAL */(_aq/* sifB */, _bi/* sijB */),
-                          _bm/* sijO */ = __get/* EXTERNAL */(_bl/* sijK */, _aE/* sij9 */),
-                          _bn/* sijS */ = String/* EXTERNAL */(_bm/* sijO */),
-                          _bo/* sijW */ = strEq/* EXTERNAL */(_bn/* sijS */, _aH/* sijj */);
-                          if(!E(_bo/* sijW */)){
-                            var _bp/* sik6 */ = strEq/* EXTERNAL */(_bn/* sijS */, E(_68/* LudoJS.lvl33 */));
-                            if(!E(_bp/* sik6 */)){
+                          var _bl/* sioI */ = __get/* EXTERNAL */(_aq/* sikz */, _bi/* sioz */),
+                          _bm/* sioM */ = __get/* EXTERNAL */(_bl/* sioI */, _aE/* sio7 */),
+                          _bn/* sioQ */ = String/* EXTERNAL */(_bm/* sioM */),
+                          _bo/* sioU */ = strEq/* EXTERNAL */(_bn/* sioQ */, _aH/* sioh */);
+                          if(!E(_bo/* sioU */)){
+                            var _bp/* sip4 */ = strEq/* EXTERNAL */(_bn/* sioQ */, E(_68/* LudoJS.lvl33 */));
+                            if(!E(_bp/* sip4 */)){
                               return E(_67/* LudoJS.lvl32 */);
                             }else{
-                              var _bq/* sikd */ = __get/* EXTERNAL */(_bl/* sijK */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                              _br/* siks */ = new T(function(){
-                                return B(_q/* GHC.Base.++ */(_be/* sijs */, new T2(1,new T2(0,_bh/* sijx */,new T1(1,new T(function(){
-                                  var _bs/* sikh */ = Number/* EXTERNAL */(_bq/* sikd */);
-                                  return jsTrunc/* EXTERNAL */(_bs/* sikh */);
+                              var _bq/* sipb */ = __get/* EXTERNAL */(_bl/* sioI */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                              _br/* sipq */ = new T(function(){
+                                return B(_q/* GHC.Base.++ */(_be/* sioq */, new T2(1,new T2(0,_bh/* siov */,new T1(1,new T(function(){
+                                  var _bs/* sipf */ = Number/* EXTERNAL */(_bq/* sipb */);
+                                  return jsTrunc/* EXTERNAL */(_bs/* sipf */);
                                 }))),_4/* GHC.Types.[] */)));
                               });
-                              _ba/*  sijr */ = _bg/* sijw */;
-                              _bb/*  sijs */ = _br/* siks */;
+                              _ba/*  siop */ = _bg/* siou */;
+                              _bb/*  sioq */ = _br/* sipq */;
                               return __continue/* EXTERNAL */;
                             }
                           }else{
-                            _ba/*  sijr */ = _bg/* sijw */;
-                            _bb/*  sijs */ = new T(function(){
-                              return B(_q/* GHC.Base.++ */(_be/* sijs */, new T2(1,new T2(0,_bh/* sijx */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                            _ba/*  siop */ = _bg/* siou */;
+                            _bb/*  sioq */ = new T(function(){
+                              return B(_q/* GHC.Base.++ */(_be/* sioq */, new T2(1,new T2(0,_bh/* siov */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                             });
                             return __continue/* EXTERNAL */;
                           }
                         }
                       }
-                    })(_ba/*  sijr */, _bb/*  sijs */, _/* EXTERNAL */));
-                    if(_bc/*  sijq */!=__continue/* EXTERNAL */){
-                      return _bc/*  sijq */;
+                    })(_ba/*  siop */, _bb/*  sioq */, _/* EXTERNAL */));
+                    if(_bc/*  sioo */!=__continue/* EXTERNAL */){
+                      return _bc/*  sioo */;
                     }
                   }
                 };
-                return new F(function(){return _b9/* sijq */(_ay/* siiS */, new T(function(){
-                  return B(_q/* GHC.Base.++ */(_aw/* siiO */, new T2(1,new T2(0,_az/* siiT */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                return new F(function(){return _b9/* sioo */(_ay/* sinQ */, new T(function(){
+                  return B(_q/* GHC.Base.++ */(_aw/* sinM */, new T2(1,new T2(0,_az/* sinR */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                 }), _/* EXTERNAL */);});
               }
             }
           }
-        })(_as/*  siiN */, _at/*  siiO */, _/* EXTERNAL */));
-        if(_au/*  sifD */!=__continue/* EXTERNAL */){
-          return _au/*  sifD */;
+        })(_as/*  sinL */, _at/*  sinM */, _/* EXTERNAL */));
+        if(_au/*  sikB */!=__continue/* EXTERNAL */){
+          return _au/*  sikB */;
         }
       }
     },
-    _bt/* sifC */ = function(_bu/* sifE */, _bv/* sifF */, _bw/* sifG */, _/* EXTERNAL */){
-      var _bx/* sifK */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bu/* sifE */, _4/* GHC.Types.[] */))),
-      _by/* sifO */ = __has/* EXTERNAL */(_aq/* sifB */, _bx/* sifK */);
-      if(!E(_by/* sifO */)){
-        return new F(function(){return _ar/* sifD */(_bv/* sifF */, _bw/* sifG */, _/* EXTERNAL */);});
+    _bt/* sikA */ = function(_bu/* sikC */, _bv/* sikD */, _bw/* sikE */, _/* EXTERNAL */){
+      var _bx/* sikI */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bu/* sikC */, _4/* GHC.Types.[] */))),
+      _by/* sikM */ = __has/* EXTERNAL */(_aq/* sikz */, _bx/* sikI */);
+      if(!E(_by/* sikM */)){
+        return new F(function(){return _ar/* sikB */(_bv/* sikD */, _bw/* sikE */, _/* EXTERNAL */);});
       }else{
-        var _bz/* sifT */ = __get/* EXTERNAL */(_aq/* sifB */, _bx/* sifK */),
-        _bA/* sifW */ = E(_1N/* LudoJS.$fToAnyOption5 */),
-        _bB/* sifZ */ = __get/* EXTERNAL */(_bz/* sifT */, _bA/* sifW */),
-        _bC/* sig3 */ = String/* EXTERNAL */(_bB/* sifZ */),
-        _bD/* sig6 */ = E(_69/* LudoJS.lvl34 */),
-        _bE/* sig9 */ = strEq/* EXTERNAL */(_bC/* sig3 */, _bD/* sig6 */);
-        if(!E(_bE/* sig9 */)){
-          var _bF/* sihl */ = E(_68/* LudoJS.lvl33 */),
-          _bG/* siho */ = strEq/* EXTERNAL */(_bC/* sig3 */, _bF/* sihl */);
-          if(!E(_bG/* siho */)){
+        var _bz/* sikR */ = __get/* EXTERNAL */(_aq/* sikz */, _bx/* sikI */),
+        _bA/* sikU */ = E(_1N/* LudoJS.$fToAnyOption5 */),
+        _bB/* sikX */ = __get/* EXTERNAL */(_bz/* sikR */, _bA/* sikU */),
+        _bC/* sil1 */ = String/* EXTERNAL */(_bB/* sikX */),
+        _bD/* sil4 */ = E(_69/* LudoJS.lvl34 */),
+        _bE/* sil7 */ = strEq/* EXTERNAL */(_bC/* sil1 */, _bD/* sil4 */);
+        if(!E(_bE/* sil7 */)){
+          var _bF/* simj */ = E(_68/* LudoJS.lvl33 */),
+          _bG/* simm */ = strEq/* EXTERNAL */(_bC/* sil1 */, _bF/* simj */);
+          if(!E(_bG/* simm */)){
             return E(_67/* LudoJS.lvl32 */);
           }else{
-            var _bH/* sihs */ = E(_1M/* LudoJS.$fToAnyOption1 */),
-            _bI/* sihv */ = __get/* EXTERNAL */(_bz/* sifT */, _bH/* sihs */),
-            _bJ/* sihy */ = function(_bK/*  sihz */, _bL/*  sihA */, _/* EXTERNAL */){
+            var _bH/* simq */ = E(_1M/* LudoJS.$fToAnyOption1 */),
+            _bI/* simt */ = __get/* EXTERNAL */(_bz/* sikR */, _bH/* simq */),
+            _bJ/* simw */ = function(_bK/*  simx */, _bL/*  simy */, _/* EXTERNAL */){
               while(1){
-                var _bM/*  sihy */ = B((function(_bN/* sihz */, _bO/* sihA */, _/* EXTERNAL */){
-                  var _bP/* sihC */ = E(_bN/* sihz */);
-                  if(!_bP/* sihC */._){
-                    return _bO/* sihA */;
+                var _bM/*  simw */ = B((function(_bN/* simx */, _bO/* simy */, _/* EXTERNAL */){
+                  var _bP/* simA */ = E(_bN/* simx */);
+                  if(!_bP/* simA */._){
+                    return _bO/* simy */;
                   }else{
-                    var _bQ/* sihE */ = _bP/* sihC */.b,
-                    _bR/* sihF */ = E(_bP/* sihC */.a),
-                    _bS/* sihJ */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bR/* sihF */, _4/* GHC.Types.[] */))),
-                    _bT/* sihN */ = __has/* EXTERNAL */(_aq/* sifB */, _bS/* sihJ */);
-                    if(!E(_bT/* sihN */)){
-                      var _bU/*   sihA */ = _bO/* sihA */;
-                      _bK/*  sihz */ = _bQ/* sihE */;
-                      _bL/*  sihA */ = _bU/*   sihA */;
+                    var _bQ/* simC */ = _bP/* simA */.b,
+                    _bR/* simD */ = E(_bP/* simA */.a),
+                    _bS/* simH */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _bR/* simD */, _4/* GHC.Types.[] */))),
+                    _bT/* simL */ = __has/* EXTERNAL */(_aq/* sikz */, _bS/* simH */);
+                    if(!E(_bT/* simL */)){
+                      var _bU/*   simy */ = _bO/* simy */;
+                      _bK/*  simx */ = _bQ/* simC */;
+                      _bL/*  simy */ = _bU/*   simy */;
                       return __continue/* EXTERNAL */;
                     }else{
-                      var _bV/* sihS */ = __get/* EXTERNAL */(_aq/* sifB */, _bS/* sihJ */),
-                      _bW/* sihW */ = __get/* EXTERNAL */(_bV/* sihS */, _bA/* sifW */),
-                      _bX/* sii0 */ = String/* EXTERNAL */(_bW/* sihW */),
-                      _bY/* sii4 */ = strEq/* EXTERNAL */(_bX/* sii0 */, _bD/* sig6 */);
-                      if(!E(_bY/* sii4 */)){
-                        var _bZ/* siic */ = strEq/* EXTERNAL */(_bX/* sii0 */, _bF/* sihl */);
-                        if(!E(_bZ/* siic */)){
+                      var _bV/* simQ */ = __get/* EXTERNAL */(_aq/* sikz */, _bS/* simH */),
+                      _bW/* simU */ = __get/* EXTERNAL */(_bV/* simQ */, _bA/* sikU */),
+                      _bX/* simY */ = String/* EXTERNAL */(_bW/* simU */),
+                      _bY/* sin2 */ = strEq/* EXTERNAL */(_bX/* simY */, _bD/* sil4 */);
+                      if(!E(_bY/* sin2 */)){
+                        var _bZ/* sina */ = strEq/* EXTERNAL */(_bX/* simY */, _bF/* simj */);
+                        if(!E(_bZ/* sina */)){
                           return E(_67/* LudoJS.lvl32 */);
                         }else{
-                          var _c0/* siih */ = __get/* EXTERNAL */(_bV/* sihS */, _bH/* sihs */),
-                          _c1/* siiw */ = new T(function(){
-                            return B(_q/* GHC.Base.++ */(_bO/* sihA */, new T2(1,new T2(0,_bR/* sihF */,new T1(1,new T(function(){
-                              var _c2/* siil */ = Number/* EXTERNAL */(_c0/* siih */);
-                              return jsTrunc/* EXTERNAL */(_c2/* siil */);
+                          var _c0/* sinf */ = __get/* EXTERNAL */(_bV/* simQ */, _bH/* simq */),
+                          _c1/* sinu */ = new T(function(){
+                            return B(_q/* GHC.Base.++ */(_bO/* simy */, new T2(1,new T2(0,_bR/* simD */,new T1(1,new T(function(){
+                              var _c2/* sinj */ = Number/* EXTERNAL */(_c0/* sinf */);
+                              return jsTrunc/* EXTERNAL */(_c2/* sinj */);
                             }))),_4/* GHC.Types.[] */)));
                           });
-                          _bK/*  sihz */ = _bQ/* sihE */;
-                          _bL/*  sihA */ = _c1/* siiw */;
+                          _bK/*  simx */ = _bQ/* simC */;
+                          _bL/*  simy */ = _c1/* sinu */;
                           return __continue/* EXTERNAL */;
                         }
                       }else{
-                        _bK/*  sihz */ = _bQ/* sihE */;
-                        _bL/*  sihA */ = new T(function(){
-                          return B(_q/* GHC.Base.++ */(_bO/* sihA */, new T2(1,new T2(0,_bR/* sihF */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                        _bK/*  simx */ = _bQ/* simC */;
+                        _bL/*  simy */ = new T(function(){
+                          return B(_q/* GHC.Base.++ */(_bO/* simy */, new T2(1,new T2(0,_bR/* simD */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                         });
                         return __continue/* EXTERNAL */;
                       }
                     }
                   }
-                })(_bK/*  sihz */, _bL/*  sihA */, _/* EXTERNAL */));
-                if(_bM/*  sihy */!=__continue/* EXTERNAL */){
-                  return _bM/*  sihy */;
+                })(_bK/*  simx */, _bL/*  simy */, _/* EXTERNAL */));
+                if(_bM/*  simw */!=__continue/* EXTERNAL */){
+                  return _bM/*  simw */;
                 }
               }
             },
-            _c3/* siiL */ = new T(function(){
-              return B(_q/* GHC.Base.++ */(_bw/* sifG */, new T2(1,new T2(0,_bu/* sifE */,new T1(1,new T(function(){
-                var _c4/* siiA */ = Number/* EXTERNAL */(_bI/* sihv */);
-                return jsTrunc/* EXTERNAL */(_c4/* siiA */);
+            _c3/* sinJ */ = new T(function(){
+              return B(_q/* GHC.Base.++ */(_bw/* sikE */, new T2(1,new T2(0,_bu/* sikC */,new T1(1,new T(function(){
+                var _c4/* siny */ = Number/* EXTERNAL */(_bI/* simt */);
+                return jsTrunc/* EXTERNAL */(_c4/* siny */);
               }))),_4/* GHC.Types.[] */)));
             });
-            return new F(function(){return _bJ/* sihy */(_bv/* sifF */, _c3/* siiL */, _/* EXTERNAL */);});
+            return new F(function(){return _bJ/* simw */(_bv/* sikD */, _c3/* sinJ */, _/* EXTERNAL */);});
           }
         }else{
-          var _c5/* sigd */ = function(_c6/*  sige */, _c7/*  sigf */, _/* EXTERNAL */){
+          var _c5/* silb */ = function(_c6/*  silc */, _c7/*  sild */, _/* EXTERNAL */){
             while(1){
-              var _c8/*  sigd */ = B((function(_c9/* sige */, _ca/* sigf */, _/* EXTERNAL */){
-                var _cb/* sigh */ = E(_c9/* sige */);
-                if(!_cb/* sigh */._){
-                  return _ca/* sigf */;
+              var _c8/*  silb */ = B((function(_c9/* silc */, _ca/* sild */, _/* EXTERNAL */){
+                var _cb/* silf */ = E(_c9/* silc */);
+                if(!_cb/* silf */._){
+                  return _ca/* sild */;
                 }else{
-                  var _cc/* sigj */ = _cb/* sigh */.b,
-                  _cd/* sigk */ = E(_cb/* sigh */.a),
-                  _ce/* sigo */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _cd/* sigk */, _4/* GHC.Types.[] */))),
-                  _cf/* sigs */ = __has/* EXTERNAL */(_aq/* sifB */, _ce/* sigo */);
-                  if(!E(_cf/* sigs */)){
-                    var _cg/*   sigf */ = _ca/* sigf */;
-                    _c6/*  sige */ = _cc/* sigj */;
-                    _c7/*  sigf */ = _cg/*   sigf */;
+                  var _cc/* silh */ = _cb/* silf */.b,
+                  _cd/* sili */ = E(_cb/* silf */.a),
+                  _ce/* silm */ = toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, _cd/* sili */, _4/* GHC.Types.[] */))),
+                  _cf/* silq */ = __has/* EXTERNAL */(_aq/* sikz */, _ce/* silm */);
+                  if(!E(_cf/* silq */)){
+                    var _cg/*   sild */ = _ca/* sild */;
+                    _c6/*  silc */ = _cc/* silh */;
+                    _c7/*  sild */ = _cg/*   sild */;
                     return __continue/* EXTERNAL */;
                   }else{
-                    var _ch/* sigx */ = __get/* EXTERNAL */(_aq/* sifB */, _ce/* sigo */),
-                    _ci/* sigB */ = __get/* EXTERNAL */(_ch/* sigx */, _bA/* sifW */),
-                    _cj/* sigF */ = String/* EXTERNAL */(_ci/* sigB */),
-                    _ck/* sigJ */ = strEq/* EXTERNAL */(_cj/* sigF */, _bD/* sig6 */);
-                    if(!E(_ck/* sigJ */)){
-                      var _cl/* sigT */ = strEq/* EXTERNAL */(_cj/* sigF */, E(_68/* LudoJS.lvl33 */));
-                      if(!E(_cl/* sigT */)){
+                    var _ch/* silv */ = __get/* EXTERNAL */(_aq/* sikz */, _ce/* silm */),
+                    _ci/* silz */ = __get/* EXTERNAL */(_ch/* silv */, _bA/* sikU */),
+                    _cj/* silD */ = String/* EXTERNAL */(_ci/* silz */),
+                    _ck/* silH */ = strEq/* EXTERNAL */(_cj/* silD */, _bD/* sil4 */);
+                    if(!E(_ck/* silH */)){
+                      var _cl/* silR */ = strEq/* EXTERNAL */(_cj/* silD */, E(_68/* LudoJS.lvl33 */));
+                      if(!E(_cl/* silR */)){
                         return E(_67/* LudoJS.lvl32 */);
                       }else{
-                        var _cm/* sih0 */ = __get/* EXTERNAL */(_ch/* sigx */, E(_1M/* LudoJS.$fToAnyOption1 */)),
-                        _cn/* sihf */ = new T(function(){
-                          return B(_q/* GHC.Base.++ */(_ca/* sigf */, new T2(1,new T2(0,_cd/* sigk */,new T1(1,new T(function(){
-                            var _co/* sih4 */ = Number/* EXTERNAL */(_cm/* sih0 */);
-                            return jsTrunc/* EXTERNAL */(_co/* sih4 */);
+                        var _cm/* silY */ = __get/* EXTERNAL */(_ch/* silv */, E(_1M/* LudoJS.$fToAnyOption1 */)),
+                        _cn/* simd */ = new T(function(){
+                          return B(_q/* GHC.Base.++ */(_ca/* sild */, new T2(1,new T2(0,_cd/* sili */,new T1(1,new T(function(){
+                            var _co/* sim2 */ = Number/* EXTERNAL */(_cm/* silY */);
+                            return jsTrunc/* EXTERNAL */(_co/* sim2 */);
                           }))),_4/* GHC.Types.[] */)));
                         });
-                        _c6/*  sige */ = _cc/* sigj */;
-                        _c7/*  sigf */ = _cn/* sihf */;
+                        _c6/*  silc */ = _cc/* silh */;
+                        _c7/*  sild */ = _cn/* simd */;
                         return __continue/* EXTERNAL */;
                       }
                     }else{
-                      _c6/*  sige */ = _cc/* sigj */;
-                      _c7/*  sigf */ = new T(function(){
-                        return B(_q/* GHC.Base.++ */(_ca/* sigf */, new T2(1,new T2(0,_cd/* sigk */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+                      _c6/*  silc */ = _cc/* silh */;
+                      _c7/*  sild */ = new T(function(){
+                        return B(_q/* GHC.Base.++ */(_ca/* sild */, new T2(1,new T2(0,_cd/* sili */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
                       });
                       return __continue/* EXTERNAL */;
                     }
                   }
                 }
-              })(_c6/*  sige */, _c7/*  sigf */, _/* EXTERNAL */));
-              if(_c8/*  sigd */!=__continue/* EXTERNAL */){
-                return _c8/*  sigd */;
+              })(_c6/*  silc */, _c7/*  sild */, _/* EXTERNAL */));
+              if(_c8/*  silb */!=__continue/* EXTERNAL */){
+                return _c8/*  silb */;
               }
             }
           };
-          return new F(function(){return _c5/* sigd */(_bv/* sifF */, new T(function(){
-            return B(_q/* GHC.Base.++ */(_bw/* sifG */, new T2(1,new T2(0,_bu/* sifE */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
+          return new F(function(){return _c5/* silb */(_bv/* sikD */, new T(function(){
+            return B(_q/* GHC.Base.++ */(_bw/* sikE */, new T2(1,new T2(0,_bu/* sikC */,_60/* LudoJS.Out */),_4/* GHC.Types.[] */)));
           }), _/* EXTERNAL */);});
         }
       }
     },
-    _cp/* silY */ = B(_bt/* sifC */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
-    _cq/* sim1 */ = B(_8g/* sifp */(_ao/* sifr */, _/* EXTERNAL */));
-    return new T2(1,new T2(0,_an/* sifq */,_cp/* silY */),_cq/* sim1 */);
+    _cp/* siqW */ = B(_bt/* sikA */(1, _66/* LudoJS.a34 */, _4/* GHC.Types.[] */, _/* EXTERNAL */)),
+    _cq/* siqZ */ = B(_8g/* sikn */(_ao/* sikp */, _/* EXTERNAL */));
+    return new T2(1,new T2(0,_an/* siko */,_cp/* siqW */),_cq/* siqZ */);
   },
-  _cr/* sisO */ = B(_am/* sifo */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, _/* EXTERNAL */));
+  _cr/* sixM */ = B(_am/* sikm */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, _/* EXTERNAL */));
   return new T(function(){
-    return B(_5z/* LudoJS.$sfromList */(new T2(1,new T2(0,_1O/* LudoJS.Blue */,_8f/* sifl */),_cr/* sisO */)));
+    return B(_5z/* LudoJS.$sfromList */(new T2(1,new T2(0,_1O/* LudoJS.Blue */,_8f/* sikj */),_cr/* sixM */)));
   });
 },
 _cs/* $fFromAnyGameState7 */ = "pieces",
@@ -5378,64 +5378,64 @@ _cy/* lvl28 */ = "GameFinished",
 _cz/* lvl29 */ = "SelectField",
 _cA/* lvl30 */ = "SelectPiece",
 _cB/* lvl31 */ = "Roll",
-_cC/* $wa2 */ = function(_cD/* shHq */, _/* EXTERNAL */){
-  var _cE/* shHv */ = __get/* EXTERNAL */(_cD/* shHq */, E(_1F/* LudoJS.$fFromAnyGameState16 */)),
-  _cF/* shHz */ = String/* EXTERNAL */(_cE/* shHv */),
-  _cG/* shHF */ = strEq/* EXTERNAL */(_cF/* shHz */, E(_cB/* LudoJS.lvl31 */));
-  if(!E(_cG/* shHF */)){
-    var _cH/* shI4 */ = strEq/* EXTERNAL */(_cF/* shHz */, E(_cA/* LudoJS.lvl30 */));
-    if(!E(_cH/* shI4 */)){
-      var _cI/* shIr */ = strEq/* EXTERNAL */(_cF/* shHz */, E(_cz/* LudoJS.lvl29 */));
-      if(!E(_cI/* shIr */)){
-        var _cJ/* shJ3 */ = strEq/* EXTERNAL */(_cF/* shHz */, E(_cy/* LudoJS.lvl28 */));
-        return (E(_cJ/* shJ3 */)==0) ? E(_cx/* LudoJS.lvl27 */) : _cw/* LudoJS.GameFinished */;
+_cC/* $wa2 */ = function(_cD/* shLJ */, _/* EXTERNAL */){
+  var _cE/* shLO */ = __get/* EXTERNAL */(_cD/* shLJ */, E(_1F/* LudoJS.$fFromAnyGameState16 */)),
+  _cF/* shLS */ = String/* EXTERNAL */(_cE/* shLO */),
+  _cG/* shLY */ = strEq/* EXTERNAL */(_cF/* shLS */, E(_cB/* LudoJS.lvl31 */));
+  if(!E(_cG/* shLY */)){
+    var _cH/* shMn */ = strEq/* EXTERNAL */(_cF/* shLS */, E(_cA/* LudoJS.lvl30 */));
+    if(!E(_cH/* shMn */)){
+      var _cI/* shMK */ = strEq/* EXTERNAL */(_cF/* shLS */, E(_cz/* LudoJS.lvl29 */));
+      if(!E(_cI/* shMK */)){
+        var _cJ/* shNm */ = strEq/* EXTERNAL */(_cF/* shLS */, E(_cy/* LudoJS.lvl28 */));
+        return (E(_cJ/* shNm */)==0) ? E(_cx/* LudoJS.lvl27 */) : _cw/* LudoJS.GameFinished */;
       }else{
-        var _cK/* shIy */ = __get/* EXTERNAL */(_cD/* shHq */, E(_cu/* LudoJS.$fToAnyGameState11 */)),
-        _cL/* shIE */ = __get/* EXTERNAL */(_cD/* shHq */, E(_cv/* LudoJS.$fToAnyGameState6 */));
+        var _cK/* shMR */ = __get/* EXTERNAL */(_cD/* shLJ */, E(_cu/* LudoJS.$fToAnyGameState11 */)),
+        _cL/* shMX */ = __get/* EXTERNAL */(_cD/* shLJ */, E(_cv/* LudoJS.$fToAnyGameState6 */));
         return new T2(2,new T(function(){
-          var _cM/* shII */ = Number/* EXTERNAL */(_cK/* shIy */);
-          return jsTrunc/* EXTERNAL */(_cM/* shII */);
+          var _cM/* shN1 */ = Number/* EXTERNAL */(_cK/* shMR */);
+          return jsTrunc/* EXTERNAL */(_cM/* shN1 */);
         }),new T(function(){
-          var _cN/* shIR */ = Number/* EXTERNAL */(_cL/* shIE */);
-          return jsTrunc/* EXTERNAL */(_cN/* shIR */);
+          var _cN/* shNa */ = Number/* EXTERNAL */(_cL/* shMX */);
+          return jsTrunc/* EXTERNAL */(_cN/* shNa */);
         }));
       }
     }else{
-      var _cO/* shIb */ = __get/* EXTERNAL */(_cD/* shHq */, E(_cu/* LudoJS.$fToAnyGameState11 */));
+      var _cO/* shMu */ = __get/* EXTERNAL */(_cD/* shLJ */, E(_cu/* LudoJS.$fToAnyGameState11 */));
       return new T1(1,new T(function(){
-        var _cP/* shIf */ = Number/* EXTERNAL */(_cO/* shIb */);
-        return jsTrunc/* EXTERNAL */(_cP/* shIf */);
+        var _cP/* shMy */ = Number/* EXTERNAL */(_cO/* shMu */);
+        return jsTrunc/* EXTERNAL */(_cP/* shMy */);
       }));
     }
   }else{
-    var _cQ/* shHM */ = __get/* EXTERNAL */(_cD/* shHq */, E(_cu/* LudoJS.$fToAnyGameState11 */));
+    var _cQ/* shM5 */ = __get/* EXTERNAL */(_cD/* shLJ */, E(_cu/* LudoJS.$fToAnyGameState11 */));
     return new T1(0,new T(function(){
-      var _cR/* shHQ */ = Number/* EXTERNAL */(_cQ/* shHM */),
-      _cS/* shHU */ = jsTrunc/* EXTERNAL */(_cR/* shHQ */),
-      _cT/* shHX */ = E(_cS/* shHU */);
-      if(_cT/* shHX */==( -1)){
+      var _cR/* shM9 */ = Number/* EXTERNAL */(_cQ/* shM5 */),
+      _cS/* shMd */ = jsTrunc/* EXTERNAL */(_cR/* shM9 */),
+      _cT/* shMg */ = E(_cS/* shMd */);
+      if(_cT/* shMg */==( -1)){
         return __Z/* EXTERNAL */;
       }else{
-        return new T1(1,_cT/* shHX */);
+        return new T1(1,_cT/* shMg */);
       }
     }));
   }
 },
-_cU/* $wa1 */ = function(_cV/* sith */, _/* EXTERNAL */){
-  var _cW/* sitm */ = __get/* EXTERNAL */(_cV/* sith */, E(_1F/* LudoJS.$fFromAnyGameState16 */)),
-  _cX/* sitp */ = B(_cC/* LudoJS.$wa2 */(_cW/* sitm */, _/* EXTERNAL */)),
-  _cY/* sitv */ = __get/* EXTERNAL */(_cV/* sith */, E(_1E/* LudoJS.$fFromAnyGameState15 */)),
-  _cZ/* sitz */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_cY/* sitv */, _/* EXTERNAL */)),
-  _d0/* sitF */ = __get/* EXTERNAL */(_cV/* sith */, E(_ct/* LudoJS.$fFromAnyGameState8 */)),
-  _d1/* sitL */ = __get/* EXTERNAL */(_cV/* sith */, E(_cs/* LudoJS.$fFromAnyGameState7 */)),
-  _d2/* sitP */ = B(_6c/* LudoJS.$fFromAnyGameState6 */(_d1/* sitL */, _/* EXTERNAL */)),
-  _d3/* sitV */ = __get/* EXTERNAL */(_cV/* sith */, E(_1L/* LudoJS.$fFromAnyGameState5 */)),
-  _d4/* sitZ */ = __arr2lst/* EXTERNAL */(0, _d3/* sitV */),
-  _d5/* siu3 */ = B(_1G/* LudoJS.$fFromAnyGameState4 */(_d4/* sitZ */, _/* EXTERNAL */));
-  return new T5(0,_cX/* sitp */,_cZ/* sitz */,new T(function(){
-    var _d6/* siu7 */ = Number/* EXTERNAL */(_d0/* sitF */);
-    return jsTrunc/* EXTERNAL */(_d6/* siu7 */);
-  }),_d2/* sitP */,_d5/* siu3 */);
+_cU/* $wa1 */ = function(_cV/* siyf */, _/* EXTERNAL */){
+  var _cW/* siyk */ = __get/* EXTERNAL */(_cV/* siyf */, E(_1F/* LudoJS.$fFromAnyGameState16 */)),
+  _cX/* siyn */ = B(_cC/* LudoJS.$wa2 */(_cW/* siyk */, _/* EXTERNAL */)),
+  _cY/* siyt */ = __get/* EXTERNAL */(_cV/* siyf */, E(_1E/* LudoJS.$fFromAnyGameState15 */)),
+  _cZ/* siyx */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_cY/* siyt */, _/* EXTERNAL */)),
+  _d0/* siyD */ = __get/* EXTERNAL */(_cV/* siyf */, E(_ct/* LudoJS.$fFromAnyGameState8 */)),
+  _d1/* siyJ */ = __get/* EXTERNAL */(_cV/* siyf */, E(_cs/* LudoJS.$fFromAnyGameState7 */)),
+  _d2/* siyN */ = B(_6c/* LudoJS.$fFromAnyGameState6 */(_d1/* siyJ */, _/* EXTERNAL */)),
+  _d3/* siyT */ = __get/* EXTERNAL */(_cV/* siyf */, E(_1L/* LudoJS.$fFromAnyGameState5 */)),
+  _d4/* siyX */ = __arr2lst/* EXTERNAL */(0, _d3/* siyT */),
+  _d5/* siz1 */ = B(_1G/* LudoJS.$fFromAnyGameState4 */(_d4/* siyX */, _/* EXTERNAL */));
+  return new T5(0,_cX/* siyn */,_cZ/* siyx */,new T(function(){
+    var _d6/* siz5 */ = Number/* EXTERNAL */(_d0/* siyD */);
+    return jsTrunc/* EXTERNAL */(_d6/* siz5 */);
+  }),_d2/* siyN */,_d5/* siz1 */);
 },
 _d7/* $fShowStage2 */ = 0,
 _d8/* lvl25 */ = new T(function(){
@@ -5444,71 +5444,71 @@ _d8/* lvl25 */ = new T(function(){
 _d9/* lvl26 */ = new T(function(){
   return B(err/* EXTERNAL */(_d8/* LudoJS.lvl25 */));
 }),
-_da/* $s!1 */ = function(_db/* shDb */, _dc/* shDc */){
+_da/* $s!1 */ = function(_db/* shHu */, _dc/* shHv */){
   while(1){
-    var _dd/* shDd */ = E(_dc/* shDc */);
-    if(!_dd/* shDd */._){
-      var _de/* shDf */ = _dd/* shDd */.b,
-      _df/* shDg */ = _dd/* shDd */.c,
-      _dg/* shDh */ = _dd/* shDd */.d,
-      _dh/* shDi */ = _dd/* shDd */.e;
-      switch(E(_db/* shDb */)){
+    var _dd/* shHw */ = E(_dc/* shHv */);
+    if(!_dd/* shHw */._){
+      var _de/* shHy */ = _dd/* shHw */.b,
+      _df/* shHz */ = _dd/* shHw */.c,
+      _dg/* shHA */ = _dd/* shHw */.d,
+      _dh/* shHB */ = _dd/* shHw */.e;
+      switch(E(_db/* shHu */)){
         case 0:
-          switch(E(_de/* shDf */)){
+          switch(E(_de/* shHy */)){
             case 0:
-              return E(_df/* shDg */);
+              return E(_df/* shHz */);
             case 1:
-              _db/* shDb */ = _1O/* LudoJS.Blue */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1O/* LudoJS.Blue */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
             case 2:
-              _db/* shDb */ = _1O/* LudoJS.Blue */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1O/* LudoJS.Blue */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
             default:
-              _db/* shDb */ = _1O/* LudoJS.Blue */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1O/* LudoJS.Blue */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
           }
           break;
         case 1:
-          switch(E(_de/* shDf */)){
+          switch(E(_de/* shHy */)){
             case 0:
-              _db/* shDb */ = _1P/* LudoJS.Green */;
-              _dc/* shDc */ = _dh/* shDi */;
+              _db/* shHu */ = _1P/* LudoJS.Green */;
+              _dc/* shHv */ = _dh/* shHB */;
               continue;
             case 1:
-              return E(_df/* shDg */);
+              return E(_df/* shHz */);
             case 2:
-              _db/* shDb */ = _1P/* LudoJS.Green */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1P/* LudoJS.Green */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
             default:
-              _db/* shDb */ = _1P/* LudoJS.Green */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1P/* LudoJS.Green */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
           }
           break;
         case 2:
-          switch(E(_de/* shDf */)){
+          switch(E(_de/* shHy */)){
             case 2:
-              return E(_df/* shDg */);
+              return E(_df/* shHz */);
             case 3:
-              _db/* shDb */ = _1Q/* LudoJS.Red */;
-              _dc/* shDc */ = _dg/* shDh */;
+              _db/* shHu */ = _1Q/* LudoJS.Red */;
+              _dc/* shHv */ = _dg/* shHA */;
               continue;
             default:
-              _db/* shDb */ = _1Q/* LudoJS.Red */;
-              _dc/* shDc */ = _dh/* shDi */;
+              _db/* shHu */ = _1Q/* LudoJS.Red */;
+              _dc/* shHv */ = _dh/* shHB */;
               continue;
           }
           break;
         default:
-          if(E(_de/* shDf */)==3){
-            return E(_df/* shDg */);
+          if(E(_de/* shHy */)==3){
+            return E(_df/* shHz */);
           }else{
-            _db/* shDb */ = _1S/* LudoJS.Yellow */;
-            _dc/* shDc */ = _dh/* shDi */;
+            _db/* shHu */ = _1S/* LudoJS.Yellow */;
+            _dc/* shHv */ = _dh/* shHB */;
             continue;
           }
       }
@@ -5518,64 +5518,64 @@ _da/* $s!1 */ = function(_db/* shDb */, _dc/* shDc */){
   }
 },
 _di/* numPiecesAt2 */ = 1,
-_dj/* $wa6 */ = function(_dk/* si30 */, _dl/* si31 */, _dm/* si32 */, _/* EXTERNAL */){
-  var _dn/* si34 */ = function(_/* EXTERNAL */){
+_dj/* $wa6 */ = function(_dk/* si7Y */, _dl/* si7Z */, _dm/* si80 */, _/* EXTERNAL */){
+  var _dn/* si82 */ = function(_/* EXTERNAL */){
     return new T(function(){
-      var _do/* si3c */ = function(_dp/* si3d */){
+      var _do/* si8a */ = function(_dp/* si8b */){
         while(1){
-          var _dq/* si3e */ = E(_dp/* si3d */);
-          if(!_dq/* si3e */._){
+          var _dq/* si8c */ = E(_dp/* si8b */);
+          if(!_dq/* si8c */._){
             return 0;
           }else{
-            var _dr/* si3g */ = _dq/* si3e */.b,
-            _ds/* si3k */ = E(E(_dq/* si3e */.a).b);
-            if(!_ds/* si3k */._){
-              _dp/* si3d */ = _dr/* si3g */;
+            var _dr/* si8e */ = _dq/* si8c */.b,
+            _ds/* si8i */ = E(E(_dq/* si8c */.a).b);
+            if(!_ds/* si8i */._){
+              _dp/* si8b */ = _dr/* si8e */;
               continue;
             }else{
-              if(_dm/* si32 */!=E(_ds/* si3k */.a)){
-                _dp/* si3d */ = _dr/* si3g */;
+              if(_dm/* si80 */!=E(_ds/* si8i */.a)){
+                _dp/* si8b */ = _dr/* si8e */;
                 continue;
               }else{
-                return B(_do/* si3c */(_dr/* si3g */))+1|0;
+                return B(_do/* si8a */(_dr/* si8e */))+1|0;
               }
             }
           }
         }
       };
-      return B(_do/* si3c */(B(_da/* LudoJS.$s!1 */(_dl/* si31 */, E(_dk/* si30 */).d))));
+      return B(_do/* si8a */(B(_da/* LudoJS.$s!1 */(_dl/* si7Z */, E(_dk/* si7Y */).d))));
     });
   };
-  if(_dm/* si32 */>( -1)){
-    return new F(function(){return _dn/* si34 */(_/* EXTERNAL */);});
+  if(_dm/* si80 */>( -1)){
+    return new F(function(){return _dn/* si82 */(_/* EXTERNAL */);});
   }else{
-    if(_dm/* si32 */<( -4)){
-      return new F(function(){return _dn/* si34 */(_/* EXTERNAL */);});
+    if(_dm/* si80 */<( -4)){
+      return new F(function(){return _dn/* si82 */(_/* EXTERNAL */);});
     }else{
       return new T(function(){
-        var _dt/* si3F */ = function(_du/* si3G */){
+        var _dt/* si8D */ = function(_du/* si8E */){
           while(1){
-            var _dv/* si3H */ = E(_du/* si3G */);
-            if(!_dv/* si3H */._){
+            var _dv/* si8F */ = E(_du/* si8E */);
+            if(!_dv/* si8F */._){
               return false;
             }else{
-              var _dw/* si3J */ = _dv/* si3H */.b,
-              _dx/* si3K */ = E(_dv/* si3H */.a);
-              if(!E(_dx/* si3K */.b)._){
-                if((_dm/* si32 */+5|0)!=E(_dx/* si3K */.a)){
-                  _du/* si3G */ = _dw/* si3J */;
+              var _dw/* si8H */ = _dv/* si8F */.b,
+              _dx/* si8I */ = E(_dv/* si8F */.a);
+              if(!E(_dx/* si8I */.b)._){
+                if((_dm/* si80 */+5|0)!=E(_dx/* si8I */.a)){
+                  _du/* si8E */ = _dw/* si8H */;
                   continue;
                 }else{
                   return true;
                 }
               }else{
-                _du/* si3G */ = _dw/* si3J */;
+                _du/* si8E */ = _dw/* si8H */;
                 continue;
               }
             }
           }
         };
-        if(!B(_dt/* si3F */(B(_da/* LudoJS.$s!1 */(_dl/* si31 */, E(_dk/* si30 */).d))))){
+        if(!B(_dt/* si8D */(B(_da/* LudoJS.$s!1 */(_dl/* si7Z */, E(_dk/* si7Y */).d))))){
           return E(_d7/* LudoJS.$fShowStage2 */);
         }else{
           return E(_di/* LudoJS.numPiecesAt2 */);
@@ -6520,8 +6520,8 @@ _ky/* id */ = function(_kz/* s3aG */){
 },
 _kA/* $fMonadIOIO */ = new T2(0,_kx/* GHC.Base.$fMonadIO */,_ky/* GHC.Base.id */),
 _kB/* $fMonadEventIO */ = new T2(0,_kA/* Control.Monad.IO.Class.$fMonadIOIO */,_kc/* GHC.Base.returnIO1 */),
-_kC/* $w$ctoAny1 */ = function(_kD/* siuJ */){
-  switch(E(_kD/* siuJ */)){
+_kC/* $w$ctoAny1 */ = function(_kD/* sizH */){
+  switch(E(_kD/* sizH */)){
     case 0:
       return E(toJSStr/* EXTERNAL */(E(_1u/* LudoJS.$fFromAnyGameState14 */)));
     case 1:
@@ -6532,8 +6532,8 @@ _kC/* $w$ctoAny1 */ = function(_kD/* siuJ */){
       return E(toJSStr/* EXTERNAL */(E(_1r/* LudoJS.$fFromAnyGameState11 */)));
   }
 },
-_kE/* $fToAnyGameState_$ctoAny1 */ = function(_kF/* siv5 */){
-  return new F(function(){return _kC/* LudoJS.$w$ctoAny1 */(_kF/* siv5 */);});
+_kE/* $fToAnyGameState_$ctoAny1 */ = function(_kF/* siA3 */){
+  return new F(function(){return _kC/* LudoJS.$w$ctoAny1 */(_kF/* siA3 */);});
 },
 _kG/* $fToAnyGameState4 */ = "GameFinished",
 _kH/* $fToAnyGameState5 */ = "stage",
@@ -6577,22 +6577,22 @@ _l5/* $fToAnyGameState8 */ = "SelectField",
 _l6/* $fToAnyGameState7 */ = new T2(0,_1F/* LudoJS.$fFromAnyGameState16 */,_l5/* LudoJS.$fToAnyGameState8 */),
 _l7/* $fToAnyGameState10 */ = "SelectPiece",
 _l8/* $fToAnyGameState9 */ = new T2(0,_1F/* LudoJS.$fFromAnyGameState16 */,_l7/* LudoJS.$fToAnyGameState10 */),
-_l9/* $fToAnyGameState_$ctoAny2 */ = function(_la/* si54 */){
-  var _lb/* si55 */ = E(_la/* si54 */);
-  switch(_lb/* si55 */._){
+_l9/* $fToAnyGameState_$ctoAny2 */ = function(_la/* sia2 */){
+  var _lb/* sia3 */ = E(_la/* sia2 */);
+  switch(_lb/* sia3 */._){
     case 0:
-      var _lc/* si57 */ = E(_lb/* si55 */.a);
-      if(!_lc/* si57 */._){
+      var _lc/* sia5 */ = E(_lb/* sia3 */.a);
+      if(!_lc/* sia5 */._){
         return E(_l4/* LudoJS.$fToAnyGameState14 */);
       }else{
-        return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_kW/* LudoJS.$fToAnyGameState12 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lc/* si57 */.a),_4/* GHC.Types.[] */)));});
+        return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_kW/* LudoJS.$fToAnyGameState12 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lc/* sia5 */.a),_4/* GHC.Types.[] */)));});
       }
       break;
     case 1:
-      return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_l8/* LudoJS.$fToAnyGameState9 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lb/* si55 */.a),_4/* GHC.Types.[] */)));});
+      return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_l8/* LudoJS.$fToAnyGameState9 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lb/* sia3 */.a),_4/* GHC.Types.[] */)));});
       break;
     case 2:
-      return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_l6/* LudoJS.$fToAnyGameState7 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lb/* si55 */.a),new T2(1,new T2(0,_cv/* LudoJS.$fToAnyGameState6 */,_lb/* si55 */.b),_4/* GHC.Types.[] */))));});
+      return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_l6/* LudoJS.$fToAnyGameState7 */,new T2(1,new T2(0,_cu/* LudoJS.$fToAnyGameState11 */,_lb/* sia3 */.a),new T2(1,new T2(0,_cv/* LudoJS.$fToAnyGameState6 */,_lb/* sia3 */.b),_4/* GHC.Types.[] */))));});
       break;
     default:
       return E(_kU/* LudoJS.$fToAnyGameState1 */);
@@ -6607,26 +6607,26 @@ _li/* $fToAnyPiece4 */ = new T2(1,_lh/* LudoJS.$fToAnyPiece5 */,_4/* GHC.Types.[
 _lj/* $fToAnyPiece3 */ = new T(function(){
   return B(_kK/* Haste.Prim.Any.$wtoObject */(_li/* LudoJS.$fToAnyPiece4 */));
 }),
-_lk/* $fToAnyPiece_$ctoAny */ = function(_ll/* si4Q */){
-  var _lm/* si4R */ = E(_ll/* si4Q */);
-  if(!_lm/* si4R */._){
+_lk/* $fToAnyPiece_$ctoAny */ = function(_ll/* si9O */){
+  var _lm/* si9P */ = E(_ll/* si9O */);
+  if(!_lm/* si9P */._){
     return E(_lj/* LudoJS.$fToAnyPiece3 */);
   }else{
-    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_le/* LudoJS.$fToAnyPiece1 */,new T2(1,new T2(0,_1M/* LudoJS.$fToAnyOption1 */,_lm/* si4R */.a),_4/* GHC.Types.[] */)));});
+    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_le/* LudoJS.$fToAnyPiece1 */,new T2(1,new T2(0,_1M/* LudoJS.$fToAnyOption1 */,_lm/* si9P */.a),_4/* GHC.Types.[] */)));});
   }
 },
-_ln/* go1 */ = function(_lo/* sive */){
-  var _lp/* sivf */ = E(_lo/* sive */);
-  if(!_lp/* sivf */._){
+_ln/* go1 */ = function(_lo/* siAc */){
+  var _lp/* siAd */ = E(_lo/* siAc */);
+  if(!_lp/* siAd */._){
     return __Z/* EXTERNAL */;
   }else{
-    var _lq/* sivi */ = E(_lp/* sivf */.a);
+    var _lq/* siAg */ = E(_lp/* siAd */.a);
     return new T2(1,new T2(0,new T(function(){
-      return toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, E(_lq/* sivi */.a), _4/* GHC.Types.[] */)));
+      return toJSStr/* EXTERNAL */(B(_5V/* GHC.Show.$wshowSignedInt */(0, E(_lq/* siAg */.a), _4/* GHC.Types.[] */)));
     }),new T(function(){
-      return B(_lk/* LudoJS.$fToAnyPiece_$ctoAny */(_lq/* sivi */.b));
+      return B(_lk/* LudoJS.$fToAnyPiece_$ctoAny */(_lq/* siAg */.b));
     })),new T(function(){
-      return B(_ln/* LudoJS.go1 */(_lp/* sivf */.b));
+      return B(_ln/* LudoJS.go1 */(_lp/* siAd */.b));
     }));
   }
 },
@@ -6642,18 +6642,18 @@ _lt/* lvl39 */ = new T(function(){
 _lu/* lvl40 */ = new T(function(){
   return B(_q/* GHC.Base.++ */(_1u/* LudoJS.$fFromAnyGameState14 */, _4/* GHC.Types.[] */));
 }),
-_lv/* $fToAnyGameState_go10 */ = function(_lw/*  sivu */, _lx/*  sivv */){
+_lv/* $fToAnyGameState_go10 */ = function(_lw/*  siAs */, _lx/*  siAt */){
   while(1){
-    var _ly/*  $fToAnyGameState_go10 */ = B((function(_lz/* sivu */, _lA/* sivv */){
-      var _lB/* sivw */ = E(_lA/* sivv */);
-      if(!_lB/* sivw */._){
-        var _lC/* sivS */ = new T(function(){
+    var _ly/*  $fToAnyGameState_go10 */ = B((function(_lz/* siAs */, _lA/* siAt */){
+      var _lB/* siAu */ = E(_lA/* siAt */);
+      if(!_lB/* siAu */._){
+        var _lC/* siAQ */ = new T(function(){
           return B(_kK/* Haste.Prim.Any.$wtoObject */(new T(function(){
-            return B(_ln/* LudoJS.go1 */(_lB/* sivw */.c));
+            return B(_ln/* LudoJS.go1 */(_lB/* siAu */.c));
           },1)));
         });
-        _lw/*  sivu */ = new T2(1,new T2(0,new T(function(){
-          switch(E(_lB/* sivw */.b)){
+        _lw/*  siAs */ = new T2(1,new T2(0,new T(function(){
+          switch(E(_lB/* siAu */.b)){
             case 0:
               return toJSStr/* EXTERNAL */(E(_lu/* LudoJS.lvl40 */));
               break;
@@ -6666,15 +6666,15 @@ _lv/* $fToAnyGameState_go10 */ = function(_lw/*  sivu */, _lx/*  sivv */){
             default:
               return toJSStr/* EXTERNAL */(E(_lr/* LudoJS.lvl37 */));
           }
-        }),_lC/* sivS */),new T(function(){
-          return B(_lv/* LudoJS.$fToAnyGameState_go10 */(_lz/* sivu */, _lB/* sivw */.e));
+        }),_lC/* siAQ */),new T(function(){
+          return B(_lv/* LudoJS.$fToAnyGameState_go10 */(_lz/* siAs */, _lB/* siAu */.e));
         }));
-        _lx/*  sivv */ = _lB/* sivw */.d;
+        _lx/*  siAt */ = _lB/* siAu */.d;
         return __continue/* EXTERNAL */;
       }else{
-        return E(_lz/* sivu */);
+        return E(_lz/* siAs */);
       }
-    })(_lw/*  sivu */, _lx/*  sivv */));
+    })(_lw/*  siAs */, _lx/*  siAt */));
     if(_ly/*  $fToAnyGameState_go10 */!=__continue/* EXTERNAL */){
       return _ly/*  $fToAnyGameState_go10 */;
     }
@@ -6688,16 +6688,16 @@ _lD/* map */ = function(_lE/* s3hr */, _lF/* s3hs */){
     return B(_lD/* GHC.Base.map */(_lE/* s3hr */, _lG/* s3ht */.b));
   }));
 },
-_lH/* $w$ctoAny */ = function(_lI/* siw6 */){
-  var _lJ/* siwQ */ = new T(function(){
+_lH/* $w$ctoAny */ = function(_lI/* siB4 */){
+  var _lJ/* siBO */ = new T(function(){
     return B(_kK/* Haste.Prim.Any.$wtoObject */(new T(function(){
-      return B(_lv/* LudoJS.$fToAnyGameState_go10 */(_4/* GHC.Types.[] */, E(_lI/* siw6 */).d));
+      return B(_lv/* LudoJS.$fToAnyGameState_go10 */(_4/* GHC.Types.[] */, E(_lI/* siB4 */).d));
     },1)));
   });
   return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,new T2(0,_1F/* LudoJS.$fFromAnyGameState16 */,new T(function(){
-    return B(_l9/* LudoJS.$fToAnyGameState_$ctoAny2 */(E(_lI/* siw6 */).a));
+    return B(_l9/* LudoJS.$fToAnyGameState_$ctoAny2 */(E(_lI/* siB4 */).a));
   })),new T2(1,new T2(0,_1E/* LudoJS.$fFromAnyGameState15 */,new T(function(){
-    switch(E(E(_lI/* siw6 */).b)){
+    switch(E(E(_lI/* siB4 */).b)){
       case 0:
         return toJSStr/* EXTERNAL */(E(_1u/* LudoJS.$fFromAnyGameState14 */));
         break;
@@ -6711,9 +6711,9 @@ _lH/* $w$ctoAny */ = function(_lI/* siw6 */){
         return toJSStr/* EXTERNAL */(E(_1r/* LudoJS.$fFromAnyGameState11 */));
     }
   })),new T2(1,new T2(0,_ct/* LudoJS.$fFromAnyGameState8 */,new T(function(){
-    return E(E(_lI/* siw6 */).c);
-  })),new T2(1,new T2(0,_cs/* LudoJS.$fFromAnyGameState7 */,_lJ/* siwQ */),new T2(1,new T2(0,_1L/* LudoJS.$fFromAnyGameState5 */,new T(function(){
-    return __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_kE/* LudoJS.$fToAnyGameState_$ctoAny1 */, E(_lI/* siw6 */).e)));
+    return E(E(_lI/* siB4 */).c);
+  })),new T2(1,new T2(0,_cs/* LudoJS.$fFromAnyGameState7 */,_lJ/* siBO */),new T2(1,new T2(0,_1L/* LudoJS.$fFromAnyGameState5 */,new T(function(){
+    return __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_kE/* LudoJS.$fToAnyGameState_$ctoAny1 */, E(_lI/* siB4 */).e)));
   })),_4/* GHC.Types.[] */))))));});
 },
 _lK/* Click */ = 0,
@@ -6805,30 +6805,30 @@ _mw/* play11 */ = new T1(0,_j7/* GHC.Base.Nothing */),
 _mx/* eqInt */ = function(_my/* scEd */, _mz/* scEe */){
   return E(_my/* scEd */)==E(_mz/* scEe */);
 },
-_mA/* $fEqOption_$c== */ = function(_mB/* si8i */, _mC/* si8j */){
-  var _mD/* si8k */ = E(_mB/* si8i */);
-  if(!_mD/* si8k */._){
-    var _mE/* si8m */ = E(_mC/* si8j */);
-    if(!_mE/* si8m */._){
-      return new F(function(){return _mx/* GHC.Classes.eqInt */(_mD/* si8k */.a, _mE/* si8m */.a);});
+_mA/* $fEqOption_$c== */ = function(_mB/* sidg */, _mC/* sidh */){
+  var _mD/* sidi */ = E(_mB/* sidg */);
+  if(!_mD/* sidi */._){
+    var _mE/* sidk */ = E(_mC/* sidh */);
+    if(!_mE/* sidk */._){
+      return new F(function(){return _mx/* GHC.Classes.eqInt */(_mD/* sidi */.a, _mE/* sidk */.a);});
     }else{
       return false;
     }
   }else{
-    var _mF/* si8s */ = E(_mC/* si8j */);
-    if(!_mF/* si8s */._){
+    var _mF/* sidq */ = E(_mC/* sidh */);
+    if(!_mF/* sidq */._){
       return false;
     }else{
-      if(E(_mD/* si8k */.a)!=E(_mF/* si8s */.a)){
+      if(E(_mD/* sidi */.a)!=E(_mF/* sidq */.a)){
         return false;
       }else{
-        return new F(function(){return _mx/* GHC.Classes.eqInt */(_mD/* si8k */.b, _mF/* si8s */.b);});
+        return new F(function(){return _mx/* GHC.Classes.eqInt */(_mD/* sidi */.b, _mF/* sidq */.b);});
       }
     }
   }
 },
-_mG/* $fEqOption_$c/= */ = function(_mH/* si8C */, _mI/* si8D */){
-  return (!B(_mA/* LudoJS.$fEqOption_$c== */(_mH/* si8C */, _mI/* si8D */))) ? true : false;
+_mG/* $fEqOption_$c/= */ = function(_mH/* sidA */, _mI/* sidB */){
+  return (!B(_mA/* LudoJS.$fEqOption_$c== */(_mH/* sidA */, _mI/* sidB */))) ? true : false;
 },
 _mJ/* $fEqOption */ = new T2(0,_mA/* LudoJS.$fEqOption_$c== */,_mG/* LudoJS.$fEqOption_$c/= */),
 _mK/* $fFromAny()4 */ = function(_/* EXTERNAL */){
@@ -6847,57 +6847,57 @@ _mL/* $wlenAcc */ = function(_mM/* sbMs */, _mN/* sbMt */){
     }
   }
 },
-_mQ/* $sa */ = function(_mR/*  siDO */, _mS/*  siDP */, _mT/*  siDQ */, _mU/*  siDR */, _mV/*  siDS */, _mW/*  siDT */, _mX/*  siDU */, _/* EXTERNAL */){
+_mQ/* $sa */ = function(_mR/*  siIM */, _mS/*  siIN */, _mT/*  siIO */, _mU/*  siIP */, _mV/*  siIQ */, _mW/*  siIR */, _mX/*  siIS */, _/* EXTERNAL */){
   while(1){
-    var _mY/*  $sa */ = B((function(_mZ/* siDO */, _n0/* siDP */, _n1/* siDQ */, _n2/* siDR */, _n3/* siDS */, _n4/* siDT */, _n5/* siDU */, _/* EXTERNAL */){
-      var _n6/* siDW */ = E(_mZ/* siDO */);
-      if(!_n6/* siDW */._){
-        return new T2(0,_n0/* siDP */,new T5(0,_n1/* siDQ */,_n2/* siDR */,_n3/* siDS */,_n4/* siDT */,_n5/* siDU */));
+    var _mY/*  $sa */ = B((function(_mZ/* siIM */, _n0/* siIN */, _n1/* siIO */, _n2/* siIP */, _n3/* siIQ */, _n4/* siIR */, _n5/* siIS */, _/* EXTERNAL */){
+      var _n6/* siIU */ = E(_mZ/* siIM */);
+      if(!_n6/* siIU */._){
+        return new T2(0,_n0/* siIN */,new T5(0,_n1/* siIO */,_n2/* siIP */,_n3/* siIQ */,_n4/* siIR */,_n5/* siIS */));
       }else{
-        var _n7/* siDZ */ = _n6/* siDW */.a,
-        _n8/*   siDQ */ = _n1/* siDQ */,
-        _n9/*   siDR */ = _n2/* siDR */,
-        _na/*   siDS */ = _n3/* siDS */,
-        _nb/*   siDT */ = _n4/* siDT */,
-        _nc/*   siDU */ = _n5/* siDU */;
-        _mR/*  siDO */ = _n6/* siDW */.b;
-        _mS/*  siDP */ = new T(function(){
-          if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_n7/* siDZ */, _n4/* siDT */)), 0))){
-            return E(_n0/* siDP */);
+        var _n7/* siIX */ = _n6/* siIU */.a,
+        _n8/*   siIO */ = _n1/* siIO */,
+        _n9/*   siIP */ = _n2/* siIP */,
+        _na/*   siIQ */ = _n3/* siIQ */,
+        _nb/*   siIR */ = _n4/* siIR */,
+        _nc/*   siIS */ = _n5/* siIS */;
+        _mR/*  siIM */ = _n6/* siIU */.b;
+        _mS/*  siIN */ = new T(function(){
+          if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_n7/* siIX */, _n4/* siIR */)), 0))){
+            return E(_n0/* siIN */);
           }else{
-            return B(_q/* GHC.Base.++ */(_n0/* siDP */, new T2(1,_n7/* siDZ */,_4/* GHC.Types.[] */)));
+            return B(_q/* GHC.Base.++ */(_n0/* siIN */, new T2(1,_n7/* siIX */,_4/* GHC.Types.[] */)));
           }
         });
-        _mT/*  siDQ */ = _n8/*   siDQ */;
-        _mU/*  siDR */ = _n9/*   siDR */;
-        _mV/*  siDS */ = _na/*   siDS */;
-        _mW/*  siDT */ = _nb/*   siDT */;
-        _mX/*  siDU */ = _nc/*   siDU */;
+        _mT/*  siIO */ = _n8/*   siIO */;
+        _mU/*  siIP */ = _n9/*   siIP */;
+        _mV/*  siIQ */ = _na/*   siIQ */;
+        _mW/*  siIR */ = _nb/*   siIR */;
+        _mX/*  siIS */ = _nc/*   siIS */;
         return __continue/* EXTERNAL */;
       }
-    })(_mR/*  siDO */, _mS/*  siDP */, _mT/*  siDQ */, _mU/*  siDR */, _mV/*  siDS */, _mW/*  siDT */, _mX/*  siDU */, _/* EXTERNAL */));
+    })(_mR/*  siIM */, _mS/*  siIN */, _mT/*  siIO */, _mU/*  siIP */, _mV/*  siIQ */, _mW/*  siIR */, _mX/*  siIS */, _/* EXTERNAL */));
     if(_mY/*  $sa */!=__continue/* EXTERNAL */){
       return _mY/*  $sa */;
     }
   }
 },
-_nd/* $sa1 */ = function(_ne/* siE5 */, _nf/* siE6 */, _ng/* siE7 */, _nh/* siE8 */, _ni/* siE9 */, _nj/* siEa */, _nk/* siEb */, _nl/* siEc */, _/* EXTERNAL */){
-  return new F(function(){return _mQ/* LudoJS.$sa */(_nf/* siE6 */, new T(function(){
-    if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_ne/* siE5 */, _nk/* siEb */)), 0))){
-      return E(_ng/* siE7 */);
+_nd/* $sa1 */ = function(_ne/* siJ3 */, _nf/* siJ4 */, _ng/* siJ5 */, _nh/* siJ6 */, _ni/* siJ7 */, _nj/* siJ8 */, _nk/* siJ9 */, _nl/* siJa */, _/* EXTERNAL */){
+  return new F(function(){return _mQ/* LudoJS.$sa */(_nf/* siJ4 */, new T(function(){
+    if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_ne/* siJ3 */, _nk/* siJ9 */)), 0))){
+      return E(_ng/* siJ5 */);
     }else{
-      return B(_q/* GHC.Base.++ */(_ng/* siE7 */, new T2(1,_ne/* siE5 */,_4/* GHC.Types.[] */)));
+      return B(_q/* GHC.Base.++ */(_ng/* siJ5 */, new T2(1,_ne/* siJ3 */,_4/* GHC.Types.[] */)));
     }
-  }), _nh/* siE8 */, _ni/* siE9 */, _nj/* siEa */, _nk/* siEb */, _nl/* siEc */, _/* EXTERNAL */);});
+  }), _nh/* siJ6 */, _ni/* siJ7 */, _nj/* siJ8 */, _nk/* siJ9 */, _nl/* siJa */, _/* EXTERNAL */);});
 },
-_nm/* go2 */ = function(_nn/* siyj */){
+_nm/* go2 */ = function(_nn/* siDh */){
   while(1){
-    var _no/* siyk */ = E(_nn/* siyj */);
-    if(!_no/* siyk */._){
+    var _no/* siDi */ = E(_nn/* siDh */);
+    if(!_no/* siDi */._){
       return true;
     }else{
-      if(!E(E(_no/* siyk */.a).b)._){
-        _nn/* siyj */ = _no/* siyk */.b;
+      if(!E(E(_no/* siDi */.a).b)._){
+        _nn/* siDh */ = _no/* siDi */.b;
         continue;
       }else{
         return false;
@@ -6936,12 +6936,12 @@ _np/* modInt# */ = function(_nq/* scF6 */, _nr/* scF7 */){
     }
   }
 },
-_nw/* $wa13 */ = function(_nx/* siys */, _/* EXTERNAL */){
-  var _ny/* siyN */ = new T(function(){
-    var _nz/* siyu */ = E(_nx/* siys */),
-    _nA/* siyy */ = _nz/* siyu */.d,
-    _nB/* siyA */ = new T(function(){
-      switch(E(_nz/* siyu */.b)){
+_nw/* $wa13 */ = function(_nx/* siDq */, _/* EXTERNAL */){
+  var _ny/* siDL */ = new T(function(){
+    var _nz/* siDs */ = E(_nx/* siDq */),
+    _nA/* siDw */ = _nz/* siDs */.d,
+    _nB/* siDy */ = new T(function(){
+      switch(E(_nz/* siDs */.b)){
         case 0:
           switch(B(_np/* GHC.Classes.modInt# */(1, 4))+1|0){
             case 1:
@@ -7015,36 +7015,36 @@ _nw/* $wa13 */ = function(_nx/* siys */, _/* EXTERNAL */){
           }
       }
     });
-    return new T5(0,_mw/* LudoJS.play11 */,_nB/* siyA */,new T(function(){
-      if(!B(_nm/* LudoJS.go2 */(B(_da/* LudoJS.$s!1 */(_nB/* siyA */, _nA/* siyy */))))){
+    return new T5(0,_mw/* LudoJS.play11 */,_nB/* siDy */,new T(function(){
+      if(!B(_nm/* LudoJS.go2 */(B(_da/* LudoJS.$s!1 */(_nB/* siDy */, _nA/* siDw */))))){
         return E(_di/* LudoJS.numPiecesAt2 */);
       }else{
         return E(_63/* LudoJS.play10 */);
       }
-    }),_nA/* siyy */,_nz/* siyu */.e);
+    }),_nA/* siDw */,_nz/* siDs */.e);
   });
-  return new T2(0,_eb/* GHC.Tuple.() */,_ny/* siyN */);
+  return new T2(0,_eb/* GHC.Tuple.() */,_ny/* siDL */);
 },
-_nC/* $wa15 */ = function(_nD/* sizv */, _nE/* sizw */, _nF/* sizx */, _nG/* sizy */, _nH/* sizz */, _/* EXTERNAL */){
-  var _nI/* sizD */ = new T5(0,_nD/* sizv */,_nE/* sizw */,_nF/* sizx */,_nG/* sizy */,_nH/* sizz */),
-  _nJ/* sizE */ = function(_nK/* sizF */){
-    var _nL/* sizG */ = B(_nw/* LudoJS.$wa13 */(_nI/* sizD */, _/* EXTERNAL */)),
-    _nM/* sizJ */ = E(_nL/* sizG */),
-    _nN/* sizM */ = E(_nM/* sizJ */.b),
-    _nO/* sizS */ = B(_nC/* LudoJS.$wa15 */(_nN/* sizM */.a, _nN/* sizM */.b, _nN/* sizM */.c, _nN/* sizM */.d, _nN/* sizM */.e, _/* EXTERNAL */));
-    return new T2(0,new T2(1,_nM/* sizJ */.a,new T(function(){
-      return E(E(_nO/* sizS */).a);
+_nC/* $wa15 */ = function(_nD/* siEt */, _nE/* siEu */, _nF/* siEv */, _nG/* siEw */, _nH/* siEx */, _/* EXTERNAL */){
+  var _nI/* siEB */ = new T5(0,_nD/* siEt */,_nE/* siEu */,_nF/* siEv */,_nG/* siEw */,_nH/* siEx */),
+  _nJ/* siEC */ = function(_nK/* siED */){
+    var _nL/* siEE */ = B(_nw/* LudoJS.$wa13 */(_nI/* siEB */, _/* EXTERNAL */)),
+    _nM/* siEH */ = E(_nL/* siEE */),
+    _nN/* siEK */ = E(_nM/* siEH */.b),
+    _nO/* siEQ */ = B(_nC/* LudoJS.$wa15 */(_nN/* siEK */.a, _nN/* siEK */.b, _nN/* siEK */.c, _nN/* siEK */.d, _nN/* siEK */.e, _/* EXTERNAL */));
+    return new T2(0,new T2(1,_nM/* siEH */.a,new T(function(){
+      return E(E(_nO/* siEQ */).a);
     })),new T(function(){
-      return E(E(_nO/* sizS */).b);
+      return E(E(_nO/* siEQ */).b);
     }));
   };
-  if(!E(B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_nE/* sizw */, _nG/* sizy */)), 0)))){
-    return new F(function(){return _nJ/* sizE */(_/* EXTERNAL */);});
+  if(!E(B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_nE/* siEu */, _nG/* siEw */)), 0)))){
+    return new F(function(){return _nJ/* siEC */(_/* EXTERNAL */);});
   }else{
-    if(E(_nF/* sizx */)>=1){
-      return new T2(0,_4/* GHC.Types.[] */,_nI/* sizD */);
+    if(E(_nF/* siEv */)>=1){
+      return new T2(0,_4/* GHC.Types.[] */,_nI/* siEB */);
     }else{
-      return new F(function(){return _nJ/* sizE */(_/* EXTERNAL */);});
+      return new F(function(){return _nJ/* siEC */(_/* EXTERNAL */);});
     }
   }
 },
@@ -7053,229 +7053,229 @@ _nQ/* $fToAnyOption4 */ = "option",
 _nR/* $fToAnyOption2 */ = new T2(0,_nQ/* LudoJS.$fToAnyOption4 */,_nP/* LudoJS.$fToAnyOption3 */),
 _nS/* $fToAnyOption7 */ = "Play",
 _nT/* $fToAnyOption6 */ = new T2(0,_nQ/* LudoJS.$fToAnyOption4 */,_nS/* LudoJS.$fToAnyOption7 */),
-_nU/* $w$ctoAny2 */ = function(_nV/* si5x */){
-  var _nW/* si5y */ = E(_nV/* si5x */);
-  if(!_nW/* si5y */._){
-    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_nT/* LudoJS.$fToAnyOption6 */,new T2(1,new T2(0,_1N/* LudoJS.$fToAnyOption5 */,_nW/* si5y */.a),_4/* GHC.Types.[] */)));});
+_nU/* $w$ctoAny2 */ = function(_nV/* siav */){
+  var _nW/* siaw */ = E(_nV/* siav */);
+  if(!_nW/* siaw */._){
+    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_nT/* LudoJS.$fToAnyOption6 */,new T2(1,new T2(0,_1N/* LudoJS.$fToAnyOption5 */,_nW/* siaw */.a),_4/* GHC.Types.[] */)));});
   }else{
-    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_nR/* LudoJS.$fToAnyOption2 */,new T2(1,new T2(0,_1N/* LudoJS.$fToAnyOption5 */,_nW/* si5y */.a),new T2(1,new T2(0,_1M/* LudoJS.$fToAnyOption1 */,_nW/* si5y */.b),_4/* GHC.Types.[] */))));});
+    return new F(function(){return _kK/* Haste.Prim.Any.$wtoObject */(new T2(1,_nR/* LudoJS.$fToAnyOption2 */,new T2(1,new T2(0,_1N/* LudoJS.$fToAnyOption5 */,_nW/* siaw */.a),new T2(1,new T2(0,_1M/* LudoJS.$fToAnyOption1 */,_nW/* siaw */.b),_4/* GHC.Types.[] */))));});
   }
 },
-_nX/* $fToAnyOption_$ctoAny */ = function(_nY/* si5K */){
-  return new F(function(){return _nU/* LudoJS.$w$ctoAny2 */(_nY/* si5K */);});
+_nX/* $fToAnyOption_$ctoAny */ = function(_nY/* siaI */){
+  return new F(function(){return _nU/* LudoJS.$w$ctoAny2 */(_nY/* siaI */);});
 },
-_nZ/* a42 */ = function(_o0/* shJP */, _o1/* shJQ */, _/* EXTERNAL */){
-  var _o2/* shM2 */ = new T(function(){
-    var _o3/* shJS */ = E(_o1/* shJQ */),
-    _o4/* shJY */ = function(_o5/* shJZ */){
-      var _o6/* shK0 */ = E(_o5/* shJZ */);
-      if(!_o6/* shK0 */._){
+_nZ/* a42 */ = function(_o0/* shO8 */, _o1/* shO9 */, _/* EXTERNAL */){
+  var _o2/* shQl */ = new T(function(){
+    var _o3/* shOb */ = E(_o1/* shO9 */),
+    _o4/* shOh */ = function(_o5/* shOi */){
+      var _o6/* shOj */ = E(_o5/* shOi */);
+      if(!_o6/* shOj */._){
         return __Z/* EXTERNAL */;
       }else{
-        var _o7/* shK2 */ = _o6/* shK0 */.b,
-        _o8/* shK3 */ = E(_o6/* shK0 */.a),
-        _o9/* shK4 */ = _o8/* shK3 */.a,
-        _oa/* shK6 */ = E(_o8/* shK3 */.b);
-        if(!_oa/* shK6 */._){
-          var _ob/* shK9 */ = E(_o0/* shJP */);
-          if(_ob/* shK9 */==6){
-            var _oc/* shKV */ = new T(function(){
-              var _od/* shKx */ = function(_oe/*  shKy */){
+        var _o7/* shOl */ = _o6/* shOj */.b,
+        _o8/* shOm */ = E(_o6/* shOj */.a),
+        _o9/* shOn */ = _o8/* shOm */.a,
+        _oa/* shOp */ = E(_o8/* shOm */.b);
+        if(!_oa/* shOp */._){
+          var _ob/* shOs */ = E(_o0/* shO8 */);
+          if(_ob/* shOs */==6){
+            var _oc/* shPe */ = new T(function(){
+              var _od/* shOQ */ = function(_oe/*  shOR */){
                 while(1){
-                  var _of/*  shKx */ = B((function(_og/* shKy */){
-                    var _oh/* shKz */ = E(_og/* shKy */);
-                    if(!_oh/* shKz */._){
+                  var _of/*  shOQ */ = B((function(_og/* shOR */){
+                    var _oh/* shOS */ = E(_og/* shOR */);
+                    if(!_oh/* shOS */._){
                       return __Z/* EXTERNAL */;
                     }else{
-                      var _oi/* shKB */ = _oh/* shKz */.b,
-                      _oj/* shKC */ = E(_oh/* shKz */.a),
-                      _ok/* shKD */ = _oj/* shKC */.a,
-                      _ol/* shKF */ = E(_oj/* shKC */.b);
-                      if(!_ol/* shKF */._){
-                        return new T2(1,new T1(0,_ok/* shKD */),new T(function(){
-                          return B(_od/* shKx */(_oi/* shKB */));
+                      var _oi/* shOU */ = _oh/* shOS */.b,
+                      _oj/* shOV */ = E(_oh/* shOS */.a),
+                      _ok/* shOW */ = _oj/* shOV */.a,
+                      _ol/* shOY */ = E(_oj/* shOV */.b);
+                      if(!_ol/* shOY */._){
+                        return new T2(1,new T1(0,_ok/* shOW */),new T(function(){
+                          return B(_od/* shOQ */(_oi/* shOU */));
                         }));
                       }else{
-                        var _om/* shKJ */ = E(_ol/* shKF */.a);
-                        if(_om/* shKJ */>=51){
-                          if((6+_om/* shKJ */|0)==56){
-                            return new T2(1,new T2(1,_ok/* shKD */,56),new T(function(){
-                              return B(_od/* shKx */(_oi/* shKB */));
+                        var _om/* shP2 */ = E(_ol/* shOY */.a);
+                        if(_om/* shP2 */>=51){
+                          if((6+_om/* shP2 */|0)==56){
+                            return new T2(1,new T2(1,_ok/* shOW */,56),new T(function(){
+                              return B(_od/* shOQ */(_oi/* shOU */));
                             }));
                           }else{
-                            _oe/*  shKy */ = _oi/* shKB */;
+                            _oe/*  shOR */ = _oi/* shOU */;
                             return __continue/* EXTERNAL */;
                           }
                         }else{
-                          return new T2(1,new T2(1,_ok/* shKD */,6+_om/* shKJ */|0),new T(function(){
-                            return B(_od/* shKx */(_oi/* shKB */));
+                          return new T2(1,new T2(1,_ok/* shOW */,6+_om/* shP2 */|0),new T(function(){
+                            return B(_od/* shOQ */(_oi/* shOU */));
                           }));
                         }
                       }
                     }
-                  })(_oe/*  shKy */));
-                  if(_of/*  shKx */!=__continue/* EXTERNAL */){
-                    return _of/*  shKx */;
+                  })(_oe/*  shOR */));
+                  if(_of/*  shOQ */!=__continue/* EXTERNAL */){
+                    return _of/*  shOQ */;
                   }
                 }
               };
-              return B(_od/* shKx */(_o7/* shK2 */));
+              return B(_od/* shOQ */(_o7/* shOl */));
             });
-            return new T2(1,new T1(0,_o9/* shK4 */),_oc/* shKV */);
+            return new T2(1,new T1(0,_o9/* shOn */),_oc/* shPe */);
           }else{
-            var _on/* shKa */ = function(_oo/*  shKb */){
+            var _on/* shOt */ = function(_oo/*  shOu */){
               while(1){
-                var _op/*  shKa */ = B((function(_oq/* shKb */){
-                  var _or/* shKc */ = E(_oq/* shKb */);
-                  if(!_or/* shKc */._){
+                var _op/*  shOt */ = B((function(_oq/* shOu */){
+                  var _or/* shOv */ = E(_oq/* shOu */);
+                  if(!_or/* shOv */._){
                     return __Z/* EXTERNAL */;
                   }else{
-                    var _os/* shKe */ = _or/* shKc */.b,
-                    _ot/* shKf */ = E(_or/* shKc */.a),
-                    _ou/* shKg */ = _ot/* shKf */.a,
-                    _ov/* shKi */ = E(_ot/* shKf */.b);
-                    if(!_ov/* shKi */._){
-                      _oo/*  shKb */ = _os/* shKe */;
+                    var _os/* shOx */ = _or/* shOv */.b,
+                    _ot/* shOy */ = E(_or/* shOv */.a),
+                    _ou/* shOz */ = _ot/* shOy */.a,
+                    _ov/* shOB */ = E(_ot/* shOy */.b);
+                    if(!_ov/* shOB */._){
+                      _oo/*  shOu */ = _os/* shOx */;
                       return __continue/* EXTERNAL */;
                     }else{
-                      var _ow/* shKk */ = E(_ov/* shKi */.a);
-                      if(_ow/* shKk */>=51){
-                        if((_ob/* shK9 */+_ow/* shKk */|0)==56){
-                          return new T2(1,new T2(1,_ou/* shKg */,56),new T(function(){
-                            return B(_on/* shKa */(_os/* shKe */));
+                      var _ow/* shOD */ = E(_ov/* shOB */.a);
+                      if(_ow/* shOD */>=51){
+                        if((_ob/* shOs */+_ow/* shOD */|0)==56){
+                          return new T2(1,new T2(1,_ou/* shOz */,56),new T(function(){
+                            return B(_on/* shOt */(_os/* shOx */));
                           }));
                         }else{
-                          _oo/*  shKb */ = _os/* shKe */;
+                          _oo/*  shOu */ = _os/* shOx */;
                           return __continue/* EXTERNAL */;
                         }
                       }else{
-                        return new T2(1,new T2(1,_ou/* shKg */,_ob/* shK9 */+_ow/* shKk */|0),new T(function(){
-                          return B(_on/* shKa */(_os/* shKe */));
+                        return new T2(1,new T2(1,_ou/* shOz */,_ob/* shOs */+_ow/* shOD */|0),new T(function(){
+                          return B(_on/* shOt */(_os/* shOx */));
                         }));
                       }
                     }
                   }
-                })(_oo/*  shKb */));
-                if(_op/*  shKa */!=__continue/* EXTERNAL */){
-                  return _op/*  shKa */;
+                })(_oo/*  shOu */));
+                if(_op/*  shOt */!=__continue/* EXTERNAL */){
+                  return _op/*  shOt */;
                 }
               }
             };
-            return new F(function(){return _on/* shKa */(_o7/* shK2 */);});
+            return new F(function(){return _on/* shOt */(_o7/* shOl */);});
           }
         }else{
-          var _ox/* shKX */ = E(_oa/* shK6 */.a);
-          if(_ox/* shKX */>=51){
-            var _oy/* shL1 */ = E(_o0/* shJP */);
-            if((_oy/* shL1 */+_ox/* shKX */|0)==56){
-              var _oz/* shLU */ = new T(function(){
-                var _oA/* shLv */ = function(_oB/*  shLw */){
+          var _ox/* shPg */ = E(_oa/* shOp */.a);
+          if(_ox/* shPg */>=51){
+            var _oy/* shPk */ = E(_o0/* shO8 */);
+            if((_oy/* shPk */+_ox/* shPg */|0)==56){
+              var _oz/* shQd */ = new T(function(){
+                var _oA/* shPO */ = function(_oB/*  shPP */){
                   while(1){
-                    var _oC/*  shLv */ = B((function(_oD/* shLw */){
-                      var _oE/* shLx */ = E(_oD/* shLw */);
-                      if(!_oE/* shLx */._){
+                    var _oC/*  shPO */ = B((function(_oD/* shPP */){
+                      var _oE/* shPQ */ = E(_oD/* shPP */);
+                      if(!_oE/* shPQ */._){
                         return __Z/* EXTERNAL */;
                       }else{
-                        var _oF/* shLz */ = _oE/* shLx */.b,
-                        _oG/* shLA */ = E(_oE/* shLx */.a),
-                        _oH/* shLB */ = _oG/* shLA */.a,
-                        _oI/* shLD */ = E(_oG/* shLA */.b);
-                        if(!_oI/* shLD */._){
-                          if(E(_oy/* shL1 */)==6){
-                            return new T2(1,new T1(0,_oH/* shLB */),new T(function(){
-                              return B(_oA/* shLv */(_oF/* shLz */));
+                        var _oF/* shPS */ = _oE/* shPQ */.b,
+                        _oG/* shPT */ = E(_oE/* shPQ */.a),
+                        _oH/* shPU */ = _oG/* shPT */.a,
+                        _oI/* shPW */ = E(_oG/* shPT */.b);
+                        if(!_oI/* shPW */._){
+                          if(E(_oy/* shPk */)==6){
+                            return new T2(1,new T1(0,_oH/* shPU */),new T(function(){
+                              return B(_oA/* shPO */(_oF/* shPS */));
                             }));
                           }else{
-                            _oB/*  shLw */ = _oF/* shLz */;
+                            _oB/*  shPP */ = _oF/* shPS */;
                             return __continue/* EXTERNAL */;
                           }
                         }else{
-                          var _oJ/* shLI */ = E(_oI/* shLD */.a);
-                          if(_oJ/* shLI */>=51){
-                            if((_oy/* shL1 */+_oJ/* shLI */|0)==56){
-                              return new T2(1,new T2(1,_oH/* shLB */,56),new T(function(){
-                                return B(_oA/* shLv */(_oF/* shLz */));
+                          var _oJ/* shQ1 */ = E(_oI/* shPW */.a);
+                          if(_oJ/* shQ1 */>=51){
+                            if((_oy/* shPk */+_oJ/* shQ1 */|0)==56){
+                              return new T2(1,new T2(1,_oH/* shPU */,56),new T(function(){
+                                return B(_oA/* shPO */(_oF/* shPS */));
                               }));
                             }else{
-                              _oB/*  shLw */ = _oF/* shLz */;
+                              _oB/*  shPP */ = _oF/* shPS */;
                               return __continue/* EXTERNAL */;
                             }
                           }else{
-                            return new T2(1,new T2(1,_oH/* shLB */,_oy/* shL1 */+_oJ/* shLI */|0),new T(function(){
-                              return B(_oA/* shLv */(_oF/* shLz */));
+                            return new T2(1,new T2(1,_oH/* shPU */,_oy/* shPk */+_oJ/* shQ1 */|0),new T(function(){
+                              return B(_oA/* shPO */(_oF/* shPS */));
                             }));
                           }
                         }
                       }
-                    })(_oB/*  shLw */));
-                    if(_oC/*  shLv */!=__continue/* EXTERNAL */){
-                      return _oC/*  shLv */;
+                    })(_oB/*  shPP */));
+                    if(_oC/*  shPO */!=__continue/* EXTERNAL */){
+                      return _oC/*  shPO */;
                     }
                   }
                 };
-                return B(_oA/* shLv */(_o7/* shK2 */));
+                return B(_oA/* shPO */(_o7/* shOl */));
               });
-              return new T2(1,new T2(1,_o9/* shK4 */,56),_oz/* shLU */);
+              return new T2(1,new T2(1,_o9/* shOn */,56),_oz/* shQd */);
             }else{
-              var _oK/* shL4 */ = function(_oL/*  shL5 */){
+              var _oK/* shPn */ = function(_oL/*  shPo */){
                 while(1){
-                  var _oM/*  shL4 */ = B((function(_oN/* shL5 */){
-                    var _oO/* shL6 */ = E(_oN/* shL5 */);
-                    if(!_oO/* shL6 */._){
+                  var _oM/*  shPn */ = B((function(_oN/* shPo */){
+                    var _oO/* shPp */ = E(_oN/* shPo */);
+                    if(!_oO/* shPp */._){
                       return __Z/* EXTERNAL */;
                     }else{
-                      var _oP/* shL8 */ = _oO/* shL6 */.b,
-                      _oQ/* shL9 */ = E(_oO/* shL6 */.a),
-                      _oR/* shLa */ = _oQ/* shL9 */.a,
-                      _oS/* shLc */ = E(_oQ/* shL9 */.b);
-                      if(!_oS/* shLc */._){
-                        if(E(_oy/* shL1 */)==6){
-                          return new T2(1,new T1(0,_oR/* shLa */),new T(function(){
-                            return B(_oK/* shL4 */(_oP/* shL8 */));
+                      var _oP/* shPr */ = _oO/* shPp */.b,
+                      _oQ/* shPs */ = E(_oO/* shPp */.a),
+                      _oR/* shPt */ = _oQ/* shPs */.a,
+                      _oS/* shPv */ = E(_oQ/* shPs */.b);
+                      if(!_oS/* shPv */._){
+                        if(E(_oy/* shPk */)==6){
+                          return new T2(1,new T1(0,_oR/* shPt */),new T(function(){
+                            return B(_oK/* shPn */(_oP/* shPr */));
                           }));
                         }else{
-                          _oL/*  shL5 */ = _oP/* shL8 */;
+                          _oL/*  shPo */ = _oP/* shPr */;
                           return __continue/* EXTERNAL */;
                         }
                       }else{
-                        var _oT/* shLh */ = E(_oS/* shLc */.a);
-                        if(_oT/* shLh */>=51){
-                          if((_oy/* shL1 */+_oT/* shLh */|0)==56){
-                            return new T2(1,new T2(1,_oR/* shLa */,56),new T(function(){
-                              return B(_oK/* shL4 */(_oP/* shL8 */));
+                        var _oT/* shPA */ = E(_oS/* shPv */.a);
+                        if(_oT/* shPA */>=51){
+                          if((_oy/* shPk */+_oT/* shPA */|0)==56){
+                            return new T2(1,new T2(1,_oR/* shPt */,56),new T(function(){
+                              return B(_oK/* shPn */(_oP/* shPr */));
                             }));
                           }else{
-                            _oL/*  shL5 */ = _oP/* shL8 */;
+                            _oL/*  shPo */ = _oP/* shPr */;
                             return __continue/* EXTERNAL */;
                           }
                         }else{
-                          return new T2(1,new T2(1,_oR/* shLa */,_oy/* shL1 */+_oT/* shLh */|0),new T(function(){
-                            return B(_oK/* shL4 */(_oP/* shL8 */));
+                          return new T2(1,new T2(1,_oR/* shPt */,_oy/* shPk */+_oT/* shPA */|0),new T(function(){
+                            return B(_oK/* shPn */(_oP/* shPr */));
                           }));
                         }
                       }
                     }
-                  })(_oL/*  shL5 */));
-                  if(_oM/*  shL4 */!=__continue/* EXTERNAL */){
-                    return _oM/*  shL4 */;
+                  })(_oL/*  shPo */));
+                  if(_oM/*  shPn */!=__continue/* EXTERNAL */){
+                    return _oM/*  shPn */;
                   }
                 }
               };
-              return new F(function(){return _oK/* shL4 */(_o7/* shK2 */);});
+              return new F(function(){return _oK/* shPn */(_o7/* shOl */);});
             }
           }else{
-            return new T2(1,new T2(1,_o9/* shK4 */,new T(function(){
-              return E(_o0/* shJP */)+_ox/* shKX */|0;
+            return new T2(1,new T2(1,_o9/* shOn */,new T(function(){
+              return E(_o0/* shO8 */)+_ox/* shPg */|0;
             })),new T(function(){
-              return B(_o4/* shJY */(_o7/* shK2 */));
+              return B(_o4/* shOh */(_o7/* shOl */));
             }));
           }
         }
       }
     };
-    return B(_o4/* shJY */(B(_da/* LudoJS.$s!1 */(_o3/* shJS */.b, _o3/* shJS */.d))));
+    return B(_o4/* shOh */(B(_da/* LudoJS.$s!1 */(_o3/* shOb */.b, _o3/* shOb */.d))));
   });
-  return new T2(0,_o2/* shM2 */,_o1/* shJQ */);
+  return new T2(0,_o2/* shQl */,_o1/* shO9 */);
 },
 _oU/* play3 */ = "((gs, opts, rolls) => drawBoard(gs, opts, rolls))",
 _oV/* f2 */ = new T(function(){
@@ -7284,39 +7284,39 @@ _oV/* f2 */ = new T(function(){
 _oW/* lvl13 */ = new T(function(){
   return B(_1o/* Control.Exception.Base.patError */("LudoJS.hs:(312,5)-(316,32)|case"));
 }),
-_oX/* $wa16 */ = function(_oY/* siCS */, _oZ/* siCT */, _p0/* siCU */, _p1/* siCV */, _p2/* siCW */, _p3/* siCX */, _/* EXTERNAL */){
-  var _p4/* siCZ */ = function(_p5/* siD0 */, _p6/* siD1 */){
-    var _p7/* siD4 */ = function(_/* EXTERNAL */, _p8/* siD6 */, _p9/* siD7 */){
-      var _pa/* siDd */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _p8/* siD6 */))),
-      _pb/* siDj */ = __app3/* EXTERNAL */(E(_oV/* LudoJS.f2 */), B(_lH/* LudoJS.$w$ctoAny */(new T5(0,_oY/* siCS */,_oZ/* siCT */,_p0/* siCU */,_p1/* siCV */,_p2/* siCW */))), _pa/* siDd */, _p5/* siD0 */);
-      return new T2(0,_eb/* GHC.Tuple.() */,_p9/* siD7 */);
+_oX/* $wa16 */ = function(_oY/* siHQ */, _oZ/* siHR */, _p0/* siHS */, _p1/* siHT */, _p2/* siHU */, _p3/* siHV */, _/* EXTERNAL */){
+  var _p4/* siHX */ = function(_p5/* siHY */, _p6/* siHZ */){
+    var _p7/* siI2 */ = function(_/* EXTERNAL */, _p8/* siI4 */, _p9/* siI5 */){
+      var _pa/* siIb */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _p8/* siI4 */))),
+      _pb/* siIh */ = __app3/* EXTERNAL */(E(_oV/* LudoJS.f2 */), B(_lH/* LudoJS.$w$ctoAny */(new T5(0,_oY/* siHQ */,_oZ/* siHR */,_p0/* siHS */,_p1/* siHT */,_p2/* siHU */))), _pa/* siIb */, _p5/* siHY */);
+      return new T2(0,_eb/* GHC.Tuple.() */,_p9/* siI5 */);
     };
-    if(E(_p5/* siD0 */)==( -1)){
-      return new F(function(){return _p7/* siD4 */(_/* EXTERNAL */, _4/* GHC.Types.[] */, _p3/* siCX */);});
+    if(E(_p5/* siHY */)==( -1)){
+      return new F(function(){return _p7/* siI2 */(_/* EXTERNAL */, _4/* GHC.Types.[] */, _p3/* siHV */);});
     }else{
-      var _pc/* siDo */ = B(_nZ/* LudoJS.a42 */(_p6/* siD1 */, _p3/* siCX */, _/* EXTERNAL */)),
-      _pd/* siDr */ = E(_pc/* siDo */);
-      return new F(function(){return _p7/* siD4 */(_/* EXTERNAL */, _pd/* siDr */.a, _pd/* siDr */.b);});
+      var _pc/* siIm */ = B(_nZ/* LudoJS.a42 */(_p6/* siHZ */, _p3/* siHV */, _/* EXTERNAL */)),
+      _pd/* siIp */ = E(_pc/* siIm */);
+      return new F(function(){return _p7/* siI2 */(_/* EXTERNAL */, _pd/* siIp */.a, _pd/* siIp */.b);});
     }
   },
-  _pe/* siDu */ = E(_oY/* siCS */);
-  switch(_pe/* siDu */._){
+  _pe/* siIs */ = E(_oY/* siHQ */);
+  switch(_pe/* siIs */._){
     case 0:
-      var _pf/* siDw */ = E(_pe/* siDu */.a);
-      if(!_pf/* siDw */._){
-        return new F(function(){return _p4/* siCZ */( -1, _kX/* LudoJS.$fToAnyGameState18 */);});
+      var _pf/* siIu */ = E(_pe/* siIs */.a);
+      if(!_pf/* siIu */._){
+        return new F(function(){return _p4/* siHX */( -1, _kX/* LudoJS.$fToAnyGameState18 */);});
       }else{
-        var _pg/* siDy */ = E(_pf/* siDw */.a);
-        return new F(function(){return _p4/* siCZ */(_pg/* siDy */, _pg/* siDy */);});
+        var _pg/* siIw */ = E(_pf/* siIu */.a);
+        return new F(function(){return _p4/* siHX */(_pg/* siIw */, _pg/* siIw */);});
       }
       break;
     case 1:
-      var _ph/* siDB */ = E(_pe/* siDu */.a);
-      return new F(function(){return _p4/* siCZ */(_ph/* siDB */, _ph/* siDB */);});
+      var _ph/* siIz */ = E(_pe/* siIs */.a);
+      return new F(function(){return _p4/* siHX */(_ph/* siIz */, _ph/* siIz */);});
       break;
     case 2:
-      var _pi/* siDF */ = E(_pe/* siDu */.a);
-      return new F(function(){return _p4/* siCZ */(_pi/* siDF */, _pi/* siDF */);});
+      var _pi/* siID */ = E(_pe/* siIs */.a);
+      return new F(function(){return _p4/* siHX */(_pi/* siID */, _pi/* siID */);});
       break;
     default:
       return E(_oW/* LudoJS.lvl13 */);
@@ -7326,33 +7326,33 @@ _pj/* neInt */ = function(_pk/* scEM */, _pl/* scEN */){
   return E(_pk/* scEM */)!=E(_pl/* scEN */);
 },
 _pm/* $fEqInt */ = new T2(0,_mx/* GHC.Classes.eqInt */,_pj/* GHC.Classes.neInt */),
-_pn/* $soutByCell */ = function(_po/* shMl */, _pp/* shMm */){
-  var _pq/* shMn */ = E(_po/* shMl */);
-  if(!_pq/* shMn */._){
+_pn/* $soutByCell */ = function(_po/* shQE */, _pp/* shQF */){
+  var _pq/* shQG */ = E(_po/* shQE */);
+  if(!_pq/* shQG */._){
     return __Z/* EXTERNAL */;
   }else{
-    var _pr/* shMp */ = _pq/* shMn */.b,
-    _ps/* shMq */ = E(_pq/* shMn */.a),
-    _pt/* shMt */ = E(_ps/* shMq */.b);
-    return (_pt/* shMt */._==0) ? new T2(1,_ps/* shMq */,new T(function(){
-      return B(_pn/* LudoJS.$soutByCell */(_pr/* shMp */, _pp/* shMm */));
-    })) : (_pp/* shMm */!=E(_pt/* shMt */.a)) ? new T2(1,_ps/* shMq */,new T(function(){
-      return B(_pn/* LudoJS.$soutByCell */(_pr/* shMp */, _pp/* shMm */));
-    })) : new T2(1,new T2(0,_ps/* shMq */.a,_60/* LudoJS.Out */),new T(function(){
-      return B(_pn/* LudoJS.$soutByCell */(_pr/* shMp */, _pp/* shMm */));
+    var _pr/* shQI */ = _pq/* shQG */.b,
+    _ps/* shQJ */ = E(_pq/* shQG */.a),
+    _pt/* shQM */ = E(_ps/* shQJ */.b);
+    return (_pt/* shQM */._==0) ? new T2(1,_ps/* shQJ */,new T(function(){
+      return B(_pn/* LudoJS.$soutByCell */(_pr/* shQI */, _pp/* shQF */));
+    })) : (_pp/* shQF */!=E(_pt/* shQM */.a)) ? new T2(1,_ps/* shQJ */,new T(function(){
+      return B(_pn/* LudoJS.$soutByCell */(_pr/* shQI */, _pp/* shQF */));
+    })) : new T2(1,new T2(0,_ps/* shQJ */.a,_60/* LudoJS.Out */),new T(function(){
+      return B(_pn/* LudoJS.$soutByCell */(_pr/* shQI */, _pp/* shQF */));
     }));
   }
 },
-_pu/* $sremoveFrom */ = function(_pv/* shMX */, _pw/* shMY */){
-  var _px/* shMZ */ = E(_pv/* shMX */);
-  if(!_px/* shMZ */._){
+_pu/* $sremoveFrom */ = function(_pv/* shRg */, _pw/* shRh */){
+  var _px/* shRi */ = E(_pv/* shRg */);
+  if(!_px/* shRi */._){
     return __Z/* EXTERNAL */;
   }else{
-    var _py/* shN1 */ = _px/* shMZ */.b,
-    _pz/* shN2 */ = E(_px/* shMZ */.a);
-    return (_pw/* shMY */!=E(_pz/* shN2 */.a)) ? new T2(1,_pz/* shN2 */,new T(function(){
-      return B(_pu/* LudoJS.$sremoveFrom */(_py/* shN1 */, _pw/* shMY */));
-    })) : E(_py/* shN1 */);
+    var _py/* shRk */ = _px/* shRi */.b,
+    _pz/* shRl */ = E(_px/* shRi */.a);
+    return (_pw/* shRh */!=E(_pz/* shRl */.a)) ? new T2(1,_pz/* shRl */,new T(function(){
+      return B(_pu/* LudoJS.$sremoveFrom */(_py/* shRk */, _pw/* shRh */));
+    })) : E(_py/* shRk */);
   }
 },
 _pA/* lvl1 */ = new T(function(){
@@ -7400,85 +7400,85 @@ _pM/* $w!! */ = function(_pN/* sbFD */, _pO/* sbFE */){
     return E(_pD/* GHC.List.negIndex */);
   }
 },
-_pP/* $wconvertCell */ = function(_pQ/* shNJ */, _pR/* shNK */, _pS/* shNL */){
-  switch(E(_pS/* shNL */)){
+_pP/* $wconvertCell */ = function(_pQ/* shS2 */, _pR/* shS3 */, _pS/* shS4 */){
+  switch(E(_pS/* shS4 */)){
     case 0:
-      switch(E(_pQ/* shNJ */)){
+      switch(E(_pQ/* shS2 */)){
         case 0:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
           break;
         case 1:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
           break;
         case 2:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
           break;
         default:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
       }
       break;
     case 1:
-      switch(E(_pQ/* shNJ */)){
+      switch(E(_pQ/* shS2 */)){
         case 0:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
           break;
         case 1:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
           break;
         case 2:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
           break;
         default:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
       }
       break;
     case 2:
-      switch(E(_pQ/* shNJ */)){
+      switch(E(_pQ/* shS2 */)){
         case 0:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
           break;
         case 1:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
           break;
         case 2:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
           break;
         default:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
       }
       break;
     default:
-      switch(E(_pQ/* shNJ */)){
+      switch(E(_pQ/* shS2 */)){
         case 0:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52);});
           break;
         case 1:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52);});
           break;
         case 2:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52);});
           break;
         default:
-          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shNK */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
+          return new F(function(){return _np/* GHC.Classes.modInt# */(_pR/* shS3 */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52);});
       }
   }
 },
-_pT/* $s!_$spoly_go1 */ = function(_pU/* shCV */){
+_pT/* $s!_$spoly_go1 */ = function(_pU/* shHe */){
   while(1){
-    var _pV/* shCW */ = E(_pU/* shCV */);
-    if(!_pV/* shCW */._){
-      var _pW/* shD0 */ = _pV/* shCW */.d;
-      switch(E(_pV/* shCW */.b)){
+    var _pV/* shHf */ = E(_pU/* shHe */);
+    if(!_pV/* shHf */._){
+      var _pW/* shHj */ = _pV/* shHf */.d;
+      switch(E(_pV/* shHf */.b)){
         case 0:
-          _pU/* shCV */ = _pV/* shCW */.e;
+          _pU/* shHe */ = _pV/* shHf */.e;
           continue;
         case 1:
-          return E(_pV/* shCW */.c);
+          return E(_pV/* shHf */.c);
         case 2:
-          _pU/* shCV */ = _pW/* shD0 */;
+          _pU/* shHe */ = _pW/* shHj */;
           continue;
         default:
-          _pU/* shCV */ = _pW/* shD0 */;
+          _pU/* shHe */ = _pW/* shHj */;
           continue;
       }
     }else{
@@ -7486,14 +7486,14 @@ _pT/* $s!_$spoly_go1 */ = function(_pU/* shCV */){
     }
   }
 },
-_pX/* $s!_$spoly_go10 */ = function(_pY/* shCN */){
+_pX/* $s!_$spoly_go10 */ = function(_pY/* shH6 */){
   while(1){
-    var _pZ/* shCO */ = E(_pY/* shCN */);
-    if(!_pZ/* shCO */._){
-      if(E(_pZ/* shCO */.b)==3){
-        return E(_pZ/* shCO */.c);
+    var _pZ/* shH7 */ = E(_pY/* shH6 */);
+    if(!_pZ/* shH7 */._){
+      if(E(_pZ/* shH7 */.b)==3){
+        return E(_pZ/* shH7 */.c);
       }else{
-        _pY/* shCN */ = _pZ/* shCO */.e;
+        _pY/* shH6 */ = _pZ/* shH7 */.e;
         continue;
       }
     }else{
@@ -7501,22 +7501,22 @@ _pX/* $s!_$spoly_go10 */ = function(_pY/* shCN */){
     }
   }
 },
-_q0/* $s!_$spoly_go2 */ = function(_q1/* shD3 */){
+_q0/* $s!_$spoly_go2 */ = function(_q1/* shHm */){
   while(1){
-    var _q2/* shD4 */ = E(_q1/* shD3 */);
-    if(!_q2/* shD4 */._){
-      var _q3/* shD8 */ = _q2/* shD4 */.d;
-      switch(E(_q2/* shD4 */.b)){
+    var _q2/* shHn */ = E(_q1/* shHm */);
+    if(!_q2/* shHn */._){
+      var _q3/* shHr */ = _q2/* shHn */.d;
+      switch(E(_q2/* shHn */.b)){
         case 0:
-          return E(_q2/* shD4 */.c);
+          return E(_q2/* shHn */.c);
         case 1:
-          _q1/* shD3 */ = _q3/* shD8 */;
+          _q1/* shHm */ = _q3/* shHr */;
           continue;
         case 2:
-          _q1/* shD3 */ = _q3/* shD8 */;
+          _q1/* shHm */ = _q3/* shHr */;
           continue;
         default:
-          _q1/* shD3 */ = _q3/* shD8 */;
+          _q1/* shHm */ = _q3/* shHr */;
           continue;
       }
     }else{
@@ -7524,71 +7524,71 @@ _q0/* $s!_$spoly_go2 */ = function(_q1/* shD3 */){
     }
   }
 },
-_q4/* $sinsert_$s$sgo1 */ = function(_q5/* shEZ */, _q6/* shF0 */){
-  var _q7/* shF1 */ = E(_q6/* shF0 */);
-  if(!_q7/* shF1 */._){
-    var _q8/* shF4 */ = _q7/* shF1 */.c,
-    _q9/* shF5 */ = _q7/* shF1 */.d,
-    _qa/* shF6 */ = _q7/* shF1 */.e;
-    switch(E(_q7/* shF1 */.b)){
+_q4/* $sinsert_$s$sgo1 */ = function(_q5/* shJi */, _q6/* shJj */){
+  var _q7/* shJk */ = E(_q6/* shJj */);
+  if(!_q7/* shJk */._){
+    var _q8/* shJn */ = _q7/* shJk */.c,
+    _q9/* shJo */ = _q7/* shJk */.d,
+    _qa/* shJp */ = _q7/* shJk */.e;
+    switch(E(_q7/* shJk */.b)){
       case 0:
-        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _q8/* shF4 */, _q9/* shF5 */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shEZ */, _qa/* shF6 */)));});
+        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _q8/* shJn */, _q9/* shJo */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shJi */, _qa/* shJp */)));});
         break;
       case 1:
-        return new T5(0,_q7/* shF1 */.a,E(_1P/* LudoJS.Green */),_q5/* shEZ */,E(_q9/* shF5 */),E(_qa/* shF6 */));
+        return new T5(0,_q7/* shJk */.a,E(_1P/* LudoJS.Green */),_q5/* shJi */,E(_q9/* shJo */),E(_qa/* shJp */));
       case 2:
-        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _q8/* shF4 */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shEZ */, _q9/* shF5 */)), _qa/* shF6 */);});
+        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _q8/* shJn */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shJi */, _q9/* shJo */)), _qa/* shJp */);});
         break;
       default:
-        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _q8/* shF4 */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shEZ */, _q9/* shF5 */)), _qa/* shF6 */);});
+        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _q8/* shJn */, B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_q5/* shJi */, _q9/* shJo */)), _qa/* shJp */);});
     }
   }else{
-    return new T5(0,1,E(_1P/* LudoJS.Green */),_q5/* shEZ */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+    return new T5(0,1,E(_1P/* LudoJS.Green */),_q5/* shJi */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
   }
 },
-_qb/* $sinsert_$s$sgo10 */ = function(_qc/* shEN */, _qd/* shEO */){
-  var _qe/* shEP */ = E(_qd/* shEO */);
-  if(!_qe/* shEP */._){
-    var _qf/* shES */ = _qe/* shEP */.c,
-    _qg/* shET */ = _qe/* shEP */.d,
-    _qh/* shEU */ = _qe/* shEP */.e;
-    switch(E(_qe/* shEP */.b)){
+_qb/* $sinsert_$s$sgo10 */ = function(_qc/* shJ6 */, _qd/* shJ7 */){
+  var _qe/* shJ8 */ = E(_qd/* shJ7 */);
+  if(!_qe/* shJ8 */._){
+    var _qf/* shJb */ = _qe/* shJ8 */.c,
+    _qg/* shJc */ = _qe/* shJ8 */.d,
+    _qh/* shJd */ = _qe/* shJ8 */.e;
+    switch(E(_qe/* shJ8 */.b)){
       case 0:
-        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _qf/* shES */, _qg/* shET */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shEN */, _qh/* shEU */)));});
+        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1O/* LudoJS.Blue */, _qf/* shJb */, _qg/* shJc */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shJ6 */, _qh/* shJd */)));});
         break;
       case 1:
-        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _qf/* shES */, _qg/* shET */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shEN */, _qh/* shEU */)));});
+        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1P/* LudoJS.Green */, _qf/* shJb */, _qg/* shJc */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shJ6 */, _qh/* shJd */)));});
         break;
       case 2:
-        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1Q/* LudoJS.Red */, _qf/* shES */, _qg/* shET */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shEN */, _qh/* shEU */)));});
+        return new F(function(){return _2E/* Data.Map.Base.balanceR */(_1Q/* LudoJS.Red */, _qf/* shJb */, _qg/* shJc */, B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_qc/* shJ6 */, _qh/* shJd */)));});
         break;
       default:
-        return new T5(0,_qe/* shEP */.a,E(_1S/* LudoJS.Yellow */),_qc/* shEN */,E(_qg/* shET */),E(_qh/* shEU */));
+        return new T5(0,_qe/* shJ8 */.a,E(_1S/* LudoJS.Yellow */),_qc/* shJ6 */,E(_qg/* shJc */),E(_qh/* shJd */));
     }
   }else{
-    return new T5(0,1,E(_1S/* LudoJS.Yellow */),_qc/* shEN */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+    return new T5(0,1,E(_1S/* LudoJS.Yellow */),_qc/* shJ6 */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
   }
 },
-_qi/* $sinsert_$s$sgo2 */ = function(_qj/* shFb */, _qk/* shFc */){
-  var _ql/* shFd */ = E(_qk/* shFc */);
-  if(!_ql/* shFd */._){
-    var _qm/* shFg */ = _ql/* shFd */.c,
-    _qn/* shFh */ = _ql/* shFd */.d,
-    _qo/* shFi */ = _ql/* shFd */.e;
-    switch(E(_ql/* shFd */.b)){
+_qi/* $sinsert_$s$sgo2 */ = function(_qj/* shJu */, _qk/* shJv */){
+  var _ql/* shJw */ = E(_qk/* shJv */);
+  if(!_ql/* shJw */._){
+    var _qm/* shJz */ = _ql/* shJw */.c,
+    _qn/* shJA */ = _ql/* shJw */.d,
+    _qo/* shJB */ = _ql/* shJw */.e;
+    switch(E(_ql/* shJw */.b)){
       case 0:
-        return new T5(0,_ql/* shFd */.a,E(_1O/* LudoJS.Blue */),_qj/* shFb */,E(_qn/* shFh */),E(_qo/* shFi */));
+        return new T5(0,_ql/* shJw */.a,E(_1O/* LudoJS.Blue */),_qj/* shJu */,E(_qn/* shJA */),E(_qo/* shJB */));
       case 1:
-        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1P/* LudoJS.Green */, _qm/* shFg */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shFb */, _qn/* shFh */)), _qo/* shFi */);});
+        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1P/* LudoJS.Green */, _qm/* shJz */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shJu */, _qn/* shJA */)), _qo/* shJB */);});
         break;
       case 2:
-        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _qm/* shFg */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shFb */, _qn/* shFh */)), _qo/* shFi */);});
+        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1Q/* LudoJS.Red */, _qm/* shJz */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shJu */, _qn/* shJA */)), _qo/* shJB */);});
         break;
       default:
-        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _qm/* shFg */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shFb */, _qn/* shFh */)), _qo/* shFi */);});
+        return new F(function(){return _1X/* Data.Map.Base.balanceL */(_1S/* LudoJS.Yellow */, _qm/* shJz */, B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_qj/* shJu */, _qn/* shJA */)), _qo/* shJB */);});
     }
   }else{
-    return new T5(0,1,E(_1O/* LudoJS.Blue */),_qj/* shFb */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
+    return new T5(0,1,E(_1O/* LudoJS.Blue */),_qj/* shJu */,E(_1R/* Data.Map.Base.Tip */),E(_1R/* Data.Map.Base.Tip */));
   }
 },
 _qp/* False */ = false,
@@ -7607,24 +7607,24 @@ _qq/* geInteger */ = function(_qr/* s1FG */, _qs/* s1FH */){
 _qy/* lvl10 */ = new T1(0,2),
 _qz/* lvl11 */ = new T1(0,0),
 _qA/* lvl12 */ = new T1(0,1),
-_qB/* outByCell */ = function(_qC/* shMD */, _qD/* shME */){
-  var _qE/* shMF */ = E(_qC/* shMD */);
-  if(!_qE/* shMF */._){
+_qB/* outByCell */ = function(_qC/* shQW */, _qD/* shQX */){
+  var _qE/* shQY */ = E(_qC/* shQW */);
+  if(!_qE/* shQY */._){
     return __Z/* EXTERNAL */;
   }else{
-    var _qF/* shMH */ = _qE/* shMF */.b,
-    _qG/* shMI */ = E(_qE/* shMF */.a),
-    _qH/* shML */ = E(_qG/* shMI */.b);
-    if(!_qH/* shML */._){
-      return new T2(1,_qG/* shMI */,new T(function(){
-        return B(_qB/* LudoJS.outByCell */(_qF/* shMH */, _qD/* shME */));
+    var _qF/* shR0 */ = _qE/* shQY */.b,
+    _qG/* shR1 */ = E(_qE/* shQY */.a),
+    _qH/* shR4 */ = E(_qG/* shR1 */.b);
+    if(!_qH/* shR4 */._){
+      return new T2(1,_qG/* shR1 */,new T(function(){
+        return B(_qB/* LudoJS.outByCell */(_qF/* shR0 */, _qD/* shQX */));
       }));
     }else{
-      var _qI/* shMO */ = E(_qD/* shME */);
-      return (_qI/* shMO */!=E(_qH/* shML */.a)) ? new T2(1,_qG/* shMI */,new T(function(){
-        return B(_pn/* LudoJS.$soutByCell */(_qF/* shMH */, _qI/* shMO */));
-      })) : new T2(1,new T2(0,_qG/* shMI */.a,_60/* LudoJS.Out */),new T(function(){
-        return B(_pn/* LudoJS.$soutByCell */(_qF/* shMH */, _qI/* shMO */));
+      var _qI/* shR7 */ = E(_qD/* shQX */);
+      return (_qI/* shR7 */!=E(_qH/* shR4 */.a)) ? new T2(1,_qG/* shR1 */,new T(function(){
+        return B(_pn/* LudoJS.$soutByCell */(_qF/* shR0 */, _qI/* shR7 */));
+      })) : new T2(1,new T2(0,_qG/* shR1 */.a,_60/* LudoJS.Out */),new T(function(){
+        return B(_pn/* LudoJS.$soutByCell */(_qF/* shR0 */, _qI/* shR7 */));
       }));
     }
   }
@@ -7662,684 +7662,684 @@ _qJ/* plusInteger */ = function(_qK/* s1Qe */, _qL/* s1Qf */){
     }
   }
 },
-_qS/* a43 */ = function(_qT/* shPf */, _qU/* shPg */, _qV/* shPh */, _/* EXTERNAL */){
-  var _qW/* shPj */ = function(_qX/* shPk */){
-    var _qY/* shPl */ = E(_qX/* shPk */);
-    if(!_qY/* shPl */._){
+_qS/* a43 */ = function(_qT/* shTy */, _qU/* shTz */, _qV/* shTA */, _/* EXTERNAL */){
+  var _qW/* shTC */ = function(_qX/* shTD */){
+    var _qY/* shTE */ = E(_qX/* shTD */);
+    if(!_qY/* shTE */._){
       return E(_qz/* LudoJS.lvl11 */);
     }else{
-      var _qZ/* shPn */ = _qY/* shPl */.b,
-      _r0/* shPo */ = E(_qU/* shPg */);
-      if(_r0/* shPo */!=E(_qY/* shPl */.a)){
-        var _r1/* shPu */ = function(_r2/* shPv */){
+      var _qZ/* shTG */ = _qY/* shTE */.b,
+      _r0/* shTH */ = E(_qU/* shTz */);
+      if(_r0/* shTH */!=E(_qY/* shTE */.a)){
+        var _r1/* shTN */ = function(_r2/* shTO */){
           while(1){
-            var _r3/* shPw */ = E(_r2/* shPv */);
-            if(!_r3/* shPw */._){
+            var _r3/* shTP */ = E(_r2/* shTO */);
+            if(!_r3/* shTP */._){
               return E(_qz/* LudoJS.lvl11 */);
             }else{
-              var _r4/* shPy */ = _r3/* shPw */.b;
-              if(_r0/* shPo */!=E(_r3/* shPw */.a)){
-                _r2/* shPv */ = _r4/* shPy */;
+              var _r4/* shTR */ = _r3/* shTP */.b;
+              if(_r0/* shTH */!=E(_r3/* shTP */.a)){
+                _r2/* shTO */ = _r4/* shTR */;
                 continue;
               }else{
-                return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r1/* shPu */(_r4/* shPy */)), _qA/* LudoJS.lvl12 */);});
+                return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r1/* shTN */(_r4/* shTR */)), _qA/* LudoJS.lvl12 */);});
               }
             }
           }
         };
-        return new F(function(){return _r1/* shPu */(_qZ/* shPn */);});
+        return new F(function(){return _r1/* shTN */(_qZ/* shTG */);});
       }else{
-        var _r5/* shPE */ = function(_r6/* shPF */){
+        var _r5/* shTX */ = function(_r6/* shTY */){
           while(1){
-            var _r7/* shPG */ = E(_r6/* shPF */);
-            if(!_r7/* shPG */._){
+            var _r7/* shTZ */ = E(_r6/* shTY */);
+            if(!_r7/* shTZ */._){
               return E(_qz/* LudoJS.lvl11 */);
             }else{
-              var _r8/* shPI */ = _r7/* shPG */.b;
-              if(_r0/* shPo */!=E(_r7/* shPG */.a)){
-                _r6/* shPF */ = _r8/* shPI */;
+              var _r8/* shU1 */ = _r7/* shTZ */.b;
+              if(_r0/* shTH */!=E(_r7/* shTZ */.a)){
+                _r6/* shTY */ = _r8/* shU1 */;
                 continue;
               }else{
-                return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r5/* shPE */(_r8/* shPI */)), _qA/* LudoJS.lvl12 */);});
+                return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r5/* shTX */(_r8/* shU1 */)), _qA/* LudoJS.lvl12 */);});
               }
             }
           }
         };
-        return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r5/* shPE */(_qZ/* shPn */)), _qA/* LudoJS.lvl12 */);});
+        return new F(function(){return _qJ/* GHC.Integer.Type.plusInteger */(B(_r5/* shTX */(_qZ/* shTG */)), _qA/* LudoJS.lvl12 */);});
       }
     }
   },
-  _r9/* shPP */ = function(_ra/* shPQ */, _/* EXTERNAL */){
-    var _rb/* shQg */ = new T(function(){
-      var _rc/* shPY */ = function(_rd/*  shPZ */){
+  _r9/* shU8 */ = function(_ra/* shU9 */, _/* EXTERNAL */){
+    var _rb/* shUz */ = new T(function(){
+      var _rc/* shUh */ = function(_rd/*  shUi */){
         while(1){
-          var _re/*  shPY */ = B((function(_rf/* shPZ */){
-            var _rg/* shQ0 */ = E(_rf/* shPZ */);
-            if(!_rg/* shQ0 */._){
+          var _re/*  shUh */ = B((function(_rf/* shUi */){
+            var _rg/* shUj */ = E(_rf/* shUi */);
+            if(!_rg/* shUj */._){
               return __Z/* EXTERNAL */;
             }else{
-              var _rh/* shQ2 */ = _rg/* shQ0 */.b,
-              _ri/* shQ6 */ = E(E(_rg/* shQ0 */.a).b);
-              if(!_ri/* shQ6 */._){
-                _rd/*  shPZ */ = _rh/* shQ2 */;
+              var _rh/* shUl */ = _rg/* shUj */.b,
+              _ri/* shUp */ = E(E(_rg/* shUj */.a).b);
+              if(!_ri/* shUp */._){
+                _rd/*  shUi */ = _rh/* shUl */;
                 return __continue/* EXTERNAL */;
               }else{
                 return new T2(1,new T(function(){
-                  return B(_pP/* LudoJS.$wconvertCell */(_1O/* LudoJS.Blue */, E(_ri/* shQ6 */.a), _qT/* shPf */));
+                  return B(_pP/* LudoJS.$wconvertCell */(_1O/* LudoJS.Blue */, E(_ri/* shUp */.a), _qT/* shTy */));
                 }),new T(function(){
-                  return B(_rc/* shPY */(_rh/* shQ2 */));
+                  return B(_rc/* shUh */(_rh/* shUl */));
                 }));
               }
             }
-          })(_rd/*  shPZ */));
-          if(_re/*  shPY */!=__continue/* EXTERNAL */){
-            return _re/*  shPY */;
+          })(_rd/*  shUi */));
+          if(_re/*  shUh */!=__continue/* EXTERNAL */){
+            return _re/*  shUh */;
           }
         }
       };
-      return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_rc/* shPY */(B(_q0/* LudoJS.$s!_$spoly_go2 */(E(_ra/* shPQ */).d)))))), _qy/* LudoJS.lvl10 */));
+      return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_rc/* shUh */(B(_q0/* LudoJS.$s!_$spoly_go2 */(E(_ra/* shU9 */).d)))))), _qy/* LudoJS.lvl10 */));
     });
-    return new T2(0,_rb/* shQg */,_ra/* shPQ */);
+    return new T2(0,_rb/* shUz */,_ra/* shU9 */);
   },
-  _rj/* shQi */ = function(_/* EXTERNAL */, _rk/* shQk */){
-    var _rl/* shQl */ = E(_rk/* shQk */),
-    _rm/* shQn */ = _rl/* shQl */.b;
-    if(!E(_rl/* shQl */.a)){
-      var _rn/* shQp */ = function(_/* EXTERNAL */, _ro/* shQr */, _rp/* shQs */){
-        var _rq/* shQt */ = function(_/* EXTERNAL */, _rr/* shQv */, _rs/* shQw */){
-          var _rt/* shQx */ = function(_/* EXTERNAL */, _ru/* shQz */){
-            var _rv/* shQA */ = E(_qT/* shPf */);
-            if(_rv/* shQA */==2){
+  _rj/* shUB */ = function(_/* EXTERNAL */, _rk/* shUD */){
+    var _rl/* shUE */ = E(_rk/* shUD */),
+    _rm/* shUG */ = _rl/* shUE */.b;
+    if(!E(_rl/* shUE */.a)){
+      var _rn/* shUI */ = function(_/* EXTERNAL */, _ro/* shUK */, _rp/* shUL */){
+        var _rq/* shUM */ = function(_/* EXTERNAL */, _rr/* shUO */, _rs/* shUP */){
+          var _rt/* shUQ */ = function(_/* EXTERNAL */, _ru/* shUS */){
+            var _rv/* shUT */ = E(_qT/* shTy */);
+            if(_rv/* shUT */==2){
               return new T2(0,_eb/* GHC.Tuple.() */,new T(function(){
-                return E(E(_ru/* shQz */).b);
+                return E(E(_ru/* shUS */).b);
               }));
             }else{
-              var _rw/* shR9 */ = new T(function(){
-                var _rx/* shQE */ = E(E(_ru/* shQz */).b),
-                _ry/* shQI */ = _rx/* shQE */.d,
-                _rz/* shR8 */ = new T(function(){
-                  var _rA/* shR7 */ = new T(function(){
-                    return B(_qB/* LudoJS.outByCell */(B(_da/* LudoJS.$s!1 */(_1Q/* LudoJS.Red */, _ry/* shQI */)), new T(function(){
-                      var _rB/* shQL */ = E(_qU/* shPg */);
-                      switch(E(_rv/* shQA */)){
+              var _rw/* shVs */ = new T(function(){
+                var _rx/* shUX */ = E(E(_ru/* shUS */).b),
+                _ry/* shV1 */ = _rx/* shUX */.d,
+                _rz/* shVr */ = new T(function(){
+                  var _rA/* shVq */ = new T(function(){
+                    return B(_qB/* LudoJS.outByCell */(B(_da/* LudoJS.$s!1 */(_1Q/* LudoJS.Red */, _ry/* shV1 */)), new T(function(){
+                      var _rB/* shV4 */ = E(_qU/* shTz */);
+                      switch(E(_rv/* shUT */)){
                         case 0:
-                          return B(_np/* GHC.Classes.modInt# */(_rB/* shQL */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
+                          return B(_np/* GHC.Classes.modInt# */(_rB/* shV4 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
                           break;
                         case 1:
-                          return B(_np/* GHC.Classes.modInt# */(_rB/* shQL */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
+                          return B(_np/* GHC.Classes.modInt# */(_rB/* shV4 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
                           break;
                         default:
-                          return B(_np/* GHC.Classes.modInt# */(_rB/* shQL */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
+                          return B(_np/* GHC.Classes.modInt# */(_rB/* shV4 */+(imul/* EXTERNAL */(13, 4-(4-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
                       }
                     },1)));
                   });
-                  return B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _rA/* shR7 */, _ry/* shQI */));
+                  return B(_3j/* LudoJS.$sinsert_$sgo10 */(_1Q/* LudoJS.Red */, _rA/* shVq */, _ry/* shV1 */));
                 });
-                return new T5(0,_rx/* shQE */.a,_rx/* shQE */.b,_rx/* shQE */.c,_rz/* shR8 */,_rx/* shQE */.e);
+                return new T5(0,_rx/* shUX */.a,_rx/* shUX */.b,_rx/* shUX */.c,_rz/* shVr */,_rx/* shUX */.e);
               });
-              return new T2(0,_eb/* GHC.Tuple.() */,_rw/* shR9 */);
+              return new T2(0,_eb/* GHC.Tuple.() */,_rw/* shVs */);
             }
           },
-          _rC/* shRg */ = E(_qT/* shPf */);
-          if(_rC/* shRg */==3){
-            return new F(function(){return _rt/* shQx */(_/* EXTERNAL */, new T2(0,_eb/* GHC.Tuple.() */,_rs/* shQw */));});
+          _rC/* shVz */ = E(_qT/* shTy */);
+          if(_rC/* shVz */==3){
+            return new F(function(){return _rt/* shUQ */(_/* EXTERNAL */, new T2(0,_eb/* GHC.Tuple.() */,_rs/* shUP */));});
           }else{
-            var _rD/* shRM */ = new T(function(){
-              var _rE/* shRh */ = E(_rs/* shQw */),
-              _rF/* shRl */ = _rE/* shRh */.d,
-              _rG/* shRL */ = new T(function(){
-                var _rH/* shRK */ = new T(function(){
-                  return B(_qB/* LudoJS.outByCell */(B(_pX/* LudoJS.$s!_$spoly_go10 */(_rF/* shRl */)), new T(function(){
-                    var _rI/* shRo */ = E(_qU/* shPg */);
-                    switch(E(_rC/* shRg */)){
+            var _rD/* shW5 */ = new T(function(){
+              var _rE/* shVA */ = E(_rs/* shUP */),
+              _rF/* shVE */ = _rE/* shVA */.d,
+              _rG/* shW4 */ = new T(function(){
+                var _rH/* shW3 */ = new T(function(){
+                  return B(_qB/* LudoJS.outByCell */(B(_pX/* LudoJS.$s!_$spoly_go10 */(_rF/* shVE */)), new T(function(){
+                    var _rI/* shVH */ = E(_qU/* shTz */);
+                    switch(E(_rC/* shVz */)){
                       case 0:
-                        return B(_np/* GHC.Classes.modInt# */(_rI/* shRo */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
+                        return B(_np/* GHC.Classes.modInt# */(_rI/* shVH */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
                         break;
                       case 1:
-                        return B(_np/* GHC.Classes.modInt# */(_rI/* shRo */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
+                        return B(_np/* GHC.Classes.modInt# */(_rI/* shVH */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
                         break;
                       default:
-                        return B(_np/* GHC.Classes.modInt# */(_rI/* shRo */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
+                        return B(_np/* GHC.Classes.modInt# */(_rI/* shVH */+(imul/* EXTERNAL */(13, 4-(3-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
                     }
                   },1)));
                 });
-                return B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_rH/* shRK */, _rF/* shRl */));
+                return B(_qb/* LudoJS.$sinsert_$s$sgo10 */(_rH/* shW3 */, _rF/* shVE */));
               });
-              return new T5(0,_rE/* shRh */.a,_rE/* shRh */.b,_rE/* shRh */.c,_rG/* shRL */,_rE/* shRh */.e);
+              return new T5(0,_rE/* shVA */.a,_rE/* shVA */.b,_rE/* shVA */.c,_rG/* shW4 */,_rE/* shVA */.e);
             });
-            return new F(function(){return _rt/* shQx */(_/* EXTERNAL */, new T2(0,_eb/* GHC.Tuple.() */,_rD/* shRM */));});
+            return new F(function(){return _rt/* shUQ */(_/* EXTERNAL */, new T2(0,_eb/* GHC.Tuple.() */,_rD/* shW5 */));});
           }
         },
-        _rJ/* shRP */ = E(_qT/* shPf */);
-        if(_rJ/* shRP */==1){
-          return new F(function(){return _rq/* shQt */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rp/* shQs */);});
+        _rJ/* shW8 */ = E(_qT/* shTy */);
+        if(_rJ/* shW8 */==1){
+          return new F(function(){return _rq/* shUM */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rp/* shUL */);});
         }else{
-          var _rK/* shSl */ = new T(function(){
-            var _rL/* shRQ */ = E(_rp/* shQs */),
-            _rM/* shRU */ = _rL/* shRQ */.d,
-            _rN/* shSk */ = new T(function(){
-              var _rO/* shSj */ = new T(function(){
-                return B(_qB/* LudoJS.outByCell */(B(_pT/* LudoJS.$s!_$spoly_go1 */(_rM/* shRU */)), new T(function(){
-                  var _rP/* shRX */ = E(_qU/* shPg */);
-                  switch(E(_rJ/* shRP */)){
+          var _rK/* shWE */ = new T(function(){
+            var _rL/* shW9 */ = E(_rp/* shUL */),
+            _rM/* shWd */ = _rL/* shW9 */.d,
+            _rN/* shWD */ = new T(function(){
+              var _rO/* shWC */ = new T(function(){
+                return B(_qB/* LudoJS.outByCell */(B(_pT/* LudoJS.$s!_$spoly_go1 */(_rM/* shWd */)), new T(function(){
+                  var _rP/* shWg */ = E(_qU/* shTz */);
+                  switch(E(_rJ/* shW8 */)){
                     case 0:
-                      return B(_np/* GHC.Classes.modInt# */(_rP/* shRX */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
+                      return B(_np/* GHC.Classes.modInt# */(_rP/* shWg */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(1, 4))|0)|0)|0)|0, 52));
                       break;
                     case 2:
-                      return B(_np/* GHC.Classes.modInt# */(_rP/* shRX */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
+                      return B(_np/* GHC.Classes.modInt# */(_rP/* shWg */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
                       break;
                     default:
-                      return B(_np/* GHC.Classes.modInt# */(_rP/* shRX */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
+                      return B(_np/* GHC.Classes.modInt# */(_rP/* shWg */+(imul/* EXTERNAL */(13, 4-(2-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
                   }
                 },1)));
               });
-              return B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_rO/* shSj */, _rM/* shRU */));
+              return B(_q4/* LudoJS.$sinsert_$s$sgo1 */(_rO/* shWC */, _rM/* shWd */));
             });
-            return new T5(0,_rL/* shRQ */.a,_rL/* shRQ */.b,_rL/* shRQ */.c,_rN/* shSk */,_rL/* shRQ */.e);
+            return new T5(0,_rL/* shW9 */.a,_rL/* shW9 */.b,_rL/* shW9 */.c,_rN/* shWD */,_rL/* shW9 */.e);
           },1);
-          return new F(function(){return _rq/* shQt */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rK/* shSl */);});
+          return new F(function(){return _rq/* shUM */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rK/* shWE */);});
         }
       },
-      _rQ/* shSm */ = E(_qT/* shPf */);
-      if(!_rQ/* shSm */){
-        return new F(function(){return _rn/* shQp */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rm/* shQn */);});
+      _rQ/* shWF */ = E(_qT/* shTy */);
+      if(!_rQ/* shWF */){
+        return new F(function(){return _rn/* shUI */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rm/* shUG */);});
       }else{
-        var _rR/* shSS */ = new T(function(){
-          var _rS/* shSn */ = E(_rm/* shQn */),
-          _rT/* shSr */ = _rS/* shSn */.d,
-          _rU/* shSR */ = new T(function(){
-            var _rV/* shSQ */ = new T(function(){
-              return B(_qB/* LudoJS.outByCell */(B(_q0/* LudoJS.$s!_$spoly_go2 */(_rT/* shSr */)), new T(function(){
-                var _rW/* shSu */ = E(_qU/* shPg */);
-                switch(E(_rQ/* shSm */)){
+        var _rR/* shXb */ = new T(function(){
+          var _rS/* shWG */ = E(_rm/* shUG */),
+          _rT/* shWK */ = _rS/* shWG */.d,
+          _rU/* shXa */ = new T(function(){
+            var _rV/* shX9 */ = new T(function(){
+              return B(_qB/* LudoJS.outByCell */(B(_q0/* LudoJS.$s!_$spoly_go2 */(_rT/* shWK */)), new T(function(){
+                var _rW/* shWN */ = E(_qU/* shTz */);
+                switch(E(_rQ/* shWF */)){
                   case 1:
-                    return B(_np/* GHC.Classes.modInt# */(_rW/* shSu */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
+                    return B(_np/* GHC.Classes.modInt# */(_rW/* shWN */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(2, 4))|0)|0)|0)|0, 52));
                     break;
                   case 2:
-                    return B(_np/* GHC.Classes.modInt# */(_rW/* shSu */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
+                    return B(_np/* GHC.Classes.modInt# */(_rW/* shWN */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(4, 4))|0)|0)|0)|0, 52));
                     break;
                   default:
-                    return B(_np/* GHC.Classes.modInt# */(_rW/* shSu */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
+                    return B(_np/* GHC.Classes.modInt# */(_rW/* shWN */+(imul/* EXTERNAL */(13, 4-(1-B(_np/* GHC.Classes.modInt# */(3, 4))|0)|0)|0)|0, 52));
                 }
               },1)));
             });
-            return B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_rV/* shSQ */, _rT/* shSr */));
+            return B(_qi/* LudoJS.$sinsert_$s$sgo2 */(_rV/* shX9 */, _rT/* shWK */));
           });
-          return new T5(0,_rS/* shSn */.a,_rS/* shSn */.b,_rS/* shSn */.c,_rU/* shSR */,_rS/* shSn */.e);
+          return new T5(0,_rS/* shWG */.a,_rS/* shWG */.b,_rS/* shWG */.c,_rU/* shXa */,_rS/* shWG */.e);
         },1);
-        return new F(function(){return _rn/* shQp */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rR/* shSS */);});
+        return new F(function(){return _rn/* shUI */(_/* EXTERNAL */, _eb/* GHC.Tuple.() */, _rR/* shXb */);});
       }
     }else{
-      var _rX/* shT2 */ = new T(function(){
-        var _rY/* shST */ = E(_rm/* shQn */),
-        _rZ/* shSX */ = _rY/* shST */.d,
-        _s0/* shT1 */ = new T(function(){
-          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_qT/* shPf */, new T(function(){
-            return B(_qB/* LudoJS.outByCell */(B(_da/* LudoJS.$s!1 */(_qT/* shPf */, _rZ/* shSX */)), _qU/* shPg */));
-          }), _rZ/* shSX */));
+      var _rX/* shXl */ = new T(function(){
+        var _rY/* shXc */ = E(_rm/* shUG */),
+        _rZ/* shXg */ = _rY/* shXc */.d,
+        _s0/* shXk */ = new T(function(){
+          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_qT/* shTy */, new T(function(){
+            return B(_qB/* LudoJS.outByCell */(B(_da/* LudoJS.$s!1 */(_qT/* shTy */, _rZ/* shXg */)), _qU/* shTz */));
+          }), _rZ/* shXg */));
         });
-        return new T5(0,_rY/* shST */.a,_rY/* shST */.b,_rY/* shST */.c,_s0/* shT1 */,_rY/* shST */.e);
+        return new T5(0,_rY/* shXc */.a,_rY/* shXc */.b,_rY/* shXc */.c,_s0/* shXk */,_rY/* shXc */.e);
       });
-      return new T2(0,_eb/* GHC.Tuple.() */,_rX/* shT2 */);
+      return new T2(0,_eb/* GHC.Tuple.() */,_rX/* shXl */);
     }
   };
-  switch(E(_qT/* shPf */)){
+  switch(E(_qT/* shTy */)){
     case 0:
-      var _s1/* shT7 */ = function(_s2/*  shU9 */, _s3/*  shUa */, _s4/*  shUb */, _/* EXTERNAL */){
+      var _s1/* shXq */ = function(_s2/*  shYs */, _s3/*  shYt */, _s4/*  shYu */, _/* EXTERNAL */){
         while(1){
-          var _s5/*  shT7 */ = B((function(_s6/* shU9 */, _s7/* shUa */, _s8/* shUb */, _/* EXTERNAL */){
-            var _s9/* shUd */ = E(_s6/* shU9 */);
-            if(!_s9/* shUd */._){
-              return new T2(0,_s7/* shUa */,_s8/* shUb */);
+          var _s5/*  shXq */ = B((function(_s6/* shYs */, _s7/* shYt */, _s8/* shYu */, _/* EXTERNAL */){
+            var _s9/* shYw */ = E(_s6/* shYs */);
+            if(!_s9/* shYw */._){
+              return new T2(0,_s7/* shYt */,_s8/* shYu */);
             }else{
-              var _sa/* shUg */ = _s9/* shUd */.b,
-              _sb/* shUh */ = E(_s9/* shUd */.a);
-              if(!_sb/* shUh */){
-                var _sc/*   shUa */ = _s7/* shUa */,
-                _sd/*   shUb */ = _s8/* shUb */;
-                _s2/*  shU9 */ = _sa/* shUg */;
-                _s3/*  shUa */ = _sc/*   shUa */;
-                _s4/*  shUb */ = _sd/*   shUb */;
+              var _sa/* shYz */ = _s9/* shYw */.b,
+              _sb/* shYA */ = E(_s9/* shYw */.a);
+              if(!_sb/* shYA */){
+                var _sc/*   shYt */ = _s7/* shYt */,
+                _sd/*   shYu */ = _s8/* shYu */;
+                _s2/*  shYs */ = _sa/* shYz */;
+                _s3/*  shYt */ = _sc/*   shYt */;
+                _s4/*  shYu */ = _sd/*   shYu */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _se/* shUH */ = new T(function(){
-                  if(!E(_s7/* shUa */)){
-                    var _sf/* shUp */ = function(_sg/*  shUq */){
+                var _se/* shZ0 */ = new T(function(){
+                  if(!E(_s7/* shYt */)){
+                    var _sf/* shYI */ = function(_sg/*  shYJ */){
                       while(1){
-                        var _sh/*  shUp */ = B((function(_si/* shUq */){
-                          var _sj/* shUr */ = E(_si/* shUq */);
-                          if(!_sj/* shUr */._){
+                        var _sh/*  shYI */ = B((function(_si/* shYJ */){
+                          var _sj/* shYK */ = E(_si/* shYJ */);
+                          if(!_sj/* shYK */._){
                             return __Z/* EXTERNAL */;
                           }else{
-                            var _sk/* shUt */ = _sj/* shUr */.b,
-                            _sl/* shUx */ = E(E(_sj/* shUr */.a).b);
-                            if(!_sl/* shUx */._){
-                              _sg/*  shUq */ = _sk/* shUt */;
+                            var _sk/* shYM */ = _sj/* shYK */.b,
+                            _sl/* shYQ */ = E(E(_sj/* shYK */.a).b);
+                            if(!_sl/* shYQ */._){
+                              _sg/*  shYJ */ = _sk/* shYM */;
                               return __continue/* EXTERNAL */;
                             }else{
                               return new T2(1,new T(function(){
-                                return B(_pP/* LudoJS.$wconvertCell */(_sb/* shUh */, E(_sl/* shUx */.a), _1O/* LudoJS.Blue */));
+                                return B(_pP/* LudoJS.$wconvertCell */(_sb/* shYA */, E(_sl/* shYQ */.a), _1O/* LudoJS.Blue */));
                               }),new T(function(){
-                                return B(_sf/* shUp */(_sk/* shUt */));
+                                return B(_sf/* shYI */(_sk/* shYM */));
                               }));
                             }
                           }
-                        })(_sg/*  shUq */));
-                        if(_sh/*  shUp */!=__continue/* EXTERNAL */){
-                          return _sh/*  shUp */;
+                        })(_sg/*  shYJ */));
+                        if(_sh/*  shYI */!=__continue/* EXTERNAL */){
+                          return _sh/*  shYI */;
                         }
                       }
                     };
-                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_sf/* shUp */(B(_da/* LudoJS.$s!1 */(_sb/* shUh */, E(_s8/* shUb */).d)))))), _qy/* LudoJS.lvl10 */));
+                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_sf/* shYI */(B(_da/* LudoJS.$s!1 */(_sb/* shYA */, E(_s8/* shYu */).d)))))), _qy/* LudoJS.lvl10 */));
                   }else{
                     return true;
                   }
                 }),
-                _sd/*   shUb */ = _s8/* shUb */;
-                _s2/*  shU9 */ = _sa/* shUg */;
-                _s3/*  shUa */ = _se/* shUH */;
-                _s4/*  shUb */ = _sd/*   shUb */;
+                _sd/*   shYu */ = _s8/* shYu */;
+                _s2/*  shYs */ = _sa/* shYz */;
+                _s3/*  shYt */ = _se/* shZ0 */;
+                _s4/*  shYu */ = _sd/*   shYu */;
                 return __continue/* EXTERNAL */;
               }
             }
-          })(_s2/*  shU9 */, _s3/*  shUa */, _s4/*  shUb */, _/* EXTERNAL */));
-          if(_s5/*  shT7 */!=__continue/* EXTERNAL */){
-            return _s5/*  shT7 */;
+          })(_s2/*  shYs */, _s3/*  shYt */, _s4/*  shYu */, _/* EXTERNAL */));
+          if(_s5/*  shXq */!=__continue/* EXTERNAL */){
+            return _s5/*  shXq */;
           }
         }
       },
-      _sm/* shT5 */ = function(_sn/*  shT8 */, _so/*  shT9 */, _/* EXTERNAL */){
+      _sm/* shXo */ = function(_sn/*  shXr */, _so/*  shXs */, _/* EXTERNAL */){
         while(1){
-          var _sp/*  shT5 */ = B((function(_sq/* shT8 */, _sr/* shT9 */, _/* EXTERNAL */){
-            var _ss/* shTb */ = E(_sq/* shT8 */);
-            if(!_ss/* shTb */._){
-              return new T2(0,_qp/* GHC.Types.False */,_sr/* shT9 */);
+          var _sp/*  shXo */ = B((function(_sq/* shXr */, _sr/* shXs */, _/* EXTERNAL */){
+            var _ss/* shXu */ = E(_sq/* shXr */);
+            if(!_ss/* shXu */._){
+              return new T2(0,_qp/* GHC.Types.False */,_sr/* shXs */);
             }else{
-              var _st/* shTe */ = _ss/* shTb */.b,
-              _su/* shTf */ = E(_ss/* shTb */.a);
-              if(!_su/* shTf */){
-                var _sv/*   shT9 */ = _sr/* shT9 */;
-                _sn/*  shT8 */ = _st/* shTe */;
-                _so/*  shT9 */ = _sv/*   shT9 */;
+              var _st/* shXx */ = _ss/* shXu */.b,
+              _su/* shXy */ = E(_ss/* shXu */.a);
+              if(!_su/* shXy */){
+                var _sv/*   shXs */ = _sr/* shXs */;
+                _sn/*  shXr */ = _st/* shXx */;
+                _so/*  shXs */ = _sv/*   shXs */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _sw/* shTE */ = new T(function(){
-                  var _sx/* shTm */ = function(_sy/*  shTn */){
+                var _sw/* shXX */ = new T(function(){
+                  var _sx/* shXF */ = function(_sy/*  shXG */){
                     while(1){
-                      var _sz/*  shTm */ = B((function(_sA/* shTn */){
-                        var _sB/* shTo */ = E(_sA/* shTn */);
-                        if(!_sB/* shTo */._){
+                      var _sz/*  shXF */ = B((function(_sA/* shXG */){
+                        var _sB/* shXH */ = E(_sA/* shXG */);
+                        if(!_sB/* shXH */._){
                           return __Z/* EXTERNAL */;
                         }else{
-                          var _sC/* shTq */ = _sB/* shTo */.b,
-                          _sD/* shTu */ = E(E(_sB/* shTo */.a).b);
-                          if(!_sD/* shTu */._){
-                            _sy/*  shTn */ = _sC/* shTq */;
+                          var _sC/* shXJ */ = _sB/* shXH */.b,
+                          _sD/* shXN */ = E(E(_sB/* shXH */.a).b);
+                          if(!_sD/* shXN */._){
+                            _sy/*  shXG */ = _sC/* shXJ */;
                             return __continue/* EXTERNAL */;
                           }else{
                             return new T2(1,new T(function(){
-                              return B(_pP/* LudoJS.$wconvertCell */(_su/* shTf */, E(_sD/* shTu */.a), _1O/* LudoJS.Blue */));
+                              return B(_pP/* LudoJS.$wconvertCell */(_su/* shXy */, E(_sD/* shXN */.a), _1O/* LudoJS.Blue */));
                             }),new T(function(){
-                              return B(_sx/* shTm */(_sC/* shTq */));
+                              return B(_sx/* shXF */(_sC/* shXJ */));
                             }));
                           }
                         }
-                      })(_sy/*  shTn */));
-                      if(_sz/*  shTm */!=__continue/* EXTERNAL */){
-                        return _sz/*  shTm */;
+                      })(_sy/*  shXG */));
+                      if(_sz/*  shXF */!=__continue/* EXTERNAL */){
+                        return _sz/*  shXF */;
                       }
                     }
                   };
-                  return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_sx/* shTm */(B(_da/* LudoJS.$s!1 */(_su/* shTf */, E(_sr/* shT9 */).d)))))), _qy/* LudoJS.lvl10 */));
+                  return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_sx/* shXF */(B(_da/* LudoJS.$s!1 */(_su/* shXy */, E(_sr/* shXs */).d)))))), _qy/* LudoJS.lvl10 */));
                 });
-                return new F(function(){return _s1/* shT7 */(_st/* shTe */, _sw/* shTE */, _sr/* shT9 */, _/* EXTERNAL */);});
+                return new F(function(){return _s1/* shXq */(_st/* shXx */, _sw/* shXX */, _sr/* shXs */, _/* EXTERNAL */);});
               }
             }
-          })(_sn/*  shT8 */, _so/*  shT9 */, _/* EXTERNAL */));
-          if(_sp/*  shT5 */!=__continue/* EXTERNAL */){
-            return _sp/*  shT5 */;
+          })(_sn/*  shXr */, _so/*  shXs */, _/* EXTERNAL */));
+          if(_sp/*  shXo */!=__continue/* EXTERNAL */){
+            return _sp/*  shXo */;
           }
         }
       },
-      _sE/* shT6 */ = function(_sF/* shTF */, _sG/* shTG */, _sH/* shTH */, _/* EXTERNAL */){
-        var _sI/* shTJ */ = E(_sF/* shTF */);
-        if(!_sI/* shTJ */){
-          return new F(function(){return _sm/* shT5 */(_sG/* shTG */, _sH/* shTH */, _/* EXTERNAL */);});
+      _sE/* shXp */ = function(_sF/* shXY */, _sG/* shXZ */, _sH/* shY0 */, _/* EXTERNAL */){
+        var _sI/* shY2 */ = E(_sF/* shXY */);
+        if(!_sI/* shY2 */){
+          return new F(function(){return _sm/* shXo */(_sG/* shXZ */, _sH/* shY0 */, _/* EXTERNAL */);});
         }else{
-          var _sJ/* shU8 */ = new T(function(){
-            var _sK/* shTQ */ = function(_sL/*  shTR */){
+          var _sJ/* shYr */ = new T(function(){
+            var _sK/* shY9 */ = function(_sL/*  shYa */){
               while(1){
-                var _sM/*  shTQ */ = B((function(_sN/* shTR */){
-                  var _sO/* shTS */ = E(_sN/* shTR */);
-                  if(!_sO/* shTS */._){
+                var _sM/*  shY9 */ = B((function(_sN/* shYa */){
+                  var _sO/* shYb */ = E(_sN/* shYa */);
+                  if(!_sO/* shYb */._){
                     return __Z/* EXTERNAL */;
                   }else{
-                    var _sP/* shTU */ = _sO/* shTS */.b,
-                    _sQ/* shTY */ = E(E(_sO/* shTS */.a).b);
-                    if(!_sQ/* shTY */._){
-                      _sL/*  shTR */ = _sP/* shTU */;
+                    var _sP/* shYd */ = _sO/* shYb */.b,
+                    _sQ/* shYh */ = E(E(_sO/* shYb */.a).b);
+                    if(!_sQ/* shYh */._){
+                      _sL/*  shYa */ = _sP/* shYd */;
                       return __continue/* EXTERNAL */;
                     }else{
                       return new T2(1,new T(function(){
-                        return B(_pP/* LudoJS.$wconvertCell */(_sI/* shTJ */, E(_sQ/* shTY */.a), _1O/* LudoJS.Blue */));
+                        return B(_pP/* LudoJS.$wconvertCell */(_sI/* shY2 */, E(_sQ/* shYh */.a), _1O/* LudoJS.Blue */));
                       }),new T(function(){
-                        return B(_sK/* shTQ */(_sP/* shTU */));
+                        return B(_sK/* shY9 */(_sP/* shYd */));
                       }));
                     }
                   }
-                })(_sL/*  shTR */));
-                if(_sM/*  shTQ */!=__continue/* EXTERNAL */){
-                  return _sM/*  shTQ */;
+                })(_sL/*  shYa */));
+                if(_sM/*  shY9 */!=__continue/* EXTERNAL */){
+                  return _sM/*  shY9 */;
                 }
               }
             };
-            return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_sK/* shTQ */(B(_da/* LudoJS.$s!1 */(_sI/* shTJ */, E(_sH/* shTH */).d)))))), _qy/* LudoJS.lvl10 */));
+            return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_sK/* shY9 */(B(_da/* LudoJS.$s!1 */(_sI/* shY2 */, E(_sH/* shY0 */).d)))))), _qy/* LudoJS.lvl10 */));
           });
-          return new F(function(){return _s1/* shT7 */(_sG/* shTG */, _sJ/* shU8 */, _sH/* shTH */, _/* EXTERNAL */);});
+          return new F(function(){return _s1/* shXq */(_sG/* shXZ */, _sJ/* shYr */, _sH/* shY0 */, _/* EXTERNAL */);});
         }
       },
-      _sR/* shUI */ = B(_sE/* shT6 */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, _qV/* shPh */, _/* EXTERNAL */));
-      return new F(function(){return _rj/* shQi */(_/* EXTERNAL */, _sR/* shUI */);});
+      _sR/* shZ1 */ = B(_sE/* shXp */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, _qV/* shTA */, _/* EXTERNAL */));
+      return new F(function(){return _rj/* shUB */(_/* EXTERNAL */, _sR/* shZ1 */);});
       break;
     case 1:
-      var _sS/* shUL */ = B(_r9/* shPP */(_qV/* shPh */, _/* EXTERNAL */)),
-      _sT/* shUP */ = function(_sU/*  shUU */, _sV/*  shUV */, _sW/*  shUW */, _/* EXTERNAL */){
+      var _sS/* shZ4 */ = B(_r9/* shU8 */(_qV/* shTA */, _/* EXTERNAL */)),
+      _sT/* shZ8 */ = function(_sU/*  shZd */, _sV/*  shZe */, _sW/*  shZf */, _/* EXTERNAL */){
         while(1){
-          var _sX/*  shUP */ = B((function(_sY/* shUU */, _sZ/* shUV */, _t0/* shUW */, _/* EXTERNAL */){
-            var _t1/* shUY */ = E(_sY/* shUU */);
-            if(!_t1/* shUY */._){
-              return new T2(0,_sZ/* shUV */,_t0/* shUW */);
+          var _sX/*  shZ8 */ = B((function(_sY/* shZd */, _sZ/* shZe */, _t0/* shZf */, _/* EXTERNAL */){
+            var _t1/* shZh */ = E(_sY/* shZd */);
+            if(!_t1/* shZh */._){
+              return new T2(0,_sZ/* shZe */,_t0/* shZf */);
             }else{
-              var _t2/* shV1 */ = _t1/* shUY */.b,
-              _t3/* shV2 */ = E(_t1/* shUY */.a);
-              if(_t3/* shV2 */==1){
-                var _t4/*   shUV */ = _sZ/* shUV */,
-                _t5/*   shUW */ = _t0/* shUW */;
-                _sU/*  shUU */ = _t2/* shV1 */;
-                _sV/*  shUV */ = _t4/*   shUV */;
-                _sW/*  shUW */ = _t5/*   shUW */;
+              var _t2/* shZk */ = _t1/* shZh */.b,
+              _t3/* shZl */ = E(_t1/* shZh */.a);
+              if(_t3/* shZl */==1){
+                var _t4/*   shZe */ = _sZ/* shZe */,
+                _t5/*   shZf */ = _t0/* shZf */;
+                _sU/*  shZd */ = _t2/* shZk */;
+                _sV/*  shZe */ = _t4/*   shZe */;
+                _sW/*  shZf */ = _t5/*   shZf */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _t6/* shVs */ = new T(function(){
-                  if(!E(_sZ/* shUV */)){
-                    var _t7/* shVa */ = function(_t8/*  shVb */){
+                var _t6/* shZL */ = new T(function(){
+                  if(!E(_sZ/* shZe */)){
+                    var _t7/* shZt */ = function(_t8/*  shZu */){
                       while(1){
-                        var _t9/*  shVa */ = B((function(_ta/* shVb */){
-                          var _tb/* shVc */ = E(_ta/* shVb */);
-                          if(!_tb/* shVc */._){
+                        var _t9/*  shZt */ = B((function(_ta/* shZu */){
+                          var _tb/* shZv */ = E(_ta/* shZu */);
+                          if(!_tb/* shZv */._){
                             return __Z/* EXTERNAL */;
                           }else{
-                            var _tc/* shVe */ = _tb/* shVc */.b,
-                            _td/* shVi */ = E(E(_tb/* shVc */.a).b);
-                            if(!_td/* shVi */._){
-                              _t8/*  shVb */ = _tc/* shVe */;
+                            var _tc/* shZx */ = _tb/* shZv */.b,
+                            _td/* shZB */ = E(E(_tb/* shZv */.a).b);
+                            if(!_td/* shZB */._){
+                              _t8/*  shZu */ = _tc/* shZx */;
                               return __continue/* EXTERNAL */;
                             }else{
                               return new T2(1,new T(function(){
-                                return B(_pP/* LudoJS.$wconvertCell */(_t3/* shV2 */, E(_td/* shVi */.a), _1P/* LudoJS.Green */));
+                                return B(_pP/* LudoJS.$wconvertCell */(_t3/* shZl */, E(_td/* shZB */.a), _1P/* LudoJS.Green */));
                               }),new T(function(){
-                                return B(_t7/* shVa */(_tc/* shVe */));
+                                return B(_t7/* shZt */(_tc/* shZx */));
                               }));
                             }
                           }
-                        })(_t8/*  shVb */));
-                        if(_t9/*  shVa */!=__continue/* EXTERNAL */){
-                          return _t9/*  shVa */;
+                        })(_t8/*  shZu */));
+                        if(_t9/*  shZt */!=__continue/* EXTERNAL */){
+                          return _t9/*  shZt */;
                         }
                       }
                     };
-                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_t7/* shVa */(B(_da/* LudoJS.$s!1 */(_t3/* shV2 */, E(_t0/* shUW */).d)))))), _qy/* LudoJS.lvl10 */));
+                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_t7/* shZt */(B(_da/* LudoJS.$s!1 */(_t3/* shZl */, E(_t0/* shZf */).d)))))), _qy/* LudoJS.lvl10 */));
                   }else{
                     return true;
                   }
                 }),
-                _t5/*   shUW */ = _t0/* shUW */;
-                _sU/*  shUU */ = _t2/* shV1 */;
-                _sV/*  shUV */ = _t6/* shVs */;
-                _sW/*  shUW */ = _t5/*   shUW */;
+                _t5/*   shZf */ = _t0/* shZf */;
+                _sU/*  shZd */ = _t2/* shZk */;
+                _sV/*  shZe */ = _t6/* shZL */;
+                _sW/*  shZf */ = _t5/*   shZf */;
                 return __continue/* EXTERNAL */;
               }
             }
-          })(_sU/*  shUU */, _sV/*  shUV */, _sW/*  shUW */, _/* EXTERNAL */));
-          if(_sX/*  shUP */!=__continue/* EXTERNAL */){
-            return _sX/*  shUP */;
+          })(_sU/*  shZd */, _sV/*  shZe */, _sW/*  shZf */, _/* EXTERNAL */));
+          if(_sX/*  shZ8 */!=__continue/* EXTERNAL */){
+            return _sX/*  shZ8 */;
           }
         }
       },
-      _te/* shVB */ = B((function(_tf/* shUQ */, _tg/* shUR */, _th/* shUS */, _/* EXTERNAL */){
-        return new F(function(){return _sT/* shUP */(_tf/* shUQ */, _tg/* shUR */, _th/* shUS */, _/* EXTERNAL */);});
+      _te/* shZU */ = B((function(_tf/* shZ9 */, _tg/* shZa */, _th/* shZb */, _/* EXTERNAL */){
+        return new F(function(){return _sT/* shZ8 */(_tf/* shZ9 */, _tg/* shZa */, _th/* shZb */, _/* EXTERNAL */);});
       })(_6b/* LudoJS.lvl8 */, new T(function(){
-        return E(E(_sS/* shUL */).a);
+        return E(E(_sS/* shZ4 */).a);
       }), new T(function(){
-        return E(E(_sS/* shUL */).b);
+        return E(E(_sS/* shZ4 */).b);
       }), _/* EXTERNAL */));
-      return new F(function(){return _rj/* shQi */(_/* EXTERNAL */, _te/* shVB */);});
+      return new F(function(){return _rj/* shUB */(_/* EXTERNAL */, _te/* shZU */);});
       break;
     case 2:
-      var _ti/* shVE */ = B(_r9/* shPP */(_qV/* shPh */, _/* EXTERNAL */)),
-      _tj/* shVI */ = function(_tk/*  shWf */, _tl/*  shWg */, _tm/*  shWh */, _/* EXTERNAL */){
+      var _ti/* shZX */ = B(_r9/* shU8 */(_qV/* shTA */, _/* EXTERNAL */)),
+      _tj/* si01 */ = function(_tk/*  si0y */, _tl/*  si0z */, _tm/*  si0A */, _/* EXTERNAL */){
         while(1){
-          var _tn/*  shVI */ = B((function(_to/* shWf */, _tp/* shWg */, _tq/* shWh */, _/* EXTERNAL */){
-            var _tr/* shWj */ = E(_to/* shWf */);
-            if(!_tr/* shWj */._){
-              return new T2(0,_tp/* shWg */,_tq/* shWh */);
+          var _tn/*  si01 */ = B((function(_to/* si0y */, _tp/* si0z */, _tq/* si0A */, _/* EXTERNAL */){
+            var _tr/* si0C */ = E(_to/* si0y */);
+            if(!_tr/* si0C */._){
+              return new T2(0,_tp/* si0z */,_tq/* si0A */);
             }else{
-              var _ts/* shWm */ = _tr/* shWj */.b,
-              _tt/* shWn */ = E(_tr/* shWj */.a);
-              if(_tt/* shWn */==2){
-                var _tu/*   shWg */ = _tp/* shWg */,
-                _tv/*   shWh */ = _tq/* shWh */;
-                _tk/*  shWf */ = _ts/* shWm */;
-                _tl/*  shWg */ = _tu/*   shWg */;
-                _tm/*  shWh */ = _tv/*   shWh */;
+              var _ts/* si0F */ = _tr/* si0C */.b,
+              _tt/* si0G */ = E(_tr/* si0C */.a);
+              if(_tt/* si0G */==2){
+                var _tu/*   si0z */ = _tp/* si0z */,
+                _tv/*   si0A */ = _tq/* si0A */;
+                _tk/*  si0y */ = _ts/* si0F */;
+                _tl/*  si0z */ = _tu/*   si0z */;
+                _tm/*  si0A */ = _tv/*   si0A */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _tw/* shWN */ = new T(function(){
-                  if(!E(_tp/* shWg */)){
-                    var _tx/* shWv */ = function(_ty/*  shWw */){
+                var _tw/* si16 */ = new T(function(){
+                  if(!E(_tp/* si0z */)){
+                    var _tx/* si0O */ = function(_ty/*  si0P */){
                       while(1){
-                        var _tz/*  shWv */ = B((function(_tA/* shWw */){
-                          var _tB/* shWx */ = E(_tA/* shWw */);
-                          if(!_tB/* shWx */._){
+                        var _tz/*  si0O */ = B((function(_tA/* si0P */){
+                          var _tB/* si0Q */ = E(_tA/* si0P */);
+                          if(!_tB/* si0Q */._){
                             return __Z/* EXTERNAL */;
                           }else{
-                            var _tC/* shWz */ = _tB/* shWx */.b,
-                            _tD/* shWD */ = E(E(_tB/* shWx */.a).b);
-                            if(!_tD/* shWD */._){
-                              _ty/*  shWw */ = _tC/* shWz */;
+                            var _tC/* si0S */ = _tB/* si0Q */.b,
+                            _tD/* si0W */ = E(E(_tB/* si0Q */.a).b);
+                            if(!_tD/* si0W */._){
+                              _ty/*  si0P */ = _tC/* si0S */;
                               return __continue/* EXTERNAL */;
                             }else{
                               return new T2(1,new T(function(){
-                                return B(_pP/* LudoJS.$wconvertCell */(_tt/* shWn */, E(_tD/* shWD */.a), _1Q/* LudoJS.Red */));
+                                return B(_pP/* LudoJS.$wconvertCell */(_tt/* si0G */, E(_tD/* si0W */.a), _1Q/* LudoJS.Red */));
                               }),new T(function(){
-                                return B(_tx/* shWv */(_tC/* shWz */));
+                                return B(_tx/* si0O */(_tC/* si0S */));
                               }));
                             }
                           }
-                        })(_ty/*  shWw */));
-                        if(_tz/*  shWv */!=__continue/* EXTERNAL */){
-                          return _tz/*  shWv */;
+                        })(_ty/*  si0P */));
+                        if(_tz/*  si0O */!=__continue/* EXTERNAL */){
+                          return _tz/*  si0O */;
                         }
                       }
                     };
-                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_tx/* shWv */(B(_da/* LudoJS.$s!1 */(_tt/* shWn */, E(_tq/* shWh */).d)))))), _qy/* LudoJS.lvl10 */));
+                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_tx/* si0O */(B(_da/* LudoJS.$s!1 */(_tt/* si0G */, E(_tq/* si0A */).d)))))), _qy/* LudoJS.lvl10 */));
                   }else{
                     return true;
                   }
                 }),
-                _tv/*   shWh */ = _tq/* shWh */;
-                _tk/*  shWf */ = _ts/* shWm */;
-                _tl/*  shWg */ = _tw/* shWN */;
-                _tm/*  shWh */ = _tv/*   shWh */;
+                _tv/*   si0A */ = _tq/* si0A */;
+                _tk/*  si0y */ = _ts/* si0F */;
+                _tl/*  si0z */ = _tw/* si16 */;
+                _tm/*  si0A */ = _tv/*   si0A */;
                 return __continue/* EXTERNAL */;
               }
             }
-          })(_tk/*  shWf */, _tl/*  shWg */, _tm/*  shWh */, _/* EXTERNAL */));
-          if(_tn/*  shVI */!=__continue/* EXTERNAL */){
-            return _tn/*  shVI */;
+          })(_tk/*  si0y */, _tl/*  si0z */, _tm/*  si0A */, _/* EXTERNAL */));
+          if(_tn/*  si01 */!=__continue/* EXTERNAL */){
+            return _tn/*  si01 */;
           }
         }
       },
-      _tE/* shVH */ = function(_tF/* shVJ */, _tG/* shVK */, _tH/* shVL */, _tI/* shVM */, _/* EXTERNAL */){
-        var _tJ/* shVO */ = E(_tF/* shVJ */);
-        if(_tJ/* shVO */==2){
-          return new F(function(){return _tj/* shVI */(_tG/* shVK */, _tH/* shVL */, _tI/* shVM */, _/* EXTERNAL */);});
+      _tE/* si00 */ = function(_tF/* si02 */, _tG/* si03 */, _tH/* si04 */, _tI/* si05 */, _/* EXTERNAL */){
+        var _tJ/* si07 */ = E(_tF/* si02 */);
+        if(_tJ/* si07 */==2){
+          return new F(function(){return _tj/* si01 */(_tG/* si03 */, _tH/* si04 */, _tI/* si05 */, _/* EXTERNAL */);});
         }else{
-          var _tK/* shWe */ = new T(function(){
-            if(!E(_tH/* shVL */)){
-              var _tL/* shVW */ = function(_tM/*  shVX */){
+          var _tK/* si0x */ = new T(function(){
+            if(!E(_tH/* si04 */)){
+              var _tL/* si0f */ = function(_tM/*  si0g */){
                 while(1){
-                  var _tN/*  shVW */ = B((function(_tO/* shVX */){
-                    var _tP/* shVY */ = E(_tO/* shVX */);
-                    if(!_tP/* shVY */._){
+                  var _tN/*  si0f */ = B((function(_tO/* si0g */){
+                    var _tP/* si0h */ = E(_tO/* si0g */);
+                    if(!_tP/* si0h */._){
                       return __Z/* EXTERNAL */;
                     }else{
-                      var _tQ/* shW0 */ = _tP/* shVY */.b,
-                      _tR/* shW4 */ = E(E(_tP/* shVY */.a).b);
-                      if(!_tR/* shW4 */._){
-                        _tM/*  shVX */ = _tQ/* shW0 */;
+                      var _tQ/* si0j */ = _tP/* si0h */.b,
+                      _tR/* si0n */ = E(E(_tP/* si0h */.a).b);
+                      if(!_tR/* si0n */._){
+                        _tM/*  si0g */ = _tQ/* si0j */;
                         return __continue/* EXTERNAL */;
                       }else{
                         return new T2(1,new T(function(){
-                          return B(_pP/* LudoJS.$wconvertCell */(_tJ/* shVO */, E(_tR/* shW4 */.a), _1Q/* LudoJS.Red */));
+                          return B(_pP/* LudoJS.$wconvertCell */(_tJ/* si07 */, E(_tR/* si0n */.a), _1Q/* LudoJS.Red */));
                         }),new T(function(){
-                          return B(_tL/* shVW */(_tQ/* shW0 */));
+                          return B(_tL/* si0f */(_tQ/* si0j */));
                         }));
                       }
                     }
-                  })(_tM/*  shVX */));
-                  if(_tN/*  shVW */!=__continue/* EXTERNAL */){
-                    return _tN/*  shVW */;
+                  })(_tM/*  si0g */));
+                  if(_tN/*  si0f */!=__continue/* EXTERNAL */){
+                    return _tN/*  si0f */;
                   }
                 }
               };
-              return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_tL/* shVW */(B(_da/* LudoJS.$s!1 */(_tJ/* shVO */, E(_tI/* shVM */).d)))))), _qy/* LudoJS.lvl10 */));
+              return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_tL/* si0f */(B(_da/* LudoJS.$s!1 */(_tJ/* si07 */, E(_tI/* si05 */).d)))))), _qy/* LudoJS.lvl10 */));
             }else{
               return true;
             }
           });
-          return new F(function(){return _tj/* shVI */(_tG/* shVK */, _tK/* shWe */, _tI/* shVM */, _/* EXTERNAL */);});
+          return new F(function(){return _tj/* si01 */(_tG/* si03 */, _tK/* si0x */, _tI/* si05 */, _/* EXTERNAL */);});
         }
       },
-      _tS/* shWW */ = B(_tE/* shVH */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, new T(function(){
-        return E(E(_ti/* shVE */).a);
+      _tS/* si1f */ = B(_tE/* si00 */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, new T(function(){
+        return E(E(_ti/* shZX */).a);
       }), new T(function(){
-        return E(E(_ti/* shVE */).b);
+        return E(E(_ti/* shZX */).b);
       }), _/* EXTERNAL */));
-      return new F(function(){return _rj/* shQi */(_/* EXTERNAL */, _tS/* shWW */);});
+      return new F(function(){return _rj/* shUB */(_/* EXTERNAL */, _tS/* si1f */);});
       break;
     default:
-      var _tT/* shWZ */ = B(_r9/* shPP */(_qV/* shPh */, _/* EXTERNAL */)),
-      _tU/* shX3 */ = function(_tV/*  shXA */, _tW/*  shXB */, _tX/*  shXC */, _/* EXTERNAL */){
+      var _tT/* si1i */ = B(_r9/* shU8 */(_qV/* shTA */, _/* EXTERNAL */)),
+      _tU/* si1m */ = function(_tV/*  si1T */, _tW/*  si1U */, _tX/*  si1V */, _/* EXTERNAL */){
         while(1){
-          var _tY/*  shX3 */ = B((function(_tZ/* shXA */, _u0/* shXB */, _u1/* shXC */, _/* EXTERNAL */){
-            var _u2/* shXE */ = E(_tZ/* shXA */);
-            if(!_u2/* shXE */._){
-              return new T2(0,_u0/* shXB */,_u1/* shXC */);
+          var _tY/*  si1m */ = B((function(_tZ/* si1T */, _u0/* si1U */, _u1/* si1V */, _/* EXTERNAL */){
+            var _u2/* si1X */ = E(_tZ/* si1T */);
+            if(!_u2/* si1X */._){
+              return new T2(0,_u0/* si1U */,_u1/* si1V */);
             }else{
-              var _u3/* shXH */ = _u2/* shXE */.b,
-              _u4/* shXI */ = E(_u2/* shXE */.a);
-              if(_u4/* shXI */==3){
-                var _u5/*   shXB */ = _u0/* shXB */,
-                _u6/*   shXC */ = _u1/* shXC */;
-                _tV/*  shXA */ = _u3/* shXH */;
-                _tW/*  shXB */ = _u5/*   shXB */;
-                _tX/*  shXC */ = _u6/*   shXC */;
+              var _u3/* si20 */ = _u2/* si1X */.b,
+              _u4/* si21 */ = E(_u2/* si1X */.a);
+              if(_u4/* si21 */==3){
+                var _u5/*   si1U */ = _u0/* si1U */,
+                _u6/*   si1V */ = _u1/* si1V */;
+                _tV/*  si1T */ = _u3/* si20 */;
+                _tW/*  si1U */ = _u5/*   si1U */;
+                _tX/*  si1V */ = _u6/*   si1V */;
                 return __continue/* EXTERNAL */;
               }else{
-                var _u7/* shY8 */ = new T(function(){
-                  if(!E(_u0/* shXB */)){
-                    var _u8/* shXQ */ = function(_u9/*  shXR */){
+                var _u7/* si2r */ = new T(function(){
+                  if(!E(_u0/* si1U */)){
+                    var _u8/* si29 */ = function(_u9/*  si2a */){
                       while(1){
-                        var _ua/*  shXQ */ = B((function(_ub/* shXR */){
-                          var _uc/* shXS */ = E(_ub/* shXR */);
-                          if(!_uc/* shXS */._){
+                        var _ua/*  si29 */ = B((function(_ub/* si2a */){
+                          var _uc/* si2b */ = E(_ub/* si2a */);
+                          if(!_uc/* si2b */._){
                             return __Z/* EXTERNAL */;
                           }else{
-                            var _ud/* shXU */ = _uc/* shXS */.b,
-                            _ue/* shXY */ = E(E(_uc/* shXS */.a).b);
-                            if(!_ue/* shXY */._){
-                              _u9/*  shXR */ = _ud/* shXU */;
+                            var _ud/* si2d */ = _uc/* si2b */.b,
+                            _ue/* si2h */ = E(E(_uc/* si2b */.a).b);
+                            if(!_ue/* si2h */._){
+                              _u9/*  si2a */ = _ud/* si2d */;
                               return __continue/* EXTERNAL */;
                             }else{
                               return new T2(1,new T(function(){
-                                return B(_pP/* LudoJS.$wconvertCell */(_u4/* shXI */, E(_ue/* shXY */.a), _1S/* LudoJS.Yellow */));
+                                return B(_pP/* LudoJS.$wconvertCell */(_u4/* si21 */, E(_ue/* si2h */.a), _1S/* LudoJS.Yellow */));
                               }),new T(function(){
-                                return B(_u8/* shXQ */(_ud/* shXU */));
+                                return B(_u8/* si29 */(_ud/* si2d */));
                               }));
                             }
                           }
-                        })(_u9/*  shXR */));
-                        if(_ua/*  shXQ */!=__continue/* EXTERNAL */){
-                          return _ua/*  shXQ */;
+                        })(_u9/*  si2a */));
+                        if(_ua/*  si29 */!=__continue/* EXTERNAL */){
+                          return _ua/*  si29 */;
                         }
                       }
                     };
-                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_u8/* shXQ */(B(_da/* LudoJS.$s!1 */(_u4/* shXI */, E(_u1/* shXC */).d)))))), _qy/* LudoJS.lvl10 */));
+                    return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_u8/* si29 */(B(_da/* LudoJS.$s!1 */(_u4/* si21 */, E(_u1/* si1V */).d)))))), _qy/* LudoJS.lvl10 */));
                   }else{
                     return true;
                   }
                 }),
-                _u6/*   shXC */ = _u1/* shXC */;
-                _tV/*  shXA */ = _u3/* shXH */;
-                _tW/*  shXB */ = _u7/* shY8 */;
-                _tX/*  shXC */ = _u6/*   shXC */;
+                _u6/*   si1V */ = _u1/* si1V */;
+                _tV/*  si1T */ = _u3/* si20 */;
+                _tW/*  si1U */ = _u7/* si2r */;
+                _tX/*  si1V */ = _u6/*   si1V */;
                 return __continue/* EXTERNAL */;
               }
             }
-          })(_tV/*  shXA */, _tW/*  shXB */, _tX/*  shXC */, _/* EXTERNAL */));
-          if(_tY/*  shX3 */!=__continue/* EXTERNAL */){
-            return _tY/*  shX3 */;
+          })(_tV/*  si1T */, _tW/*  si1U */, _tX/*  si1V */, _/* EXTERNAL */));
+          if(_tY/*  si1m */!=__continue/* EXTERNAL */){
+            return _tY/*  si1m */;
           }
         }
       },
-      _uf/* shX2 */ = function(_ug/* shX4 */, _uh/* shX5 */, _ui/* shX6 */, _uj/* shX7 */, _/* EXTERNAL */){
-        var _uk/* shX9 */ = E(_ug/* shX4 */);
-        if(_uk/* shX9 */==3){
-          return new F(function(){return _tU/* shX3 */(_uh/* shX5 */, _ui/* shX6 */, _uj/* shX7 */, _/* EXTERNAL */);});
+      _uf/* si1l */ = function(_ug/* si1n */, _uh/* si1o */, _ui/* si1p */, _uj/* si1q */, _/* EXTERNAL */){
+        var _uk/* si1s */ = E(_ug/* si1n */);
+        if(_uk/* si1s */==3){
+          return new F(function(){return _tU/* si1m */(_uh/* si1o */, _ui/* si1p */, _uj/* si1q */, _/* EXTERNAL */);});
         }else{
-          var _ul/* shXz */ = new T(function(){
-            if(!E(_ui/* shX6 */)){
-              var _um/* shXh */ = function(_un/*  shXi */){
+          var _ul/* si1S */ = new T(function(){
+            if(!E(_ui/* si1p */)){
+              var _um/* si1A */ = function(_un/*  si1B */){
                 while(1){
-                  var _uo/*  shXh */ = B((function(_up/* shXi */){
-                    var _uq/* shXj */ = E(_up/* shXi */);
-                    if(!_uq/* shXj */._){
+                  var _uo/*  si1A */ = B((function(_up/* si1B */){
+                    var _uq/* si1C */ = E(_up/* si1B */);
+                    if(!_uq/* si1C */._){
                       return __Z/* EXTERNAL */;
                     }else{
-                      var _ur/* shXl */ = _uq/* shXj */.b,
-                      _us/* shXp */ = E(E(_uq/* shXj */.a).b);
-                      if(!_us/* shXp */._){
-                        _un/*  shXi */ = _ur/* shXl */;
+                      var _ur/* si1E */ = _uq/* si1C */.b,
+                      _us/* si1I */ = E(E(_uq/* si1C */.a).b);
+                      if(!_us/* si1I */._){
+                        _un/*  si1B */ = _ur/* si1E */;
                         return __continue/* EXTERNAL */;
                       }else{
                         return new T2(1,new T(function(){
-                          return B(_pP/* LudoJS.$wconvertCell */(_uk/* shX9 */, E(_us/* shXp */.a), _1S/* LudoJS.Yellow */));
+                          return B(_pP/* LudoJS.$wconvertCell */(_uk/* si1s */, E(_us/* si1I */.a), _1S/* LudoJS.Yellow */));
                         }),new T(function(){
-                          return B(_um/* shXh */(_ur/* shXl */));
+                          return B(_um/* si1A */(_ur/* si1E */));
                         }));
                       }
                     }
-                  })(_un/*  shXi */));
-                  if(_uo/*  shXh */!=__continue/* EXTERNAL */){
-                    return _uo/*  shXh */;
+                  })(_un/*  si1B */));
+                  if(_uo/*  si1A */!=__continue/* EXTERNAL */){
+                    return _uo/*  si1A */;
                   }
                 }
               };
-              return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shPj */(B(_um/* shXh */(B(_da/* LudoJS.$s!1 */(_uk/* shX9 */, E(_uj/* shX7 */).d)))))), _qy/* LudoJS.lvl10 */));
+              return B(_qq/* GHC.Integer.Type.geInteger */(B(_qW/* shTC */(B(_um/* si1A */(B(_da/* LudoJS.$s!1 */(_uk/* si1s */, E(_uj/* si1q */).d)))))), _qy/* LudoJS.lvl10 */));
             }else{
               return true;
             }
           });
-          return new F(function(){return _tU/* shX3 */(_uh/* shX5 */, _ul/* shXz */, _uj/* shX7 */, _/* EXTERNAL */);});
+          return new F(function(){return _tU/* si1m */(_uh/* si1o */, _ul/* si1S */, _uj/* si1q */, _/* EXTERNAL */);});
         }
       },
-      _ut/* shYh */ = B(_uf/* shX2 */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, new T(function(){
-        return E(E(_tT/* shWZ */).a);
+      _ut/* si2A */ = B(_uf/* si1l */(_1P/* LudoJS.Green */, _6b/* LudoJS.lvl8 */, new T(function(){
+        return E(E(_tT/* si1i */).a);
       }), new T(function(){
-        return E(E(_tT/* shWZ */).b);
+        return E(E(_tT/* si1i */).b);
       }), _/* EXTERNAL */));
-      return new F(function(){return _rj/* shQi */(_/* EXTERNAL */, _ut/* shYh */);});
+      return new F(function(){return _rj/* shUB */(_/* EXTERNAL */, _ut/* si2A */);});
   }
 },
 _uu/* == */ = function(_uv/* scBK */){
@@ -8433,135 +8433,135 @@ _vm/* lvl5 */ = new T(function(){
 _vn/* lvl6 */ = new T(function(){
   return B(_mL/* GHC.List.$wlenAcc */(_vl/* LudoJS.starCells */, 0));
 }),
-_vo/* $wa7 */ = function(_vp/* shYk */, _vq/* shYl */, _vr/* shYm */, _/* EXTERNAL */){
-  var _vs/* shYo */ = new T(function(){
-    return E(E(_vr/* shYm */).b);
+_vo/* $wa7 */ = function(_vp/* si2D */, _vq/* si2E */, _vr/* si2F */, _/* EXTERNAL */){
+  var _vs/* si2H */ = new T(function(){
+    return E(E(_vr/* si2F */).b);
   }),
-  _vt/* shYv */ = new T(function(){
-    return E(E(_vr/* shYm */).d);
+  _vt/* si2O */ = new T(function(){
+    return E(E(_vr/* si2F */).d);
   }),
-  _vu/* shYC */ = E(_vq/* shYl */);
-  if(_vu/* shYC */==56){
-    var _vv/* si2Y */ = new T(function(){
-      var _vw/* si2D */ = E(_vr/* shYm */),
-      _vx/* si2X */ = new T(function(){
-        var _vy/* si2W */ = new T(function(){
-          var _vz/* si2J */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-          if(!_vz/* si2J */._){
+  _vu/* si2V */ = E(_vq/* si2E */);
+  if(_vu/* si2V */==56){
+    var _vv/* si7W */ = new T(function(){
+      var _vw/* si7B */ = E(_vr/* si2F */),
+      _vx/* si7V */ = new T(function(){
+        var _vy/* si7U */ = new T(function(){
+          var _vz/* si7H */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _vt/* si2O */));
+          if(!_vz/* si7H */._){
             return __Z/* EXTERNAL */;
           }else{
-            var _vA/* si2L */ = _vz/* si2J */.b,
-            _vB/* si2M */ = E(_vz/* si2J */.a),
-            _vC/* si2P */ = E(_vp/* shYk */);
-            if(_vC/* si2P */!=E(_vB/* si2M */.a)){
-              return new T2(1,_vB/* si2M */,new T(function(){
-                return B(_pu/* LudoJS.$sremoveFrom */(_vA/* si2L */, _vC/* si2P */));
+            var _vA/* si7J */ = _vz/* si7H */.b,
+            _vB/* si7K */ = E(_vz/* si7H */.a),
+            _vC/* si7N */ = E(_vp/* si2D */);
+            if(_vC/* si7N */!=E(_vB/* si7K */.a)){
+              return new T2(1,_vB/* si7K */,new T(function(){
+                return B(_pu/* LudoJS.$sremoveFrom */(_vA/* si7J */, _vC/* si7N */));
               }));
             }else{
-              return E(_vA/* si2L */);
+              return E(_vA/* si7J */);
             }
           }
         });
-        return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* shYo */, _vy/* si2W */, _vt/* shYv */));
+        return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, _vy/* si7U */, _vt/* si2O */));
       });
-      return new T5(0,_vw/* si2D */.a,_vw/* si2D */.b,_vw/* si2D */.c,_vx/* si2X */,_vw/* si2D */.e);
+      return new T5(0,_vw/* si7B */.a,_vw/* si7B */.b,_vw/* si7B */.c,_vx/* si7V */,_vw/* si7B */.e);
     });
-    return new T2(0,_eb/* GHC.Tuple.() */,_vv/* si2Y */);
+    return new T2(0,_eb/* GHC.Tuple.() */,_vv/* si7W */);
   }else{
-    if(!B(_uw/* GHC.List.elem */(_pm/* GHC.Classes.$fEqInt */, _vu/* shYC */, _vl/* LudoJS.starCells */))){
-      if(!B(_uw/* GHC.List.elem */(_pm/* GHC.Classes.$fEqInt */, _vu/* shYC */, _v3/* LudoJS.globeCells */))){
-        if(_vu/* shYC */<51){
-          var _vD/* shZ6 */ = new T(function(){
-            var _vE/* shYI */ = E(_vr/* shYm */),
-            _vF/* shZ5 */ = new T(function(){
-              var _vG/* shZ3 */ = new T(function(){
-                var _vH/* shYQ */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-                if(!_vH/* shYQ */._){
+    if(!B(_uw/* GHC.List.elem */(_pm/* GHC.Classes.$fEqInt */, _vu/* si2V */, _vl/* LudoJS.starCells */))){
+      if(!B(_uw/* GHC.List.elem */(_pm/* GHC.Classes.$fEqInt */, _vu/* si2V */, _v3/* LudoJS.globeCells */))){
+        if(_vu/* si2V */<51){
+          var _vD/* si3p */ = new T(function(){
+            var _vE/* si31 */ = E(_vr/* si2F */),
+            _vF/* si3o */ = new T(function(){
+              var _vG/* si3m */ = new T(function(){
+                var _vH/* si39 */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _vt/* si2O */));
+                if(!_vH/* si39 */._){
                   return __Z/* EXTERNAL */;
                 }else{
-                  var _vI/* shYS */ = _vH/* shYQ */.b,
-                  _vJ/* shYT */ = E(_vH/* shYQ */.a),
-                  _vK/* shYW */ = E(_vp/* shYk */);
-                  if(_vK/* shYW */!=E(_vJ/* shYT */.a)){
-                    return new T2(1,_vJ/* shYT */,new T(function(){
-                      return B(_pu/* LudoJS.$sremoveFrom */(_vI/* shYS */, _vK/* shYW */));
+                  var _vI/* si3b */ = _vH/* si39 */.b,
+                  _vJ/* si3c */ = E(_vH/* si39 */.a),
+                  _vK/* si3f */ = E(_vp/* si2D */);
+                  if(_vK/* si3f */!=E(_vJ/* si3c */.a)){
+                    return new T2(1,_vJ/* si3c */,new T(function(){
+                      return B(_pu/* LudoJS.$sremoveFrom */(_vI/* si3b */, _vK/* si3f */));
                     }));
                   }else{
-                    return E(_vI/* shYS */);
+                    return E(_vI/* si3b */);
                   }
                 }
               });
-              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* shYo */, new T2(1,new T2(0,_vp/* shYk */,new T1(1,_vu/* shYC */)),_vG/* shZ3 */), _vt/* shYv */));
+              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, new T2(1,new T2(0,_vp/* si2D */,new T1(1,_vu/* si2V */)),_vG/* si3m */), _vt/* si2O */));
             });
-            return new T5(0,_vE/* shYI */.a,_vE/* shYI */.b,_vE/* shYI */.c,_vF/* shZ5 */,_vE/* shYI */.e);
+            return new T5(0,_vE/* si31 */.a,_vE/* si31 */.b,_vE/* si31 */.c,_vF/* si3o */,_vE/* si31 */.e);
           });
-          return new F(function(){return _qS/* LudoJS.a43 */(_vs/* shYo */, _vu/* shYC */, _vD/* shZ6 */, _/* EXTERNAL */);});
+          return new F(function(){return _qS/* LudoJS.a43 */(_vs/* si2H */, _vu/* si2V */, _vD/* si3p */, _/* EXTERNAL */);});
         }else{
-          var _vL/* shZv */ = new T(function(){
-            var _vM/* shZ7 */ = E(_vr/* shYm */),
-            _vN/* shZu */ = new T(function(){
-              var _vO/* shZs */ = new T(function(){
-                var _vP/* shZf */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-                if(!_vP/* shZf */._){
+          var _vL/* si3O */ = new T(function(){
+            var _vM/* si3q */ = E(_vr/* si2F */),
+            _vN/* si3N */ = new T(function(){
+              var _vO/* si3L */ = new T(function(){
+                var _vP/* si3y */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _vt/* si2O */));
+                if(!_vP/* si3y */._){
                   return __Z/* EXTERNAL */;
                 }else{
-                  var _vQ/* shZh */ = _vP/* shZf */.b,
-                  _vR/* shZi */ = E(_vP/* shZf */.a),
-                  _vS/* shZl */ = E(_vp/* shYk */);
-                  if(_vS/* shZl */!=E(_vR/* shZi */.a)){
-                    return new T2(1,_vR/* shZi */,new T(function(){
-                      return B(_pu/* LudoJS.$sremoveFrom */(_vQ/* shZh */, _vS/* shZl */));
+                  var _vQ/* si3A */ = _vP/* si3y */.b,
+                  _vR/* si3B */ = E(_vP/* si3y */.a),
+                  _vS/* si3E */ = E(_vp/* si2D */);
+                  if(_vS/* si3E */!=E(_vR/* si3B */.a)){
+                    return new T2(1,_vR/* si3B */,new T(function(){
+                      return B(_pu/* LudoJS.$sremoveFrom */(_vQ/* si3A */, _vS/* si3E */));
                     }));
                   }else{
-                    return E(_vQ/* shZh */);
+                    return E(_vQ/* si3A */);
                   }
                 }
               });
-              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* shYo */, new T2(1,new T2(0,_vp/* shYk */,new T1(1,_vu/* shYC */)),_vO/* shZs */), _vt/* shYv */));
+              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, new T2(1,new T2(0,_vp/* si2D */,new T1(1,_vu/* si2V */)),_vO/* si3L */), _vt/* si2O */));
             });
-            return new T5(0,_vM/* shZ7 */.a,_vM/* shZ7 */.b,_vM/* shZ7 */.c,_vN/* shZu */,_vM/* shZ7 */.e);
+            return new T5(0,_vM/* si3q */.a,_vM/* si3q */.b,_vM/* si3q */.c,_vN/* si3N */,_vM/* si3q */.e);
           });
-          return new T2(0,_eb/* GHC.Tuple.() */,_vL/* shZv */);
+          return new T2(0,_eb/* GHC.Tuple.() */,_vL/* si3O */);
         }
       }else{
-        var _vT/* shZx */ = E(_vr/* shYm */),
-        _vU/* shZy */ = _vT/* shZx */.a,
-        _vV/* shZz */ = _vT/* shZx */.b,
-        _vW/* shZA */ = _vT/* shZx */.c,
-        _vX/* shZC */ = _vT/* shZx */.e,
-        _vY/* shZD */ = function(_vZ/* shZE */, _w0/* shZF */, _w1/* shZG */, _w2/* shZH */, _w3/* shZI */, _w4/* shZJ */, _/* EXTERNAL */){
-          var _w5/* shZL */ = new T(function(){
-            return B(_pP/* LudoJS.$wconvertCell */(_w1/* shZG */, _vu/* shYC */, _vZ/* shZE */));
+        var _vT/* si3Q */ = E(_vr/* si2F */),
+        _vU/* si3R */ = _vT/* si3Q */.a,
+        _vV/* si3S */ = _vT/* si3Q */.b,
+        _vW/* si3T */ = _vT/* si3Q */.c,
+        _vX/* si3V */ = _vT/* si3Q */.e,
+        _vY/* si3W */ = function(_vZ/* si3X */, _w0/* si3Y */, _w1/* si3Z */, _w2/* si40 */, _w3/* si41 */, _w4/* si42 */, _/* EXTERNAL */){
+          var _w5/* si44 */ = new T(function(){
+            return B(_pP/* LudoJS.$wconvertCell */(_w1/* si3Z */, _vu/* si2V */, _vZ/* si3X */));
           }),
-          _w6/* shZN */ = function(_w7/*  shZO */){
+          _w6/* si46 */ = function(_w7/*  si47 */){
             while(1){
-              var _w8/*  shZN */ = B((function(_w9/* shZO */){
-                var _wa/* shZP */ = E(_w9/* shZO */);
-                if(!_wa/* shZP */._){
+              var _w8/*  si46 */ = B((function(_w9/* si47 */){
+                var _wa/* si48 */ = E(_w9/* si47 */);
+                if(!_wa/* si48 */._){
                   return false;
                 }else{
-                  var _wb/* shZR */ = _wa/* shZP */.b,
-                  _wc/* shZV */ = E(E(_wa/* shZP */.a).b);
-                  if(!_wc/* shZV */._){
-                    _w7/*  shZO */ = _wb/* shZR */;
+                  var _wb/* si4a */ = _wa/* si48 */.b,
+                  _wc/* si4e */ = E(E(_wa/* si48 */.a).b);
+                  if(!_wc/* si4e */._){
+                    _w7/*  si47 */ = _wb/* si4a */;
                     return __continue/* EXTERNAL */;
                   }else{
-                    var _wd/* shZX */ = E(_w5/* shZL */);
-                    if(_wd/* shZX */!=E(_wc/* shZV */.a)){
-                      var _we/* si03 */ = function(_wf/* si04 */){
+                    var _wd/* si4g */ = E(_w5/* si44 */);
+                    if(_wd/* si4g */!=E(_wc/* si4e */.a)){
+                      var _we/* si4m */ = function(_wf/* si4n */){
                         while(1){
-                          var _wg/* si05 */ = E(_wf/* si04 */);
-                          if(!_wg/* si05 */._){
+                          var _wg/* si4o */ = E(_wf/* si4n */);
+                          if(!_wg/* si4o */._){
                             return false;
                           }else{
-                            var _wh/* si07 */ = _wg/* si05 */.b,
-                            _wi/* si0b */ = E(E(_wg/* si05 */.a).b);
-                            if(!_wi/* si0b */._){
-                              _wf/* si04 */ = _wh/* si07 */;
+                            var _wh/* si4q */ = _wg/* si4o */.b,
+                            _wi/* si4u */ = E(E(_wg/* si4o */.a).b);
+                            if(!_wi/* si4u */._){
+                              _wf/* si4n */ = _wh/* si4q */;
                               continue;
                             }else{
-                              if(_wd/* shZX */!=E(_wi/* si0b */.a)){
-                                _wf/* si04 */ = _wh/* si07 */;
+                              if(_wd/* si4g */!=E(_wi/* si4u */.a)){
+                                _wf/* si4n */ = _wh/* si4q */;
                                 continue;
                               }else{
                                 return true;
@@ -8570,1152 +8570,1198 @@ _vo/* $wa7 */ = function(_vp/* shYk */, _vq/* shYl */, _vr/* shYm */, _/* EXTERN
                           }
                         }
                       };
-                      return new F(function(){return _we/* si03 */(_wb/* shZR */);});
+                      return new F(function(){return _we/* si4m */(_wb/* si4a */);});
                     }else{
                       return true;
                     }
                   }
                 }
-              })(_w7/*  shZO */));
-              if(_w8/*  shZN */!=__continue/* EXTERNAL */){
-                return _w8/*  shZN */;
+              })(_w7/*  si47 */));
+              if(_w8/*  si46 */!=__continue/* EXTERNAL */){
+                return _w8/*  si46 */;
               }
             }
           };
-          if(!B(_w6/* shZN */(B(_da/* LudoJS.$s!1 */(_vZ/* shZE */, _w3/* shZI */))))){
-            return new T2(0,_eb/* GHC.Tuple.() */,new T5(0,_w0/* shZF */,_w1/* shZG */,_w2/* shZH */,_w3/* shZI */,_w4/* shZJ */));
+          if(!B(_w6/* si46 */(B(_da/* LudoJS.$s!1 */(_vZ/* si3X */, _w3/* si41 */))))){
+            return new T2(0,_eb/* GHC.Tuple.() */,new T5(0,_w0/* si3Y */,_w1/* si3Z */,_w2/* si40 */,_w3/* si41 */,_w4/* si42 */));
           }else{
-            var _wj/* si0n */ = new T(function(){
-              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_w1/* shZG */, new T(function(){
-                return B(_pn/* LudoJS.$soutByCell */(B(_da/* LudoJS.$s!1 */(_w1/* shZG */, _w3/* shZI */)), _vu/* shYC */));
-              }), _w3/* shZI */));
+            var _wj/* si4G */ = new T(function(){
+              return B(_3j/* LudoJS.$sinsert_$sgo10 */(_w1/* si3Z */, new T(function(){
+                return B(_pn/* LudoJS.$soutByCell */(B(_da/* LudoJS.$s!1 */(_w1/* si3Z */, _w3/* si41 */)), _vu/* si2V */));
+              }), _w3/* si41 */));
             });
-            return new T2(0,_eb/* GHC.Tuple.() */,new T5(0,_w0/* shZF */,_w1/* shZG */,_w2/* shZH */,_wj/* si0n */,_w4/* shZJ */));
+            return new T2(0,_eb/* GHC.Tuple.() */,new T5(0,_w0/* si3Y */,_w1/* si3Z */,_w2/* si40 */,_wj/* si4G */,_w4/* si42 */));
           }
         },
-        _wk/* si0q */ = function(_wl/* si0r */, _wm/* si0s */, _wn/* si0t */, _wo/* si0u */, _wp/* si0v */, _/* EXTERNAL */){
-          var _wq/* si0x */ = function(_wr/* si0y */, _ws/* si0z */, _wt/* si0A */, _wu/* si0B */, _wv/* si0C */, _/* EXTERNAL */){
-            var _ww/* si0E */ = E(_vs/* shYo */);
-            if(_ww/* si0E */==3){
-              return new F(function(){return _vY/* shZD */(_1Q/* LudoJS.Red */, _wr/* si0y */, _ws/* si0z */, _wt/* si0A */, _wu/* si0B */, _wv/* si0C */, _/* EXTERNAL */);});
+        _wk/* si4J */ = function(_wl/* si4K */, _wm/* si4L */, _wn/* si4M */, _wo/* si4N */, _wp/* si4O */, _/* EXTERNAL */){
+          var _wq/* si4Q */ = function(_wr/* si4R */, _ws/* si4S */, _wt/* si4T */, _wu/* si4U */, _wv/* si4V */, _/* EXTERNAL */){
+            var _ww/* si4X */ = E(_vs/* si2H */);
+            if(_ww/* si4X */==3){
+              return new F(function(){return _vY/* si3W */(_1Q/* LudoJS.Red */, _wr/* si4R */, _ws/* si4S */, _wt/* si4T */, _wu/* si4U */, _wv/* si4V */, _/* EXTERNAL */);});
             }else{
-              var _wx/* si0F */ = B(_vY/* shZD */(_1S/* LudoJS.Yellow */, _wr/* si0y */, _ws/* si0z */, _wt/* si0A */, _wu/* si0B */, _wv/* si0C */, _/* EXTERNAL */));
-              if(E(_ww/* si0E */)==2){
+              var _wx/* si4Y */ = B(_vY/* si3W */(_1S/* LudoJS.Yellow */, _wr/* si4R */, _ws/* si4S */, _wt/* si4T */, _wu/* si4U */, _wv/* si4V */, _/* EXTERNAL */));
+              if(E(_ww/* si4X */)==2){
                 return new T2(0,_eb/* GHC.Tuple.() */,new T(function(){
-                  return E(E(_wx/* si0F */).b);
+                  return E(E(_wx/* si4Y */).b);
                 }));
               }else{
-                var _wy/* si0M */ = E(E(_wx/* si0F */).b);
-                return new F(function(){return _vY/* shZD */(_1Q/* LudoJS.Red */, _wy/* si0M */.a, _wy/* si0M */.b, _wy/* si0M */.c, _wy/* si0M */.d, _wy/* si0M */.e, _/* EXTERNAL */);});
+                var _wy/* si55 */ = E(E(_wx/* si4Y */).b);
+                return new F(function(){return _vY/* si3W */(_1Q/* LudoJS.Red */, _wy/* si55 */.a, _wy/* si55 */.b, _wy/* si55 */.c, _wy/* si55 */.d, _wy/* si55 */.e, _/* EXTERNAL */);});
               }
             }
           };
-          if(E(_vs/* shYo */)==1){
-            return new F(function(){return _wq/* si0x */(_wl/* si0r */, _wm/* si0s */, _wn/* si0t */, _wo/* si0u */, _wp/* si0v */, _/* EXTERNAL */);});
+          if(E(_vs/* si2H */)==1){
+            return new F(function(){return _wq/* si4Q */(_wl/* si4K */, _wm/* si4L */, _wn/* si4M */, _wo/* si4N */, _wp/* si4O */, _/* EXTERNAL */);});
           }else{
-            var _wz/* si0Y */ = B(_vY/* shZD */(_1P/* LudoJS.Green */, _wl/* si0r */, _wm/* si0s */, _wn/* si0t */, _wo/* si0u */, _wp/* si0v */, _/* EXTERNAL */)),
-            _wA/* si14 */ = E(E(_wz/* si0Y */).b);
-            return new F(function(){return _wq/* si0x */(_wA/* si14 */.a, _wA/* si14 */.b, _wA/* si14 */.c, _wA/* si14 */.d, _wA/* si14 */.e, _/* EXTERNAL */);});
+            var _wz/* si5h */ = B(_vY/* si3W */(_1P/* LudoJS.Green */, _wl/* si4K */, _wm/* si4L */, _wn/* si4M */, _wo/* si4N */, _wp/* si4O */, _/* EXTERNAL */)),
+            _wA/* si5n */ = E(E(_wz/* si5h */).b);
+            return new F(function(){return _wq/* si4Q */(_wA/* si5n */.a, _wA/* si5n */.b, _wA/* si5n */.c, _wA/* si5n */.d, _wA/* si5n */.e, _/* EXTERNAL */);});
           }
         },
-        _wB/* si1a */ = new T(function(){
-          var _wC/* si1q */ = new T(function(){
-            var _wD/* si1d */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-            if(!_wD/* si1d */._){
+        _wB/* si5t */ = new T(function(){
+          var _wC/* si5J */ = new T(function(){
+            var _wD/* si5w */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _vt/* si2O */));
+            if(!_wD/* si5w */._){
               return __Z/* EXTERNAL */;
             }else{
-              var _wE/* si1f */ = _wD/* si1d */.b,
-              _wF/* si1g */ = E(_wD/* si1d */.a),
-              _wG/* si1j */ = E(_vp/* shYk */);
-              if(_wG/* si1j */!=E(_wF/* si1g */.a)){
-                return new T2(1,_wF/* si1g */,new T(function(){
-                  return B(_pu/* LudoJS.$sremoveFrom */(_wE/* si1f */, _wG/* si1j */));
+              var _wE/* si5y */ = _wD/* si5w */.b,
+              _wF/* si5z */ = E(_wD/* si5w */.a),
+              _wG/* si5C */ = E(_vp/* si2D */);
+              if(_wG/* si5C */!=E(_wF/* si5z */.a)){
+                return new T2(1,_wF/* si5z */,new T(function(){
+                  return B(_pu/* LudoJS.$sremoveFrom */(_wE/* si5y */, _wG/* si5C */));
                 }));
               }else{
-                return E(_wE/* si1f */);
+                return E(_wE/* si5y */);
               }
             }
           });
-          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* shYo */, new T2(1,new T2(0,_vp/* shYk */,new T1(1,_vu/* shYC */)),_wC/* si1q */), _vt/* shYv */));
+          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, new T2(1,new T2(0,_vp/* si2D */,new T1(1,_vu/* si2V */)),_wC/* si5J */), _vt/* si2O */));
         });
-        if(!E(_vs/* shYo */)){
-          return new F(function(){return _wk/* si0q */(_vU/* shZy */, _vV/* shZz */, _vW/* shZA */, _wB/* si1a */, _vX/* shZC */, _/* EXTERNAL */);});
+        if(!E(_vs/* si2H */)){
+          return new F(function(){return _wk/* si4J */(_vU/* si3R */, _vV/* si3S */, _vW/* si3T */, _wB/* si5t */, _vX/* si3V */, _/* EXTERNAL */);});
         }else{
-          var _wH/* si1t */ = B(_vY/* shZD */(_1O/* LudoJS.Blue */, _vU/* shZy */, _vV/* shZz */, _vW/* shZA */, _wB/* si1a */, _vX/* shZC */, _/* EXTERNAL */)),
-          _wI/* si1z */ = E(E(_wH/* si1t */).b);
-          return new F(function(){return _wk/* si0q */(_wI/* si1z */.a, _wI/* si1z */.b, _wI/* si1z */.c, _wI/* si1z */.d, _wI/* si1z */.e, _/* EXTERNAL */);});
+          var _wH/* si5M */ = B(_vY/* si3W */(_1O/* LudoJS.Blue */, _vU/* si3R */, _vV/* si3S */, _vW/* si3T */, _wB/* si5t */, _vX/* si3V */, _/* EXTERNAL */)),
+          _wI/* si5S */ = E(E(_wH/* si5M */).b);
+          return new F(function(){return _wk/* si4J */(_wI/* si5S */.a, _wI/* si5S */.b, _wI/* si5S */.c, _wI/* si5S */.d, _wI/* si5S */.e, _/* EXTERNAL */);});
         }
       }
     }else{
-      var _wJ/* si1F */ = new T(function(){
-        var _wK/* si1H */ = B(_uB/* Data.OldList.findIndex */(function(_wL/* B1 */){
-          return new F(function(){return _mx/* GHC.Classes.eqInt */(_vu/* shYC */, _wL/* B1 */);});
-        }, _vl/* LudoJS.starCells */));
-        if(!_wK/* si1H */._){
-          return E(_uP/* Data.Maybe.fromJust1 */);
-        }else{
-          return E(_wK/* si1H */.a);
+      var _wJ/* si6m */ = new T(function(){
+        var _wK/* si5Y */ = E(_vr/* si2F */),
+        _wL/* si6l */ = new T(function(){
+          var _wM/* si6j */ = new T(function(){
+            var _wN/* si66 */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _vt/* si2O */));
+            if(!_wN/* si66 */._){
+              return __Z/* EXTERNAL */;
+            }else{
+              var _wO/* si68 */ = _wN/* si66 */.b,
+              _wP/* si69 */ = E(_wN/* si66 */.a),
+              _wQ/* si6c */ = E(_vp/* si2D */);
+              if(_wQ/* si6c */!=E(_wP/* si69 */.a)){
+                return new T2(1,_wP/* si69 */,new T(function(){
+                  return B(_pu/* LudoJS.$sremoveFrom */(_wO/* si68 */, _wQ/* si6c */));
+                }));
+              }else{
+                return E(_wO/* si68 */);
+              }
+            }
+          });
+          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, new T2(1,new T2(0,_vp/* si2D */,new T1(1,_vu/* si2V */)),_wM/* si6j */), _vt/* si2O */));
+        });
+        return new T5(0,_wK/* si5Y */.a,_wK/* si5Y */.b,_wK/* si5Y */.c,_wL/* si6l */,_wK/* si5Y */.e);
+      }),
+      _wR/* si6n */ = B(_qS/* LudoJS.a43 */(_vs/* si2H */, _vu/* si2V */, _wJ/* si6m */, _/* EXTERNAL */)),
+      _wS/* si6t */ = E(E(_wR/* si6n */).b),
+      _wT/* si6x */ = _wS/* si6t */.d,
+      _wU/* si6z */ = function(_wV/* si6A */){
+        while(1){
+          var _wW/* si6B */ = E(_wV/* si6A */);
+          if(!_wW/* si6B */._){
+            return false;
+          }else{
+            var _wX/* si6D */ = _wW/* si6B */.b,
+            _wY/* si6H */ = E(E(_wW/* si6B */.a).b);
+            if(!_wY/* si6H */._){
+              _wV/* si6A */ = _wX/* si6D */;
+              continue;
+            }else{
+              if(_vu/* si2V */!=E(_wY/* si6H */.a)){
+                _wV/* si6A */ = _wX/* si6D */;
+                continue;
+              }else{
+                return true;
+              }
+            }
+          }
         }
-      }),
-      _wM/* si1J */ = new T(function(){
-        return B(_pM/* GHC.List.$w!! */(_vm/* LudoJS.lvl5 */, E(_wJ/* si1F */)+1|0));
-      }),
-      _wN/* si2v */ = new T(function(){
-        var _wO/* si1N */ = E(_vr/* shYm */),
-        _wP/* si2u */ = new T(function(){
-          var _wQ/* si2t */ = new T(function(){
-            if((E(_wJ/* si1F */)+1|0)!=E(_vn/* LudoJS.lvl6 */)){
-              var _wR/* si2f */ = new T(function(){
-                var _wS/* si22 */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-                if(!_wS/* si22 */._){
+      };
+      if(!B(_wU/* si6z */(B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _wT/* si6x */))))){
+        return new T2(0,_eb/* GHC.Tuple.() */,_wS/* si6t */);
+      }else{
+        var _wZ/* si6Q */ = new T(function(){
+          var _x0/* si6S */ = B(_uB/* Data.OldList.findIndex */(function(_x1/* B1 */){
+            return new F(function(){return _mx/* GHC.Classes.eqInt */(_vu/* si2V */, _x1/* B1 */);});
+          }, _vl/* LudoJS.starCells */));
+          if(!_x0/* si6S */._){
+            return E(_uP/* Data.Maybe.fromJust1 */);
+          }else{
+            return E(_x0/* si6S */.a);
+          }
+        }),
+        _x2/* si6U */ = new T(function(){
+          return B(_pM/* GHC.List.$w!! */(_vm/* LudoJS.lvl5 */, E(_wZ/* si6Q */)+1|0));
+        }),
+        _x3/* si7z */ = new T(function(){
+          var _x4/* si7y */ = new T(function(){
+            if((E(_wZ/* si6Q */)+1|0)!=E(_vn/* LudoJS.lvl6 */)){
+              var _x5/* si7k */ = new T(function(){
+                var _x6/* si77 */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _wT/* si6x */));
+                if(!_x6/* si77 */._){
                   return __Z/* EXTERNAL */;
                 }else{
-                  var _wT/* si24 */ = _wS/* si22 */.b,
-                  _wU/* si25 */ = E(_wS/* si22 */.a),
-                  _wV/* si28 */ = E(_vp/* shYk */);
-                  if(_wV/* si28 */!=E(_wU/* si25 */.a)){
-                    return new T2(1,_wU/* si25 */,new T(function(){
-                      return B(_pu/* LudoJS.$sremoveFrom */(_wT/* si24 */, _wV/* si28 */));
+                  var _x7/* si79 */ = _x6/* si77 */.b,
+                  _x8/* si7a */ = E(_x6/* si77 */.a),
+                  _x9/* si7d */ = E(_vp/* si2D */);
+                  if(_x9/* si7d */!=E(_x8/* si7a */.a)){
+                    return new T2(1,_x8/* si7a */,new T(function(){
+                      return B(_pu/* LudoJS.$sremoveFrom */(_x7/* si79 */, _x9/* si7d */));
                     }));
                   }else{
-                    return E(_wT/* si24 */);
+                    return E(_x7/* si79 */);
                   }
                 }
               });
-              return new T2(1,new T2(0,_vp/* shYk */,new T1(1,_wM/* si1J */)),_wR/* si2f */);
+              return new T2(1,new T2(0,_vp/* si2D */,new T1(1,_x2/* si6U */)),_x5/* si7k */);
             }else{
-              var _wW/* si2g */ = B(_da/* LudoJS.$s!1 */(_vs/* shYo */, _vt/* shYv */));
-              if(!_wW/* si2g */._){
+              var _xa/* si7l */ = B(_da/* LudoJS.$s!1 */(_vs/* si2H */, _wT/* si6x */));
+              if(!_xa/* si7l */._){
                 return __Z/* EXTERNAL */;
               }else{
-                var _wX/* si2i */ = _wW/* si2g */.b,
-                _wY/* si2j */ = E(_wW/* si2g */.a),
-                _wZ/* si2m */ = E(_vp/* shYk */);
-                if(_wZ/* si2m */!=E(_wY/* si2j */.a)){
-                  return new T2(1,_wY/* si2j */,new T(function(){
-                    return B(_pu/* LudoJS.$sremoveFrom */(_wX/* si2i */, _wZ/* si2m */));
+                var _xb/* si7n */ = _xa/* si7l */.b,
+                _xc/* si7o */ = E(_xa/* si7l */.a),
+                _xd/* si7r */ = E(_vp/* si2D */);
+                if(_xd/* si7r */!=E(_xc/* si7o */.a)){
+                  return new T2(1,_xc/* si7o */,new T(function(){
+                    return B(_pu/* LudoJS.$sremoveFrom */(_xb/* si7n */, _xd/* si7r */));
                   }));
                 }else{
-                  return E(_wX/* si2i */);
+                  return E(_xb/* si7n */);
                 }
               }
             }
           });
-          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* shYo */, _wQ/* si2t */, _vt/* shYv */));
+          return B(_3j/* LudoJS.$sinsert_$sgo10 */(_vs/* si2H */, _x4/* si7y */, _wT/* si6x */));
         });
-        return new T5(0,_wO/* si1N */.a,_wO/* si1N */.b,_wO/* si1N */.c,_wP/* si2u */,_wO/* si1N */.e);
-      }),
-      _x0/* si2w */ = B(_qS/* LudoJS.a43 */(_vs/* shYo */, _vu/* shYC */, _wN/* si2v */, _/* EXTERNAL */));
-      return new F(function(){return _qS/* LudoJS.a43 */(_vs/* shYo */, _wM/* si1J */, new T(function(){
-        return E(E(_x0/* si2w */).b);
-      }), _/* EXTERNAL */);});
+        return new F(function(){return _qS/* LudoJS.a43 */(_vs/* si2H */, _x2/* si6U */, new T5(0,_wS/* si6t */.a,_wS/* si6t */.b,_wS/* si6t */.c,_x3/* si7z */,_wS/* si6t */.e), _/* EXTERNAL */);});
+      }
     }
   }
 },
-_x1/* True */ = true,
-_x2/* $wa14 */ = function(_x3/* siyP */, _x4/* siyQ */, _x5/* siyR */, _x6/* siyS */, _x7/* siyT */, _/* EXTERNAL */){
-  var _x8/* siyX */ = new T5(0,_x3/* siyP */,_x4/* siyQ */,_x5/* siyR */,_x6/* siyS */,_x7/* siyT */),
-  _x9/* siyY */ = function(_xa/* siyZ */){
-    var _xb/* siz0 */ = B(_nw/* LudoJS.$wa13 */(_x8/* siyX */, _/* EXTERNAL */)),
-    _xc/* siz3 */ = E(_xb/* siz0 */),
-    _xd/* siz6 */ = E(_xc/* siz3 */.b),
-    _xe/* sizc */ = B(_x2/* LudoJS.$wa14 */(_xd/* siz6 */.a, _xd/* siz6 */.b, _xd/* siz6 */.c, _xd/* siz6 */.d, _xd/* siz6 */.e, _/* EXTERNAL */));
-    return new T2(0,new T2(1,_xc/* siz3 */.a,new T(function(){
-      return E(E(_xe/* sizc */).a);
+_xe/* True */ = true,
+_xf/* $wa14 */ = function(_xg/* siDN */, _xh/* siDO */, _xi/* siDP */, _xj/* siDQ */, _xk/* siDR */, _/* EXTERNAL */){
+  var _xl/* siDV */ = new T5(0,_xg/* siDN */,_xh/* siDO */,_xi/* siDP */,_xj/* siDQ */,_xk/* siDR */),
+  _xm/* siDW */ = function(_xn/* siDX */){
+    var _xo/* siDY */ = B(_nw/* LudoJS.$wa13 */(_xl/* siDV */, _/* EXTERNAL */)),
+    _xp/* siE1 */ = E(_xo/* siDY */),
+    _xq/* siE4 */ = E(_xp/* siE1 */.b),
+    _xr/* siEa */ = B(_xf/* LudoJS.$wa14 */(_xq/* siE4 */.a, _xq/* siE4 */.b, _xq/* siE4 */.c, _xq/* siE4 */.d, _xq/* siE4 */.e, _/* EXTERNAL */));
+    return new T2(0,new T2(1,_xp/* siE1 */.a,new T(function(){
+      return E(E(_xr/* siEa */).a);
     })),new T(function(){
-      return E(E(_xe/* sizc */).b);
+      return E(E(_xr/* siEa */).b);
     }));
   };
-  if(!E(B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_x4/* siyQ */, _x6/* siyS */)), 0)))){
-    return new F(function(){return _x9/* siyY */(_/* EXTERNAL */);});
+  if(!E(B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_xh/* siDO */, _xj/* siDQ */)), 0)))){
+    return new F(function(){return _xm/* siDW */(_/* EXTERNAL */);});
   }else{
-    if(E(_x5/* siyR */)>=1){
-      return new T2(0,_4/* GHC.Types.[] */,_x8/* siyX */);
+    if(E(_xi/* siDP */)>=1){
+      return new T2(0,_4/* GHC.Types.[] */,_xl/* siDV */);
     }else{
-      return new F(function(){return _x9/* siyY */(_/* EXTERNAL */);});
+      return new F(function(){return _xm/* siDW */(_/* EXTERNAL */);});
     }
   }
 },
-_xf/* f1 */ = new T(function(){
+_xs/* f1 */ = new T(function(){
   return eval/* EXTERNAL */("((gs, opts, rolls, prevRolls) => drawDiceAnimation(gs, opts, rolls, prevRolls))");
 }),
-_xg/* lvl41 */ = function(_xh/* siAh */){
-  var _xi/* siAi */ = B(_gY/* System.Random.$w$crandomR12 */(_gV/* System.Random.Internal.$fRandomGenStdGen */, 1, 6, _xh/* siAh */));
-  return new T2(0,E(_xi/* siAi */.b),_xi/* siAi */.a);
+_xt/* lvl41 */ = function(_xu/* siFf */){
+  var _xv/* siFg */ = B(_gY/* System.Random.$w$crandomR12 */(_gV/* System.Random.Internal.$fRandomGenStdGen */, 1, 6, _xu/* siFf */));
+  return new T2(0,E(_xv/* siFg */.b),_xv/* siFg */.a);
 },
-_xj/* $fFractionalFixed1 */ = new T1(0,0),
-_xk/* lvl */ = new T1(0,0),
-_xl/* orInteger */ = function(_xm/* s1KS */, _xn/* s1KT */){
+_xw/* $fFractionalFixed1 */ = new T1(0,0),
+_xx/* lvl */ = new T1(0,0),
+_xy/* orInteger */ = function(_xz/* s1KS */, _xA/* s1KT */){
   while(1){
-    var _xo/* s1KU */ = E(_xm/* s1KS */);
-    if(!_xo/* s1KU */._){
-      var _xp/* s1KV */ = _xo/* s1KU */.a,
-      _xq/* s1KW */ = E(_xn/* s1KT */);
-      if(!_xq/* s1KW */._){
-        return new T1(0,(_xp/* s1KV */>>>0|_xq/* s1KW */.a>>>0)>>>0&4294967295);
+    var _xB/* s1KU */ = E(_xz/* s1KS */);
+    if(!_xB/* s1KU */._){
+      var _xC/* s1KV */ = _xB/* s1KU */.a,
+      _xD/* s1KW */ = E(_xA/* s1KT */);
+      if(!_xD/* s1KW */._){
+        return new T1(0,(_xC/* s1KV */>>>0|_xD/* s1KW */.a>>>0)>>>0&4294967295);
       }else{
-        _xm/* s1KS */ = new T1(1,I_fromInt/* EXTERNAL */(_xp/* s1KV */));
-        _xn/* s1KT */ = _xq/* s1KW */;
+        _xz/* s1KS */ = new T1(1,I_fromInt/* EXTERNAL */(_xC/* s1KV */));
+        _xA/* s1KT */ = _xD/* s1KW */;
         continue;
       }
     }else{
-      var _xr/* s1L7 */ = E(_xn/* s1KT */);
-      if(!_xr/* s1L7 */._){
-        _xm/* s1KS */ = _xo/* s1KU */;
-        _xn/* s1KT */ = new T1(1,I_fromInt/* EXTERNAL */(_xr/* s1L7 */.a));
+      var _xE/* s1L7 */ = E(_xA/* s1KT */);
+      if(!_xE/* s1L7 */._){
+        _xz/* s1KS */ = _xB/* s1KU */;
+        _xA/* s1KT */ = new T1(1,I_fromInt/* EXTERNAL */(_xE/* s1L7 */.a));
         continue;
       }else{
-        return new T1(1,I_or/* EXTERNAL */(_xo/* s1KU */.a, _xr/* s1L7 */.a));
+        return new T1(1,I_or/* EXTERNAL */(_xB/* s1KU */.a, _xE/* s1L7 */.a));
       }
     }
   }
 },
-_xs/* shiftLInteger */ = function(_xt/* s1Jk */, _xu/* s1Jl */){
+_xF/* shiftLInteger */ = function(_xG/* s1Jk */, _xH/* s1Jl */){
   while(1){
-    var _xv/* s1Jm */ = E(_xt/* s1Jk */);
-    if(!_xv/* s1Jm */._){
-      _xt/* s1Jk */ = new T1(1,I_fromInt/* EXTERNAL */(_xv/* s1Jm */.a));
+    var _xI/* s1Jm */ = E(_xG/* s1Jk */);
+    if(!_xI/* s1Jm */._){
+      _xG/* s1Jk */ = new T1(1,I_fromInt/* EXTERNAL */(_xI/* s1Jm */.a));
       continue;
     }else{
-      return new T1(1,I_shiftLeft/* EXTERNAL */(_xv/* s1Jm */.a, _xu/* s1Jl */));
+      return new T1(1,I_shiftLeft/* EXTERNAL */(_xI/* s1Jm */.a, _xH/* s1Jl */));
     }
   }
 },
-_xw/* mkInteger_f */ = function(_xx/* s1S6 */){
-  var _xy/* s1S7 */ = E(_xx/* s1S6 */);
-  if(!_xy/* s1S7 */._){
-    return E(_xk/* GHC.Integer.Type.lvl */);
+_xJ/* mkInteger_f */ = function(_xK/* s1S6 */){
+  var _xL/* s1S7 */ = E(_xK/* s1S6 */);
+  if(!_xL/* s1S7 */._){
+    return E(_xx/* GHC.Integer.Type.lvl */);
   }else{
-    return new F(function(){return _xl/* GHC.Integer.Type.orInteger */(new T1(0,E(_xy/* s1S7 */.a)), B(_xs/* GHC.Integer.Type.shiftLInteger */(B(_xw/* GHC.Integer.Type.mkInteger_f */(_xy/* s1S7 */.b)), 31)));});
+    return new F(function(){return _xy/* GHC.Integer.Type.orInteger */(new T1(0,E(_xL/* s1S7 */.a)), B(_xF/* GHC.Integer.Type.shiftLInteger */(B(_xJ/* GHC.Integer.Type.mkInteger_f */(_xL/* s1S7 */.b)), 31)));});
   }
 },
-_xz/* log2I1 */ = new T1(0,1),
-_xA/* lvl2 */ = new T1(0,2147483647),
-_xB/* lvl3 */ = new T(function(){
-  return B(_qJ/* GHC.Integer.Type.plusInteger */(_xA/* GHC.Integer.Type.lvl2 */, _xz/* GHC.Integer.Type.log2I1 */));
+_xM/* log2I1 */ = new T1(0,1),
+_xN/* lvl2 */ = new T1(0,2147483647),
+_xO/* lvl3 */ = new T(function(){
+  return B(_qJ/* GHC.Integer.Type.plusInteger */(_xN/* GHC.Integer.Type.lvl2 */, _xM/* GHC.Integer.Type.log2I1 */));
 }),
-_xC/* negateInteger */ = function(_xD/* s1QH */){
-  var _xE/* s1QI */ = E(_xD/* s1QH */);
-  if(!_xE/* s1QI */._){
-    var _xF/* s1QK */ = E(_xE/* s1QI */.a);
-    return (_xF/* s1QK */==( -2147483648)) ? E(_xB/* GHC.Integer.Type.lvl3 */) : new T1(0, -_xF/* s1QK */);
+_xP/* negateInteger */ = function(_xQ/* s1QH */){
+  var _xR/* s1QI */ = E(_xQ/* s1QH */);
+  if(!_xR/* s1QI */._){
+    var _xS/* s1QK */ = E(_xR/* s1QI */.a);
+    return (_xS/* s1QK */==( -2147483648)) ? E(_xO/* GHC.Integer.Type.lvl3 */) : new T1(0, -_xS/* s1QK */);
   }else{
-    return new T1(1,I_negate/* EXTERNAL */(_xE/* s1QI */.a));
+    return new T1(1,I_negate/* EXTERNAL */(_xR/* s1QI */.a));
   }
 },
-_xG/* mkInteger */ = function(_xH/* s1Sf */, _xI/* s1Sg */){
-  if(!E(_xH/* s1Sf */)){
-    return new F(function(){return _xC/* GHC.Integer.Type.negateInteger */(B(_xw/* GHC.Integer.Type.mkInteger_f */(_xI/* s1Sg */)));});
+_xT/* mkInteger */ = function(_xU/* s1Sf */, _xV/* s1Sg */){
+  if(!E(_xU/* s1Sf */)){
+    return new F(function(){return _xP/* GHC.Integer.Type.negateInteger */(B(_xJ/* GHC.Integer.Type.mkInteger_f */(_xV/* s1Sg */)));});
   }else{
-    return new F(function(){return _xw/* GHC.Integer.Type.mkInteger_f */(_xI/* s1Sg */);});
+    return new F(function(){return _xJ/* GHC.Integer.Type.mkInteger_f */(_xV/* s1Sg */);});
   }
 },
-_xJ/* s6TCi */ = 1420103680,
-_xK/* s6TCj */ = 465,
-_xL/* s6TCk */ = new T2(1,_xK/* s6TCj */,_4/* GHC.Types.[] */),
-_xM/* s6TCl */ = new T2(1,_xJ/* s6TCi */,_xL/* s6TCk */),
-_xN/* $fHasResolutionE5 */ = new T(function(){
-  return B(_xG/* GHC.Integer.Type.mkInteger */(_x1/* GHC.Types.True */, _xM/* s6TCl */));
+_xW/* s6TCi */ = 1420103680,
+_xX/* s6TCj */ = 465,
+_xY/* s6TCk */ = new T2(1,_xX/* s6TCj */,_4/* GHC.Types.[] */),
+_xZ/* s6TCl */ = new T2(1,_xW/* s6TCi */,_xY/* s6TCk */),
+_y0/* $fHasResolutionE5 */ = new T(function(){
+  return B(_xT/* GHC.Integer.Type.mkInteger */(_xe/* GHC.Types.True */, _xZ/* s6TCl */));
 }),
-_xO/* $wa1 */ = function(_xP/* s3vU */, _/* EXTERNAL */){
-  var _xQ/* s3vZ */ = __get/* EXTERNAL */(_xP/* s3vU */, 0),
-  _xR/* s3w5 */ = __get/* EXTERNAL */(_xP/* s3vU */, 1),
-  _xS/* s3w9 */ = Number/* EXTERNAL */(_xQ/* s3vZ */),
-  _xT/* s3wd */ = jsTrunc/* EXTERNAL */(_xS/* s3w9 */),
-  _xU/* s3wh */ = Number/* EXTERNAL */(_xR/* s3w5 */),
-  _xV/* s3wl */ = jsTrunc/* EXTERNAL */(_xU/* s3wh */);
-  return new T2(0,_xT/* s3wd */,_xV/* s3wl */);
+_y1/* $wa1 */ = function(_y2/* s3vU */, _/* EXTERNAL */){
+  var _y3/* s3vZ */ = __get/* EXTERNAL */(_y2/* s3vU */, 0),
+  _y4/* s3w5 */ = __get/* EXTERNAL */(_y2/* s3vU */, 1),
+  _y5/* s3w9 */ = Number/* EXTERNAL */(_y3/* s3vZ */),
+  _y6/* s3wd */ = jsTrunc/* EXTERNAL */(_y5/* s3w9 */),
+  _y7/* s3wh */ = Number/* EXTERNAL */(_y4/* s3w5 */),
+  _y8/* s3wl */ = jsTrunc/* EXTERNAL */(_y7/* s3wh */);
+  return new T2(0,_y6/* s3wd */,_y8/* s3wl */);
 },
-_xW/* divInt# */ = function(_xX/* scDT */, _xY/* scDU */){
-  if(_xX/* scDT */<=0){
-    if(_xX/* scDT */>=0){
-      return new F(function(){return quot/* EXTERNAL */(_xX/* scDT */, _xY/* scDU */);});
+_y9/* divInt# */ = function(_ya/* scDT */, _yb/* scDU */){
+  if(_ya/* scDT */<=0){
+    if(_ya/* scDT */>=0){
+      return new F(function(){return quot/* EXTERNAL */(_ya/* scDT */, _yb/* scDU */);});
     }else{
-      if(_xY/* scDU */<=0){
-        return new F(function(){return quot/* EXTERNAL */(_xX/* scDT */, _xY/* scDU */);});
+      if(_yb/* scDU */<=0){
+        return new F(function(){return quot/* EXTERNAL */(_ya/* scDT */, _yb/* scDU */);});
       }else{
-        return quot/* EXTERNAL */(_xX/* scDT */+1|0, _xY/* scDU */)-1|0;
+        return quot/* EXTERNAL */(_ya/* scDT */+1|0, _yb/* scDU */)-1|0;
       }
     }
   }else{
-    if(_xY/* scDU */>=0){
-      if(_xX/* scDT */>=0){
-        return new F(function(){return quot/* EXTERNAL */(_xX/* scDT */, _xY/* scDU */);});
+    if(_yb/* scDU */>=0){
+      if(_ya/* scDT */>=0){
+        return new F(function(){return quot/* EXTERNAL */(_ya/* scDT */, _yb/* scDU */);});
       }else{
-        if(_xY/* scDU */<=0){
-          return new F(function(){return quot/* EXTERNAL */(_xX/* scDT */, _xY/* scDU */);});
+        if(_yb/* scDU */<=0){
+          return new F(function(){return quot/* EXTERNAL */(_ya/* scDT */, _yb/* scDU */);});
         }else{
-          return quot/* EXTERNAL */(_xX/* scDT */+1|0, _xY/* scDU */)-1|0;
+          return quot/* EXTERNAL */(_ya/* scDT */+1|0, _yb/* scDU */)-1|0;
         }
       }
     }else{
-      return quot/* EXTERNAL */(_xX/* scDT */-1|0, _xY/* scDU */)-1|0;
+      return quot/* EXTERNAL */(_ya/* scDT */-1|0, _yb/* scDU */)-1|0;
     }
   }
 },
-_xZ/* divInteger */ = function(_y0/* s1Nz */, _y1/* s1NA */){
+_yc/* divInteger */ = function(_yd/* s1Nz */, _ye/* s1NA */){
   while(1){
-    var _y2/* s1NB */ = E(_y0/* s1Nz */);
-    if(!_y2/* s1NB */._){
-      var _y3/* s1ND */ = E(_y2/* s1NB */.a);
-      if(_y3/* s1ND */==( -2147483648)){
-        _y0/* s1Nz */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
+    var _yf/* s1NB */ = E(_yd/* s1Nz */);
+    if(!_yf/* s1NB */._){
+      var _yg/* s1ND */ = E(_yf/* s1NB */.a);
+      if(_yg/* s1ND */==( -2147483648)){
+        _yd/* s1Nz */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
         continue;
       }else{
-        var _y4/* s1NE */ = E(_y1/* s1NA */);
-        if(!_y4/* s1NE */._){
-          return new T1(0,B(_xW/* GHC.Classes.divInt# */(_y3/* s1ND */, _y4/* s1NE */.a)));
+        var _yh/* s1NE */ = E(_ye/* s1NA */);
+        if(!_yh/* s1NE */._){
+          return new T1(0,B(_y9/* GHC.Classes.divInt# */(_yg/* s1ND */, _yh/* s1NE */.a)));
         }else{
-          _y0/* s1Nz */ = new T1(1,I_fromInt/* EXTERNAL */(_y3/* s1ND */));
-          _y1/* s1NA */ = _y4/* s1NE */;
+          _yd/* s1Nz */ = new T1(1,I_fromInt/* EXTERNAL */(_yg/* s1ND */));
+          _ye/* s1NA */ = _yh/* s1NE */;
           continue;
         }
       }
     }else{
-      var _y5/* s1NO */ = _y2/* s1NB */.a,
-      _y6/* s1NP */ = E(_y1/* s1NA */);
-      return (_y6/* s1NP */._==0) ? new T1(1,I_div/* EXTERNAL */(_y5/* s1NO */, I_fromInt/* EXTERNAL */(_y6/* s1NP */.a))) : new T1(1,I_div/* EXTERNAL */(_y5/* s1NO */, _y6/* s1NP */.a));
+      var _yi/* s1NO */ = _yf/* s1NB */.a,
+      _yj/* s1NP */ = E(_ye/* s1NA */);
+      return (_yj/* s1NP */._==0) ? new T1(1,I_div/* EXTERNAL */(_yi/* s1NO */, I_fromInt/* EXTERNAL */(_yj/* s1NP */.a))) : new T1(1,I_div/* EXTERNAL */(_yi/* s1NO */, _yj/* s1NP */.a));
     }
   }
 },
-_y7/* eqInteger */ = function(_y8/* s1Fo */, _y9/* s1Fp */){
-  var _ya/* s1Fq */ = E(_y8/* s1Fo */);
-  if(!_ya/* s1Fq */._){
-    var _yb/* s1Fr */ = _ya/* s1Fq */.a,
-    _yc/* s1Fs */ = E(_y9/* s1Fp */);
-    return (_yc/* s1Fs */._==0) ? _yb/* s1Fr */==_yc/* s1Fs */.a : (I_compareInt/* EXTERNAL */(_yc/* s1Fs */.a, _yb/* s1Fr */)==0) ? true : false;
+_yk/* eqInteger */ = function(_yl/* s1Fo */, _ym/* s1Fp */){
+  var _yn/* s1Fq */ = E(_yl/* s1Fo */);
+  if(!_yn/* s1Fq */._){
+    var _yo/* s1Fr */ = _yn/* s1Fq */.a,
+    _yp/* s1Fs */ = E(_ym/* s1Fp */);
+    return (_yp/* s1Fs */._==0) ? _yo/* s1Fr */==_yp/* s1Fs */.a : (I_compareInt/* EXTERNAL */(_yp/* s1Fs */.a, _yo/* s1Fr */)==0) ? true : false;
   }else{
-    var _yd/* s1Fy */ = _ya/* s1Fq */.a,
-    _ye/* s1Fz */ = E(_y9/* s1Fp */);
-    return (_ye/* s1Fz */._==0) ? (I_compareInt/* EXTERNAL */(_yd/* s1Fy */, _ye/* s1Fz */.a)==0) ? true : false : (I_compare/* EXTERNAL */(_yd/* s1Fy */, _ye/* s1Fz */.a)==0) ? true : false;
+    var _yq/* s1Fy */ = _yn/* s1Fq */.a,
+    _yr/* s1Fz */ = E(_ym/* s1Fp */);
+    return (_yr/* s1Fz */._==0) ? (I_compareInt/* EXTERNAL */(_yq/* s1Fy */, _yr/* s1Fz */.a)==0) ? true : false : (I_compare/* EXTERNAL */(_yq/* s1Fy */, _yr/* s1Fz */.a)==0) ? true : false;
   }
 },
-_yf/* getCTimeval_f1 */ = new T(function(){
+_ys/* getCTimeval_f1 */ = new T(function(){
   return eval/* EXTERNAL */("(function(){var ms = new Date().getTime();                   return [(ms/1000)|0, ((ms % 1000)*1000)|0];})");
 }),
-_yg/* slti */ = 660865024,
-_yh/* sltj */ = 465661287,
-_yi/* sltk */ = new T2(1,_yh/* sltj */,_4/* GHC.Types.[] */),
-_yj/* sltl */ = new T2(1,_yg/* slti */,_yi/* sltk */),
-_yk/* getPOSIXTime2 */ = new T(function(){
-  return B(_xG/* GHC.Integer.Type.mkInteger */(_x1/* GHC.Types.True */, _yj/* sltl */));
+_yt/* slti */ = 660865024,
+_yu/* sltj */ = 465661287,
+_yv/* sltk */ = new T2(1,_yu/* sltj */,_4/* GHC.Types.[] */),
+_yw/* sltl */ = new T2(1,_yt/* slti */,_yv/* sltk */),
+_yx/* getPOSIXTime2 */ = new T(function(){
+  return B(_xT/* GHC.Integer.Type.mkInteger */(_xe/* GHC.Types.True */, _yw/* sltl */));
 }),
-_yl/* smallInteger */ = function(_ym/* B1 */){
-  return new T1(0,_ym/* B1 */);
+_yy/* smallInteger */ = function(_yz/* B1 */){
+  return new T1(0,_yz/* B1 */);
 },
-_yn/* timesInteger */ = function(_yo/* s1PN */, _yp/* s1PO */){
+_yA/* timesInteger */ = function(_yB/* s1PN */, _yC/* s1PO */){
   while(1){
-    var _yq/* s1PP */ = E(_yo/* s1PN */);
-    if(!_yq/* s1PP */._){
-      var _yr/* s1PQ */ = _yq/* s1PP */.a,
-      _ys/* s1PR */ = E(_yp/* s1PO */);
-      if(!_ys/* s1PR */._){
-        var _yt/* s1PS */ = _ys/* s1PR */.a;
-        if(!(imul/* EXTERNAL */(_yr/* s1PQ */, _yt/* s1PS */)|0)){
-          return new T1(0,imul/* EXTERNAL */(_yr/* s1PQ */, _yt/* s1PS */)|0);
+    var _yD/* s1PP */ = E(_yB/* s1PN */);
+    if(!_yD/* s1PP */._){
+      var _yE/* s1PQ */ = _yD/* s1PP */.a,
+      _yF/* s1PR */ = E(_yC/* s1PO */);
+      if(!_yF/* s1PR */._){
+        var _yG/* s1PS */ = _yF/* s1PR */.a;
+        if(!(imul/* EXTERNAL */(_yE/* s1PQ */, _yG/* s1PS */)|0)){
+          return new T1(0,imul/* EXTERNAL */(_yE/* s1PQ */, _yG/* s1PS */)|0);
         }else{
-          _yo/* s1PN */ = new T1(1,I_fromInt/* EXTERNAL */(_yr/* s1PQ */));
-          _yp/* s1PO */ = new T1(1,I_fromInt/* EXTERNAL */(_yt/* s1PS */));
+          _yB/* s1PN */ = new T1(1,I_fromInt/* EXTERNAL */(_yE/* s1PQ */));
+          _yC/* s1PO */ = new T1(1,I_fromInt/* EXTERNAL */(_yG/* s1PS */));
           continue;
         }
       }else{
-        _yo/* s1PN */ = new T1(1,I_fromInt/* EXTERNAL */(_yr/* s1PQ */));
-        _yp/* s1PO */ = _ys/* s1PR */;
+        _yB/* s1PN */ = new T1(1,I_fromInt/* EXTERNAL */(_yE/* s1PQ */));
+        _yC/* s1PO */ = _yF/* s1PR */;
         continue;
       }
     }else{
-      var _yu/* s1Q6 */ = E(_yp/* s1PO */);
-      if(!_yu/* s1Q6 */._){
-        _yo/* s1PN */ = _yq/* s1PP */;
-        _yp/* s1PO */ = new T1(1,I_fromInt/* EXTERNAL */(_yu/* s1Q6 */.a));
+      var _yH/* s1Q6 */ = E(_yC/* s1PO */);
+      if(!_yH/* s1Q6 */._){
+        _yB/* s1PN */ = _yD/* s1PP */;
+        _yC/* s1PO */ = new T1(1,I_fromInt/* EXTERNAL */(_yH/* s1Q6 */.a));
         continue;
       }else{
-        return new T1(1,I_mul/* EXTERNAL */(_yq/* s1PP */.a, _yu/* s1Q6 */.a));
+        return new T1(1,I_mul/* EXTERNAL */(_yD/* s1PP */.a, _yH/* s1Q6 */.a));
       }
     }
   }
 },
-_yv/* getPOSIXTime1 */ = function(_/* EXTERNAL */){
-  var _yw/* sltq */ = __app0/* EXTERNAL */(E(_yf/* Data.Time.Clock.CTimeval.getCTimeval_f1 */)),
-  _yx/* sltt */ = B(_xO/* Data.Time.Clock.CTimeval.$wa1 */(_yw/* sltq */, _/* EXTERNAL */));
+_yI/* getPOSIXTime1 */ = function(_/* EXTERNAL */){
+  var _yJ/* sltq */ = __app0/* EXTERNAL */(E(_ys/* Data.Time.Clock.CTimeval.getCTimeval_f1 */)),
+  _yK/* sltt */ = B(_y1/* Data.Time.Clock.CTimeval.$wa1 */(_yJ/* sltq */, _/* EXTERNAL */));
   return new T(function(){
-    var _yy/* sltw */ = E(_yx/* sltt */);
-    if(!B(_y7/* GHC.Integer.Type.eqInteger */(_yk/* Data.Time.Clock.POSIX.getPOSIXTime2 */, _xj/* Data.Fixed.$fFractionalFixed1 */))){
-      return B(_qJ/* GHC.Integer.Type.plusInteger */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_yl/* GHC.Integer.Type.smallInteger */(E(_yy/* sltw */.a))), _xN/* Data.Fixed.$fHasResolutionE5 */)), B(_xZ/* GHC.Integer.Type.divInteger */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_yl/* GHC.Integer.Type.smallInteger */(E(_yy/* sltw */.b))), _xN/* Data.Fixed.$fHasResolutionE5 */)), _xN/* Data.Fixed.$fHasResolutionE5 */)), _yk/* Data.Time.Clock.POSIX.getPOSIXTime2 */))));
+    var _yL/* sltw */ = E(_yK/* sltt */);
+    if(!B(_yk/* GHC.Integer.Type.eqInteger */(_yx/* Data.Time.Clock.POSIX.getPOSIXTime2 */, _xw/* Data.Fixed.$fFractionalFixed1 */))){
+      return B(_qJ/* GHC.Integer.Type.plusInteger */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_yy/* GHC.Integer.Type.smallInteger */(E(_yL/* sltw */.a))), _y0/* Data.Fixed.$fHasResolutionE5 */)), B(_yc/* GHC.Integer.Type.divInteger */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_yy/* GHC.Integer.Type.smallInteger */(E(_yL/* sltw */.b))), _y0/* Data.Fixed.$fHasResolutionE5 */)), _y0/* Data.Fixed.$fHasResolutionE5 */)), _yx/* Data.Time.Clock.POSIX.getPOSIXTime2 */))));
     }else{
       return E(_ft/* GHC.Real.divZeroError */);
     }
   });
 },
-_yz/* $fBitsWord4 */ = 0,
-_yA/* $fBoundedWord32_$cmaxBound */ = 4294967295,
-_yB/* $fBoundedWord32 */ = new T2(0,_yz/* GHC.Word.$fBitsWord4 */,_yA/* GHC.Word.$fBoundedWord32_$cmaxBound */),
-_yC/* $fEnumRatio1 */ = new T1(0,1),
-_yD/* $p1Integral */ = function(_yE/* sv9T */){
-  return E(E(_yE/* sv9T */).a);
+_yM/* $fBitsWord4 */ = 0,
+_yN/* $fBoundedWord32_$cmaxBound */ = 4294967295,
+_yO/* $fBoundedWord32 */ = new T2(0,_yM/* GHC.Word.$fBitsWord4 */,_yN/* GHC.Word.$fBoundedWord32_$cmaxBound */),
+_yP/* $fEnumRatio1 */ = new T1(0,1),
+_yQ/* $p1Integral */ = function(_yR/* sv9T */){
+  return E(E(_yR/* sv9T */).a);
 },
-_yF/* $p1Real */ = function(_yG/* svbu */){
-  return E(E(_yG/* svbu */).a);
+_yS/* $p1Real */ = function(_yT/* svbu */){
+  return E(E(_yT/* svbu */).a);
 },
-_yH/* fromInteger */ = function(_yI/* s6Go */){
-  return E(E(_yI/* s6Go */).g);
+_yU/* fromInteger */ = function(_yV/* s6Go */){
+  return E(E(_yV/* s6Go */).g);
 },
-_yJ/* gtInteger */ = function(_yK/* s1G1 */, _yL/* s1G2 */){
-  var _yM/* s1G3 */ = E(_yK/* s1G1 */);
-  if(!_yM/* s1G3 */._){
-    var _yN/* s1G4 */ = _yM/* s1G3 */.a,
-    _yO/* s1G5 */ = E(_yL/* s1G2 */);
-    return (_yO/* s1G5 */._==0) ? _yN/* s1G4 */>_yO/* s1G5 */.a : I_compareInt/* EXTERNAL */(_yO/* s1G5 */.a, _yN/* s1G4 */)<0;
+_yW/* gtInteger */ = function(_yX/* s1G1 */, _yY/* s1G2 */){
+  var _yZ/* s1G3 */ = E(_yX/* s1G1 */);
+  if(!_yZ/* s1G3 */._){
+    var _z0/* s1G4 */ = _yZ/* s1G3 */.a,
+    _z1/* s1G5 */ = E(_yY/* s1G2 */);
+    return (_z1/* s1G5 */._==0) ? _z0/* s1G4 */>_z1/* s1G5 */.a : I_compareInt/* EXTERNAL */(_z1/* s1G5 */.a, _z0/* s1G4 */)<0;
   }else{
-    var _yP/* s1Gc */ = _yM/* s1G3 */.a,
-    _yQ/* s1Gd */ = E(_yL/* s1G2 */);
-    return (_yQ/* s1Gd */._==0) ? I_compareInt/* EXTERNAL */(_yP/* s1Gc */, _yQ/* s1Gd */.a)>0 : I_compare/* EXTERNAL */(_yP/* s1Gc */, _yQ/* s1Gd */.a)>0;
+    var _z2/* s1Gc */ = _yZ/* s1G3 */.a,
+    _z3/* s1Gd */ = E(_yY/* s1G2 */);
+    return (_z3/* s1Gd */._==0) ? I_compareInt/* EXTERNAL */(_z2/* s1Gc */, _z3/* s1Gd */.a)>0 : I_compare/* EXTERNAL */(_z2/* s1Gc */, _z3/* s1Gd */.a)>0;
   }
 },
-_yR/* maxBound */ = function(_yS/* smih */){
-  return E(E(_yS/* smih */).b);
+_z4/* maxBound */ = function(_z5/* smih */){
+  return E(E(_z5/* smih */).b);
 },
-_yT/* toInteger */ = function(_yU/* svbj */){
-  return E(E(_yU/* svbj */).i);
+_z6/* toInteger */ = function(_z7/* svbj */){
+  return E(E(_z7/* svbj */).i);
 },
-_yV/* integralEnumFrom */ = function(_yW/* svrj */, _yX/* svrk */, _yY/* svrl */){
-  var _yZ/* svro */ = new T(function(){
-    return B(_yH/* GHC.Num.fromInteger */(new T(function(){
-      return B(_yF/* GHC.Real.$p1Real */(new T(function(){
-        return B(_yD/* GHC.Real.$p1Integral */(_yW/* svrj */));
+_z8/* integralEnumFrom */ = function(_z9/* svrj */, _za/* svrk */, _zb/* svrl */){
+  var _zc/* svro */ = new T(function(){
+    return B(_yU/* GHC.Num.fromInteger */(new T(function(){
+      return B(_yS/* GHC.Real.$p1Real */(new T(function(){
+        return B(_yQ/* GHC.Real.$p1Integral */(_z9/* svrj */));
       })));
     })));
   }),
-  _z0/* svrq */ = new T(function(){
-    return B(_yR/* GHC.Enum.maxBound */(_yX/* svrk */));
+  _zd/* svrq */ = new T(function(){
+    return B(_z4/* GHC.Enum.maxBound */(_za/* svrk */));
   }),
-  _z1/* svrr */ = function(_z2/* svrs */){
-    return (!B(_yJ/* GHC.Integer.Type.gtInteger */(_z2/* svrs */, B(A2(_yT/* GHC.Real.toInteger */,_yW/* svrj */, _z0/* svrq */))))) ? new T2(1,new T(function(){
-      return B(A1(_yZ/* svro */,_z2/* svrs */));
+  _ze/* svrr */ = function(_zf/* svrs */){
+    return (!B(_yW/* GHC.Integer.Type.gtInteger */(_zf/* svrs */, B(A2(_z6/* GHC.Real.toInteger */,_z9/* svrj */, _zd/* svrq */))))) ? new T2(1,new T(function(){
+      return B(A1(_zc/* svro */,_zf/* svrs */));
     }),new T(function(){
-      return B(_z1/* svrr */(B(_qJ/* GHC.Integer.Type.plusInteger */(_z2/* svrs */, _yC/* GHC.Real.$fEnumRatio1 */))));
+      return B(_ze/* svrr */(B(_qJ/* GHC.Integer.Type.plusInteger */(_zf/* svrs */, _yP/* GHC.Real.$fEnumRatio1 */))));
     })) : __Z/* EXTERNAL */;
   };
-  return new F(function(){return _z1/* svrr */(B(A2(_yT/* GHC.Real.toInteger */,_yW/* svrj */, _yY/* svrl */)));});
+  return new F(function(){return _ze/* svrr */(B(A2(_z6/* GHC.Real.toInteger */,_z9/* svrj */, _zb/* svrl */)));});
 },
-_z3/* $fEnumWord32_$cenumFrom */ = function(_z4/* B1 */){
-  return new F(function(){return _yV/* GHC.Real.integralEnumFrom */(_z5/* GHC.Word.$fIntegralWord32 */, _yB/* GHC.Word.$fBoundedWord32 */, _z4/* B1 */);});
+_zg/* $fEnumWord32_$cenumFrom */ = function(_zh/* B1 */){
+  return new F(function(){return _z8/* GHC.Real.integralEnumFrom */(_zi/* GHC.Word.$fIntegralWord32 */, _yO/* GHC.Word.$fBoundedWord32 */, _zh/* B1 */);});
 },
-_z6/* $fEnumInteger1 */ = new T1(0,0),
-_z7/* ltInteger */ = function(_z8/* s1GH */, _z9/* s1GI */){
-  var _za/* s1GJ */ = E(_z8/* s1GH */);
-  if(!_za/* s1GJ */._){
-    var _zb/* s1GK */ = _za/* s1GJ */.a,
-    _zc/* s1GL */ = E(_z9/* s1GI */);
-    return (_zc/* s1GL */._==0) ? _zb/* s1GK */<_zc/* s1GL */.a : I_compareInt/* EXTERNAL */(_zc/* s1GL */.a, _zb/* s1GK */)>0;
+_zj/* $fEnumInteger1 */ = new T1(0,0),
+_zk/* ltInteger */ = function(_zl/* s1GH */, _zm/* s1GI */){
+  var _zn/* s1GJ */ = E(_zl/* s1GH */);
+  if(!_zn/* s1GJ */._){
+    var _zo/* s1GK */ = _zn/* s1GJ */.a,
+    _zp/* s1GL */ = E(_zm/* s1GI */);
+    return (_zp/* s1GL */._==0) ? _zo/* s1GK */<_zp/* s1GL */.a : I_compareInt/* EXTERNAL */(_zp/* s1GL */.a, _zo/* s1GK */)>0;
   }else{
-    var _zd/* s1GS */ = _za/* s1GJ */.a,
-    _ze/* s1GT */ = E(_z9/* s1GI */);
-    return (_ze/* s1GT */._==0) ? I_compareInt/* EXTERNAL */(_zd/* s1GS */, _ze/* s1GT */.a)<0 : I_compare/* EXTERNAL */(_zd/* s1GS */, _ze/* s1GT */.a)<0;
+    var _zq/* s1GS */ = _zn/* s1GJ */.a,
+    _zr/* s1GT */ = E(_zm/* s1GI */);
+    return (_zr/* s1GT */._==0) ? I_compareInt/* EXTERNAL */(_zq/* s1GS */, _zr/* s1GT */.a)<0 : I_compare/* EXTERNAL */(_zq/* s1GS */, _zr/* s1GT */.a)<0;
   }
 },
-_zf/* up_fb */ = function(_zg/* smjD */, _zh/* smjE */, _zi/* smjF */, _zj/* smjG */, _zk/* smjH */){
-  var _zl/* smjI */ = function(_zm/* smjJ */){
-    if(!B(_yJ/* GHC.Integer.Type.gtInteger */(_zm/* smjJ */, _zk/* smjH */))){
-      return new F(function(){return A2(_zg/* smjD */,_zm/* smjJ */, new T(function(){
-        return B(_zl/* smjI */(B(_qJ/* GHC.Integer.Type.plusInteger */(_zm/* smjJ */, _zj/* smjG */))));
+_zs/* up_fb */ = function(_zt/* smjD */, _zu/* smjE */, _zv/* smjF */, _zw/* smjG */, _zx/* smjH */){
+  var _zy/* smjI */ = function(_zz/* smjJ */){
+    if(!B(_yW/* GHC.Integer.Type.gtInteger */(_zz/* smjJ */, _zx/* smjH */))){
+      return new F(function(){return A2(_zt/* smjD */,_zz/* smjJ */, new T(function(){
+        return B(_zy/* smjI */(B(_qJ/* GHC.Integer.Type.plusInteger */(_zz/* smjJ */, _zw/* smjG */))));
       }));});
     }else{
-      return E(_zh/* smjE */);
+      return E(_zu/* smjE */);
     }
   };
-  return new F(function(){return _zl/* smjI */(_zi/* smjF */);});
+  return new F(function(){return _zy/* smjI */(_zv/* smjF */);});
 },
-_zn/* enumDeltaToIntegerFB */ = function(_zo/* smFL */, _zp/* smFM */, _zq/* smFN */, _zr/* smFO */, _zs/* smFP */){
-  if(!B(_qq/* GHC.Integer.Type.geInteger */(_zr/* smFO */, _z6/* GHC.Enum.$fEnumInteger1 */))){
-    var _zt/* smFR */ = function(_zu/* smFS */){
-      if(!B(_z7/* GHC.Integer.Type.ltInteger */(_zu/* smFS */, _zs/* smFP */))){
-        return new F(function(){return A2(_zo/* smFL */,_zu/* smFS */, new T(function(){
-          return B(_zt/* smFR */(B(_qJ/* GHC.Integer.Type.plusInteger */(_zu/* smFS */, _zr/* smFO */))));
+_zA/* enumDeltaToIntegerFB */ = function(_zB/* smFL */, _zC/* smFM */, _zD/* smFN */, _zE/* smFO */, _zF/* smFP */){
+  if(!B(_qq/* GHC.Integer.Type.geInteger */(_zE/* smFO */, _zj/* GHC.Enum.$fEnumInteger1 */))){
+    var _zG/* smFR */ = function(_zH/* smFS */){
+      if(!B(_zk/* GHC.Integer.Type.ltInteger */(_zH/* smFS */, _zF/* smFP */))){
+        return new F(function(){return A2(_zB/* smFL */,_zH/* smFS */, new T(function(){
+          return B(_zG/* smFR */(B(_qJ/* GHC.Integer.Type.plusInteger */(_zH/* smFS */, _zE/* smFO */))));
         }));});
       }else{
-        return E(_zp/* smFM */);
+        return E(_zC/* smFM */);
       }
     };
-    return new F(function(){return _zt/* smFR */(_zq/* smFN */);});
+    return new F(function(){return _zG/* smFR */(_zD/* smFN */);});
   }else{
-    return new F(function(){return _zf/* GHC.Enum.up_fb */(_zo/* smFL */, _zp/* smFM */, _zq/* smFN */, _zr/* smFO */, _zs/* smFP */);});
+    return new F(function(){return _zs/* GHC.Enum.up_fb */(_zB/* smFL */, _zC/* smFM */, _zD/* smFN */, _zE/* smFO */, _zF/* smFP */);});
   }
 },
-_zv/* minBound */ = function(_zw/* smid */){
-  return E(E(_zw/* smid */).a);
+_zI/* minBound */ = function(_zJ/* smid */){
+  return E(E(_zJ/* smid */).a);
 },
-_zx/* minusInteger */ = function(_zy/* s1P0 */, _zz/* s1P1 */){
+_zK/* minusInteger */ = function(_zL/* s1P0 */, _zM/* s1P1 */){
   while(1){
-    var _zA/* s1P2 */ = E(_zy/* s1P0 */);
-    if(!_zA/* s1P2 */._){
-      var _zB/* s1P3 */ = _zA/* s1P2 */.a,
-      _zC/* s1P4 */ = E(_zz/* s1P1 */);
-      if(!_zC/* s1P4 */._){
-        var _zD/* s1P5 */ = _zC/* s1P4 */.a,
-        _zE/* s1P6 */ = subC/* EXTERNAL */(_zB/* s1P3 */, _zD/* s1P5 */);
-        if(!E(_zE/* s1P6 */.b)){
-          return new T1(0,_zE/* s1P6 */.a);
+    var _zN/* s1P2 */ = E(_zL/* s1P0 */);
+    if(!_zN/* s1P2 */._){
+      var _zO/* s1P3 */ = _zN/* s1P2 */.a,
+      _zP/* s1P4 */ = E(_zM/* s1P1 */);
+      if(!_zP/* s1P4 */._){
+        var _zQ/* s1P5 */ = _zP/* s1P4 */.a,
+        _zR/* s1P6 */ = subC/* EXTERNAL */(_zO/* s1P3 */, _zQ/* s1P5 */);
+        if(!E(_zR/* s1P6 */.b)){
+          return new T1(0,_zR/* s1P6 */.a);
         }else{
-          _zy/* s1P0 */ = new T1(1,I_fromInt/* EXTERNAL */(_zB/* s1P3 */));
-          _zz/* s1P1 */ = new T1(1,I_fromInt/* EXTERNAL */(_zD/* s1P5 */));
+          _zL/* s1P0 */ = new T1(1,I_fromInt/* EXTERNAL */(_zO/* s1P3 */));
+          _zM/* s1P1 */ = new T1(1,I_fromInt/* EXTERNAL */(_zQ/* s1P5 */));
           continue;
         }
       }else{
-        _zy/* s1P0 */ = new T1(1,I_fromInt/* EXTERNAL */(_zB/* s1P3 */));
-        _zz/* s1P1 */ = _zC/* s1P4 */;
+        _zL/* s1P0 */ = new T1(1,I_fromInt/* EXTERNAL */(_zO/* s1P3 */));
+        _zM/* s1P1 */ = _zP/* s1P4 */;
         continue;
       }
     }else{
-      var _zF/* s1Pl */ = E(_zz/* s1P1 */);
-      if(!_zF/* s1Pl */._){
-        _zy/* s1P0 */ = _zA/* s1P2 */;
-        _zz/* s1P1 */ = new T1(1,I_fromInt/* EXTERNAL */(_zF/* s1Pl */.a));
+      var _zS/* s1Pl */ = E(_zM/* s1P1 */);
+      if(!_zS/* s1Pl */._){
+        _zL/* s1P0 */ = _zN/* s1P2 */;
+        _zM/* s1P1 */ = new T1(1,I_fromInt/* EXTERNAL */(_zS/* s1Pl */.a));
         continue;
       }else{
-        return new T1(1,I_sub/* EXTERNAL */(_zA/* s1P2 */.a, _zF/* s1Pl */.a));
+        return new T1(1,I_sub/* EXTERNAL */(_zN/* s1P2 */.a, _zS/* s1Pl */.a));
       }
     }
   }
 },
-_zG/* integralEnumFromThen */ = function(_zH/* svry */, _zI/* svrz */, _zJ/* svrA */, _zK/* svrB */){
-  var _zL/* svrC */ = B(A2(_yT/* GHC.Real.toInteger */,_zH/* svry */, _zK/* svrB */)),
-  _zM/* svrD */ = B(A2(_yT/* GHC.Real.toInteger */,_zH/* svry */, _zJ/* svrA */));
-  if(!B(_qq/* GHC.Integer.Type.geInteger */(_zL/* svrC */, _zM/* svrD */))){
-    var _zN/* svrH */ = new T(function(){
-      return B(_yH/* GHC.Num.fromInteger */(new T(function(){
-        return B(_yF/* GHC.Real.$p1Real */(new T(function(){
-          return B(_yD/* GHC.Real.$p1Integral */(_zH/* svry */));
+_zT/* integralEnumFromThen */ = function(_zU/* svry */, _zV/* svrz */, _zW/* svrA */, _zX/* svrB */){
+  var _zY/* svrC */ = B(A2(_z6/* GHC.Real.toInteger */,_zU/* svry */, _zX/* svrB */)),
+  _zZ/* svrD */ = B(A2(_z6/* GHC.Real.toInteger */,_zU/* svry */, _zW/* svrA */));
+  if(!B(_qq/* GHC.Integer.Type.geInteger */(_zY/* svrC */, _zZ/* svrD */))){
+    var _A0/* svrH */ = new T(function(){
+      return B(_yU/* GHC.Num.fromInteger */(new T(function(){
+        return B(_yS/* GHC.Real.$p1Real */(new T(function(){
+          return B(_yQ/* GHC.Real.$p1Integral */(_zU/* svry */));
         })));
       })));
     }),
-    _zO/* svrL */ = function(_zP/* svrI */, _zQ/* svrJ */){
+    _A1/* svrL */ = function(_A2/* svrI */, _A3/* svrJ */){
       return new T2(1,new T(function(){
-        return B(A1(_zN/* svrH */,_zP/* svrI */));
-      }),_zQ/* svrJ */);
+        return B(A1(_A0/* svrH */,_A2/* svrI */));
+      }),_A3/* svrJ */);
     };
-    return new F(function(){return _zn/* GHC.Enum.enumDeltaToIntegerFB */(_zO/* svrL */, _4/* GHC.Types.[] */, _zM/* svrD */, B(_zx/* GHC.Integer.Type.minusInteger */(_zL/* svrC */, _zM/* svrD */)), B(A2(_yT/* GHC.Real.toInteger */,_zH/* svry */, new T(function(){
-      return B(_zv/* GHC.Enum.minBound */(_zI/* svrz */));
+    return new F(function(){return _zA/* GHC.Enum.enumDeltaToIntegerFB */(_A1/* svrL */, _4/* GHC.Types.[] */, _zZ/* svrD */, B(_zK/* GHC.Integer.Type.minusInteger */(_zY/* svrC */, _zZ/* svrD */)), B(A2(_z6/* GHC.Real.toInteger */,_zU/* svry */, new T(function(){
+      return B(_zI/* GHC.Enum.minBound */(_zV/* svrz */));
     }))));});
   }else{
-    var _zR/* svrR */ = new T(function(){
-      return B(_yH/* GHC.Num.fromInteger */(new T(function(){
-        return B(_yF/* GHC.Real.$p1Real */(new T(function(){
-          return B(_yD/* GHC.Real.$p1Integral */(_zH/* svry */));
+    var _A4/* svrR */ = new T(function(){
+      return B(_yU/* GHC.Num.fromInteger */(new T(function(){
+        return B(_yS/* GHC.Real.$p1Real */(new T(function(){
+          return B(_yQ/* GHC.Real.$p1Integral */(_zU/* svry */));
         })));
       })));
     }),
-    _zS/* svrV */ = function(_zT/* svrS */, _zU/* svrT */){
+    _A5/* svrV */ = function(_A6/* svrS */, _A7/* svrT */){
       return new T2(1,new T(function(){
-        return B(A1(_zR/* svrR */,_zT/* svrS */));
-      }),_zU/* svrT */);
+        return B(A1(_A4/* svrR */,_A6/* svrS */));
+      }),_A7/* svrT */);
     };
-    return new F(function(){return _zn/* GHC.Enum.enumDeltaToIntegerFB */(_zS/* svrV */, _4/* GHC.Types.[] */, _zM/* svrD */, B(_zx/* GHC.Integer.Type.minusInteger */(_zL/* svrC */, _zM/* svrD */)), B(A2(_yT/* GHC.Real.toInteger */,_zH/* svry */, new T(function(){
-      return B(_yR/* GHC.Enum.maxBound */(_zI/* svrz */));
+    return new F(function(){return _zA/* GHC.Enum.enumDeltaToIntegerFB */(_A5/* svrV */, _4/* GHC.Types.[] */, _zZ/* svrD */, B(_zK/* GHC.Integer.Type.minusInteger */(_zY/* svrC */, _zZ/* svrD */)), B(A2(_z6/* GHC.Real.toInteger */,_zU/* svry */, new T(function(){
+      return B(_z4/* GHC.Enum.maxBound */(_zV/* svrz */));
     }))));});
   }
 },
-_zV/* $fEnumWord32_$cenumFromThen */ = function(_zW/* B2 */, _z4/* B1 */){
-  return new F(function(){return _zG/* GHC.Real.integralEnumFromThen */(_z5/* GHC.Word.$fIntegralWord32 */, _yB/* GHC.Word.$fBoundedWord32 */, _zW/* B2 */, _z4/* B1 */);});
+_A8/* $fEnumWord32_$cenumFromThen */ = function(_A9/* B2 */, _zh/* B1 */){
+  return new F(function(){return _zT/* GHC.Real.integralEnumFromThen */(_zi/* GHC.Word.$fIntegralWord32 */, _yO/* GHC.Word.$fBoundedWord32 */, _A9/* B2 */, _zh/* B1 */);});
 },
-_zX/* integralEnumFromThenTo */ = function(_zY/* svsd */, _zZ/* svse */, _A0/* svsf */, _A1/* svsg */){
-  var _A2/* svsh */ = B(A2(_yT/* GHC.Real.toInteger */,_zY/* svsd */, _zZ/* svse */)),
-  _A3/* svsk */ = new T(function(){
-    return B(_yH/* GHC.Num.fromInteger */(new T(function(){
-      return B(_yF/* GHC.Real.$p1Real */(new T(function(){
-        return B(_yD/* GHC.Real.$p1Integral */(_zY/* svsd */));
+_Aa/* integralEnumFromThenTo */ = function(_Ab/* svsd */, _Ac/* svse */, _Ad/* svsf */, _Ae/* svsg */){
+  var _Af/* svsh */ = B(A2(_z6/* GHC.Real.toInteger */,_Ab/* svsd */, _Ac/* svse */)),
+  _Ag/* svsk */ = new T(function(){
+    return B(_yU/* GHC.Num.fromInteger */(new T(function(){
+      return B(_yS/* GHC.Real.$p1Real */(new T(function(){
+        return B(_yQ/* GHC.Real.$p1Integral */(_Ab/* svsd */));
       })));
     })));
   }),
-  _A4/* svso */ = function(_A5/* svsl */, _A6/* svsm */){
+  _Ah/* svso */ = function(_Ai/* svsl */, _Aj/* svsm */){
     return new T2(1,new T(function(){
-      return B(A1(_A3/* svsk */,_A5/* svsl */));
-    }),_A6/* svsm */);
+      return B(A1(_Ag/* svsk */,_Ai/* svsl */));
+    }),_Aj/* svsm */);
   };
-  return new F(function(){return _zn/* GHC.Enum.enumDeltaToIntegerFB */(_A4/* svso */, _4/* GHC.Types.[] */, _A2/* svsh */, B(_zx/* GHC.Integer.Type.minusInteger */(B(A2(_yT/* GHC.Real.toInteger */,_zY/* svsd */, _A0/* svsf */)), _A2/* svsh */)), B(A2(_yT/* GHC.Real.toInteger */,_zY/* svsd */, _A1/* svsg */)));});
+  return new F(function(){return _zA/* GHC.Enum.enumDeltaToIntegerFB */(_Ah/* svso */, _4/* GHC.Types.[] */, _Af/* svsh */, B(_zK/* GHC.Integer.Type.minusInteger */(B(A2(_z6/* GHC.Real.toInteger */,_Ab/* svsd */, _Ad/* svsf */)), _Af/* svsh */)), B(A2(_z6/* GHC.Real.toInteger */,_Ab/* svsd */, _Ae/* svsg */)));});
 },
-_A7/* $fEnumWord32_$cenumFromThenTo */ = function(_A8/* B3 */, _zW/* B2 */, _z4/* B1 */){
-  return new F(function(){return _zX/* GHC.Real.integralEnumFromThenTo */(_z5/* GHC.Word.$fIntegralWord32 */, _A8/* B3 */, _zW/* B2 */, _z4/* B1 */);});
+_Ak/* $fEnumWord32_$cenumFromThenTo */ = function(_Al/* B3 */, _A9/* B2 */, _zh/* B1 */){
+  return new F(function(){return _Aa/* GHC.Real.integralEnumFromThenTo */(_zi/* GHC.Word.$fIntegralWord32 */, _Al/* B3 */, _A9/* B2 */, _zh/* B1 */);});
 },
-_A9/* integralEnumFromTo */ = function(_Aa/* svrZ */, _Ab/* svs0 */, _Ac/* svs1 */){
-  var _Ad/* svs4 */ = new T(function(){
-    return B(_yH/* GHC.Num.fromInteger */(new T(function(){
-      return B(_yF/* GHC.Real.$p1Real */(new T(function(){
-        return B(_yD/* GHC.Real.$p1Integral */(_Aa/* svrZ */));
+_Am/* integralEnumFromTo */ = function(_An/* svrZ */, _Ao/* svs0 */, _Ap/* svs1 */){
+  var _Aq/* svs4 */ = new T(function(){
+    return B(_yU/* GHC.Num.fromInteger */(new T(function(){
+      return B(_yS/* GHC.Real.$p1Real */(new T(function(){
+        return B(_yQ/* GHC.Real.$p1Integral */(_An/* svrZ */));
       })));
     })));
   }),
-  _Ae/* svs6 */ = function(_Af/* svs7 */){
-    return (!B(_yJ/* GHC.Integer.Type.gtInteger */(_Af/* svs7 */, B(A2(_yT/* GHC.Real.toInteger */,_Aa/* svrZ */, _Ac/* svs1 */))))) ? new T2(1,new T(function(){
-      return B(A1(_Ad/* svs4 */,_Af/* svs7 */));
+  _Ar/* svs6 */ = function(_As/* svs7 */){
+    return (!B(_yW/* GHC.Integer.Type.gtInteger */(_As/* svs7 */, B(A2(_z6/* GHC.Real.toInteger */,_An/* svrZ */, _Ap/* svs1 */))))) ? new T2(1,new T(function(){
+      return B(A1(_Aq/* svs4 */,_As/* svs7 */));
     }),new T(function(){
-      return B(_Ae/* svs6 */(B(_qJ/* GHC.Integer.Type.plusInteger */(_Af/* svs7 */, _yC/* GHC.Real.$fEnumRatio1 */))));
+      return B(_Ar/* svs6 */(B(_qJ/* GHC.Integer.Type.plusInteger */(_As/* svs7 */, _yP/* GHC.Real.$fEnumRatio1 */))));
     })) : __Z/* EXTERNAL */;
   };
-  return new F(function(){return _Ae/* svs6 */(B(A2(_yT/* GHC.Real.toInteger */,_Aa/* svrZ */, _Ab/* svs0 */)));});
+  return new F(function(){return _Ar/* svs6 */(B(A2(_z6/* GHC.Real.toInteger */,_An/* svrZ */, _Ao/* svs0 */)));});
 },
-_Ag/* $fEnumWord32_$cenumFromTo */ = function(_zW/* B2 */, _z4/* B1 */){
-  return new F(function(){return _A9/* GHC.Real.integralEnumFromTo */(_z5/* GHC.Word.$fIntegralWord32 */, _zW/* B2 */, _z4/* B1 */);});
+_At/* $fEnumWord32_$cenumFromTo */ = function(_A9/* B2 */, _zh/* B1 */){
+  return new F(function(){return _Am/* GHC.Real.integralEnumFromTo */(_zi/* GHC.Word.$fIntegralWord32 */, _A9/* B2 */, _zh/* B1 */);});
 },
-_Ah/* wordToInteger */ = function(_Ai/* s1J7 */){
-  return new T1(1,I_fromInt/* EXTERNAL */(_Ai/* s1J7 */));
+_Au/* wordToInteger */ = function(_Av/* s1J7 */){
+  return new T1(1,I_fromInt/* EXTERNAL */(_Av/* s1J7 */));
 },
-_Aj/* $fIntegralWord32_$ctoInteger */ = function(_Ak/* s1RpU */){
-  var _Al/* s1RpV */ = E(_Ak/* s1RpU */),
-  _Am/* s1RpX */ = _Al/* s1RpV */&4294967295;
-  if(_Am/* s1RpX */<0){
-    return new F(function(){return _Ah/* GHC.Integer.Type.wordToInteger */(_Al/* s1RpV */);});
+_Aw/* $fIntegralWord32_$ctoInteger */ = function(_Ax/* s1RpU */){
+  var _Ay/* s1RpV */ = E(_Ax/* s1RpU */),
+  _Az/* s1RpX */ = _Ay/* s1RpV */&4294967295;
+  if(_Az/* s1RpX */<0){
+    return new F(function(){return _Au/* GHC.Integer.Type.wordToInteger */(_Ay/* s1RpV */);});
   }else{
-    return new F(function(){return _yl/* GHC.Integer.Type.smallInteger */(_Am/* s1RpX */);});
+    return new F(function(){return _yy/* GHC.Integer.Type.smallInteger */(_Az/* s1RpX */);});
   }
 },
-_An/* integerToJSString */ = function(_Ao/* s1Ii */){
+_AA/* integerToJSString */ = function(_AB/* s1Ii */){
   while(1){
-    var _Ap/* s1Ij */ = E(_Ao/* s1Ii */);
-    if(!_Ap/* s1Ij */._){
-      _Ao/* s1Ii */ = new T1(1,I_fromInt/* EXTERNAL */(_Ap/* s1Ij */.a));
+    var _AC/* s1Ij */ = E(_AB/* s1Ii */);
+    if(!_AC/* s1Ij */._){
+      _AB/* s1Ii */ = new T1(1,I_fromInt/* EXTERNAL */(_AC/* s1Ij */.a));
       continue;
     }else{
-      return new F(function(){return I_toString/* EXTERNAL */(_Ap/* s1Ij */.a);});
+      return new F(function(){return I_toString/* EXTERNAL */(_AC/* s1Ij */.a);});
     }
   }
 },
-_Aq/* integerToString */ = function(_Ar/* sf6p */, _As/* sf6q */){
-  return new F(function(){return _q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(B(_An/* GHC.Integer.Type.integerToJSString */(_Ar/* sf6p */))), _As/* sf6q */);});
+_AD/* integerToString */ = function(_AE/* sf6p */, _AF/* sf6q */){
+  return new F(function(){return _q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(B(_AA/* GHC.Integer.Type.integerToJSString */(_AE/* sf6p */))), _AF/* sf6q */);});
 },
-_At/* shows9 */ = new T1(0,0),
-_Au/* $w$cshowsPrec1 */ = function(_Av/* sf7E */, _Aw/* sf7F */, _Ax/* sf7G */){
-  if(_Av/* sf7E */<=6){
-    return new F(function(){return _Aq/* GHC.Show.integerToString */(_Aw/* sf7F */, _Ax/* sf7G */);});
+_AG/* shows9 */ = new T1(0,0),
+_AH/* $w$cshowsPrec1 */ = function(_AI/* sf7E */, _AJ/* sf7F */, _AK/* sf7G */){
+  if(_AI/* sf7E */<=6){
+    return new F(function(){return _AD/* GHC.Show.integerToString */(_AJ/* sf7F */, _AK/* sf7G */);});
   }else{
-    if(!B(_z7/* GHC.Integer.Type.ltInteger */(_Aw/* sf7F */, _At/* GHC.Show.shows9 */))){
-      return new F(function(){return _Aq/* GHC.Show.integerToString */(_Aw/* sf7F */, _Ax/* sf7G */);});
+    if(!B(_zk/* GHC.Integer.Type.ltInteger */(_AJ/* sf7F */, _AG/* GHC.Show.shows9 */))){
+      return new F(function(){return _AD/* GHC.Show.integerToString */(_AJ/* sf7F */, _AK/* sf7G */);});
     }else{
       return new T2(1,_5U/* GHC.Show.shows8 */,new T(function(){
-        return B(_q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(B(_An/* GHC.Integer.Type.integerToJSString */(_Aw/* sf7F */))), new T2(1,_5T/* GHC.Show.shows7 */,_Ax/* sf7G */)));
+        return B(_q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(B(_AA/* GHC.Integer.Type.integerToJSString */(_AJ/* sf7F */))), new T2(1,_5T/* GHC.Show.shows7 */,_AK/* sf7G */)));
       }));
     }
   }
 },
-_Ay/* $fShowWord32_$cshow */ = function(_Az/* s1RrO */){
-  return new F(function(){return _Au/* GHC.Show.$w$cshowsPrec1 */(0, B(_Aj/* GHC.Word.$fIntegralWord32_$ctoInteger */(_Az/* s1RrO */)), _4/* GHC.Types.[] */);});
+_AL/* $fShowWord32_$cshow */ = function(_AM/* s1RrO */){
+  return new F(function(){return _AH/* GHC.Show.$w$cshowsPrec1 */(0, B(_Aw/* GHC.Word.$fIntegralWord32_$ctoInteger */(_AM/* s1RrO */)), _4/* GHC.Types.[] */);});
 },
-_AA/* $fShowWord2 */ = function(_AB/* s1RrD */, _AC/* s1RrE */){
-  var _AD/* s1RrF */ = E(_AB/* s1RrD */),
-  _AE/* s1RrH */ = _AD/* s1RrF */&4294967295;
-  if(_AE/* s1RrH */<0){
-    return new F(function(){return _Au/* GHC.Show.$w$cshowsPrec1 */(0, B(_Ah/* GHC.Integer.Type.wordToInteger */(_AD/* s1RrF */)), _AC/* s1RrE */);});
+_AN/* $fShowWord2 */ = function(_AO/* s1RrD */, _AP/* s1RrE */){
+  var _AQ/* s1RrF */ = E(_AO/* s1RrD */),
+  _AR/* s1RrH */ = _AQ/* s1RrF */&4294967295;
+  if(_AR/* s1RrH */<0){
+    return new F(function(){return _AH/* GHC.Show.$w$cshowsPrec1 */(0, B(_Au/* GHC.Integer.Type.wordToInteger */(_AQ/* s1RrF */)), _AP/* s1RrE */);});
   }else{
-    return new F(function(){return _Au/* GHC.Show.$w$cshowsPrec1 */(0, B(_yl/* GHC.Integer.Type.smallInteger */(_AE/* s1RrH */)), _AC/* s1RrE */);});
+    return new F(function(){return _AH/* GHC.Show.$w$cshowsPrec1 */(0, B(_yy/* GHC.Integer.Type.smallInteger */(_AR/* s1RrH */)), _AP/* s1RrE */);});
   }
 },
-_AF/* $fShowWord32_$cshowList */ = function(_AG/* s1RrM */, _AH/* s1RrN */){
-  return new F(function(){return _A/* GHC.Show.showList__ */(_AA/* GHC.Word.$fShowWord2 */, _AG/* s1RrM */, _AH/* s1RrN */);});
+_AS/* $fShowWord32_$cshowList */ = function(_AT/* s1RrM */, _AU/* s1RrN */){
+  return new F(function(){return _A/* GHC.Show.showList__ */(_AN/* GHC.Word.$fShowWord2 */, _AT/* s1RrM */, _AU/* s1RrN */);});
 },
-_AI/* $fShowWord32_$cshowsPrec */ = function(_AJ/* s1Rrr */, _AK/* s1Rrs */){
-  var _AL/* s1Rrt */ = new T(function(){
-    var _AM/* s1Rru */ = E(_AK/* s1Rrs */),
-    _AN/* s1Rrw */ = _AM/* s1Rru */&4294967295;
-    if(_AN/* s1Rrw */<0){
-      return B(_Ah/* GHC.Integer.Type.wordToInteger */(_AM/* s1Rru */));
+_AV/* $fShowWord32_$cshowsPrec */ = function(_AW/* s1Rrr */, _AX/* s1Rrs */){
+  var _AY/* s1Rrt */ = new T(function(){
+    var _AZ/* s1Rru */ = E(_AX/* s1Rrs */),
+    _B0/* s1Rrw */ = _AZ/* s1Rru */&4294967295;
+    if(_B0/* s1Rrw */<0){
+      return B(_Au/* GHC.Integer.Type.wordToInteger */(_AZ/* s1Rru */));
     }else{
-      return B(_yl/* GHC.Integer.Type.smallInteger */(_AN/* s1Rrw */));
+      return B(_yy/* GHC.Integer.Type.smallInteger */(_B0/* s1Rrw */));
     }
   });
-  return function(_AO/* s1Rrz */){
-    return new F(function(){return _Au/* GHC.Show.$w$cshowsPrec1 */(E(_AJ/* s1Rrr */), _AL/* s1Rrt */, _AO/* s1Rrz */);});
+  return function(_B1/* s1Rrz */){
+    return new F(function(){return _AH/* GHC.Show.$w$cshowsPrec1 */(E(_AW/* s1Rrr */), _AY/* s1Rrt */, _B1/* s1Rrz */);});
   };
 },
-_AP/* $fShowWord32 */ = new T3(0,_AI/* GHC.Word.$fShowWord32_$cshowsPrec */,_Ay/* GHC.Word.$fShowWord32_$cshow */,_AF/* GHC.Word.$fShowWord32_$cshowList */),
-_AQ/* lvl */ = new T2(1,_5T/* GHC.Show.shows7 */,_4/* GHC.Types.[] */),
-_AR/* $fShow(,)1 */ = function(_AS/* sfbb */, _AT/* sfbc */, _AU/* sfbd */){
-  return new F(function(){return A1(_AS/* sfbb */,new T2(1,_x/* GHC.Show.showList__1 */,new T(function(){
-    return B(A1(_AT/* sfbc */,_AU/* sfbd */));
+_B2/* $fShowWord32 */ = new T3(0,_AV/* GHC.Word.$fShowWord32_$cshowsPrec */,_AL/* GHC.Word.$fShowWord32_$cshow */,_AS/* GHC.Word.$fShowWord32_$cshowList */),
+_B3/* lvl */ = new T2(1,_5T/* GHC.Show.shows7 */,_4/* GHC.Types.[] */),
+_B4/* $fShow(,)1 */ = function(_B5/* sfbb */, _B6/* sfbc */, _B7/* sfbd */){
+  return new F(function(){return A1(_B5/* sfbb */,new T2(1,_x/* GHC.Show.showList__1 */,new T(function(){
+    return B(A1(_B6/* sfbc */,_B7/* sfbd */));
   })));});
 },
-_AV/* lvl */ = new T(function(){
+_B8/* lvl */ = new T(function(){
   return B(unCStr/* EXTERNAL */(": empty list"));
 }),
-_AW/* errorEmptyList */ = function(_AX/* sbDG */){
+_B9/* errorEmptyList */ = function(_Ba/* sbDG */){
   return new F(function(){return err/* EXTERNAL */(B(_q/* GHC.Base.++ */(_pB/* GHC.List.prel_list_str */, new T(function(){
-    return B(_q/* GHC.Base.++ */(_AX/* sbDG */, _AV/* GHC.List.lvl */));
+    return B(_q/* GHC.Base.++ */(_Ba/* sbDG */, _B8/* GHC.List.lvl */));
   },1))));});
 },
-_AY/* lvl7 */ = new T(function(){
+_Bb/* lvl7 */ = new T(function(){
   return B(unCStr/* EXTERNAL */("foldr1"));
 }),
-_AZ/* lvl8 */ = new T(function(){
-  return B(_AW/* GHC.List.errorEmptyList */(_AY/* GHC.List.lvl7 */));
+_Bc/* lvl8 */ = new T(function(){
+  return B(_B9/* GHC.List.errorEmptyList */(_Bb/* GHC.List.lvl7 */));
 }),
-_B0/* foldr1 */ = function(_B1/* sbKQ */, _B2/* sbKR */){
-  var _B3/* sbKS */ = E(_B2/* sbKR */);
-  if(!_B3/* sbKS */._){
-    return E(_AZ/* GHC.List.lvl8 */);
+_Bd/* foldr1 */ = function(_Be/* sbKQ */, _Bf/* sbKR */){
+  var _Bg/* sbKS */ = E(_Bf/* sbKR */);
+  if(!_Bg/* sbKS */._){
+    return E(_Bc/* GHC.List.lvl8 */);
   }else{
-    var _B4/* sbKT */ = _B3/* sbKS */.a,
-    _B5/* sbKV */ = E(_B3/* sbKS */.b);
-    if(!_B5/* sbKV */._){
-      return E(_B4/* sbKT */);
+    var _Bh/* sbKT */ = _Bg/* sbKS */.a,
+    _Bi/* sbKV */ = E(_Bg/* sbKS */.b);
+    if(!_Bi/* sbKV */._){
+      return E(_Bh/* sbKT */);
     }else{
-      return new F(function(){return A2(_B1/* sbKQ */,_B4/* sbKT */, new T(function(){
-        return B(_B0/* GHC.List.foldr1 */(_B1/* sbKQ */, _B5/* sbKV */));
+      return new F(function(){return A2(_Be/* sbKQ */,_Bh/* sbKT */, new T(function(){
+        return B(_Bd/* GHC.List.foldr1 */(_Be/* sbKQ */, _Bi/* sbKV */));
       }));});
     }
   }
 },
-_B6/* lvl14 */ = function(_B7/* smzT */){
-  return new F(function(){return _5V/* GHC.Show.$wshowSignedInt */(0,  -2147483648, _B7/* smzT */);});
+_Bj/* lvl14 */ = function(_Bk/* smzT */){
+  return new F(function(){return _5V/* GHC.Show.$wshowSignedInt */(0,  -2147483648, _Bk/* smzT */);});
 },
-_B8/* lvl15 */ = function(_B9/* smzU */){
-  return new F(function(){return _5V/* GHC.Show.$wshowSignedInt */(0, 2147483647, _B9/* smzU */);});
+_Bl/* lvl15 */ = function(_Bm/* smzU */){
+  return new F(function(){return _5V/* GHC.Show.$wshowSignedInt */(0, 2147483647, _Bm/* smzU */);});
 },
-_Ba/* lvl16 */ = new T2(1,_B8/* GHC.Enum.lvl15 */,_4/* GHC.Types.[] */),
-_Bb/* lvl17 */ = new T2(1,_B6/* GHC.Enum.lvl14 */,_Ba/* GHC.Enum.lvl16 */),
-_Bc/* lvl18 */ = new T(function(){
-  return B(_B0/* GHC.List.foldr1 */(_AR/* GHC.Show.$fShow(,)1 */, _Bb/* GHC.Enum.lvl17 */));
+_Bn/* lvl16 */ = new T2(1,_Bl/* GHC.Enum.lvl15 */,_4/* GHC.Types.[] */),
+_Bo/* lvl17 */ = new T2(1,_Bj/* GHC.Enum.lvl14 */,_Bn/* GHC.Enum.lvl16 */),
+_Bp/* lvl18 */ = new T(function(){
+  return B(_Bd/* GHC.List.foldr1 */(_B4/* GHC.Show.$fShow(,)1 */, _Bo/* GHC.Enum.lvl17 */));
 }),
-_Bd/* lvl19 */ = new T(function(){
-  return B(A1(_Bc/* GHC.Enum.lvl18 */,_AQ/* GHC.Enum.lvl */));
+_Bq/* lvl19 */ = new T(function(){
+  return B(A1(_Bp/* GHC.Enum.lvl18 */,_B3/* GHC.Enum.lvl */));
 }),
-_Be/* lvl20 */ = new T2(1,_5U/* GHC.Show.shows8 */,_Bd/* GHC.Enum.lvl19 */),
-_Bf/* lvl21 */ = new T(function(){
-  return B(unAppCStr/* EXTERNAL */(") is outside of Int\'s bounds ", _Be/* GHC.Enum.lvl20 */));
+_Br/* lvl20 */ = new T2(1,_5U/* GHC.Show.shows8 */,_Bq/* GHC.Enum.lvl19 */),
+_Bs/* lvl21 */ = new T(function(){
+  return B(unAppCStr/* EXTERNAL */(") is outside of Int\'s bounds ", _Br/* GHC.Enum.lvl20 */));
 }),
-_Bg/* show */ = function(_Bh/* sf6a */){
-  return E(E(_Bh/* sf6a */).b);
+_Bt/* show */ = function(_Bu/* sf6a */){
+  return E(E(_Bu/* sf6a */).b);
 },
-_Bi/* lvl22 */ = function(_Bj/* smzV */, _Bk/* smzW */, _Bl/* smzX */){
-  var _Bm/* smA1 */ = new T(function(){
-    var _Bn/* smA0 */ = new T(function(){
+_Bv/* lvl22 */ = function(_Bw/* smzV */, _Bx/* smzW */, _By/* smzX */){
+  var _Bz/* smA1 */ = new T(function(){
+    var _BA/* smA0 */ = new T(function(){
       return B(unAppCStr/* EXTERNAL */("}: value (", new T(function(){
-        return B(_q/* GHC.Base.++ */(B(A2(_Bg/* GHC.Show.show */,_Bl/* smzX */, _Bk/* smzW */)), _Bf/* GHC.Enum.lvl21 */));
+        return B(_q/* GHC.Base.++ */(B(A2(_Bt/* GHC.Show.show */,_By/* smzX */, _Bx/* smzW */)), _Bs/* GHC.Enum.lvl21 */));
       })));
     },1);
-    return B(_q/* GHC.Base.++ */(_Bj/* smzV */, _Bn/* smA0 */));
+    return B(_q/* GHC.Base.++ */(_Bw/* smzV */, _BA/* smA0 */));
   });
-  return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.fromEnum{", _Bm/* smA1 */)));});
+  return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.fromEnum{", _Bz/* smA1 */)));});
 },
-_Bo/* fromEnumError */ = function(_Bp/* smA3 */, _Bq/* smA4 */, _Br/* smA5 */){
-  return new F(function(){return _Bi/* GHC.Enum.lvl22 */(_Bq/* smA4 */, _Br/* smA5 */, _Bp/* smA3 */);});
+_BB/* fromEnumError */ = function(_BC/* smA3 */, _BD/* smA4 */, _BE/* smA5 */){
+  return new F(function(){return _Bv/* GHC.Enum.lvl22 */(_BD/* smA4 */, _BE/* smA5 */, _BC/* smA3 */);});
 },
-_Bs/* lvl4 */ = new T(function(){
+_BF/* lvl4 */ = new T(function(){
   return B(unCStr/* EXTERNAL */("Word32"));
 }),
-_Bt/* lvl10 */ = function(_Bu/* s1RrQ */){
-  return new F(function(){return _Bo/* GHC.Enum.fromEnumError */(_AP/* GHC.Word.$fShowWord32 */, _Bs/* GHC.Word.lvl4 */, _Bu/* s1RrQ */);});
+_BG/* lvl10 */ = function(_BH/* s1RrQ */){
+  return new F(function(){return _BB/* GHC.Enum.fromEnumError */(_B2/* GHC.Word.$fShowWord32 */, _BF/* GHC.Word.lvl4 */, _BH/* s1RrQ */);});
 },
-_Bv/* $fEnumWord32_$cfromEnum */ = function(_Bw/* s1RMa */){
-  var _Bx/* s1RMb */ = E(_Bw/* s1RMa */);
-  if(_Bx/* s1RMb */>2147483647){
-    return new F(function(){return _Bt/* GHC.Word.lvl10 */(_Bx/* s1RMb */);});
+_BI/* $fEnumWord32_$cfromEnum */ = function(_BJ/* s1RMa */){
+  var _BK/* s1RMb */ = E(_BJ/* s1RMa */);
+  if(_BK/* s1RMb */>2147483647){
+    return new F(function(){return _BG/* GHC.Word.lvl10 */(_BK/* s1RMb */);});
   }else{
-    return _Bx/* s1RMb */&4294967295;
+    return _BK/* s1RMb */&4294967295;
   }
 },
-_By/* lvl1 */ = new T(function(){
+_BL/* lvl1 */ = new T(function(){
   return B(unCStr/* EXTERNAL */("}: tried to take `pred\' of minBound"));
 }),
-_Bz/* lvl2 */ = function(_BA/* smnl */){
+_BM/* lvl2 */ = function(_BN/* smnl */){
   return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.pred{", new T(function(){
-    return B(_q/* GHC.Base.++ */(_BA/* smnl */, _By/* GHC.Enum.lvl1 */));
+    return B(_q/* GHC.Base.++ */(_BN/* smnl */, _BL/* GHC.Enum.lvl1 */));
   }))));});
 },
-_BB/* predError */ = function(_BC/* B1 */){
-  return new F(function(){return _Bz/* GHC.Enum.lvl2 */(_BC/* B1 */);});
+_BO/* predError */ = function(_BP/* B1 */){
+  return new F(function(){return _BM/* GHC.Enum.lvl2 */(_BP/* B1 */);});
 },
-_BD/* $fEnumWord7 */ = new T(function(){
-  return B(_BB/* GHC.Enum.predError */(_Bs/* GHC.Word.lvl4 */));
+_BQ/* $fEnumWord7 */ = new T(function(){
+  return B(_BO/* GHC.Enum.predError */(_BF/* GHC.Word.lvl4 */));
 }),
-_BE/* $fEnumWord32_$cpred */ = function(_BF/* s1RNu */){
-  var _BG/* s1RNx */ = E(_BF/* s1RNu */);
-  return (_BG/* s1RNx */==0) ? E(_BD/* GHC.Word.$fEnumWord7 */) : _BG/* s1RNx */-1>>>0;
+_BR/* $fEnumWord32_$cpred */ = function(_BS/* s1RNu */){
+  var _BT/* s1RNx */ = E(_BS/* s1RNu */);
+  return (_BT/* s1RNx */==0) ? E(_BQ/* GHC.Word.$fEnumWord7 */) : _BT/* s1RNx */-1>>>0;
 },
-_BH/* lvl3 */ = new T(function(){
+_BU/* lvl3 */ = new T(function(){
   return B(unCStr/* EXTERNAL */("}: tried to take `succ\' of maxBound"));
 }),
-_BI/* lvl4 */ = function(_BJ/* smno */){
+_BV/* lvl4 */ = function(_BW/* smno */){
   return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.succ{", new T(function(){
-    return B(_q/* GHC.Base.++ */(_BJ/* smno */, _BH/* GHC.Enum.lvl3 */));
+    return B(_q/* GHC.Base.++ */(_BW/* smno */, _BU/* GHC.Enum.lvl3 */));
   }))));});
 },
-_BK/* succError */ = function(_BC/* B1 */){
-  return new F(function(){return _BI/* GHC.Enum.lvl4 */(_BC/* B1 */);});
+_BX/* succError */ = function(_BP/* B1 */){
+  return new F(function(){return _BV/* GHC.Enum.lvl4 */(_BP/* B1 */);});
 },
-_BL/* $fEnumWord9 */ = new T(function(){
-  return B(_BK/* GHC.Enum.succError */(_Bs/* GHC.Word.lvl4 */));
+_BY/* $fEnumWord9 */ = new T(function(){
+  return B(_BX/* GHC.Enum.succError */(_BF/* GHC.Word.lvl4 */));
 }),
-_BM/* $fEnumWord32_$csucc */ = function(_BN/* s1RNp */){
-  var _BO/* s1RNs */ = E(_BN/* s1RNp */);
-  return (_BO/* s1RNs */==4294967295) ? E(_BL/* GHC.Word.$fEnumWord9 */) : _BO/* s1RNs */+1>>>0;
+_BZ/* $fEnumWord32_$csucc */ = function(_C0/* s1RNp */){
+  var _C1/* s1RNs */ = E(_C0/* s1RNp */);
+  return (_C1/* s1RNs */==4294967295) ? E(_BY/* GHC.Word.$fEnumWord9 */) : _C1/* s1RNs */+1>>>0;
 },
-_BP/* lvl12 */ = new T2(0,_yz/* GHC.Word.$fBitsWord4 */,_yA/* GHC.Word.$fBoundedWord32_$cmaxBound */),
-_BQ/* shows14 */ = 0,
-_BR/* showsPrec */ = function(_BS/* sf65 */){
-  return E(E(_BS/* sf65 */).a);
+_C2/* lvl12 */ = new T2(0,_yM/* GHC.Word.$fBitsWord4 */,_yN/* GHC.Word.$fBoundedWord32_$cmaxBound */),
+_C3/* shows14 */ = 0,
+_C4/* showsPrec */ = function(_C5/* sf65 */){
+  return E(E(_C5/* sf65 */).a);
 },
-_BT/* lvl5 */ = function(_BU/* smnr */, _BV/* smns */, _BW/* smnt */, _BX/* smnu */){
-  var _BY/* smnK */ = new T(function(){
-    var _BZ/* smnJ */ = new T(function(){
-      var _C0/* smnI */ = new T(function(){
-        var _C1/* smnH */ = new T(function(){
-          var _C2/* smnG */ = new T(function(){
-            var _C3/* smny */ = E(_BW/* smnt */),
-            _C4/* smnF */ = new T(function(){
-              return B(A3(_B0/* GHC.List.foldr1 */,_AR/* GHC.Show.$fShow(,)1 */, new T2(1,new T(function(){
-                return B(A3(_BR/* GHC.Show.showsPrec */,_BX/* smnu */, _BQ/* GHC.Show.shows14 */, _C3/* smny */.a));
+_C6/* lvl5 */ = function(_C7/* smnr */, _C8/* smns */, _C9/* smnt */, _Ca/* smnu */){
+  var _Cb/* smnK */ = new T(function(){
+    var _Cc/* smnJ */ = new T(function(){
+      var _Cd/* smnI */ = new T(function(){
+        var _Ce/* smnH */ = new T(function(){
+          var _Cf/* smnG */ = new T(function(){
+            var _Cg/* smny */ = E(_C9/* smnt */),
+            _Ch/* smnF */ = new T(function(){
+              return B(A3(_Bd/* GHC.List.foldr1 */,_B4/* GHC.Show.$fShow(,)1 */, new T2(1,new T(function(){
+                return B(A3(_C4/* GHC.Show.showsPrec */,_Ca/* smnu */, _C3/* GHC.Show.shows14 */, _Cg/* smny */.a));
               }),new T2(1,new T(function(){
-                return B(A3(_BR/* GHC.Show.showsPrec */,_BX/* smnu */, _BQ/* GHC.Show.shows14 */, _C3/* smny */.b));
-              }),_4/* GHC.Types.[] */)), _AQ/* GHC.Enum.lvl */));
+                return B(A3(_C4/* GHC.Show.showsPrec */,_Ca/* smnu */, _C3/* GHC.Show.shows14 */, _Cg/* smny */.b));
+              }),_4/* GHC.Types.[] */)), _B3/* GHC.Enum.lvl */));
             });
-            return new T2(1,_5U/* GHC.Show.shows8 */,_C4/* smnF */);
+            return new T2(1,_5U/* GHC.Show.shows8 */,_Ch/* smnF */);
           });
-          return B(unAppCStr/* EXTERNAL */(") is outside of bounds ", _C2/* smnG */));
+          return B(unAppCStr/* EXTERNAL */(") is outside of bounds ", _Cf/* smnG */));
         },1);
-        return B(_q/* GHC.Base.++ */(B(_5V/* GHC.Show.$wshowSignedInt */(0, E(_BV/* smns */), _4/* GHC.Types.[] */)), _C1/* smnH */));
+        return B(_q/* GHC.Base.++ */(B(_5V/* GHC.Show.$wshowSignedInt */(0, E(_C8/* smns */), _4/* GHC.Types.[] */)), _Ce/* smnH */));
       });
-      return B(unAppCStr/* EXTERNAL */("}: tag (", _C0/* smnI */));
+      return B(unAppCStr/* EXTERNAL */("}: tag (", _Cd/* smnI */));
     },1);
-    return B(_q/* GHC.Base.++ */(_BU/* smnr */, _BZ/* smnJ */));
+    return B(_q/* GHC.Base.++ */(_C7/* smnr */, _Cc/* smnJ */));
   });
-  return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.toEnum{", _BY/* smnK */)));});
+  return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("Enum.toEnum{", _Cb/* smnK */)));});
 },
-_C5/* toEnumError */ = function(_C6/* smnM */, _C7/* smnN */, _C8/* smnO */, _C9/* smnP */){
-  return new F(function(){return _BT/* GHC.Enum.lvl5 */(_C7/* smnN */, _C8/* smnO */, _C9/* smnP */, _C6/* smnM */);});
+_Ci/* toEnumError */ = function(_Cj/* smnM */, _Ck/* smnN */, _Cl/* smnO */, _Cm/* smnP */){
+  return new F(function(){return _C6/* GHC.Enum.lvl5 */(_Ck/* smnN */, _Cl/* smnO */, _Cm/* smnP */, _Cj/* smnM */);});
 },
-_Ca/* $fEnumWord6 */ = function(_Cb/* s1Rs9 */){
-  return new F(function(){return _C5/* GHC.Enum.toEnumError */(_AP/* GHC.Word.$fShowWord32 */, _Bs/* GHC.Word.lvl4 */, _Cb/* s1Rs9 */, _BP/* GHC.Word.lvl12 */);});
+_Cn/* $fEnumWord6 */ = function(_Co/* s1Rs9 */){
+  return new F(function(){return _Ci/* GHC.Enum.toEnumError */(_B2/* GHC.Word.$fShowWord32 */, _BF/* GHC.Word.lvl4 */, _Co/* s1Rs9 */, _C2/* GHC.Word.lvl12 */);});
 },
-_Cc/* $fEnumWord32_$ctoEnum */ = function(_Cd/* s1Rse */){
-  var _Ce/* s1Rsf */ = E(_Cd/* s1Rse */);
-  if(_Ce/* s1Rsf */<0){
-    return new F(function(){return _Ca/* GHC.Word.$fEnumWord6 */(_Ce/* s1Rsf */);});
+_Cp/* $fEnumWord32_$ctoEnum */ = function(_Cq/* s1Rse */){
+  var _Cr/* s1Rsf */ = E(_Cq/* s1Rse */);
+  if(_Cr/* s1Rsf */<0){
+    return new F(function(){return _Cn/* GHC.Word.$fEnumWord6 */(_Cr/* s1Rsf */);});
   }else{
-    return _Ce/* s1Rsf */>>>0;
+    return _Cr/* s1Rsf */>>>0;
   }
 },
-_Cf/* $fEnumWord32 */ = new T(function(){
-  return {_:0,a:_BM/* GHC.Word.$fEnumWord32_$csucc */,b:_BE/* GHC.Word.$fEnumWord32_$cpred */,c:_Cc/* GHC.Word.$fEnumWord32_$ctoEnum */,d:_Bv/* GHC.Word.$fEnumWord32_$cfromEnum */,e:_z3/* GHC.Word.$fEnumWord32_$cenumFrom */,f:_zV/* GHC.Word.$fEnumWord32_$cenumFromThen */,g:_Ag/* GHC.Word.$fEnumWord32_$cenumFromTo */,h:_A7/* GHC.Word.$fEnumWord32_$cenumFromThenTo */};
+_Cs/* $fEnumWord32 */ = new T(function(){
+  return {_:0,a:_BZ/* GHC.Word.$fEnumWord32_$csucc */,b:_BR/* GHC.Word.$fEnumWord32_$cpred */,c:_Cp/* GHC.Word.$fEnumWord32_$ctoEnum */,d:_BI/* GHC.Word.$fEnumWord32_$cfromEnum */,e:_zg/* GHC.Word.$fEnumWord32_$cenumFrom */,f:_A8/* GHC.Word.$fEnumWord32_$cenumFromThen */,g:_At/* GHC.Word.$fEnumWord32_$cenumFromTo */,h:_Ak/* GHC.Word.$fEnumWord32_$cenumFromThenTo */};
 }),
-_Cg/* $fIntegralWord32_$cdivMod */ = function(_Ch/* s1RNe */, _Ci/* s1RNf */){
-  var _Cj/* s1RNg */ = E(_Ch/* s1RNe */),
-  _Ck/* s1RNk */ = E(_Ci/* s1RNf */);
-  return (_Ck/* s1RNk */==0) ? E(_ft/* GHC.Real.divZeroError */) : new T2(0,new T(function(){
-    return quot/* EXTERNAL */(_Cj/* s1RNg */, _Ck/* s1RNk */);
+_Ct/* $fIntegralWord32_$cdivMod */ = function(_Cu/* s1RNe */, _Cv/* s1RNf */){
+  var _Cw/* s1RNg */ = E(_Cu/* s1RNe */),
+  _Cx/* s1RNk */ = E(_Cv/* s1RNf */);
+  return (_Cx/* s1RNk */==0) ? E(_ft/* GHC.Real.divZeroError */) : new T2(0,new T(function(){
+    return quot/* EXTERNAL */(_Cw/* s1RNg */, _Cx/* s1RNk */);
   }),new T(function(){
-    return _Cj/* s1RNg */%_Ck/* s1RNk */;
+    return _Cw/* s1RNg */%_Cx/* s1RNk */;
   }));
 },
-_Cl/* $fIntegralWord32_$cquot */ = function(_Cm/* s1RMM */, _Cn/* s1RMN */){
-  var _Co/* s1RMS */ = E(_Cn/* s1RMN */);
-  if(!_Co/* s1RMS */){
+_Cy/* $fIntegralWord32_$cquot */ = function(_Cz/* s1RMM */, _CA/* s1RMN */){
+  var _CB/* s1RMS */ = E(_CA/* s1RMN */);
+  if(!_CB/* s1RMS */){
     return E(_ft/* GHC.Real.divZeroError */);
   }else{
-    return new F(function(){return quot/* EXTERNAL */(E(_Cm/* s1RMM */), _Co/* s1RMS */);});
+    return new F(function(){return quot/* EXTERNAL */(E(_Cz/* s1RMM */), _CB/* s1RMS */);});
   }
 },
-_Cp/* $fIntegralWord32_$cquotRem */ = function(_Cq/* s1RN2 */, _Cr/* s1RN3 */){
-  var _Cs/* s1RN8 */ = E(_Cr/* s1RN3 */);
-  if(!_Cs/* s1RN8 */){
+_CC/* $fIntegralWord32_$cquotRem */ = function(_CD/* s1RN2 */, _CE/* s1RN3 */){
+  var _CF/* s1RN8 */ = E(_CE/* s1RN3 */);
+  if(!_CF/* s1RN8 */){
     return E(_ft/* GHC.Real.divZeroError */);
   }else{
-    var _Ct/* s1RN9 */ = quotRemI/* EXTERNAL */(E(_Cq/* s1RN2 */), _Cs/* s1RN8 */);
-    return new T2(0,_Ct/* s1RN9 */.a,_Ct/* s1RN9 */.b);
+    var _CG/* s1RN9 */ = quotRemI/* EXTERNAL */(E(_CD/* s1RN2 */), _CF/* s1RN8 */);
+    return new T2(0,_CG/* s1RN9 */.a,_CG/* s1RN9 */.b);
   }
 },
-_Cu/* $fIntegralWord32_$crem */ = function(_Cv/* s1RMU */, _Cw/* s1RMV */){
-  var _Cx/* s1RN0 */ = E(_Cw/* s1RMV */);
-  return (_Cx/* s1RN0 */==0) ? E(_ft/* GHC.Real.divZeroError */) : E(_Cv/* s1RMU */)%_Cx/* s1RN0 */;
+_CH/* $fIntegralWord32_$crem */ = function(_CI/* s1RMU */, _CJ/* s1RMV */){
+  var _CK/* s1RN0 */ = E(_CJ/* s1RMV */);
+  return (_CK/* s1RN0 */==0) ? E(_ft/* GHC.Real.divZeroError */) : E(_CI/* s1RMU */)%_CK/* s1RN0 */;
 },
-_Cy/* integer2Word# */ = function(_Cz/* s2C */){
-  return I_toInt/* EXTERNAL */(_Cz/* s2C */)>>>0;
+_CL/* integer2Word# */ = function(_CM/* s2C */){
+  return I_toInt/* EXTERNAL */(_CM/* s2C */)>>>0;
 },
-_CA/* integerToWord */ = function(_CB/* s1Rr */){
-  var _CC/* s1Rs */ = E(_CB/* s1Rr */);
-  if(!_CC/* s1Rs */._){
-    return _CC/* s1Rs */.a>>>0;
+_CN/* integerToWord */ = function(_CO/* s1Rr */){
+  var _CP/* s1Rs */ = E(_CO/* s1Rr */);
+  if(!_CP/* s1Rs */._){
+    return _CP/* s1Rs */.a>>>0;
   }else{
-    return new F(function(){return _Cy/* GHC.Integer.GMP.Prim.integer2Word# */(_CC/* s1Rs */.a);});
+    return new F(function(){return _CL/* GHC.Integer.GMP.Prim.integer2Word# */(_CP/* s1Rs */.a);});
   }
 },
-_CD/* $cfromInteger2 */ = function(_CE/* s1Rpq */){
-  return new F(function(){return _CA/* GHC.Integer.Type.integerToWord */(_CE/* s1Rpq */);});
+_CQ/* $cfromInteger2 */ = function(_CR/* s1Rpq */){
+  return new F(function(){return _CN/* GHC.Integer.Type.integerToWord */(_CR/* s1Rpq */);});
 },
-_CF/* $fNumWord32_$c* */ = function(_CG/* s1Rpz */, _CH/* s1RpA */){
-  return imul/* EXTERNAL */(E(_CG/* s1Rpz */), E(_CH/* s1RpA */))>>>0;
+_CS/* $fNumWord32_$c* */ = function(_CT/* s1Rpz */, _CU/* s1RpA */){
+  return imul/* EXTERNAL */(E(_CT/* s1Rpz */), E(_CU/* s1RpA */))>>>0;
 },
-_CI/* $fNumWord32_$c+ */ = function(_CJ/* s1RpN */, _CK/* s1RpO */){
-  return E(_CJ/* s1RpN */)+E(_CK/* s1RpO */)>>>0;
+_CV/* $fNumWord32_$c+ */ = function(_CW/* s1RpN */, _CX/* s1RpO */){
+  return E(_CW/* s1RpN */)+E(_CX/* s1RpO */)>>>0;
 },
-_CL/* $fNumWord32_$c- */ = function(_CM/* s1RpG */, _CN/* s1RpH */){
-  return E(_CM/* s1RpG */)-E(_CN/* s1RpH */)>>>0;
+_CY/* $fNumWord32_$c- */ = function(_CZ/* s1RpG */, _D0/* s1RpH */){
+  return E(_CZ/* s1RpG */)-E(_D0/* s1RpH */)>>>0;
 },
-_CO/* $fNumWord32_$cabs */ = function(_CP/* s1Rps */){
-  return E(_CP/* s1Rps */);
+_D1/* $fNumWord32_$cabs */ = function(_D2/* s1Rps */){
+  return E(_D2/* s1Rps */);
 },
-_CQ/* $fNumWord32_$cnegate */ = function(_CR/* s1Rpt */){
-  return  -(E(_CR/* s1Rpt */)&4294967295)>>>0;
+_D3/* $fNumWord32_$cnegate */ = function(_D4/* s1Rpt */){
+  return  -(E(_D4/* s1Rpt */)&4294967295)>>>0;
 },
-_CS/* $fNumWord2 */ = 1,
-_CT/* $fNumWord32_$csignum */ = function(_CU/* s1RNz */){
-  return (E(_CU/* s1RNz */)==0) ? E(_yz/* GHC.Word.$fBitsWord4 */) : E(_CS/* GHC.Word.$fNumWord2 */);
+_D5/* $fNumWord2 */ = 1,
+_D6/* $fNumWord32_$csignum */ = function(_D7/* s1RNz */){
+  return (E(_D7/* s1RNz */)==0) ? E(_yM/* GHC.Word.$fBitsWord4 */) : E(_D5/* GHC.Word.$fNumWord2 */);
 },
-_CV/* $fNumWord32 */ = {_:0,a:_CI/* GHC.Word.$fNumWord32_$c+ */,b:_CL/* GHC.Word.$fNumWord32_$c- */,c:_CF/* GHC.Word.$fNumWord32_$c* */,d:_CQ/* GHC.Word.$fNumWord32_$cnegate */,e:_CO/* GHC.Word.$fNumWord32_$cabs */,f:_CT/* GHC.Word.$fNumWord32_$csignum */,g:_CD/* GHC.Word.$cfromInteger2 */},
-_CW/* $fBitsWord32_$c/= */ = function(_CX/* s1RME */, _CY/* s1RMF */){
-  return (E(_CX/* s1RME */)!=E(_CY/* s1RMF */)) ? true : false;
+_D8/* $fNumWord32 */ = {_:0,a:_CV/* GHC.Word.$fNumWord32_$c+ */,b:_CY/* GHC.Word.$fNumWord32_$c- */,c:_CS/* GHC.Word.$fNumWord32_$c* */,d:_D3/* GHC.Word.$fNumWord32_$cnegate */,e:_D1/* GHC.Word.$fNumWord32_$cabs */,f:_D6/* GHC.Word.$fNumWord32_$csignum */,g:_CQ/* GHC.Word.$cfromInteger2 */},
+_D9/* $fBitsWord32_$c/= */ = function(_Da/* s1RME */, _Db/* s1RMF */){
+  return (E(_Da/* s1RME */)!=E(_Db/* s1RMF */)) ? true : false;
 },
-_CZ/* $fEqWord32_$c== */ = function(_D0/* s1RMx */, _D1/* s1RMy */){
-  return E(_D0/* s1RMx */)==E(_D1/* s1RMy */);
+_Dc/* $fEqWord32_$c== */ = function(_Dd/* s1RMx */, _De/* s1RMy */){
+  return E(_Dd/* s1RMx */)==E(_De/* s1RMy */);
 },
-_D2/* $fEqWord32 */ = new T2(0,_CZ/* GHC.Word.$fEqWord32_$c== */,_CW/* GHC.Word.$fBitsWord32_$c/= */),
-_D3/* $fOrdWord32_$c< */ = function(_D4/* s1RMg */, _D5/* s1RMh */){
-  return E(_D4/* s1RMg */)<E(_D5/* s1RMh */);
+_Df/* $fEqWord32 */ = new T2(0,_Dc/* GHC.Word.$fEqWord32_$c== */,_D9/* GHC.Word.$fBitsWord32_$c/= */),
+_Dg/* $fOrdWord32_$c< */ = function(_Dh/* s1RMg */, _Di/* s1RMh */){
+  return E(_Dh/* s1RMg */)<E(_Di/* s1RMh */);
 },
-_D6/* $fOrdWord32_$c<= */ = function(_D7/* s1RLP */, _D8/* s1RLQ */){
-  return E(_D7/* s1RLP */)<=E(_D8/* s1RLQ */);
+_Dj/* $fOrdWord32_$c<= */ = function(_Dk/* s1RLP */, _Dl/* s1RLQ */){
+  return E(_Dk/* s1RLP */)<=E(_Dl/* s1RLQ */);
 },
-_D9/* $fOrdWord32_$c> */ = function(_Da/* s1RLI */, _Db/* s1RLJ */){
-  return E(_Da/* s1RLI */)>E(_Db/* s1RLJ */);
+_Dm/* $fOrdWord32_$c> */ = function(_Dn/* s1RLI */, _Do/* s1RLJ */){
+  return E(_Dn/* s1RLI */)>E(_Do/* s1RLJ */);
 },
-_Dc/* $fOrdWord32_$c>= */ = function(_Dd/* s1RLB */, _De/* s1RLC */){
-  return E(_Dd/* s1RLB */)>=E(_De/* s1RLC */);
+_Dp/* $fOrdWord32_$c>= */ = function(_Dq/* s1RLB */, _Dr/* s1RLC */){
+  return E(_Dq/* s1RLB */)>=E(_Dr/* s1RLC */);
 },
-_Df/* $fOrdWord32_$ccompare */ = function(_Dg/* s1RMn */, _Dh/* s1RMo */){
-  var _Di/* s1RMp */ = E(_Dg/* s1RMn */),
-  _Dj/* s1RMr */ = E(_Dh/* s1RMo */);
-  return (_Di/* s1RMp */>=_Dj/* s1RMr */) ? (_Di/* s1RMp */!=_Dj/* s1RMr */) ? 2 : 1 : 0;
+_Ds/* $fOrdWord32_$ccompare */ = function(_Dt/* s1RMn */, _Du/* s1RMo */){
+  var _Dv/* s1RMp */ = E(_Dt/* s1RMn */),
+  _Dw/* s1RMr */ = E(_Du/* s1RMo */);
+  return (_Dv/* s1RMp */>=_Dw/* s1RMr */) ? (_Dv/* s1RMp */!=_Dw/* s1RMr */) ? 2 : 1 : 0;
 },
-_Dk/* $fOrdWord32_$cmax */ = function(_Dl/* s1ROa */, _Dm/* s1ROb */){
-  var _Dn/* s1ROc */ = E(_Dl/* s1ROa */),
-  _Do/* s1ROe */ = E(_Dm/* s1ROb */);
-  return (_Dn/* s1ROc */>_Do/* s1ROe */) ? E(_Dn/* s1ROc */) : E(_Do/* s1ROe */);
+_Dx/* $fOrdWord32_$cmax */ = function(_Dy/* s1ROa */, _Dz/* s1ROb */){
+  var _DA/* s1ROc */ = E(_Dy/* s1ROa */),
+  _DB/* s1ROe */ = E(_Dz/* s1ROb */);
+  return (_DA/* s1ROc */>_DB/* s1ROe */) ? E(_DA/* s1ROc */) : E(_DB/* s1ROe */);
 },
-_Dp/* $fOrdWord32_$cmin */ = function(_Dq/* s1RO2 */, _Dr/* s1RO3 */){
-  var _Ds/* s1RO4 */ = E(_Dq/* s1RO2 */),
-  _Dt/* s1RO6 */ = E(_Dr/* s1RO3 */);
-  return (_Ds/* s1RO4 */>_Dt/* s1RO6 */) ? E(_Dt/* s1RO6 */) : E(_Ds/* s1RO4 */);
+_DC/* $fOrdWord32_$cmin */ = function(_DD/* s1RO2 */, _DE/* s1RO3 */){
+  var _DF/* s1RO4 */ = E(_DD/* s1RO2 */),
+  _DG/* s1RO6 */ = E(_DE/* s1RO3 */);
+  return (_DF/* s1RO4 */>_DG/* s1RO6 */) ? E(_DG/* s1RO6 */) : E(_DF/* s1RO4 */);
 },
-_Du/* $fOrdWord32 */ = {_:0,a:_D2/* GHC.Word.$fEqWord32 */,b:_Df/* GHC.Word.$fOrdWord32_$ccompare */,c:_D3/* GHC.Word.$fOrdWord32_$c< */,d:_D6/* GHC.Word.$fOrdWord32_$c<= */,e:_D9/* GHC.Word.$fOrdWord32_$c> */,f:_Dc/* GHC.Word.$fOrdWord32_$c>= */,g:_Dk/* GHC.Word.$fOrdWord32_$cmax */,h:_Dp/* GHC.Word.$fOrdWord32_$cmin */},
-_Dv/* $fRealWord1 */ = new T1(0,1),
-_Dw/* even1 */ = new T1(0,0),
-_Dx/* remInteger */ = function(_Dy/* s1NY */, _Dz/* s1NZ */){
+_DH/* $fOrdWord32 */ = {_:0,a:_Df/* GHC.Word.$fEqWord32 */,b:_Ds/* GHC.Word.$fOrdWord32_$ccompare */,c:_Dg/* GHC.Word.$fOrdWord32_$c< */,d:_Dj/* GHC.Word.$fOrdWord32_$c<= */,e:_Dm/* GHC.Word.$fOrdWord32_$c> */,f:_Dp/* GHC.Word.$fOrdWord32_$c>= */,g:_Dx/* GHC.Word.$fOrdWord32_$cmax */,h:_DC/* GHC.Word.$fOrdWord32_$cmin */},
+_DI/* $fRealWord1 */ = new T1(0,1),
+_DJ/* even1 */ = new T1(0,0),
+_DK/* remInteger */ = function(_DL/* s1NY */, _DM/* s1NZ */){
   while(1){
-    var _DA/* s1O0 */ = E(_Dy/* s1NY */);
-    if(!_DA/* s1O0 */._){
-      var _DB/* s1O2 */ = E(_DA/* s1O0 */.a);
-      if(_DB/* s1O2 */==( -2147483648)){
-        _Dy/* s1NY */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
+    var _DN/* s1O0 */ = E(_DL/* s1NY */);
+    if(!_DN/* s1O0 */._){
+      var _DO/* s1O2 */ = E(_DN/* s1O0 */.a);
+      if(_DO/* s1O2 */==( -2147483648)){
+        _DL/* s1NY */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
         continue;
       }else{
-        var _DC/* s1O3 */ = E(_Dz/* s1NZ */);
-        if(!_DC/* s1O3 */._){
-          return new T1(0,_DB/* s1O2 */%_DC/* s1O3 */.a);
+        var _DP/* s1O3 */ = E(_DM/* s1NZ */);
+        if(!_DP/* s1O3 */._){
+          return new T1(0,_DO/* s1O2 */%_DP/* s1O3 */.a);
         }else{
-          _Dy/* s1NY */ = new T1(1,I_fromInt/* EXTERNAL */(_DB/* s1O2 */));
-          _Dz/* s1NZ */ = _DC/* s1O3 */;
+          _DL/* s1NY */ = new T1(1,I_fromInt/* EXTERNAL */(_DO/* s1O2 */));
+          _DM/* s1NZ */ = _DP/* s1O3 */;
           continue;
         }
       }
     }else{
-      var _DD/* s1Od */ = _DA/* s1O0 */.a,
-      _DE/* s1Oe */ = E(_Dz/* s1NZ */);
-      return (_DE/* s1Oe */._==0) ? new T1(1,I_rem/* EXTERNAL */(_DD/* s1Od */, I_fromInt/* EXTERNAL */(_DE/* s1Oe */.a))) : new T1(1,I_rem/* EXTERNAL */(_DD/* s1Od */, _DE/* s1Oe */.a));
+      var _DQ/* s1Od */ = _DN/* s1O0 */.a,
+      _DR/* s1Oe */ = E(_DM/* s1NZ */);
+      return (_DR/* s1Oe */._==0) ? new T1(1,I_rem/* EXTERNAL */(_DQ/* s1Od */, I_fromInt/* EXTERNAL */(_DR/* s1Oe */.a))) : new T1(1,I_rem/* EXTERNAL */(_DQ/* s1Od */, _DR/* s1Oe */.a));
     }
   }
 },
-_DF/* $fIntegralInteger_$crem */ = function(_DG/* svkU */, _DH/* svkV */){
-  if(!B(_y7/* GHC.Integer.Type.eqInteger */(_DH/* svkV */, _Dw/* GHC.Real.even1 */))){
-    return new F(function(){return _Dx/* GHC.Integer.Type.remInteger */(_DG/* svkU */, _DH/* svkV */);});
+_DS/* $fIntegralInteger_$crem */ = function(_DT/* svkU */, _DU/* svkV */){
+  if(!B(_yk/* GHC.Integer.Type.eqInteger */(_DU/* svkV */, _DJ/* GHC.Real.even1 */))){
+    return new F(function(){return _DK/* GHC.Integer.Type.remInteger */(_DT/* svkU */, _DU/* svkV */);});
   }else{
     return E(_ft/* GHC.Real.divZeroError */);
   }
 },
-_DI/* $fEnumRatio_gcd' */ = function(_DJ/* svl0 */, _DK/* svl1 */){
+_DV/* $fEnumRatio_gcd' */ = function(_DW/* svl0 */, _DX/* svl1 */){
   while(1){
-    if(!B(_y7/* GHC.Integer.Type.eqInteger */(_DK/* svl1 */, _Dw/* GHC.Real.even1 */))){
-      var _DL/*  svl0 */ = _DK/* svl1 */,
-      _DM/*  svl1 */ = B(_DF/* GHC.Real.$fIntegralInteger_$crem */(_DJ/* svl0 */, _DK/* svl1 */));
-      _DJ/* svl0 */ = _DL/*  svl0 */;
-      _DK/* svl1 */ = _DM/*  svl1 */;
+    if(!B(_yk/* GHC.Integer.Type.eqInteger */(_DX/* svl1 */, _DJ/* GHC.Real.even1 */))){
+      var _DY/*  svl0 */ = _DX/* svl1 */,
+      _DZ/*  svl1 */ = B(_DS/* GHC.Real.$fIntegralInteger_$crem */(_DW/* svl0 */, _DX/* svl1 */));
+      _DW/* svl0 */ = _DY/*  svl0 */;
+      _DX/* svl1 */ = _DZ/*  svl1 */;
       continue;
     }else{
-      return E(_DJ/* svl0 */);
+      return E(_DW/* svl0 */);
     }
   }
 },
-_DN/* absInteger */ = function(_DO/* s1QP */){
-  var _DP/* s1QQ */ = E(_DO/* s1QP */);
-  if(!_DP/* s1QQ */._){
-    var _DQ/* s1QS */ = E(_DP/* s1QQ */.a);
-    return (_DQ/* s1QS */==( -2147483648)) ? E(_xB/* GHC.Integer.Type.lvl3 */) : (_DQ/* s1QS */<0) ? new T1(0, -_DQ/* s1QS */) : E(_DP/* s1QQ */);
+_E0/* absInteger */ = function(_E1/* s1QP */){
+  var _E2/* s1QQ */ = E(_E1/* s1QP */);
+  if(!_E2/* s1QQ */._){
+    var _E3/* s1QS */ = E(_E2/* s1QQ */.a);
+    return (_E3/* s1QS */==( -2147483648)) ? E(_xO/* GHC.Integer.Type.lvl3 */) : (_E3/* s1QS */<0) ? new T1(0, -_E3/* s1QS */) : E(_E2/* s1QQ */);
   }else{
-    var _DR/* s1QW */ = _DP/* s1QQ */.a;
-    return (I_compareInt/* EXTERNAL */(_DR/* s1QW */, 0)>=0) ? E(_DP/* s1QQ */) : new T1(1,I_negate/* EXTERNAL */(_DR/* s1QW */));
+    var _E4/* s1QW */ = _E2/* s1QQ */.a;
+    return (I_compareInt/* EXTERNAL */(_E4/* s1QW */, 0)>=0) ? E(_E2/* s1QQ */) : new T1(1,I_negate/* EXTERNAL */(_E4/* s1QW */));
   }
 },
-_DS/* quotInteger */ = function(_DT/* s1On */, _DU/* s1Oo */){
+_E5/* quotInteger */ = function(_E6/* s1On */, _E7/* s1Oo */){
   while(1){
-    var _DV/* s1Op */ = E(_DT/* s1On */);
-    if(!_DV/* s1Op */._){
-      var _DW/* s1Or */ = E(_DV/* s1Op */.a);
-      if(_DW/* s1Or */==( -2147483648)){
-        _DT/* s1On */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
+    var _E8/* s1Op */ = E(_E6/* s1On */);
+    if(!_E8/* s1Op */._){
+      var _E9/* s1Or */ = E(_E8/* s1Op */.a);
+      if(_E9/* s1Or */==( -2147483648)){
+        _E6/* s1On */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
         continue;
       }else{
-        var _DX/* s1Os */ = E(_DU/* s1Oo */);
-        if(!_DX/* s1Os */._){
-          return new T1(0,quot/* EXTERNAL */(_DW/* s1Or */, _DX/* s1Os */.a));
+        var _Ea/* s1Os */ = E(_E7/* s1Oo */);
+        if(!_Ea/* s1Os */._){
+          return new T1(0,quot/* EXTERNAL */(_E9/* s1Or */, _Ea/* s1Os */.a));
         }else{
-          _DT/* s1On */ = new T1(1,I_fromInt/* EXTERNAL */(_DW/* s1Or */));
-          _DU/* s1Oo */ = _DX/* s1Os */;
+          _E6/* s1On */ = new T1(1,I_fromInt/* EXTERNAL */(_E9/* s1Or */));
+          _E7/* s1Oo */ = _Ea/* s1Os */;
           continue;
         }
       }
     }else{
-      var _DY/* s1OC */ = _DV/* s1Op */.a,
-      _DZ/* s1OD */ = E(_DU/* s1Oo */);
-      return (_DZ/* s1OD */._==0) ? new T1(0,I_toInt/* EXTERNAL */(I_quot/* EXTERNAL */(_DY/* s1OC */, I_fromInt/* EXTERNAL */(_DZ/* s1OD */.a)))) : new T1(1,I_quot/* EXTERNAL */(_DY/* s1OC */, _DZ/* s1OD */.a));
+      var _Eb/* s1OC */ = _E8/* s1Op */.a,
+      _Ec/* s1OD */ = E(_E7/* s1Oo */);
+      return (_Ec/* s1OD */._==0) ? new T1(0,I_toInt/* EXTERNAL */(I_quot/* EXTERNAL */(_Eb/* s1OC */, I_fromInt/* EXTERNAL */(_Ec/* s1OD */.a)))) : new T1(1,I_quot/* EXTERNAL */(_Eb/* s1OC */, _Ec/* s1OD */.a));
     }
   }
 },
-_E0/* RatioZeroDenominator */ = 5,
-_E1/* ratioZeroDenomException */ = new T(function(){
-  return B(_fq/* GHC.Exception.$fExceptionArithException_$ctoException */(_E0/* GHC.Exception.RatioZeroDenominator */));
+_Ed/* RatioZeroDenominator */ = 5,
+_Ee/* ratioZeroDenomException */ = new T(function(){
+  return B(_fq/* GHC.Exception.$fExceptionArithException_$ctoException */(_Ed/* GHC.Exception.RatioZeroDenominator */));
 }),
-_E2/* ratioZeroDenominatorError */ = new T(function(){
-  return die/* EXTERNAL */(_E1/* GHC.Exception.ratioZeroDenomException */);
+_Ef/* ratioZeroDenominatorError */ = new T(function(){
+  return die/* EXTERNAL */(_Ee/* GHC.Exception.ratioZeroDenomException */);
 }),
-_E3/* $w$sreduce */ = function(_E4/* svlj */, _E5/* svlk */){
-  if(!B(_y7/* GHC.Integer.Type.eqInteger */(_E5/* svlk */, _Dw/* GHC.Real.even1 */))){
-    var _E6/* svlm */ = B(_DI/* GHC.Real.$fEnumRatio_gcd' */(B(_DN/* GHC.Integer.Type.absInteger */(_E4/* svlj */)), B(_DN/* GHC.Integer.Type.absInteger */(_E5/* svlk */))));
-    return (!B(_y7/* GHC.Integer.Type.eqInteger */(_E6/* svlm */, _Dw/* GHC.Real.even1 */))) ? new T2(0,B(_DS/* GHC.Integer.Type.quotInteger */(_E4/* svlj */, _E6/* svlm */)),B(_DS/* GHC.Integer.Type.quotInteger */(_E5/* svlk */, _E6/* svlm */))) : E(_ft/* GHC.Real.divZeroError */);
+_Eg/* $w$sreduce */ = function(_Eh/* svlj */, _Ei/* svlk */){
+  if(!B(_yk/* GHC.Integer.Type.eqInteger */(_Ei/* svlk */, _DJ/* GHC.Real.even1 */))){
+    var _Ej/* svlm */ = B(_DV/* GHC.Real.$fEnumRatio_gcd' */(B(_E0/* GHC.Integer.Type.absInteger */(_Eh/* svlj */)), B(_E0/* GHC.Integer.Type.absInteger */(_Ei/* svlk */))));
+    return (!B(_yk/* GHC.Integer.Type.eqInteger */(_Ej/* svlm */, _DJ/* GHC.Real.even1 */))) ? new T2(0,B(_E5/* GHC.Integer.Type.quotInteger */(_Eh/* svlj */, _Ej/* svlm */)),B(_E5/* GHC.Integer.Type.quotInteger */(_Ei/* svlk */, _Ej/* svlm */))) : E(_ft/* GHC.Real.divZeroError */);
   }else{
-    return E(_E2/* GHC.Real.ratioZeroDenominatorError */);
+    return E(_Ef/* GHC.Real.ratioZeroDenominatorError */);
   }
 },
-_E7/* $w$ctoRational */ = function(_E8/* s1RrR */){
-  var _E9/* s1RrS */ = _E8/* s1RrR */&4294967295;
-  if(_E9/* s1RrS */<0){
-    return new F(function(){return _E3/* GHC.Real.$w$sreduce */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_Ah/* GHC.Integer.Type.wordToInteger */(_E8/* s1RrR */)), _Dv/* GHC.Word.$fRealWord1 */)), _Dv/* GHC.Word.$fRealWord1 */);});
+_Ek/* $w$ctoRational */ = function(_El/* s1RrR */){
+  var _Em/* s1RrS */ = _El/* s1RrR */&4294967295;
+  if(_Em/* s1RrS */<0){
+    return new F(function(){return _Eg/* GHC.Real.$w$sreduce */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_Au/* GHC.Integer.Type.wordToInteger */(_El/* s1RrR */)), _DI/* GHC.Word.$fRealWord1 */)), _DI/* GHC.Word.$fRealWord1 */);});
   }else{
-    return new F(function(){return _E3/* GHC.Real.$w$sreduce */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_yl/* GHC.Integer.Type.smallInteger */(_E9/* s1RrS */)), _Dv/* GHC.Word.$fRealWord1 */)), _Dv/* GHC.Word.$fRealWord1 */);});
+    return new F(function(){return _Eg/* GHC.Real.$w$sreduce */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_yy/* GHC.Integer.Type.smallInteger */(_Em/* s1RrS */)), _DI/* GHC.Word.$fRealWord1 */)), _DI/* GHC.Word.$fRealWord1 */);});
   }
 },
-_Ea/* $fRealWord32_$ctoRational */ = function(_Eb/* s1RrZ */){
-  var _Ec/* s1Rs2 */ = B(_E7/* GHC.Word.$w$ctoRational */(E(_Eb/* s1RrZ */)));
-  return new T2(0,E(_Ec/* s1Rs2 */.a),E(_Ec/* s1Rs2 */.b));
+_En/* $fRealWord32_$ctoRational */ = function(_Eo/* s1RrZ */){
+  var _Ep/* s1Rs2 */ = B(_Ek/* GHC.Word.$w$ctoRational */(E(_Eo/* s1RrZ */)));
+  return new T2(0,E(_Ep/* s1Rs2 */.a),E(_Ep/* s1Rs2 */.b));
 },
-_Ed/* $fRealWord32 */ = new T3(0,_CV/* GHC.Word.$fNumWord32 */,_Du/* GHC.Word.$fOrdWord32 */,_Ea/* GHC.Word.$fRealWord32_$ctoRational */),
-_z5/* $fIntegralWord32 */ = new T(function(){
-  return {_:0,a:_Ed/* GHC.Word.$fRealWord32 */,b:_Cf/* GHC.Word.$fEnumWord32 */,c:_Cl/* GHC.Word.$fIntegralWord32_$cquot */,d:_Cu/* GHC.Word.$fIntegralWord32_$crem */,e:_Cl/* GHC.Word.$fIntegralWord32_$cquot */,f:_Cu/* GHC.Word.$fIntegralWord32_$crem */,g:_Cp/* GHC.Word.$fIntegralWord32_$cquotRem */,h:_Cg/* GHC.Word.$fIntegralWord32_$cdivMod */,i:_Aj/* GHC.Word.$fIntegralWord32_$ctoInteger */};
+_Eq/* $fRealWord32 */ = new T3(0,_D8/* GHC.Word.$fNumWord32 */,_DH/* GHC.Word.$fOrdWord32 */,_En/* GHC.Word.$fRealWord32_$ctoRational */),
+_zi/* $fIntegralWord32 */ = new T(function(){
+  return {_:0,a:_Eq/* GHC.Word.$fRealWord32 */,b:_Cs/* GHC.Word.$fEnumWord32 */,c:_Cy/* GHC.Word.$fIntegralWord32_$cquot */,d:_CH/* GHC.Word.$fIntegralWord32_$crem */,e:_Cy/* GHC.Word.$fIntegralWord32_$cquot */,f:_CH/* GHC.Word.$fIntegralWord32_$crem */,g:_CC/* GHC.Word.$fIntegralWord32_$cquotRem */,h:_Ct/* GHC.Word.$fIntegralWord32_$cdivMod */,i:_Aw/* GHC.Word.$fIntegralWord32_$ctoInteger */};
 }),
-_Ee/* lvl1 */ = new T1(0, -1),
-_Ef/* signumInteger */ = function(_Eg/* s1OO */){
-  var _Eh/* s1OP */ = E(_Eg/* s1OO */);
-  if(!_Eh/* s1OP */._){
-    var _Ei/* s1OQ */ = _Eh/* s1OP */.a;
-    return (_Ei/* s1OQ */>=0) ? (E(_Ei/* s1OQ */)==0) ? E(_xk/* GHC.Integer.Type.lvl */) : E(_xz/* GHC.Integer.Type.log2I1 */) : E(_Ee/* GHC.Integer.Type.lvl1 */);
+_Er/* lvl1 */ = new T1(0, -1),
+_Es/* signumInteger */ = function(_Et/* s1OO */){
+  var _Eu/* s1OP */ = E(_Et/* s1OO */);
+  if(!_Eu/* s1OP */._){
+    var _Ev/* s1OQ */ = _Eu/* s1OP */.a;
+    return (_Ev/* s1OQ */>=0) ? (E(_Ev/* s1OQ */)==0) ? E(_xx/* GHC.Integer.Type.lvl */) : E(_xM/* GHC.Integer.Type.log2I1 */) : E(_Er/* GHC.Integer.Type.lvl1 */);
   }else{
-    var _Ej/* s1OW */ = I_compareInt/* EXTERNAL */(_Eh/* s1OP */.a, 0);
-    return (_Ej/* s1OW */<=0) ? (E(_Ej/* s1OW */)==0) ? E(_xk/* GHC.Integer.Type.lvl */) : E(_Ee/* GHC.Integer.Type.lvl1 */) : E(_xz/* GHC.Integer.Type.log2I1 */);
+    var _Ew/* s1OW */ = I_compareInt/* EXTERNAL */(_Eu/* s1OP */.a, 0);
+    return (_Ew/* s1OW */<=0) ? (E(_Ew/* s1OW */)==0) ? E(_xx/* GHC.Integer.Type.lvl */) : E(_Er/* GHC.Integer.Type.lvl1 */) : E(_xM/* GHC.Integer.Type.log2I1 */);
   }
 },
-_Ek/* $w$s$c/ */ = function(_El/* svlJ */, _Em/* svlK */, _En/* svlL */, _Eo/* svlM */){
-  var _Ep/* svlN */ = B(_yn/* GHC.Integer.Type.timesInteger */(_Em/* svlK */, _En/* svlL */));
-  return new F(function(){return _E3/* GHC.Real.$w$sreduce */(B(_yn/* GHC.Integer.Type.timesInteger */(B(_yn/* GHC.Integer.Type.timesInteger */(_El/* svlJ */, _Eo/* svlM */)), B(_Ef/* GHC.Integer.Type.signumInteger */(_Ep/* svlN */)))), B(_DN/* GHC.Integer.Type.absInteger */(_Ep/* svlN */)));});
+_Ex/* $w$s$c/ */ = function(_Ey/* svlJ */, _Ez/* svlK */, _EA/* svlL */, _EB/* svlM */){
+  var _EC/* svlN */ = B(_yA/* GHC.Integer.Type.timesInteger */(_Ez/* svlK */, _EA/* svlL */));
+  return new F(function(){return _Eg/* GHC.Real.$w$sreduce */(B(_yA/* GHC.Integer.Type.timesInteger */(B(_yA/* GHC.Integer.Type.timesInteger */(_Ey/* svlJ */, _EB/* svlM */)), B(_Es/* GHC.Integer.Type.signumInteger */(_EC/* svlN */)))), B(_E0/* GHC.Integer.Type.absInteger */(_EC/* svlN */)));});
 },
-_Eq/* quotRemInteger */ = function(_Er/* s1Ma */, _Es/* s1Mb */){
+_ED/* quotRemInteger */ = function(_EE/* s1Ma */, _EF/* s1Mb */){
   while(1){
-    var _Et/* s1Mc */ = E(_Er/* s1Ma */);
-    if(!_Et/* s1Mc */._){
-      var _Eu/* s1Me */ = E(_Et/* s1Mc */.a);
-      if(_Eu/* s1Me */==( -2147483648)){
-        _Er/* s1Ma */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
+    var _EG/* s1Mc */ = E(_EE/* s1Ma */);
+    if(!_EG/* s1Mc */._){
+      var _EH/* s1Me */ = E(_EG/* s1Mc */.a);
+      if(_EH/* s1Me */==( -2147483648)){
+        _EE/* s1Ma */ = new T1(1,I_fromInt/* EXTERNAL */( -2147483648));
         continue;
       }else{
-        var _Ev/* s1Mf */ = E(_Es/* s1Mb */);
-        if(!_Ev/* s1Mf */._){
-          var _Ew/* s1Mg */ = _Ev/* s1Mf */.a;
-          return new T2(0,new T1(0,quot/* EXTERNAL */(_Eu/* s1Me */, _Ew/* s1Mg */)),new T1(0,_Eu/* s1Me */%_Ew/* s1Mg */));
+        var _EI/* s1Mf */ = E(_EF/* s1Mb */);
+        if(!_EI/* s1Mf */._){
+          var _EJ/* s1Mg */ = _EI/* s1Mf */.a;
+          return new T2(0,new T1(0,quot/* EXTERNAL */(_EH/* s1Me */, _EJ/* s1Mg */)),new T1(0,_EH/* s1Me */%_EJ/* s1Mg */));
         }else{
-          _Er/* s1Ma */ = new T1(1,I_fromInt/* EXTERNAL */(_Eu/* s1Me */));
-          _Es/* s1Mb */ = _Ev/* s1Mf */;
+          _EE/* s1Ma */ = new T1(1,I_fromInt/* EXTERNAL */(_EH/* s1Me */));
+          _EF/* s1Mb */ = _EI/* s1Mf */;
           continue;
         }
       }
     }else{
-      var _Ex/* s1Mt */ = E(_Es/* s1Mb */);
-      if(!_Ex/* s1Mt */._){
-        _Er/* s1Ma */ = _Et/* s1Mc */;
-        _Es/* s1Mb */ = new T1(1,I_fromInt/* EXTERNAL */(_Ex/* s1Mt */.a));
+      var _EK/* s1Mt */ = E(_EF/* s1Mb */);
+      if(!_EK/* s1Mt */._){
+        _EE/* s1Ma */ = _EG/* s1Mc */;
+        _EF/* s1Mb */ = new T1(1,I_fromInt/* EXTERNAL */(_EK/* s1Mt */.a));
         continue;
       }else{
-        var _Ey/* s1MA */ = I_quotRem/* EXTERNAL */(_Et/* s1Mc */.a, _Ex/* s1Mt */.a);
-        return new T2(0,new T1(1,_Ey/* s1MA */.a),new T1(1,_Ey/* s1MA */.b));
+        var _EL/* s1MA */ = I_quotRem/* EXTERNAL */(_EG/* s1Mc */.a, _EK/* s1Mt */.a);
+        return new T2(0,new T1(1,_EL/* s1MA */.a),new T1(1,_EL/* s1MA */.b));
       }
     }
   }
 },
-_Ez/* $w$s$cproperFraction */ = function(_EA/* svzS */, _EB/* svzT */, _EC/* svzU */){
-  var _ED/* svzV */ = new T(function(){
-    if(!B(_y7/* GHC.Integer.Type.eqInteger */(_EC/* svzU */, _Dw/* GHC.Real.even1 */))){
-      var _EE/* svzX */ = B(_Eq/* GHC.Integer.Type.quotRemInteger */(_EB/* svzT */, _EC/* svzU */));
-      return new T2(0,_EE/* svzX */.a,_EE/* svzX */.b);
+_EM/* $w$s$cproperFraction */ = function(_EN/* svzS */, _EO/* svzT */, _EP/* svzU */){
+  var _EQ/* svzV */ = new T(function(){
+    if(!B(_yk/* GHC.Integer.Type.eqInteger */(_EP/* svzU */, _DJ/* GHC.Real.even1 */))){
+      var _ER/* svzX */ = B(_ED/* GHC.Integer.Type.quotRemInteger */(_EO/* svzT */, _EP/* svzU */));
+      return new T2(0,_ER/* svzX */.a,_ER/* svzX */.b);
     }else{
       return E(_ft/* GHC.Real.divZeroError */);
     }
   }),
-  _EF/* svA6 */ = new T(function(){
-    return B(A2(_yH/* GHC.Num.fromInteger */,B(_yF/* GHC.Real.$p1Real */(B(_yD/* GHC.Real.$p1Integral */(_EA/* svzS */)))), new T(function(){
-      return E(E(_ED/* svzV */).a);
+  _ES/* svA6 */ = new T(function(){
+    return B(A2(_yU/* GHC.Num.fromInteger */,B(_yS/* GHC.Real.$p1Real */(B(_yQ/* GHC.Real.$p1Integral */(_EN/* svzS */)))), new T(function(){
+      return E(E(_EQ/* svzV */).a);
     })));
   });
-  return new T2(0,_EF/* svA6 */,new T(function(){
-    return new T2(0,E(E(_ED/* svzV */).b),E(_EC/* svzU */));
+  return new T2(0,_ES/* svA6 */,new T(function(){
+    return new T2(0,E(E(_EQ/* svzV */).b),E(_EP/* svzU */));
   }));
 },
-_EG/* $fRealFracNominalDiffTime_$ctruncate */ = function(_EH/* sjkL */, _EI/* sjkM */){
-  var _EJ/* sjkN */ = B(_Ek/* GHC.Real.$w$s$c/ */(_EI/* sjkM */, _yC/* GHC.Real.$fEnumRatio1 */, _xN/* Data.Fixed.$fHasResolutionE5 */, _yC/* GHC.Real.$fEnumRatio1 */));
-  return E(B(_Ez/* GHC.Real.$w$s$cproperFraction */(_EH/* sjkL */, _EJ/* sjkN */.a, _EJ/* sjkN */.b)).a);
+_ET/* $fRealFracNominalDiffTime_$ctruncate */ = function(_EU/* sjkL */, _EV/* sjkM */){
+  var _EW/* sjkN */ = B(_Ex/* GHC.Real.$w$s$c/ */(_EV/* sjkM */, _yP/* GHC.Real.$fEnumRatio1 */, _y0/* Data.Fixed.$fHasResolutionE5 */, _yP/* GHC.Real.$fEnumRatio1 */));
+  return E(B(_EM/* GHC.Real.$w$s$cproperFraction */(_EU/* sjkL */, _EW/* sjkN */.a, _EW/* sjkN */.b)).a);
 },
-_EK/* $w$cshiftL */ = function(_EL/* s1Rz0 */, _EM/* s1Rz1 */){
-  if(_EM/* s1Rz1 */<64){
-    var _EN/* s1Rz5 */ = hs_uncheckedShiftL64/* EXTERNAL */(_EL/* s1Rz0 */, _EM/* s1Rz1 */);
-    return E(_EN/* s1Rz5 */);
+_EX/* $w$cshiftL */ = function(_EY/* s1Rz0 */, _EZ/* s1Rz1 */){
+  if(_EZ/* s1Rz1 */<64){
+    var _F0/* s1Rz5 */ = hs_uncheckedShiftL64/* EXTERNAL */(_EY/* s1Rz0 */, _EZ/* s1Rz1 */);
+    return E(_F0/* s1Rz5 */);
   }else{
-    var _EO/* s1Rz9 */ = hs_wordToWord64/* EXTERNAL */(0);
-    return E(_EO/* s1Rz9 */);
+    var _F1/* s1Rz9 */ = hs_wordToWord64/* EXTERNAL */(0);
+    return E(_F1/* s1Rz9 */);
   }
 },
-_EP/* lvl5 */ = new T(function(){
+_F2/* lvl5 */ = new T(function(){
   return B(unCStr/* EXTERNAL */("Negative exponent"));
 }),
-_EQ/* ^1 */ = new T(function(){
-  return B(err/* EXTERNAL */(_EP/* GHC.Real.lvl5 */));
+_F3/* ^1 */ = new T(function(){
+  return B(err/* EXTERNAL */(_F2/* GHC.Real.lvl5 */));
 }),
-_ER/* even2 */ = new T1(0,2),
-_ES/* even3 */ = new T(function(){
-  return B(_y7/* GHC.Integer.Type.eqInteger */(_ER/* GHC.Real.even2 */, _Dw/* GHC.Real.even1 */));
+_F4/* even2 */ = new T1(0,2),
+_F5/* even3 */ = new T(function(){
+  return B(_yk/* GHC.Integer.Type.eqInteger */(_F4/* GHC.Real.even2 */, _DJ/* GHC.Real.even1 */));
 }),
-_ET/* g */ = function(_EU/* svB9 */, _EV/* svBa */, _EW/* svBb */){
+_F6/* g */ = function(_F7/* svB9 */, _F8/* svBa */, _F9/* svBb */){
   while(1){
-    if(!E(_ES/* GHC.Real.even3 */)){
-      if(!B(_y7/* GHC.Integer.Type.eqInteger */(B(_Dx/* GHC.Integer.Type.remInteger */(_EV/* svBa */, _ER/* GHC.Real.even2 */)), _Dw/* GHC.Real.even1 */))){
-        if(!B(_y7/* GHC.Integer.Type.eqInteger */(_EV/* svBa */, _yC/* GHC.Real.$fEnumRatio1 */))){
-          var _EX/*  svB9 */ = B(_yn/* GHC.Integer.Type.timesInteger */(_EU/* svB9 */, _EU/* svB9 */)),
-          _EY/*  svBa */ = B(_DS/* GHC.Integer.Type.quotInteger */(B(_zx/* GHC.Integer.Type.minusInteger */(_EV/* svBa */, _yC/* GHC.Real.$fEnumRatio1 */)), _ER/* GHC.Real.even2 */)),
-          _EZ/*  svBb */ = B(_yn/* GHC.Integer.Type.timesInteger */(_EU/* svB9 */, _EW/* svBb */));
-          _EU/* svB9 */ = _EX/*  svB9 */;
-          _EV/* svBa */ = _EY/*  svBa */;
-          _EW/* svBb */ = _EZ/*  svBb */;
+    if(!E(_F5/* GHC.Real.even3 */)){
+      if(!B(_yk/* GHC.Integer.Type.eqInteger */(B(_DK/* GHC.Integer.Type.remInteger */(_F8/* svBa */, _F4/* GHC.Real.even2 */)), _DJ/* GHC.Real.even1 */))){
+        if(!B(_yk/* GHC.Integer.Type.eqInteger */(_F8/* svBa */, _yP/* GHC.Real.$fEnumRatio1 */))){
+          var _Fa/*  svB9 */ = B(_yA/* GHC.Integer.Type.timesInteger */(_F7/* svB9 */, _F7/* svB9 */)),
+          _Fb/*  svBa */ = B(_E5/* GHC.Integer.Type.quotInteger */(B(_zK/* GHC.Integer.Type.minusInteger */(_F8/* svBa */, _yP/* GHC.Real.$fEnumRatio1 */)), _F4/* GHC.Real.even2 */)),
+          _Fc/*  svBb */ = B(_yA/* GHC.Integer.Type.timesInteger */(_F7/* svB9 */, _F9/* svBb */));
+          _F7/* svB9 */ = _Fa/*  svB9 */;
+          _F8/* svBa */ = _Fb/*  svBa */;
+          _F9/* svBb */ = _Fc/*  svBb */;
           continue;
         }else{
-          return new F(function(){return _yn/* GHC.Integer.Type.timesInteger */(_EU/* svB9 */, _EW/* svBb */);});
+          return new F(function(){return _yA/* GHC.Integer.Type.timesInteger */(_F7/* svB9 */, _F9/* svBb */);});
         }
       }else{
-        var _EX/*  svB9 */ = B(_yn/* GHC.Integer.Type.timesInteger */(_EU/* svB9 */, _EU/* svB9 */)),
-        _EY/*  svBa */ = B(_DS/* GHC.Integer.Type.quotInteger */(_EV/* svBa */, _ER/* GHC.Real.even2 */));
-        _EU/* svB9 */ = _EX/*  svB9 */;
-        _EV/* svBa */ = _EY/*  svBa */;
+        var _Fa/*  svB9 */ = B(_yA/* GHC.Integer.Type.timesInteger */(_F7/* svB9 */, _F7/* svB9 */)),
+        _Fb/*  svBa */ = B(_E5/* GHC.Integer.Type.quotInteger */(_F8/* svBa */, _F4/* GHC.Real.even2 */));
+        _F7/* svB9 */ = _Fa/*  svB9 */;
+        _F8/* svBa */ = _Fb/*  svBa */;
         continue;
       }
     }else{
@@ -9723,20 +9769,20 @@ _ET/* g */ = function(_EU/* svB9 */, _EV/* svBa */, _EW/* svBb */){
     }
   }
 },
-_F0/* ^_f */ = function(_F1/* svBn */, _F2/* svBo */){
+_Fd/* ^_f */ = function(_Fe/* svBn */, _Ff/* svBo */){
   while(1){
-    if(!E(_ES/* GHC.Real.even3 */)){
-      if(!B(_y7/* GHC.Integer.Type.eqInteger */(B(_Dx/* GHC.Integer.Type.remInteger */(_F2/* svBo */, _ER/* GHC.Real.even2 */)), _Dw/* GHC.Real.even1 */))){
-        if(!B(_y7/* GHC.Integer.Type.eqInteger */(_F2/* svBo */, _yC/* GHC.Real.$fEnumRatio1 */))){
-          return new F(function(){return _ET/* GHC.Real.g */(B(_yn/* GHC.Integer.Type.timesInteger */(_F1/* svBn */, _F1/* svBn */)), B(_DS/* GHC.Integer.Type.quotInteger */(B(_zx/* GHC.Integer.Type.minusInteger */(_F2/* svBo */, _yC/* GHC.Real.$fEnumRatio1 */)), _ER/* GHC.Real.even2 */)), _F1/* svBn */);});
+    if(!E(_F5/* GHC.Real.even3 */)){
+      if(!B(_yk/* GHC.Integer.Type.eqInteger */(B(_DK/* GHC.Integer.Type.remInteger */(_Ff/* svBo */, _F4/* GHC.Real.even2 */)), _DJ/* GHC.Real.even1 */))){
+        if(!B(_yk/* GHC.Integer.Type.eqInteger */(_Ff/* svBo */, _yP/* GHC.Real.$fEnumRatio1 */))){
+          return new F(function(){return _F6/* GHC.Real.g */(B(_yA/* GHC.Integer.Type.timesInteger */(_Fe/* svBn */, _Fe/* svBn */)), B(_E5/* GHC.Integer.Type.quotInteger */(B(_zK/* GHC.Integer.Type.minusInteger */(_Ff/* svBo */, _yP/* GHC.Real.$fEnumRatio1 */)), _F4/* GHC.Real.even2 */)), _Fe/* svBn */);});
         }else{
-          return E(_F1/* svBn */);
+          return E(_Fe/* svBn */);
         }
       }else{
-        var _F3/*  svBn */ = B(_yn/* GHC.Integer.Type.timesInteger */(_F1/* svBn */, _F1/* svBn */)),
-        _F4/*  svBo */ = B(_DS/* GHC.Integer.Type.quotInteger */(_F2/* svBo */, _ER/* GHC.Real.even2 */));
-        _F1/* svBn */ = _F3/*  svBn */;
-        _F2/* svBo */ = _F4/*  svBo */;
+        var _Fg/*  svBn */ = B(_yA/* GHC.Integer.Type.timesInteger */(_Fe/* svBn */, _Fe/* svBn */)),
+        _Fh/*  svBo */ = B(_E5/* GHC.Integer.Type.quotInteger */(_Ff/* svBo */, _F4/* GHC.Real.even2 */));
+        _Fe/* svBn */ = _Fg/*  svBn */;
+        _Ff/* svBo */ = _Fh/*  svBo */;
         continue;
       }
     }else{
@@ -9744,239 +9790,239 @@ _F0/* ^_f */ = function(_F1/* svBn */, _F2/* svBo */){
     }
   }
 },
-_F5/* ^_$s^ */ = function(_F6/* svBz */, _F7/* svBA */){
-  if(!B(_z7/* GHC.Integer.Type.ltInteger */(_F7/* svBA */, _Dw/* GHC.Real.even1 */))){
-    if(!B(_y7/* GHC.Integer.Type.eqInteger */(_F7/* svBA */, _Dw/* GHC.Real.even1 */))){
-      return new F(function(){return _F0/* GHC.Real.^_f */(_F6/* svBz */, _F7/* svBA */);});
+_Fi/* ^_$s^ */ = function(_Fj/* svBz */, _Fk/* svBA */){
+  if(!B(_zk/* GHC.Integer.Type.ltInteger */(_Fk/* svBA */, _DJ/* GHC.Real.even1 */))){
+    if(!B(_yk/* GHC.Integer.Type.eqInteger */(_Fk/* svBA */, _DJ/* GHC.Real.even1 */))){
+      return new F(function(){return _Fd/* GHC.Real.^_f */(_Fj/* svBz */, _Fk/* svBA */);});
     }else{
-      return E(_yC/* GHC.Real.$fEnumRatio1 */);
+      return E(_yP/* GHC.Real.$fEnumRatio1 */);
     }
   }else{
-    return E(_EQ/* GHC.Real.^1 */);
+    return E(_F3/* GHC.Real.^1 */);
   }
 },
-_F8/* cpuTimePrecision1 */ = new T1(0,64),
-_F9/* cpuTimePrecision2 */ = new T1(0,2),
-_Fa/* cpuTimePrecision */ = new T(function(){
-  return B(_F5/* GHC.Real.^_$s^ */(_F9/* System.CPUTime.cpuTimePrecision2 */, _F8/* System.CPUTime.cpuTimePrecision1 */));
+_Fl/* cpuTimePrecision1 */ = new T1(0,64),
+_Fm/* cpuTimePrecision2 */ = new T1(0,2),
+_Fn/* cpuTimePrecision */ = new T(function(){
+  return B(_Fi/* GHC.Real.^_$s^ */(_Fm/* System.CPUTime.cpuTimePrecision2 */, _Fl/* System.CPUTime.cpuTimePrecision1 */));
 }),
-_Fb/* getCPUTime2 */ = new T1(0,0),
-_Fc/* initSMGen3 */ = new T(function(){
-  return B(_xZ/* GHC.Integer.Type.divInteger */(_Fb/* System.CPUTime.getCPUTime2 */, _Fa/* System.CPUTime.cpuTimePrecision */));
+_Fo/* getCPUTime2 */ = new T1(0,0),
+_Fp/* initSMGen3 */ = new T(function(){
+  return B(_yc/* GHC.Integer.Type.divInteger */(_Fo/* System.CPUTime.getCPUTime2 */, _Fn/* System.CPUTime.cpuTimePrecision */));
 }),
-_Fd/* initSMGen5 */ = new T1(0,0),
-_Fe/* initSMGen4 */ = new T(function(){
-  return B(_y7/* GHC.Integer.Type.eqInteger */(_Fa/* System.CPUTime.cpuTimePrecision */, _Fd/* System.Random.SplitMix.initSMGen5 */));
+_Fq/* initSMGen5 */ = new T1(0,0),
+_Fr/* initSMGen4 */ = new T(function(){
+  return B(_yk/* GHC.Integer.Type.eqInteger */(_Fn/* System.CPUTime.cpuTimePrecision */, _Fq/* System.Random.SplitMix.initSMGen5 */));
 }),
-_Ff/* initSMGen2 */ = function(_Fg/* saXA */, _/* EXTERNAL */){
+_Fs/* initSMGen2 */ = function(_Ft/* saXA */, _/* EXTERNAL */){
   return new T(function(){
-    if(!E(_Fe/* System.Random.SplitMix.initSMGen4 */)){
-      var _Fh/* saXF */ = hs_wordToWord64/* EXTERNAL */(B(_CA/* GHC.Integer.Type.integerToWord */(_Fc/* System.Random.SplitMix.initSMGen3 */))),
-      _Fi/* saXM */ = hs_wordToWord64/* EXTERNAL */(B(_EG/* Data.Time.Clock.UTC.$fRealFracNominalDiffTime_$ctruncate */(_z5/* GHC.Word.$fIntegralWord32 */, _Fg/* saXA */)));
-      return hs_or64/* EXTERNAL */(B(_EK/* GHC.Word.$w$cshiftL */(_Fh/* saXF */, 32)), _Fi/* saXM */);
+    if(!E(_Fr/* System.Random.SplitMix.initSMGen4 */)){
+      var _Fu/* saXF */ = hs_wordToWord64/* EXTERNAL */(B(_CN/* GHC.Integer.Type.integerToWord */(_Fp/* System.Random.SplitMix.initSMGen3 */))),
+      _Fv/* saXM */ = hs_wordToWord64/* EXTERNAL */(B(_ET/* Data.Time.Clock.UTC.$fRealFracNominalDiffTime_$ctruncate */(_zi/* GHC.Word.$fIntegralWord32 */, _Ft/* saXA */)));
+      return hs_or64/* EXTERNAL */(B(_EX/* GHC.Word.$w$cshiftL */(_Fu/* saXF */, 32)), _Fv/* saXM */);
     }else{
       return E(_ft/* GHC.Real.divZeroError */);
     }
   });
 },
-_Fj/* mkSMGen */ = function(_Fk/* saZo */){
-  var _Fl/* saZp */ = E(_Fk/* saZo */);
-  return new T2(0,B(_e4/* System.Random.SplitMix.$wmix64 */(_Fl/* saZp */)),B(_gC/* System.Random.SplitMix.$wmixGamma */(B(_dL/* GHC.Word.$w$c+ */(_Fl/* saZp */, new Long/* EXTERNAL */(2135587861, 2654435769, true))))));
+_Fw/* mkSMGen */ = function(_Fx/* saZo */){
+  var _Fy/* saZp */ = E(_Fx/* saZo */);
+  return new T2(0,B(_e4/* System.Random.SplitMix.$wmix64 */(_Fy/* saZp */)),B(_gC/* System.Random.SplitMix.$wmixGamma */(B(_dL/* GHC.Word.$w$c+ */(_Fy/* saZp */, new Long/* EXTERNAL */(2135587861, 2654435769, true))))));
 },
-_Fm/* lvl */ = function(_/* EXTERNAL */){
-  var _Fn/* szS3 */ = B(_yv/* Data.Time.Clock.POSIX.getPOSIXTime1 */(0)),
-  _Fo/* szS6 */ = B(_Ff/* System.Random.SplitMix.initSMGen2 */(_Fn/* szS3 */, 0));
+_Fz/* lvl */ = function(_/* EXTERNAL */){
+  var _FA/* szS3 */ = B(_yI/* Data.Time.Clock.POSIX.getPOSIXTime1 */(0)),
+  _FB/* szS6 */ = B(_Fs/* System.Random.SplitMix.initSMGen2 */(_FA/* szS3 */, 0));
   return new F(function(){return nMV/* EXTERNAL */(new T(function(){
-    return B(_Fj/* System.Random.SplitMix.mkSMGen */(_Fo/* szS6 */));
+    return B(_Fw/* System.Random.SplitMix.mkSMGen */(_FB/* szS6 */));
   }));});
 },
-_Fp/* theStdGen */ = new T(function(){
-  return B(_dB/* GHC.IO.unsafeDupablePerformIO */(_Fm/* System.Random.lvl */));
+_FC/* theStdGen */ = new T(function(){
+  return B(_dB/* GHC.IO.unsafeDupablePerformIO */(_Fz/* System.Random.lvl */));
 }),
-_Fq/* a55 */ = function(_Fr/* siAo */, _Fs/* siAp */, _/* EXTERNAL */){
-  var _Ft/* siAt */ = mMV/* EXTERNAL */(E(_Fp/* System.Random.theStdGen */), _xg/* LudoJS.lvl41 */),
-  _Fu/* siAw */ = E(_Ft/* siAt */),
-  _Fv/* siAy */ = B(_nZ/* LudoJS.a42 */(_Fu/* siAw */, _Fs/* siAp */, _/* EXTERNAL */)),
-  _Fw/* siAB */ = E(_Fv/* siAy */),
-  _Fx/* siAD */ = _Fw/* siAB */.b,
-  _Fy/* siAE */ = E(_Fw/* siAB */.a);
-  if(!_Fy/* siAE */._){
-    var _Fz/* siAF */ = E(_Fx/* siAD */),
-    _FA/* siAR */ = B(_x2/* LudoJS.$wa14 */(new T1(0,new T1(1,_Fu/* siAw */)), _Fz/* siAF */.b, new T(function(){
-      return E(_Fz/* siAF */.c)-1|0;
-    }), _Fz/* siAF */.d, _Fz/* siAF */.e, _/* EXTERNAL */)),
-    _FB/* siAX */ = E(E(_FA/* siAR */).b),
-    _FC/* siAY */ = _FB/* siAX */.a,
-    _FD/* siB3 */ = new T5(0,_FC/* siAY */,_FB/* siAX */.b,_FB/* siAX */.c,_FB/* siAX */.d,_FB/* siAX */.e),
-    _FE/* siB4 */ = B(_lH/* LudoJS.$w$ctoAny */(_FD/* siB3 */)),
-    _FF/* siB8 */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _4/* GHC.Types.[] */))),
-    _FG/* siBb */ = E(_FC/* siAY */);
-    switch(_FG/* siBb */._){
+_FD/* a55 */ = function(_FE/* siFm */, _FF/* siFn */, _/* EXTERNAL */){
+  var _FG/* siFr */ = mMV/* EXTERNAL */(E(_FC/* System.Random.theStdGen */), _xt/* LudoJS.lvl41 */),
+  _FH/* siFu */ = E(_FG/* siFr */),
+  _FI/* siFw */ = B(_nZ/* LudoJS.a42 */(_FH/* siFu */, _FF/* siFn */, _/* EXTERNAL */)),
+  _FJ/* siFz */ = E(_FI/* siFw */),
+  _FK/* siFB */ = _FJ/* siFz */.b,
+  _FL/* siFC */ = E(_FJ/* siFz */.a);
+  if(!_FL/* siFC */._){
+    var _FM/* siFD */ = E(_FK/* siFB */),
+    _FN/* siFP */ = B(_xf/* LudoJS.$wa14 */(new T1(0,new T1(1,_FH/* siFu */)), _FM/* siFD */.b, new T(function(){
+      return E(_FM/* siFD */.c)-1|0;
+    }), _FM/* siFD */.d, _FM/* siFD */.e, _/* EXTERNAL */)),
+    _FO/* siFV */ = E(E(_FN/* siFP */).b),
+    _FP/* siFW */ = _FO/* siFV */.a,
+    _FQ/* siG1 */ = new T5(0,_FP/* siFW */,_FO/* siFV */.b,_FO/* siFV */.c,_FO/* siFV */.d,_FO/* siFV */.e),
+    _FR/* siG2 */ = B(_lH/* LudoJS.$w$ctoAny */(_FQ/* siG1 */)),
+    _FS/* siG6 */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _4/* GHC.Types.[] */))),
+    _FT/* siG9 */ = E(_FP/* siFW */);
+    switch(_FT/* siG9 */._){
       case 0:
-        var _FH/* siBd */ = E(_FG/* siBb */.a);
-        if(!_FH/* siBd */._){
-          var _FI/* siBn */ = __app4/* EXTERNAL */(E(_xf/* LudoJS.f1 */), _FE/* siB4 */, _FF/* siB8 */,  -1, E(_Fr/* siAo */));
-          return new T2(0,_eb/* GHC.Tuple.() */,_FD/* siB3 */);
+        var _FU/* siGb */ = E(_FT/* siG9 */.a);
+        if(!_FU/* siGb */._){
+          var _FV/* siGl */ = __app4/* EXTERNAL */(E(_xs/* LudoJS.f1 */), _FR/* siG2 */, _FS/* siG6 */,  -1, E(_FE/* siFm */));
+          return new T2(0,_eb/* GHC.Tuple.() */,_FQ/* siG1 */);
         }else{
-          var _FJ/* siBD */ = __app4/* EXTERNAL */(E(_xf/* LudoJS.f1 */), _FE/* siB4 */, _FF/* siB8 */, E(_FH/* siBd */.a), E(_Fr/* siAo */));
-          return new T2(0,_eb/* GHC.Tuple.() */,_FD/* siB3 */);
+          var _FW/* siGB */ = __app4/* EXTERNAL */(E(_xs/* LudoJS.f1 */), _FR/* siG2 */, _FS/* siG6 */, E(_FU/* siGb */.a), E(_FE/* siFm */));
+          return new T2(0,_eb/* GHC.Tuple.() */,_FQ/* siG1 */);
         }
         break;
       case 1:
-        var _FK/* siBT */ = __app4/* EXTERNAL */(E(_xf/* LudoJS.f1 */), _FE/* siB4 */, _FF/* siB8 */, E(_FG/* siBb */.a), E(_Fr/* siAo */));
-        return new T2(0,_eb/* GHC.Tuple.() */,_FD/* siB3 */);
+        var _FX/* siGR */ = __app4/* EXTERNAL */(E(_xs/* LudoJS.f1 */), _FR/* siG2 */, _FS/* siG6 */, E(_FT/* siG9 */.a), E(_FE/* siFm */));
+        return new T2(0,_eb/* GHC.Tuple.() */,_FQ/* siG1 */);
       case 2:
-        var _FL/* siCa */ = __app4/* EXTERNAL */(E(_xf/* LudoJS.f1 */), _FE/* siB4 */, _FF/* siB8 */, E(_FG/* siBb */.a), E(_Fr/* siAo */));
-        return new T2(0,_eb/* GHC.Tuple.() */,_FD/* siB3 */);
+        var _FY/* siH8 */ = __app4/* EXTERNAL */(E(_xs/* LudoJS.f1 */), _FR/* siG2 */, _FS/* siG6 */, E(_FT/* siG9 */.a), E(_FE/* siFm */));
+        return new T2(0,_eb/* GHC.Tuple.() */,_FQ/* siG1 */);
       default:
         return E(_oW/* LudoJS.lvl13 */);
     }
   }else{
-    var _FM/* siCh */ = E(_Fx/* siAD */),
-    _FN/* siCr */ = new T5(0,new T1(1,_Fu/* siAw */),_FM/* siCh */.b,new T(function(){
-      if(E(_Fu/* siAw */)==6){
+    var _FZ/* siHf */ = E(_FK/* siFB */),
+    _G0/* siHp */ = new T5(0,new T1(1,_FH/* siFu */),_FZ/* siHf */.b,new T(function(){
+      if(E(_FH/* siFu */)==6){
         return E(_di/* LudoJS.numPiecesAt2 */);
       }else{
         return E(_d7/* LudoJS.$fShowStage2 */);
       }
-    }),_FM/* siCh */.d,_FM/* siCh */.e),
-    _FO/* siCw */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _Fy/* siAE */))),
-    _FP/* siCI */ = __app4/* EXTERNAL */(E(_xf/* LudoJS.f1 */), B(_lH/* LudoJS.$w$ctoAny */(_FN/* siCr */)), _FO/* siCw */, _Fu/* siAw */, E(_Fr/* siAo */));
-    return new T2(0,_eb/* GHC.Tuple.() */,_FN/* siCr */);
+    }),_FZ/* siHf */.d,_FZ/* siHf */.e),
+    _G1/* siHu */ = __lst2arr/* EXTERNAL */(B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _FL/* siFC */))),
+    _G2/* siHG */ = __app4/* EXTERNAL */(E(_xs/* LudoJS.f1 */), B(_lH/* LudoJS.$w$ctoAny */(_G0/* siHp */)), _G1/* siHu */, _FH/* siFu */, E(_FE/* siFm */));
+    return new T2(0,_eb/* GHC.Tuple.() */,_G0/* siHp */);
   }
 },
-_FQ/* f3 */ = new T(function(){
+_G3/* f3 */ = new T(function(){
   return eval/* EXTERNAL */("(() => gameState)");
 }),
-_FR/* lvl */ = new T(function(){
+_G4/* lvl */ = new T(function(){
   return B(unCStr/* EXTERNAL */("piece does not exist"));
 }),
-_FS/* lvl1 */ = new T(function(){
-  return B(err/* EXTERNAL */(_FR/* LudoJS.lvl */));
+_G5/* lvl1 */ = new T(function(){
+  return B(err/* EXTERNAL */(_G4/* LudoJS.lvl */));
 }),
-_FT/* lvl2 */ = "((x, y, player) => posToField(x, y, player))",
-_FU/* lvl42 */ = function(_FV/* siEi */){
-  var _FW/* siEj */ = B(_gY/* System.Random.$w$crandomR12 */(_gV/* System.Random.Internal.$fRandomGenStdGen */, 1, 4, _FV/* siEi */));
-  return new T2(0,E(_FW/* siEj */.b),_FW/* siEj */.a);
+_G6/* lvl2 */ = "((x, y, player) => posToField(x, y, player))",
+_G7/* lvl42 */ = function(_G8/* siJg */){
+  var _G9/* siJh */ = B(_gY/* System.Random.$w$crandomR12 */(_gV/* System.Random.Internal.$fRandomGenStdGen */, 1, 4, _G8/* siJg */));
+  return new T2(0,E(_G9/* siJh */.b),_G9/* siJh */.a);
 },
-_FX/* lvl9 */ = new T2(1,_1P/* LudoJS.Green */,_6b/* LudoJS.lvl8 */),
-_FY/* play9 */ = new T2(1,_1S/* LudoJS.Yellow */,_4/* GHC.Types.[] */),
-_FZ/* play8 */ = new T2(1,_1Q/* LudoJS.Red */,_FY/* LudoJS.play9 */),
-_G0/* play7 */ = new T2(1,_1P/* LudoJS.Green */,_FZ/* LudoJS.play8 */),
-_G1/* lvl15 */ = new T2(0,_61/* LudoJS.lvl14 */,_60/* LudoJS.Out */),
-_G2/* lvl16 */ = new T2(1,_G1/* LudoJS.lvl15 */,_4/* GHC.Types.[] */),
-_G3/* lvl17 */ = new T2(0,_63/* LudoJS.play10 */,_60/* LudoJS.Out */),
-_G4/* lvl18 */ = new T2(1,_G3/* LudoJS.lvl17 */,_G2/* LudoJS.lvl16 */),
-_G5/* lvl20 */ = new T2(0,_65/* LudoJS.lvl19 */,_60/* LudoJS.Out */),
-_G6/* lvl21 */ = new T2(1,_G5/* LudoJS.lvl20 */,_G4/* LudoJS.lvl18 */),
-_G7/* lvl22 */ = new T2(0,_di/* LudoJS.numPiecesAt2 */,_60/* LudoJS.Out */),
-_G8/* lvl23 */ = new T2(1,_G7/* LudoJS.lvl22 */,_G6/* LudoJS.lvl21 */),
-_G9/* go */ = function(_Ga/* shJJ */){
-  var _Gb/* shJK */ = E(_Ga/* shJJ */);
-  return (_Gb/* shJK */._==0) ? __Z/* EXTERNAL */ : new T2(1,new T2(0,_Gb/* shJK */.a,_G8/* LudoJS.lvl23 */),new T(function(){
-    return B(_G9/* LudoJS.go */(_Gb/* shJK */.b));
+_Ga/* lvl9 */ = new T2(1,_1P/* LudoJS.Green */,_6b/* LudoJS.lvl8 */),
+_Gb/* play9 */ = new T2(1,_1S/* LudoJS.Yellow */,_4/* GHC.Types.[] */),
+_Gc/* play8 */ = new T2(1,_1Q/* LudoJS.Red */,_Gb/* LudoJS.play9 */),
+_Gd/* play7 */ = new T2(1,_1P/* LudoJS.Green */,_Gc/* LudoJS.play8 */),
+_Ge/* lvl15 */ = new T2(0,_61/* LudoJS.lvl14 */,_60/* LudoJS.Out */),
+_Gf/* lvl16 */ = new T2(1,_Ge/* LudoJS.lvl15 */,_4/* GHC.Types.[] */),
+_Gg/* lvl17 */ = new T2(0,_63/* LudoJS.play10 */,_60/* LudoJS.Out */),
+_Gh/* lvl18 */ = new T2(1,_Gg/* LudoJS.lvl17 */,_Gf/* LudoJS.lvl16 */),
+_Gi/* lvl20 */ = new T2(0,_65/* LudoJS.lvl19 */,_60/* LudoJS.Out */),
+_Gj/* lvl21 */ = new T2(1,_Gi/* LudoJS.lvl20 */,_Gh/* LudoJS.lvl18 */),
+_Gk/* lvl22 */ = new T2(0,_di/* LudoJS.numPiecesAt2 */,_60/* LudoJS.Out */),
+_Gl/* lvl23 */ = new T2(1,_Gk/* LudoJS.lvl22 */,_Gj/* LudoJS.lvl21 */),
+_Gm/* go */ = function(_Gn/* shO2 */){
+  var _Go/* shO3 */ = E(_Gn/* shO2 */);
+  return (_Go/* shO3 */._==0) ? __Z/* EXTERNAL */ : new T2(1,new T2(0,_Go/* shO3 */.a,_Gl/* LudoJS.lvl23 */),new T(function(){
+    return B(_Gm/* LudoJS.go */(_Go/* shO3 */.b));
   }));
 },
-_Gc/* play_$sgo */ = function(_Gd/* shJF */, _Ge/* shJG */){
-  return new T2(1,new T2(0,_Gd/* shJF */,_G8/* LudoJS.lvl23 */),new T(function(){
-    return B(_G9/* LudoJS.go */(_Ge/* shJG */));
+_Gp/* play_$sgo */ = function(_Gq/* shNY */, _Gr/* shNZ */){
+  return new T2(1,new T2(0,_Gq/* shNY */,_Gl/* LudoJS.lvl23 */),new T(function(){
+    return B(_Gm/* LudoJS.go */(_Gr/* shNZ */));
   }));
 },
-_Gf/* play6 */ = new T(function(){
-  return B(_Gc/* LudoJS.play_$sgo */(_1O/* LudoJS.Blue */, _G0/* LudoJS.play7 */));
+_Gs/* play6 */ = new T(function(){
+  return B(_Gp/* LudoJS.play_$sgo */(_1O/* LudoJS.Blue */, _Gd/* LudoJS.play7 */));
 }),
-_Gg/* play5 */ = new T(function(){
-  return B(_5z/* LudoJS.$sfromList */(_Gf/* LudoJS.play6 */));
+_Gt/* play5 */ = new T(function(){
+  return B(_5z/* LudoJS.$sfromList */(_Gs/* LudoJS.play6 */));
 }),
-_Gh/* play_f1 */ = new T(function(){
+_Gu/* play_f1 */ = new T(function(){
   return eval/* EXTERNAL */("((gs) => gameState=gs)");
 }),
-_Gi/* $wlvl */ = function(_Gj/* siEp */, _Gk/* siEq */, _Gl/* siEr */, _Gm/* siEs */, _/* EXTERNAL */){
-  var _Gn/* siEu */ = E(_Gl/* siEr */);
-  if(!_Gn/* siEu */._){
+_Gv/* $wlvl */ = function(_Gw/* siJn */, _Gx/* siJo */, _Gy/* siJp */, _Gz/* siJq */, _/* EXTERNAL */){
+  var _GA/* siJs */ = E(_Gy/* siJp */);
+  if(!_GA/* siJs */._){
     return _eb/* GHC.Tuple.() */;
   }else{
-    if(!E(_Gn/* siEu */.a)){
-      var _Go/* siEx */ = E(_FQ/* LudoJS.f3 */),
-      _Gp/* siEA */ = __app0/* EXTERNAL */(_Go/* siEx */),
-      _Gq/* siED */ = B(_cU/* LudoJS.$wa1 */(_Gp/* siEA */, _/* EXTERNAL */)),
-      _Gr/* siEU */ = function(_Gs/* siEV */){
-        var _Gt/* siF3 */ = eval/* EXTERNAL */(E(_FT/* LudoJS.lvl2 */)),
-        _Gu/* siFb */ = __app3/* EXTERNAL */(E(_Gt/* siF3 */), E(_Gj/* siEp */), E(_Gk/* siEq */), toJSStr/* EXTERNAL */(_Gs/* siEV */)),
-        _Gv/* siFh */ = __eq/* EXTERNAL */(_Gu/* siFb */, E(_dF/* Haste.Prim.Any.jsNull */));
-        if(!E(_Gv/* siFh */)){
-          var _Gw/* siFm */ = __isUndef/* EXTERNAL */(_Gu/* siFb */);
-          if(!E(_Gw/* siFm */)){
-            var _Gx/* siFq */ = new T(function(){
-              var _Gy/* siFs */ = Number/* EXTERNAL */(_Gu/* siFb */);
-              return jsTrunc/* EXTERNAL */(_Gy/* siFs */);
+    if(!E(_GA/* siJs */.a)){
+      var _GB/* siJv */ = E(_G3/* LudoJS.f3 */),
+      _GC/* siJy */ = __app0/* EXTERNAL */(_GB/* siJv */),
+      _GD/* siJB */ = B(_cU/* LudoJS.$wa1 */(_GC/* siJy */, _/* EXTERNAL */)),
+      _GE/* siJS */ = function(_GF/* siJT */){
+        var _GG/* siK1 */ = eval/* EXTERNAL */(E(_G6/* LudoJS.lvl2 */)),
+        _GH/* siK9 */ = __app3/* EXTERNAL */(E(_GG/* siK1 */), E(_Gw/* siJn */), E(_Gx/* siJo */), toJSStr/* EXTERNAL */(_GF/* siJT */)),
+        _GI/* siKf */ = __eq/* EXTERNAL */(_GH/* siK9 */, E(_dF/* Haste.Prim.Any.jsNull */));
+        if(!E(_GI/* siKf */)){
+          var _GJ/* siKk */ = __isUndef/* EXTERNAL */(_GH/* siK9 */);
+          if(!E(_GJ/* siKk */)){
+            var _GK/* siKo */ = new T(function(){
+              var _GL/* siKq */ = Number/* EXTERNAL */(_GH/* siK9 */);
+              return jsTrunc/* EXTERNAL */(_GL/* siKq */);
             }),
-            _Gz/* siFA */ = __app0/* EXTERNAL */(_Go/* siEx */),
-            _GA/* siFD */ = B(_cU/* LudoJS.$wa1 */(_Gz/* siFA */, _/* EXTERNAL */)),
-            _GB/* siFG */ = E(_GA/* siFD */),
-            _GC/* siFI */ = _GB/* siFG */.b,
-            _GD/* siFJ */ = _GB/* siFG */.c,
-            _GE/* siFK */ = _GB/* siFG */.d,
-            _GF/* siFL */ = _GB/* siFG */.e,
-            _GG/* siFM */ = E(_GB/* siFG */.a);
-            switch(_GG/* siFM */._){
+            _GM/* siKy */ = __app0/* EXTERNAL */(_GB/* siJv */),
+            _GN/* siKB */ = B(_cU/* LudoJS.$wa1 */(_GM/* siKy */, _/* EXTERNAL */)),
+            _GO/* siKE */ = E(_GN/* siKB */),
+            _GP/* siKG */ = _GO/* siKE */.b,
+            _GQ/* siKH */ = _GO/* siKE */.c,
+            _GR/* siKI */ = _GO/* siKE */.d,
+            _GS/* siKJ */ = _GO/* siKE */.e,
+            _GT/* siKK */ = E(_GO/* siKE */.a);
+            switch(_GT/* siKK */._){
               case 0:
-                if(E(_Gx/* siFq */)==( -5)){
-                  var _GH/* siFY */ = E(_GG/* siFM */.a);
-                  if(!_GH/* siFY */._){
-                    var _GI/* siFZ */ = B(_Fq/* LudoJS.a55 */(_kX/* LudoJS.$fToAnyGameState18 */, _GB/* siFG */, _/* EXTERNAL */)),
-                    _GJ/* siGf */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_GI/* siFZ */).b))));
+                if(E(_GK/* siKo */)==( -5)){
+                  var _GU/* siKW */ = E(_GT/* siKK */.a);
+                  if(!_GU/* siKW */._){
+                    var _GV/* siKX */ = B(_FD/* LudoJS.a55 */(_kX/* LudoJS.$fToAnyGameState18 */, _GO/* siKE */, _/* EXTERNAL */)),
+                    _GW/* siLd */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_GV/* siKX */).b))));
                     return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                   }else{
-                    var _GK/* siGj */ = B(_Fq/* LudoJS.a55 */(_GH/* siFY */.a, _GB/* siFG */, _/* EXTERNAL */)),
-                    _GL/* siGz */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_GK/* siGj */).b))));
+                    var _GX/* siLh */ = B(_FD/* LudoJS.a55 */(_GU/* siKW */.a, _GO/* siKE */, _/* EXTERNAL */)),
+                    _GY/* siLx */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_GX/* siLh */).b))));
                     return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                   }
                 }else{
-                  var _GM/* siFV */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GB/* siFG */)));
+                  var _GZ/* siKT */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GO/* siKE */)));
                   return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                 }
                 break;
               case 1:
-                var _GN/* siGD */ = E(_Gx/* siFq */),
-                _GO/* siGF */ = function(_/* EXTERNAL */, _GP/* siGH */, _GQ/* siGI */, _GR/* siGJ */, _GS/* siGK */, _GT/* siGL */){
-                  var _GU/* siGN */ = B(_oX/* LudoJS.$wa16 */(_GP/* siGH */, _GQ/* siGI */, _GR/* siGJ */, _GS/* siGK */, _GT/* siGL */, new T5(0,_GP/* siGH */,_GQ/* siGI */,_GR/* siGJ */,_GS/* siGK */,_GT/* siGL */), _/* EXTERNAL */)),
-                  _GV/* siH3 */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_GU/* siGN */).b))));
+                var _H0/* siLB */ = E(_GK/* siKo */),
+                _H1/* siLD */ = function(_/* EXTERNAL */, _H2/* siLF */, _H3/* siLG */, _H4/* siLH */, _H5/* siLI */, _H6/* siLJ */){
+                  var _H7/* siLL */ = B(_oX/* LudoJS.$wa16 */(_H2/* siLF */, _H3/* siLG */, _H4/* siLH */, _H5/* siLI */, _H6/* siLJ */, new T5(0,_H2/* siLF */,_H3/* siLG */,_H4/* siLH */,_H5/* siLI */,_H6/* siLJ */), _/* EXTERNAL */)),
+                  _H8/* siM1 */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_H7/* siLL */).b))));
                   return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                 },
-                _GW/* siH6 */ = function(_/* EXTERNAL */, _GX/* siH8 */, _GY/* siH9 */, _GZ/* siHa */, _H0/* siHb */, _H1/* siHc */, _H2/* siHd */){
-                  var _H3/* siHe */ = E(_GX/* siH8 */);
-                  if(!_H3/* siHe */._){
-                    var _H4/* siHg */ = B(_oX/* LudoJS.$wa16 */(_GY/* siH9 */, _GZ/* siHa */, _H0/* siHb */, _H1/* siHc */, _H2/* siHd */, new T5(0,_GY/* siH9 */,_GZ/* siHa */,_H0/* siHb */,_H1/* siHc */,_H2/* siHd */), _/* EXTERNAL */)),
-                    _H5/* siHw */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_H4/* siHg */).b))));
+                _H9/* siM4 */ = function(_/* EXTERNAL */, _Ha/* siM6 */, _Hb/* siM7 */, _Hc/* siM8 */, _Hd/* siM9 */, _He/* siMa */, _Hf/* siMb */){
+                  var _Hg/* siMc */ = E(_Ha/* siM6 */);
+                  if(!_Hg/* siMc */._){
+                    var _Hh/* siMe */ = B(_oX/* LudoJS.$wa16 */(_Hb/* siM7 */, _Hc/* siM8 */, _Hd/* siM9 */, _He/* siMa */, _Hf/* siMb */, new T5(0,_Hb/* siM7 */,_Hc/* siM8 */,_Hd/* siM9 */,_He/* siMa */,_Hf/* siMb */), _/* EXTERNAL */)),
+                    _Hi/* siMu */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Hh/* siMe */).b))));
                     return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                   }else{
-                    var _H6/* siHz */ = _H3/* siHe */.a,
-                    _H7/* siHA */ = function(_H8/* siHB */){
-                      var _H9/* siHD */ = B(_oX/* LudoJS.$wa16 */(_GY/* siH9 */, _GZ/* siHa */, _H0/* siHb */, _H1/* siHc */, _H2/* siHd */, new T5(0,_GY/* siH9 */,_GZ/* siHa */,_H0/* siHb */,_H1/* siHc */,_H2/* siHd */), _/* EXTERNAL */)),
-                      _Ha/* siHT */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_H9/* siHD */).b))));
+                    var _Hj/* siMx */ = _Hg/* siMc */.a,
+                    _Hk/* siMy */ = function(_Hl/* siMz */){
+                      var _Hm/* siMB */ = B(_oX/* LudoJS.$wa16 */(_Hb/* siM7 */, _Hc/* siM8 */, _Hd/* siM9 */, _He/* siMa */, _Hf/* siMb */, new T5(0,_Hb/* siM7 */,_Hc/* siM8 */,_Hd/* siM9 */,_He/* siMa */,_Hf/* siMb */), _/* EXTERNAL */)),
+                      _Hn/* siMR */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Hm/* siMB */).b))));
                       return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                     },
-                    _Hb/* siHW */ = function(_Hc/* siHX */){
-                      var _Hd/* siHY */ = new T2(2,_GG/* siFM */.a,_H6/* siHz */),
-                      _He/* siI0 */ = B(_oX/* LudoJS.$wa16 */(_Hd/* siHY */, _GZ/* siHa */, _H0/* siHb */, _H1/* siHc */, _H2/* siHd */, new T5(0,_Hd/* siHY */,_GZ/* siHa */,_H0/* siHb */,_H1/* siHc */,_H2/* siHd */), _/* EXTERNAL */)),
-                      _Hf/* siIg */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_He/* siI0 */).b))));
+                    _Ho/* siMU */ = function(_Hp/* siMV */){
+                      var _Hq/* siMW */ = new T2(2,_GT/* siKK */.a,_Hj/* siMx */),
+                      _Hr/* siMY */ = B(_oX/* LudoJS.$wa16 */(_Hq/* siMW */, _Hc/* siM8 */, _Hd/* siM9 */, _He/* siMa */, _Hf/* siMb */, new T5(0,_Hq/* siMW */,_Hc/* siM8 */,_Hd/* siM9 */,_He/* siMa */,_Hf/* siMb */), _/* EXTERNAL */)),
+                      _Hs/* siNe */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Hr/* siMY */).b))));
                       return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                     },
-                    _Hg/* siIj */ = B(_da/* LudoJS.$s!1 */(_GZ/* siHa */, _H1/* siHc */));
-                    if(!_Hg/* siIj */._){
-                      return new F(function(){return _H7/* siHA */(_/* EXTERNAL */);});
+                    _Ht/* siNh */ = B(_da/* LudoJS.$s!1 */(_Hc/* siM8 */, _He/* siMa */));
+                    if(!_Ht/* siNh */._){
+                      return new F(function(){return _Hk/* siMy */(_/* EXTERNAL */);});
                     }else{
-                      var _Hh/* siIr */ = E(_H6/* siHz */);
-                      if(E(E(_Hg/* siIj */.a).a)!=_Hh/* siIr */){
-                        var _Hi/* siIv */ = function(_Hj/* siIw */){
+                      var _Hu/* siNp */ = E(_Hj/* siMx */);
+                      if(E(E(_Ht/* siNh */.a).a)!=_Hu/* siNp */){
+                        var _Hv/* siNt */ = function(_Hw/* siNu */){
                           while(1){
-                            var _Hk/* siIx */ = E(_Hj/* siIw */);
-                            if(!_Hk/* siIx */._){
+                            var _Hx/* siNv */ = E(_Hw/* siNu */);
+                            if(!_Hx/* siNv */._){
                               return false;
                             }else{
-                              if(E(E(_Hk/* siIx */.a).a)!=_Hh/* siIr */){
-                                _Hj/* siIw */ = _Hk/* siIx */.b;
+                              if(E(E(_Hx/* siNv */.a).a)!=_Hu/* siNp */){
+                                _Hw/* siNu */ = _Hx/* siNv */.b;
                                 continue;
                               }else{
                                 return true;
@@ -9984,230 +10030,230 @@ _Gi/* $wlvl */ = function(_Gj/* siEp */, _Gk/* siEq */, _Gl/* siEr */, _Gm/* siE
                             }
                           }
                         };
-                        if(!B(_Hi/* siIv */(_Hg/* siIj */.b))){
-                          return new F(function(){return _H7/* siHA */(_/* EXTERNAL */);});
+                        if(!B(_Hv/* siNt */(_Ht/* siNh */.b))){
+                          return new F(function(){return _Hk/* siMy */(_/* EXTERNAL */);});
                         }else{
-                          return new F(function(){return _Hb/* siHW */(_/* EXTERNAL */);});
+                          return new F(function(){return _Ho/* siMU */(_/* EXTERNAL */);});
                         }
                       }else{
-                        return new F(function(){return _Hb/* siHW */(_/* EXTERNAL */);});
+                        return new F(function(){return _Ho/* siMU */(_/* EXTERNAL */);});
                       }
                     }
                   }
                 };
-                if(_GN/* siGD */<( -4)){
-                  if(_GN/* siGD */<0){
-                    return new F(function(){return _GO/* siGF */(_/* EXTERNAL */, _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                if(_H0/* siLB */<( -4)){
+                  if(_H0/* siLB */<0){
+                    return new F(function(){return _H1/* siLD */(_/* EXTERNAL */, _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                   }else{
-                    if(_GN/* siGD */>55){
-                      return new F(function(){return _GO/* siGF */(_/* EXTERNAL */, _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                    if(_H0/* siLB */>55){
+                      return new F(function(){return _H1/* siLD */(_/* EXTERNAL */, _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                     }else{
-                      var _Hl/* siIO */ = function(_Hm/* siIP */){
+                      var _Hy/* siNM */ = function(_Hz/* siNN */){
                         while(1){
-                          var _Hn/* siIQ */ = E(_Hm/* siIP */);
-                          if(!_Hn/* siIQ */._){
+                          var _HA/* siNO */ = E(_Hz/* siNN */);
+                          if(!_HA/* siNO */._){
                             return __Z/* EXTERNAL */;
                           }else{
-                            var _Ho/* siIS */ = _Hn/* siIQ */.b,
-                            _Hp/* siIT */ = E(_Hn/* siIQ */.a),
-                            _Hq/* siIW */ = E(_Hp/* siIT */.b);
-                            if(!_Hq/* siIW */._){
-                              _Hm/* siIP */ = _Ho/* siIS */;
+                            var _HB/* siNQ */ = _HA/* siNO */.b,
+                            _HC/* siNR */ = E(_HA/* siNO */.a),
+                            _HD/* siNU */ = E(_HC/* siNR */.b);
+                            if(!_HD/* siNU */._){
+                              _Hz/* siNN */ = _HB/* siNQ */;
                               continue;
                             }else{
-                              if(_GN/* siGD */!=E(_Hq/* siIW */.a)){
-                                _Hm/* siIP */ = _Ho/* siIS */;
+                              if(_H0/* siLB */!=E(_HD/* siNU */.a)){
+                                _Hz/* siNN */ = _HB/* siNQ */;
                                 continue;
                               }else{
-                                return new T1(1,_Hp/* siIT */.a);
+                                return new T1(1,_HC/* siNR */.a);
                               }
                             }
                           }
                         }
                       };
-                      return new F(function(){return _GW/* siH6 */(_/* EXTERNAL */, B(_Hl/* siIO */(B(_da/* LudoJS.$s!1 */(_GC/* siFI */, _GE/* siFK */)))), _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                      return new F(function(){return _H9/* siM4 */(_/* EXTERNAL */, B(_Hy/* siNM */(B(_da/* LudoJS.$s!1 */(_GP/* siKG */, _GR/* siKI */)))), _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                     }
                   }
                 }else{
-                  if(_GN/* siGD */>( -1)){
-                    if(_GN/* siGD */<0){
-                      return new F(function(){return _GO/* siGF */(_/* EXTERNAL */, _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                  if(_H0/* siLB */>( -1)){
+                    if(_H0/* siLB */<0){
+                      return new F(function(){return _H1/* siLD */(_/* EXTERNAL */, _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                     }else{
-                      if(_GN/* siGD */>55){
-                        return new F(function(){return _GO/* siGF */(_/* EXTERNAL */, _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                      if(_H0/* siLB */>55){
+                        return new F(function(){return _H1/* siLD */(_/* EXTERNAL */, _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                       }else{
-                        var _Hr/* siJa */ = function(_Hs/* siJb */){
+                        var _HE/* siO8 */ = function(_HF/* siO9 */){
                           while(1){
-                            var _Ht/* siJc */ = E(_Hs/* siJb */);
-                            if(!_Ht/* siJc */._){
+                            var _HG/* siOa */ = E(_HF/* siO9 */);
+                            if(!_HG/* siOa */._){
                               return __Z/* EXTERNAL */;
                             }else{
-                              var _Hu/* siJe */ = _Ht/* siJc */.b,
-                              _Hv/* siJf */ = E(_Ht/* siJc */.a),
-                              _Hw/* siJi */ = E(_Hv/* siJf */.b);
-                              if(!_Hw/* siJi */._){
-                                _Hs/* siJb */ = _Hu/* siJe */;
+                              var _HH/* siOc */ = _HG/* siOa */.b,
+                              _HI/* siOd */ = E(_HG/* siOa */.a),
+                              _HJ/* siOg */ = E(_HI/* siOd */.b);
+                              if(!_HJ/* siOg */._){
+                                _HF/* siO9 */ = _HH/* siOc */;
                                 continue;
                               }else{
-                                if(_GN/* siGD */!=E(_Hw/* siJi */.a)){
-                                  _Hs/* siJb */ = _Hu/* siJe */;
+                                if(_H0/* siLB */!=E(_HJ/* siOg */.a)){
+                                  _HF/* siO9 */ = _HH/* siOc */;
                                   continue;
                                 }else{
-                                  return new T1(1,_Hv/* siJf */.a);
+                                  return new T1(1,_HI/* siOd */.a);
                                 }
                               }
                             }
                           }
                         };
-                        return new F(function(){return _GW/* siH6 */(_/* EXTERNAL */, B(_Hr/* siJa */(B(_da/* LudoJS.$s!1 */(_GC/* siFI */, _GE/* siFK */)))), _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                        return new F(function(){return _H9/* siM4 */(_/* EXTERNAL */, B(_HE/* siO8 */(B(_da/* LudoJS.$s!1 */(_GP/* siKG */, _GR/* siKI */)))), _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                       }
                     }
                   }else{
-                    var _Hx/* siJq */ = _GN/* siGD */+5|0,
-                    _Hy/* siJt */ = function(_Hz/* siJu */){
+                    var _HK/* siOo */ = _H0/* siLB */+5|0,
+                    _HL/* siOr */ = function(_HM/* siOs */){
                       while(1){
-                        var _HA/* siJv */ = E(_Hz/* siJu */);
-                        if(!_HA/* siJv */._){
+                        var _HN/* siOt */ = E(_HM/* siOs */);
+                        if(!_HN/* siOt */._){
                           return __Z/* EXTERNAL */;
                         }else{
-                          var _HB/* siJx */ = _HA/* siJv */.b,
-                          _HC/* siJy */ = E(_HA/* siJv */.a);
-                          if(E(_HC/* siJy */.a)!=_Hx/* siJq */){
-                            _Hz/* siJu */ = _HB/* siJx */;
+                          var _HO/* siOv */ = _HN/* siOt */.b,
+                          _HP/* siOw */ = E(_HN/* siOt */.a);
+                          if(E(_HP/* siOw */.a)!=_HK/* siOo */){
+                            _HM/* siOs */ = _HO/* siOv */;
                             continue;
                           }else{
-                            if(!E(_HC/* siJy */.b)._){
-                              return E(new T1(1,_Hx/* siJq */));
+                            if(!E(_HP/* siOw */.b)._){
+                              return E(new T1(1,_HK/* siOo */));
                             }else{
-                              _Hz/* siJu */ = _HB/* siJx */;
+                              _HM/* siOs */ = _HO/* siOv */;
                               continue;
                             }
                           }
                         }
                       }
                     };
-                    return new F(function(){return _GW/* siH6 */(_/* EXTERNAL */, B(_Hy/* siJt */(B(_da/* LudoJS.$s!1 */(_GC/* siFI */, _GE/* siFK */)))), _GG/* siFM */, _GC/* siFI */, _GD/* siFJ */, _GE/* siFK */, _GF/* siFL */);});
+                    return new F(function(){return _H9/* siM4 */(_/* EXTERNAL */, B(_HL/* siOr */(B(_da/* LudoJS.$s!1 */(_GP/* siKG */, _GR/* siKI */)))), _GT/* siKK */, _GP/* siKG */, _GQ/* siKH */, _GR/* siKI */, _GS/* siKJ */);});
                   }
                 }
                 break;
               case 2:
-                var _HD/* siJJ */ = _GG/* siFM */.a,
-                _HE/* siJK */ = _GG/* siFM */.b,
-                _HF/* siJL */ = E(_Gx/* siFq */);
-                if(_HF/* siJL */>56){
-                  var _HG/* siJT */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GB/* siFG */)));
+                var _HQ/* siOH */ = _GT/* siKK */.a,
+                _HR/* siOI */ = _GT/* siKK */.b,
+                _HS/* siOJ */ = E(_GK/* siKo */);
+                if(_HS/* siOJ */>56){
+                  var _HT/* siOR */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GO/* siKE */)));
                   return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                 }else{
-                  if(_HF/* siJL */<0){
-                    var _HH/* siK2 */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GB/* siFG */)));
+                  if(_HS/* siOJ */<0){
+                    var _HU/* siP0 */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(_GO/* siKE */)));
                     return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                   }else{
-                    var _HI/* siK5 */ = B(_nZ/* LudoJS.a42 */(_HD/* siJJ */, _GB/* siFG */, _/* EXTERNAL */)),
-                    _HJ/* siK8 */ = E(_HI/* siK5 */),
-                    _HK/* siKa */ = _HJ/* siK8 */.b,
-                    _HL/* siKb */ = new T(function(){
-                      var _HM/* siKc */ = new T2(1,_HE/* siJK */,_HF/* siJL */),
-                      _HN/* siKd */ = B(_da/* LudoJS.$s!1 */(_GC/* siFI */, _GE/* siFK */));
-                      if(!_HN/* siKd */._){
-                        return E(_FS/* LudoJS.lvl1 */);
+                    var _HV/* siP3 */ = B(_nZ/* LudoJS.a42 */(_HQ/* siOH */, _GO/* siKE */, _/* EXTERNAL */)),
+                    _HW/* siP6 */ = E(_HV/* siP3 */),
+                    _HX/* siP8 */ = _HW/* siP6 */.b,
+                    _HY/* siP9 */ = new T(function(){
+                      var _HZ/* siPa */ = new T2(1,_HR/* siOI */,_HS/* siOJ */),
+                      _I0/* siPb */ = B(_da/* LudoJS.$s!1 */(_GP/* siKG */, _GR/* siKI */));
+                      if(!_I0/* siPb */._){
+                        return E(_G5/* LudoJS.lvl1 */);
                       }else{
-                        var _HO/* siKg */ = E(_HN/* siKd */.a),
-                        _HP/* siKj */ = E(_HO/* siKg */.a),
-                        _HQ/* siKl */ = E(_HE/* siJK */);
-                        if(_HP/* siKj */!=_HQ/* siKl */){
-                          var _HR/* siKp */ = function(_HS/* siKq */){
+                        var _I1/* siPe */ = E(_I0/* siPb */.a),
+                        _I2/* siPh */ = E(_I1/* siPe */.a),
+                        _I3/* siPj */ = E(_HR/* siOI */);
+                        if(_I2/* siPh */!=_I3/* siPj */){
+                          var _I4/* siPn */ = function(_I5/* siPo */){
                             while(1){
-                              var _HT/* siKr */ = E(_HS/* siKq */);
-                              if(!_HT/* siKr */._){
-                                return E(_FS/* LudoJS.lvl1 */);
+                              var _I6/* siPp */ = E(_I5/* siPo */);
+                              if(!_I6/* siPp */._){
+                                return E(_G5/* LudoJS.lvl1 */);
                               }else{
-                                var _HU/* siKu */ = E(_HT/* siKr */.a),
-                                _HV/* siKx */ = E(_HU/* siKu */.a);
-                                if(_HV/* siKx */!=_HQ/* siKl */){
-                                  _HS/* siKq */ = _HT/* siKr */.b;
+                                var _I7/* siPs */ = E(_I6/* siPp */.a),
+                                _I8/* siPv */ = E(_I7/* siPs */.a);
+                                if(_I8/* siPv */!=_I3/* siPj */){
+                                  _I5/* siPo */ = _I6/* siPp */.b;
                                   continue;
                                 }else{
-                                  return (E(_HU/* siKu */.b)._==0) ? new T1(0,_HV/* siKx */) : E(_HM/* siKc */);
+                                  return (E(_I7/* siPs */.b)._==0) ? new T1(0,_I8/* siPv */) : E(_HZ/* siPa */);
                                 }
                               }
                             }
                           };
-                          return B(_HR/* siKp */(_HN/* siKd */.b));
+                          return B(_I4/* siPn */(_I0/* siPb */.b));
                         }else{
-                          if(!E(_HO/* siKg */.b)._){
-                            return new T1(0,_HP/* siKj */);
+                          if(!E(_I1/* siPe */.b)._){
+                            return new T1(0,_I2/* siPh */);
                           }else{
-                            return E(_HM/* siKc */);
+                            return E(_HZ/* siPa */);
                           }
                         }
                       }
                     }),
-                    _HW/* siKF */ = function(_/* EXTERNAL */, _HX/* siKH */, _HY/* siKI */, _HZ/* siKJ */, _I0/* siKK */, _I1/* siKL */, _I2/* siKM */){
-                      if(!E(_HX/* siKH */)){
-                        var _I3/* siKO */ = new T1(1,_HD/* siJJ */),
-                        _I4/* siKQ */ = B(_oX/* LudoJS.$wa16 */(_I3/* siKO */, _HZ/* siKJ */, _I0/* siKK */, _I1/* siKL */, _I2/* siKM */, new T5(0,_I3/* siKO */,_HZ/* siKJ */,_I0/* siKK */,_I1/* siKL */,_I2/* siKM */), _/* EXTERNAL */)),
-                        _I5/* siL6 */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_I4/* siKQ */).b))));
+                    _I9/* siPD */ = function(_/* EXTERNAL */, _Ia/* siPF */, _Ib/* siPG */, _Ic/* siPH */, _Id/* siPI */, _Ie/* siPJ */, _If/* siPK */){
+                      if(!E(_Ia/* siPF */)){
+                        var _Ig/* siPM */ = new T1(1,_HQ/* siOH */),
+                        _Ih/* siPO */ = B(_oX/* LudoJS.$wa16 */(_Ig/* siPM */, _Ic/* siPH */, _Id/* siPI */, _Ie/* siPJ */, _If/* siPK */, new T5(0,_Ig/* siPM */,_Ic/* siPH */,_Id/* siPI */,_Ie/* siPJ */,_If/* siPK */), _/* EXTERNAL */)),
+                        _Ii/* siQ4 */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Ih/* siPO */).b))));
                         return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                       }else{
-                        var _I6/* siL9 */ = B(_nC/* LudoJS.$wa15 */(_HY/* siKI */, _HZ/* siKJ */, _I0/* siKK */, _I1/* siKL */, _I2/* siKM */, _/* EXTERNAL */)),
-                        _I7/* siLf */ = E(E(_I6/* siL9 */).b),
-                        _I8/* siLl */ = B(_oX/* LudoJS.$wa16 */(_I7/* siLf */.a, _I7/* siLf */.b, _I7/* siLf */.c, _I7/* siLf */.d, _I7/* siLf */.e, _I7/* siLf */, _/* EXTERNAL */)),
-                        _I9/* siLB */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_I8/* siLl */).b))));
+                        var _Ij/* siQ7 */ = B(_nC/* LudoJS.$wa15 */(_Ib/* siPG */, _Ic/* siPH */, _Id/* siPI */, _Ie/* siPJ */, _If/* siPK */, _/* EXTERNAL */)),
+                        _Ik/* siQd */ = E(E(_Ij/* siQ7 */).b),
+                        _Il/* siQj */ = B(_oX/* LudoJS.$wa16 */(_Ik/* siQd */.a, _Ik/* siQd */.b, _Ik/* siQd */.c, _Ik/* siQd */.d, _Ik/* siQd */.e, _Ik/* siQd */, _/* EXTERNAL */)),
+                        _Im/* siQz */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Il/* siQj */).b))));
                         return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                       }
                     };
-                    if(!B(_uw/* GHC.List.elem */(_mJ/* LudoJS.$fEqOption */, _HL/* siKb */, _HJ/* siK8 */.a))){
-                      var _Ia/* siLF */ = E(_HK/* siKa */);
-                      return new F(function(){return _HW/* siKF */(_/* EXTERNAL */, _qp/* GHC.Types.False */, _Ia/* siLF */.a, _Ia/* siLF */.b, _Ia/* siLF */.c, _Ia/* siLF */.d, _Ia/* siLF */.e);});
+                    if(!B(_uw/* GHC.List.elem */(_mJ/* LudoJS.$fEqOption */, _HY/* siP9 */, _HW/* siP6 */.a))){
+                      var _In/* siQD */ = E(_HX/* siP8 */);
+                      return new F(function(){return _I9/* siPD */(_/* EXTERNAL */, _qp/* GHC.Types.False */, _In/* siQD */.a, _In/* siQD */.b, _In/* siQD */.c, _In/* siQD */.d, _In/* siQD */.e);});
                     }else{
-                      var _Ib/* siLL */ = function(_/* EXTERNAL */, _Ic/* siLN */, _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, _Ig/* siLR */){
-                        if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_Id/* siLO */, _If/* siLQ */)), 0))){
-                          var _Ih/* siMz */ = B(_q/* GHC.Base.++ */(_Ig/* siLR */, new T2(1,_Id/* siLO */,_4/* GHC.Types.[] */)));
-                          if(B(_mL/* GHC.List.$wlenAcc */(_Ih/* siMz */, 0))==3){
-                            var _Ii/* siME */ = B(_nd/* LudoJS.$sa1 */(_1O/* LudoJS.Blue */, _FX/* LudoJS.lvl9 */, _Ih/* siMz */, _Ic/* siLN */, _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, _Ih/* siMz */, _/* EXTERNAL */)),
-                            _Ij/* siML */ = B(_nC/* LudoJS.$wa15 */(_cw/* LudoJS.GameFinished */, _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, new T(function(){
-                              return E(E(_Ii/* siME */).a);
+                      var _Io/* siQJ */ = function(_/* EXTERNAL */, _Ip/* siQL */, _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, _It/* siQP */){
+                        if(!B(_mL/* GHC.List.$wlenAcc */(B(_da/* LudoJS.$s!1 */(_Iq/* siQM */, _Is/* siQO */)), 0))){
+                          var _Iu/* siRx */ = B(_q/* GHC.Base.++ */(_It/* siQP */, new T2(1,_Iq/* siQM */,_4/* GHC.Types.[] */)));
+                          if(B(_mL/* GHC.List.$wlenAcc */(_Iu/* siRx */, 0))==3){
+                            var _Iv/* siRC */ = B(_nd/* LudoJS.$sa1 */(_1O/* LudoJS.Blue */, _Ga/* LudoJS.lvl9 */, _Iu/* siRx */, _Ip/* siQL */, _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, _Iu/* siRx */, _/* EXTERNAL */)),
+                            _Iw/* siRJ */ = B(_nC/* LudoJS.$wa15 */(_cw/* LudoJS.GameFinished */, _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, new T(function(){
+                              return E(E(_Iv/* siRC */).a);
                             }), _/* EXTERNAL */)),
-                            _Ik/* siMR */ = E(E(_Ij/* siML */).b),
-                            _Il/* siMX */ = B(_oX/* LudoJS.$wa16 */(_Ik/* siMR */.a, _Ik/* siMR */.b, _Ik/* siMR */.c, _Ik/* siMR */.d, _Ik/* siMR */.e, _Ik/* siMR */, _/* EXTERNAL */)),
-                            _Im/* siNd */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Il/* siMX */).b))));
+                            _Ix/* siRP */ = E(E(_Iw/* siRJ */).b),
+                            _Iy/* siRV */ = B(_oX/* LudoJS.$wa16 */(_Ix/* siRP */.a, _Ix/* siRP */.b, _Ix/* siRP */.c, _Ix/* siRP */.d, _Ix/* siRP */.e, _Ix/* siRP */, _/* EXTERNAL */)),
+                            _Iz/* siSb */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Iy/* siRV */).b))));
                             return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                           }else{
-                            return new F(function(){return _HW/* siKF */(_/* EXTERNAL */, _x1/* GHC.Types.True */, new T1(0,new T1(1,_HD/* siJJ */)), _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, _Ih/* siMz */);});
+                            return new F(function(){return _I9/* siPD */(_/* EXTERNAL */, _xe/* GHC.Types.True */, new T1(0,new T1(1,_HQ/* siOH */)), _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, _Iu/* siRx */);});
                           }
                         }else{
-                          if(B(_mL/* GHC.List.$wlenAcc */(_Ig/* siLR */, 0))==3){
-                            var _In/* siLX */ = B(_nd/* LudoJS.$sa1 */(_1O/* LudoJS.Blue */, _FX/* LudoJS.lvl9 */, _Ig/* siLR */, _Ic/* siLN */, _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, _Ig/* siLR */, _/* EXTERNAL */)),
-                            _Io/* siM4 */ = B(_nC/* LudoJS.$wa15 */(_cw/* LudoJS.GameFinished */, _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, new T(function(){
-                              return E(E(_In/* siLX */).a);
+                          if(B(_mL/* GHC.List.$wlenAcc */(_It/* siQP */, 0))==3){
+                            var _IA/* siQV */ = B(_nd/* LudoJS.$sa1 */(_1O/* LudoJS.Blue */, _Ga/* LudoJS.lvl9 */, _It/* siQP */, _Ip/* siQL */, _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, _It/* siQP */, _/* EXTERNAL */)),
+                            _IB/* siR2 */ = B(_nC/* LudoJS.$wa15 */(_cw/* LudoJS.GameFinished */, _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, new T(function(){
+                              return E(E(_IA/* siQV */).a);
                             }), _/* EXTERNAL */)),
-                            _Ip/* siMa */ = E(E(_Io/* siM4 */).b),
-                            _Iq/* siMg */ = B(_oX/* LudoJS.$wa16 */(_Ip/* siMa */.a, _Ip/* siMa */.b, _Ip/* siMa */.c, _Ip/* siMa */.d, _Ip/* siMa */.e, _Ip/* siMa */, _/* EXTERNAL */)),
-                            _Ir/* siMw */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Iq/* siMg */).b))));
+                            _IC/* siR8 */ = E(E(_IB/* siR2 */).b),
+                            _ID/* siRe */ = B(_oX/* LudoJS.$wa16 */(_IC/* siR8 */.a, _IC/* siR8 */.b, _IC/* siR8 */.c, _IC/* siR8 */.d, _IC/* siR8 */.e, _IC/* siR8 */, _/* EXTERNAL */)),
+                            _IE/* siRu */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_ID/* siRe */).b))));
                             return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
                           }else{
-                            return new F(function(){return _HW/* siKF */(_/* EXTERNAL */, _x1/* GHC.Types.True */, new T1(0,new T1(1,_HD/* siJJ */)), _Id/* siLO */, _Ie/* siLP */, _If/* siLQ */, _Ig/* siLR */);});
+                            return new F(function(){return _I9/* siPD */(_/* EXTERNAL */, _xe/* GHC.Types.True */, new T1(0,new T1(1,_HQ/* siOH */)), _Iq/* siQM */, _Ir/* siQN */, _Is/* siQO */, _It/* siQP */);});
                           }
                         }
                       },
-                      _Is/* siNg */ = E(_HL/* siKb */);
-                      if(!_Is/* siNg */._){
-                        var _It/* siNi */ = B(_vo/* LudoJS.$wa7 */(_Is/* siNg */.a, 0, _HK/* siKa */, _/* EXTERNAL */)),
-                        _Iu/* siNo */ = E(E(_It/* siNi */).b);
-                        return new F(function(){return _Ib/* siLL */(_/* EXTERNAL */, _Iu/* siNo */.a, _Iu/* siNo */.b, _Iu/* siNo */.c, _Iu/* siNo */.d, _Iu/* siNo */.e);});
+                      _IF/* siSe */ = E(_HY/* siP9 */);
+                      if(!_IF/* siSe */._){
+                        var _IG/* siSg */ = B(_vo/* LudoJS.$wa7 */(_IF/* siSe */.a, 0, _HX/* siP8 */, _/* EXTERNAL */)),
+                        _IH/* siSm */ = E(E(_IG/* siSg */).b);
+                        return new F(function(){return _Io/* siQJ */(_/* EXTERNAL */, _IH/* siSm */.a, _IH/* siSm */.b, _IH/* siSm */.c, _IH/* siSm */.d, _IH/* siSm */.e);});
                       }else{
-                        var _Iv/* siNy */ = B(_vo/* LudoJS.$wa7 */(_Is/* siNg */.a, E(_Is/* siNg */.b), _HK/* siKa */, _/* EXTERNAL */)),
-                        _Iw/* siNE */ = E(E(_Iv/* siNy */).b);
-                        return new F(function(){return _Ib/* siLL */(_/* EXTERNAL */, _Iw/* siNE */.a, _Iw/* siNE */.b, _Iw/* siNE */.c, _Iw/* siNE */.d, _Iw/* siNE */.e);});
+                        var _II/* siSw */ = B(_vo/* LudoJS.$wa7 */(_IF/* siSe */.a, E(_IF/* siSe */.b), _HX/* siP8 */, _/* EXTERNAL */)),
+                        _IJ/* siSC */ = E(E(_II/* siSw */).b);
+                        return new F(function(){return _Io/* siQJ */(_/* EXTERNAL */, _IJ/* siSC */.a, _IJ/* siSC */.b, _IJ/* siSC */.c, _IJ/* siSC */.d, _IJ/* siSC */.e);});
                       }
                     }
                   }
                 }
                 break;
               default:
-                var _Ix/* siNM */ = mMV/* EXTERNAL */(E(_Fp/* System.Random.theStdGen */), _FU/* LudoJS.lvl42 */),
-                _Iy/* siNR */ = new T(function(){
-                  switch(E(_Ix/* siNM */)){
+                var _IK/* siSK */ = mMV/* EXTERNAL */(E(_FC/* System.Random.theStdGen */), _G7/* LudoJS.lvl42 */),
+                _IL/* siSP */ = new T(function(){
+                  switch(E(_IK/* siSK */)){
                     case 1:
                       return 0;
                       break;
@@ -10224,8 +10270,8 @@ _Gi/* $wlvl */ = function(_Gj/* siEp */, _Gk/* siEq */, _Gl/* siEr */, _Gm/* siE
                       return E(_hk/* LudoJS.numToColor1 */);
                   }
                 }),
-                _Iz/* siNU */ = B(_oX/* LudoJS.$wa16 */(_mw/* LudoJS.play11 */, _Iy/* siNR */, _63/* LudoJS.play10 */, _Gg/* LudoJS.play5 */, _4/* GHC.Types.[] */, new T5(0,_mw/* LudoJS.play11 */,_Iy/* siNR */,_63/* LudoJS.play10 */,_Gg/* LudoJS.play5 */,_4/* GHC.Types.[] */), _/* EXTERNAL */)),
-                _IA/* siOa */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_Iz/* siNU */).b))));
+                _IM/* siSS */ = B(_oX/* LudoJS.$wa16 */(_mw/* LudoJS.play11 */, _IL/* siSP */, _63/* LudoJS.play10 */, _Gt/* LudoJS.play5 */, _4/* GHC.Types.[] */, new T5(0,_mw/* LudoJS.play11 */,_IL/* siSP */,_63/* LudoJS.play10 */,_Gt/* LudoJS.play5 */,_4/* GHC.Types.[] */), _/* EXTERNAL */)),
+                _IN/* siT8 */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), B(_lH/* LudoJS.$w$ctoAny */(E(E(_IM/* siSS */).b))));
                 return new F(function(){return _mK/* Haste.Prim.Any.$fFromAny()4 */(_/* EXTERNAL */);});
             }
           }else{
@@ -10235,79 +10281,79 @@ _Gi/* $wlvl */ = function(_Gj/* siEp */, _Gk/* siEq */, _Gl/* siEr */, _Gm/* siE
           return _eb/* GHC.Tuple.() */;
         }
       };
-      switch(E(E(_Gq/* siED */).b)){
+      switch(E(E(_GD/* siJB */).b)){
         case 0:
-          return new F(function(){return _Gr/* siEU */(E(_1u/* LudoJS.$fFromAnyGameState14 */));});
+          return new F(function(){return _GE/* siJS */(E(_1u/* LudoJS.$fFromAnyGameState14 */));});
           break;
         case 1:
-          return new F(function(){return _Gr/* siEU */(E(_1t/* LudoJS.$fFromAnyGameState13 */));});
+          return new F(function(){return _GE/* siJS */(E(_1t/* LudoJS.$fFromAnyGameState13 */));});
           break;
         case 2:
-          return new F(function(){return _Gr/* siEU */(E(_1s/* LudoJS.$fFromAnyGameState12 */));});
+          return new F(function(){return _GE/* siJS */(E(_1s/* LudoJS.$fFromAnyGameState12 */));});
           break;
         default:
-          return new F(function(){return _Gr/* siEU */(E(_1r/* LudoJS.$fFromAnyGameState11 */));});
+          return new F(function(){return _GE/* siJS */(E(_1r/* LudoJS.$fFromAnyGameState11 */));});
       }
     }else{
       return _eb/* GHC.Tuple.() */;
     }
   }
 },
-_IB/* play2 */ = function(_IC/* siOi */, _/* EXTERNAL */){
-  var _ID/* siOk */ = E(_IC/* siOi */),
-  _IE/* siOo */ = E(_ID/* siOk */.a);
-  return new F(function(){return _Gi/* LudoJS.$wlvl */(_IE/* siOo */.a, _IE/* siOo */.b, _ID/* siOk */.b, _ID/* siOk */.c, _/* EXTERNAL */);});
+_IO/* play2 */ = function(_IP/* siTg */, _/* EXTERNAL */){
+  var _IQ/* siTi */ = E(_IP/* siTg */),
+  _IR/* siTm */ = E(_IQ/* siTi */.a);
+  return new F(function(){return _Gv/* LudoJS.$wlvl */(_IR/* siTm */.a, _IR/* siTm */.b, _IQ/* siTi */.b, _IQ/* siTi */.c, _/* EXTERNAL */);});
 },
-_IF/* play4 */ = new T(function(){
+_IS/* play4 */ = new T(function(){
   return B(_lD/* GHC.Base.map */(_nX/* LudoJS.$fToAnyOption_$ctoAny */, _4/* GHC.Types.[] */));
 }),
-_IG/* play1 */ = function(_IH/* siOr */, _II/* siOs */, _/* EXTERNAL */){
-  var _IJ/* siOv */ = B(_lH/* LudoJS.$w$ctoAny */(new T5(0,_mw/* LudoJS.play11 */,_IH/* siOr */,_63/* LudoJS.play10 */,_Gg/* LudoJS.play5 */,_4/* GHC.Types.[] */))),
-  _IK/* siOz */ = __app1/* EXTERNAL */(E(_Gh/* LudoJS.play_f1 */), _IJ/* siOv */),
-  _IL/* siOF */ = __lst2arr/* EXTERNAL */(E(_IF/* LudoJS.play4 */)),
-  _IM/* siOL */ = eval/* EXTERNAL */(E(_oU/* LudoJS.play3 */)),
-  _IN/* siOV */ = __app3/* EXTERNAL */(E(_IM/* siOL */), _IJ/* siOv */, _IL/* siOF */,  -1),
-  _IO/* siOY */ = B(A(_m4/* Haste.Events.Core.onEvent */,[_kB/* Haste.Events.Core.$fMonadEventIO */, _jR/* Haste.Events.Core.$fEventSourceElem1 */, _jQ/* Haste.Events.MouseEvents.$fEventMouseEvent */, _II/* siOs */, _lK/* Haste.Events.MouseEvents.Click */, _IB/* LudoJS.play2 */, _/* EXTERNAL */]));
+_IT/* play1 */ = function(_IU/* siTp */, _IV/* siTq */, _/* EXTERNAL */){
+  var _IW/* siTt */ = B(_lH/* LudoJS.$w$ctoAny */(new T5(0,_mw/* LudoJS.play11 */,_IU/* siTp */,_63/* LudoJS.play10 */,_Gt/* LudoJS.play5 */,_4/* GHC.Types.[] */))),
+  _IX/* siTx */ = __app1/* EXTERNAL */(E(_Gu/* LudoJS.play_f1 */), _IW/* siTt */),
+  _IY/* siTD */ = __lst2arr/* EXTERNAL */(E(_IS/* LudoJS.play4 */)),
+  _IZ/* siTJ */ = eval/* EXTERNAL */(E(_oU/* LudoJS.play3 */)),
+  _J0/* siTT */ = __app3/* EXTERNAL */(E(_IZ/* siTJ */), _IW/* siTt */, _IY/* siTD */,  -1),
+  _J1/* siTW */ = B(A(_m4/* Haste.Events.Core.onEvent */,[_kB/* Haste.Events.Core.$fMonadEventIO */, _jR/* Haste.Events.Core.$fEventSourceElem1 */, _jQ/* Haste.Events.MouseEvents.$fEventMouseEvent */, _IV/* siTq */, _lK/* Haste.Events.MouseEvents.Click */, _IO/* LudoJS.play2 */, _/* EXTERNAL */]));
   return _eb/* GHC.Tuple.() */;
 },
-_IP/* lvl */ = new T(function(){
+_J2/* lvl */ = new T(function(){
   return B(unCStr/* EXTERNAL */(" found!"));
 }),
-_IQ/* withElem1 */ = function(_IR/* svSB */){
+_J3/* withElem1 */ = function(_J4/* svSB */){
   return new F(function(){return err/* EXTERNAL */(B(unAppCStr/* EXTERNAL */("No element with ID ", new T(function(){
-    return B(_q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(E(_IR/* svSB */)), _IP/* Haste.DOM.JSString.lvl */));
+    return B(_q/* GHC.Base.++ */(fromJSStr/* EXTERNAL */(E(_J4/* svSB */)), _J2/* Haste.DOM.JSString.lvl */));
   }))));});
 },
-_IS/* main1 */ = function(_/* EXTERNAL */){
-  var _IT/* stGn */ = function(_IU/* stFU */){
-    var _IV/* stFV */ = new T(function(){
-      var _IW/* stFY */ = B(_cU/* LudoJS.$wa1 */(E(_IU/* stFU */), _/* EXTERNAL */));
-      return E(_IW/* stFY */);
+_J5/* main1 */ = function(_/* EXTERNAL */){
+  var _J6/* stGn */ = function(_J7/* stFU */){
+    var _J8/* stFV */ = new T(function(){
+      var _J9/* stFY */ = B(_cU/* LudoJS.$wa1 */(E(_J7/* stFU */), _/* EXTERNAL */));
+      return E(_J9/* stFY */);
     }),
-    _IX/* stGm */ = function(_IY/* stG1 */){
-      var _IZ/* stG2 */ = new T(function(){
-        var _J0/* stG3 */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_IY/* stG1 */, _/* EXTERNAL */));
-        return E(_J0/* stG3 */);
+    _Ja/* stGm */ = function(_Jb/* stG1 */){
+      var _Jc/* stG2 */ = new T(function(){
+        var _Jd/* stG3 */ = B(_1A/* LudoJS.$fFromAnyGameState9 */(_Jb/* stG1 */, _/* EXTERNAL */));
+        return E(_Jd/* stG3 */);
       });
-      return function(_J1/* stG6 */, _/* EXTERNAL */){
-        var _J2/* stGb */ = Number/* EXTERNAL */(E(_J1/* stG6 */)),
-        _J3/* stGf */ = jsTrunc/* EXTERNAL */(_J2/* stGb */);
-        return new F(function(){return _dj/* LudoJS.$wa6 */(_IV/* stFV */, _IZ/* stG2 */, _J3/* stGf */, _/* EXTERNAL */);});
+      return function(_Je/* stG6 */, _/* EXTERNAL */){
+        var _Jf/* stGb */ = Number/* EXTERNAL */(E(_Je/* stG6 */)),
+        _Jg/* stGf */ = jsTrunc/* EXTERNAL */(_Jf/* stGb */);
+        return new F(function(){return _dj/* LudoJS.$wa6 */(_J8/* stFV */, _Jc/* stG2 */, _Jg/* stGf */, _/* EXTERNAL */);});
       };
     };
-    return E(_IX/* stGm */);
+    return E(_Ja/* stGm */);
   },
-  _J4/* stGr */ = __createJSFunc/* EXTERNAL */(4, E(_IT/* stGn */)),
-  _J5/* stGz */ = __app2/* EXTERNAL */(E(_dz/* Main.f2 */), "numPiecesAt", _J4/* stGr */),
-  _J6/* stGE */ = mMV/* EXTERNAL */(E(_Fp/* System.Random.theStdGen */), _hg/* Main.lvl4 */),
-  _J7/* stGL */ = "canvas",
-  _J8/* stGR */ = __app1/* EXTERNAL */(E(_dy/* Haste.DOM.JSString.elemById_f1 */), _J7/* stGL */),
-  _J9/* stGX */ = __eq/* EXTERNAL */(_J8/* stGR */, E(_dF/* Haste.Prim.Any.jsNull */));
-  if(!E(_J9/* stGX */)){
-    var _Ja/* stH3 */ = __isUndef/* EXTERNAL */(_J8/* stGR */);
-    if(!E(_Ja/* stH3 */)){
-      return new F(function(){return _IG/* LudoJS.play1 */(new T(function(){
-        switch(E(_J6/* stGE */)){
+  _Jh/* stGr */ = __createJSFunc/* EXTERNAL */(4, E(_J6/* stGn */)),
+  _Ji/* stGz */ = __app2/* EXTERNAL */(E(_dz/* Main.f2 */), "numPiecesAt", _Jh/* stGr */),
+  _Jj/* stGE */ = mMV/* EXTERNAL */(E(_FC/* System.Random.theStdGen */), _hg/* Main.lvl4 */),
+  _Jk/* stGL */ = "canvas",
+  _Jl/* stGR */ = __app1/* EXTERNAL */(E(_dy/* Haste.DOM.JSString.elemById_f1 */), _Jk/* stGL */),
+  _Jm/* stGX */ = __eq/* EXTERNAL */(_Jl/* stGR */, E(_dF/* Haste.Prim.Any.jsNull */));
+  if(!E(_Jm/* stGX */)){
+    var _Jn/* stH3 */ = __isUndef/* EXTERNAL */(_Jl/* stGR */);
+    if(!E(_Jn/* stH3 */)){
+      return new F(function(){return _IT/* LudoJS.play1 */(new T(function(){
+        switch(E(_Jj/* stGE */)){
           case 1:
             return 0;
             break;
@@ -10323,16 +10369,16 @@ _IS/* main1 */ = function(_/* EXTERNAL */){
           default:
             return E(_hk/* LudoJS.numToColor1 */);
         }
-      }), _J8/* stGR */, _/* EXTERNAL */);});
+      }), _Jl/* stGR */, _/* EXTERNAL */);});
     }else{
-      return new F(function(){return _IQ/* Haste.DOM.JSString.withElem1 */(_J7/* stGL */);});
+      return new F(function(){return _J3/* Haste.DOM.JSString.withElem1 */(_Jk/* stGL */);});
     }
   }else{
-    return new F(function(){return _IQ/* Haste.DOM.JSString.withElem1 */(_J7/* stGL */);});
+    return new F(function(){return _J3/* Haste.DOM.JSString.withElem1 */(_Jk/* stGL */);});
   }
 },
-_Jb/* main */ = function(_/* EXTERNAL */){
-  return new F(function(){return _IS/* Main.main1 */(_/* EXTERNAL */);});
+_Jo/* main */ = function(_/* EXTERNAL */){
+  return new F(function(){return _J5/* Main.main1 */(_/* EXTERNAL */);});
 };
 
-var hasteMain = function() {B(A(_Jb, [0]));};onHasteStart(); hasteMain();
+var hasteMain = function() {B(A(_Jo, [0]));};onHasteStart(); hasteMain();
